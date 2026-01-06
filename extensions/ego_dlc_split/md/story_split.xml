@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	
+	<!-- Abandoned Ship - found during Split Story -->
+	<add sel="//cue[@name='Ch2_ScavengerHunt_1']/actions">
+		<set_object_name object="$SalvageShip" page="20005" line="9049" comment="Moroz"/>
+	</add>
+	
+</diff>

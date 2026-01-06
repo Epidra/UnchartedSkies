@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	
+	<!-- Sector 402 - Family Kritt -->
+	<replace sel="/macros/macro[@name='Cluster_402_Sector001_macro']/connections/connection[@name='Zone003_Cluster_402_Sector001_connection']/offset">
+		<offset>	<position x="-21916.24609375" y="0" z="108944.6796875" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_402_Sector001_macro']/connections/connection[@name='Zone002_Cluster_402_Sector001_connection']/offset">
+		<offset>	<position x="69261.015625" y="0" z="57018.04296875" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_402_Sector001_macro']/connections/connection[@name='Zone001_Cluster_402_Sector001_connection']/offset">
+		<offset>	 <position x="-154153.03125" y="0" z="-56118.703125" />	</offset>
+	</replace>
+	
+	<!-- Sector 415 - Matrix 598 -->
+	<replace sel="/macros/macro[@name='Cluster_415_Sector001_macro']/connections/connection[@name='Zone004_Cluster_415_Sector001_connection']/offset"> <!-- GATE to Zyarth -->
+		<offset>	<position x="-114153.03125" y="0" z="116118.703125" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_415_Sector001_macro']/connections/connection[@name='Zone002_Cluster_415_Sector001_connection']/offset"> <!-- GATE to Rhy -->
+		<offset>	<position x="145197.546875" y="0" z="-22829.4609375" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_415_Sector001_macro']/connections/connection[@name='Zone001_Cluster_415_Sector001_connection']/offset"> <!-- GATE to BORON -->
+		<offset>	<position x="-163927.78125" y="0" z="-153512.84375" />	</offset>
+	</replace>
+	
+	<!-- Sector 416 - Guiding Star -->
+	<replace sel="/macros/macro[@name='Cluster_416_Sector001_macro']/connections/connection[@name='Zone003_Cluster_416_Sector001_connection']/offset">
+		<offset>	<position x="108109.7890625" y="0" z="-70969.53125" />	</offset>
+	</replace>
+	
+	<!-- Sector 417 - Eleventh Hour -->
+	<replace sel="/macros/macro[@name='Cluster_417_Sector001_macro']/connections/connection[@name='Zone001_Cluster_417_Sector001_connection']/offset">
+		<offset>	<position x="-114153.03125" y="0" z="-96118.703125" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_417_Sector001_macro']/connections/connection[@name='Zone005_Cluster_417_Sector001_connection']/offset">
+		<offset>	<position x="105408.1328125" y="0" z="56087.234375" />	</offset>
+	</replace>
+	
+	<!-- Sector 418 - Family Nhuut -->
+	<replace sel="/macros/macro[@name='Cluster_418_Sector001_macro']/connections/connection[@name='Zone004_Cluster_418_Sector001_connection']/offset">
+		<offset>	<position x="166073.234375" y="0" z="-132468.7734375" />	</offset>
+	</replace>
+	
+	<!-- Sector 419 - Open Market -->
+	<replace sel="/macros/macro[@name='Cluster_419_Sector001_macro']/connections/connection[@name='Zone001_Cluster_419_Sector001_connection']/offset"> <!-- H02 - Exit --> <!-- H03 - Entry -->
+		<offset>	<position x="-132792.328125" y="0" z="84289.421875" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_419_Sector001_macro']/connections/connection[@name='Zone002_Cluster_419_Sector001_connection']/offset"> <!-- H03 - Exit --> <!-- H01 - Entry -->
+		<offset>	<position x="-109380.2109375" y="0" z="-59993.078125" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_419_Sector001_macro']/connections/connection[@name='Zone004_Cluster_419_Sector001_connection']/offset"> <!-- H01 - Exit --> <!-- H02 - Entry -->
+		<offset>	<position x="113819.5" y="0" z="-49261.69140625" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_419_Sector001_macro']/connections/connection[@name='Zone005_Cluster_419_Sector001_connection']/offset">
+		<offset>	<position x="-21916.24609375" y="0" z="108944.6796875" />	</offset>
+	</replace>
+	
+	<!-- Sector 424 - Emperor's Pride - Sector 01 -->
+	<replace sel="/macros/macro[@name='Cluster_424_Sector001_macro']/connections/connection[@name='tzoneCluster_424_Sector001SHCon11_GateZone_connection']/offset">
+		<offset>	<position x="-200000" y="0" z="50000" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_424_Sector001_macro']/connections/connection[@name='tzoneCluster_424_Sector001SHCon12_GateZone_connection']/offset">
+		<offset>	<position x="-200000" y="0" z="39890.54296875" />	</offset>
+	</replace>
+	
+	<!-- Sector 424 - Emperor's Pride - Sector 02 -->
+	<replace sel="/macros/macro[@name='Cluster_424_Sector002_macro']/connections/connection[@name='tzoneCluster_424_Sector002SHCon7_GateZone_connection']/offset">
+		<offset>	<position x="200000" y="0" z="-39899.4140625" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_424_Sector002_macro']/connections/connection[@name='tzoneCluster_424_Sector002SHCon8_GateZone_connection']/offset">
+		<offset>	<position x="200000" y="0" z="-50000" />	</offset>
+	</replace>
+	
+</diff>

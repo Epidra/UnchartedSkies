@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+
+	<!-- Open Market - Highway 01 - First Curve -->
+	<replace sel="/macros/macro[@name='Highway01_Cluster_419_Sector001_macro']//connection[@ref='entrypoint']/offset/position">	<position x="-100450" y="-500" z="-62200" />	</replace>
+	<replace sel="/macros/macro[@name='Highway01_Cluster_419_Sector001_macro']//connection[@ref='exitpoint']/offset/position" >	<position x="90408.98385" y="-500" z="-72566.9873" /> 	</replace>
+	<replace sel="/macros/macro[@name='Highway01_Cluster_419_Sector001_macro']//boundary[@class='splinetube']">
+		<boundary class="splinetube">
+			<splineposition x="-100450" y="-500" z="-62200" tx="0.5" ty="0" tz="0.5"   weight="1" inlength="0" outlength="65000" />
+			<splineposition x="90408.98385" y="-500" z="-72566.9873" tx="0.866025" ty="0" tz="-0.5" weight="1" inlength="25000" outlength="0" />
+			<size r="200" />
+		</boundary>
+	</replace>
+	
+	<!-- Open Market - Highway 02 - Straight Line -->
+	<replace sel="/macros/macro[@name='Highway02_Cluster_419_Sector001_macro']//connection[@ref='entrypoint']/offset/position">	<position x="89908.98385" y="-500" z="-70433.0127" />	</replace>
+	<replace sel="/macros/macro[@name='Highway02_Cluster_419_Sector001_macro']//connection[@ref='exitpoint']/offset/position" > <position x="-139308.9838" y="-500" z="96466.9873" />		</replace>
+	<replace sel="/macros/macro[@name='Highway02_Cluster_419_Sector001_macro']//boundary[@class='splinetube']">
+		<boundary class="splinetube">
+			<splineposition  x="89908.98385" y="-500" z="-70433.0127"  tx="0.866025" ty="0" tz="-0.5" weight="1" inlength="0" outlength="10000" />
+			<splineposition x="-139308.9838" y="-500" z="96466.9873" tx="0.866025" ty="0" tz="-0.5" weight="1" inlength="10000" outlength="0" />
+			<size r="200" />
+		</boundary>
+	</replace>
+	
+	<!-- Open Market - Highway 03 - Second Curve -->
+	<replace sel="/macros/macro[@name='Highway03_Cluster_419_Sector001_macro']//connection[@ref='entrypoint']/offset/position">		<position x="-140808.9838" y="-500" z="95333.0127" />  </replace>
+	<replace sel="/macros/macro[@name='Highway03_Cluster_419_Sector001_macro']//connection[@ref='exitpoint']/offset/position" >	<position x="-101450" y="-500" z="-62200" />	</replace>
+	<replace sel="/macros/macro[@name='Highway03_Cluster_419_Sector001_macro']//boundary[@class='splinetube']">
+		<boundary class="splinetube">
+			<splineposition x="-140808.9838" y="-500" z="95333.0127" tx="0.866025" ty="0" tz="-0.5" weight="1" inlength="0" outlength="30000" />
+			<splineposition x="-101450" y="-500" z="-62200" tx="-0.5" ty="0" tz="-0.5"   weight="1" inlength="30000" outlength="0" />
+			<size r="200" />
+		</boundary>
+	</replace>
+	
+</diff>

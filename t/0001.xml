@@ -1,4 +1,106 @@
 <?xml version="1.0" encoding="UtF-8"?>
 <diff>
-
+	
+	<!-- Adds Custom Sector Names and Descriptions -->
+	<add sel="/language">
+		<page id="80000" title="Custom Systems" descr="Names and descriptions of systems" voice="yes">
+			
+			<t id="30001">{20005,3028}(Emperor Mines)</t>
+			<t id="30002">{20005,3028} {20402,2}(Emperor Mines)</t>
+			<t id="30003">{20005,3028} {20402,4}(Emperor Mines)</t>
+			
+			<t id="80001">{20005,1054}(Hades)</t>
+			<t id="80002">System Description Text</t>
+			
+			<t id="80101">{20005,6041}(Merchant Haven)</t>
+			<t id="80102">System Description Text</t>
+			
+			<t id="80201">{20005,6047}(Shareholder's Fortune)</t>
+			<t id="80202">Sector Description Text</t>
+			
+			<t id="80301">{20005,1035}(Light of Heart)</t>
+			<t id="80302">System Description Text</t>
+			
+			<t id="80401">{20005,1037}(Montalaar)</t>
+			<t id="80402">System Description Text</t>
+			
+			<t id="80501">{20005,2026}(Shores of Infinity)</t>
+			<t id="80502">System Description Text</t>
+			
+			<t id="80600">{20005,3043}(Preacher's Void)</t>
+			<t id="80609">System Description Text</t>
+			<t id="80601">{20005,3043} {20402,4}(Preacher's Void IV)</t>
+			<t id="80602">System Description Text</t>
+			<t id="80701">{20005,3043} {20402,6}(Preacher's Void VI)</t>
+			<t id="80702">System Description Text</t>
+			
+			<t id="80801">{20005,9038}(Ocraroke's Storm)</t>
+			<t id="80802">System Description Text</t>
+			
+			<t id="80901">{20005,5005}(Thyn's Abyss)</t>
+			<t id="80902">System Description Text</t>
+			
+			<t id="81000">{20005,2015}(Mists of Elysium)</t>
+			<t id="81009">System Description Text</t>
+			<t id="81001">{20005,2015} {20402,1}(Mists of Elysium I)</t>
+			<t id="81002">Sector Description Text</t>
+			<t id="81101">{20005,2015} {20402,2}(Mists of Elysium II)</t>
+			<t id="81102">Sector Description Text</t>
+			<t id="81201">{20005,2015} {20402,3}(Mists of Elysium III)</t>
+			<t id="81202">Sector Description Text</t>
+			
+			<t id="81301">{20005,2025}(Shining Currents)</t>
+			<t id="81302">System Description Text</t>
+			
+			<t id="81401">{20005,3023}(Clarity's End)</t>
+			<t id="81402">System Description Text</t>
+			
+			<t id="81501">{20005,3024}(Consecrated Fire)</t>
+			<t id="81502">System Description Text</t>
+			
+			<t id="81600">{20005,2007}(Great Trench)</t>
+			<t id="81609">System Description Text</t>
+			<t id="81601">{20005,2007} {20402,2}(Great Trench II)</t>
+			<t id="81602">Sector Description Text</t>
+			<t id="81603">{20005,2007} {20402,3}(Great Trench III)</t>
+			<t id="81604">Sector Description Text</t>
+			
+			<t id="81701">{20005,2004}(Dark Waters)</t>
+			<t id="81702">System Description Text</t>
+			
+			<t id="81801">{20005,6042}(Mines of Fortune)</t>
+			<t id="81802">System Description Text</t>
+			
+			<t id="81901">{20005,8001} {20005,8003}{20404,7}{20404,9}{20403,1}(Matrix 79A)</t>
+			<t id="81902">System Description Text</t>
+			
+			<t id="82000">{20005,1048}(Wastelands)</t>
+			<t id="82009">System Description Text</t>
+			<t id="82001">{20005,1048} {20402,3}(Wastelands III)</t>
+			<t id="82002">Sector Description Text</t>
+			<t id="82101">{20005,1048} {20402,5}(Wastelands V)</t>
+			<t id="82102">Sector Description Text</t>
+			
+			<t id="82200">{20005,9003}(The Shallows)</t>
+			<t id="82209">System Description Text</t>
+			<t id="82201">{20005,9003} {20402,4}(The Shallows IV)</t>
+			<t id="82202">Sector Description Text</t>
+			<t id="82203">{20005,9003} {20402,5}(The Shallows V)</t>
+			<t id="82204">Sector Description Text</t>
+			<t id="82205">{20005,9003} {20402,6}(The Shallows VI)</t>
+			<t id="82206">Sector Description Text</t>
+			
+			<t id="82300">{20005,1033}(Interworlds)</t>
+			<t id="82309">System Description Text</t>
+			<t id="82301">{20005,1033} {20402,11}(Interworlds XI)</t>
+			<t id="82302">Sector Description Text</t>
+			<t id="82303">{20005,1033} {20402,8}(Interworlds VIII)</t>
+			<t id="82304">Sector Description Text</t>
+			
+			<t id="82401">{20005,2005}(Depths of Silence)</t>
+			<t id="82402">System Description Text</t>
+			
+		</page>
+	</add>
+	
 </diff>

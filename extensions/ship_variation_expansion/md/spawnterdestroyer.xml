@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	
+	<!-- GaianProphecy - Fenrir -->
+	<add sel="//cue[@name='SpawnAbandonedShipSilentWitness']/actions/do_if">
+		<set_object_name object="$gaianprophecyabandoned" page="20101" line="66101" comment="Mjollnir"/>
+	</add>
+	
+</diff>

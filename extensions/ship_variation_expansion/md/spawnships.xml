@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<diff>
+
+	<!-- Unclaimed Ships -->
+	<replace sel="//cue[@name='Place_Claimable_Ships_SVE']/actions">
+		<actions>
+			
+			<!-- Heretics end - Baku -->
+			<find_sector name="$sector" macro="macro.Cluster_31_Sector001_macro"/>
+			<do_if value="$sector.exists">
+				<create_ship name="$ship" macro="macro.baku_macro" sector="$sector">
+					<owner exact="faction.ownerless"/>
+					<position x="-120km" y="7km" z="-67km"/>
+					<rotation yaw="160deg" pitch="-50deg" roll="32deg"/>
+				</create_ship>
+				<set_object_name object="$ship" page="20005" line="7031" comment="Ganymede"/>
+			</do_if>
+			
+			<!-- Matrix #451 - Taipan -->
+			<find_sector name="$sector" macro="macro.Cluster_16_Sector001_macro"/>
+			<do_if value="$sector.exists">
+				<create_ship name="$ship" macro="macro.taipan_macro" sector="$sector">
+					<owner exact="faction.ownerless"/>
+					<position x="100km" y="3km" z="-8km"/>
+					<rotation yaw="-16deg" pitch="5deg" roll="12deg"/>
+				</create_ship>
+				<set_object_name object="$ship" page="20005" line="9050" comment="Surtr"/>
+			</do_if>
+			
+			<!-- Turquoise Sea X - Razorbill -->
+			<find_sector name="$sector" macro="macro.Cluster_50_Sector002_macro"/>
+			<do_if value="$sector.exists">
+				<create_ship name="$ship" macro="macro.razorbill_macro" sector="$sector">
+					<owner exact="faction.ownerless"/>
+					<position x="-265km" y="-1km" z="-17km"/>
+					<rotation yaw="6deg" pitch="5deg" roll="-12deg"/>
+				</create_ship>
+				<set_object_name object="$ship" page="20005" line="6035" comment="CEO's Sprite"/>
+			</do_if>
+			
+			<!-- Tharkas Ravine XVI - Scorpion -->
+			<find_sector name="$sector" macro="macro.Cluster_410_Sector001_macro"/>
+			<do_if value="$sector.exists">
+				<create_ship name="$ship" macro="macro.scorpion_macro" sector="$sector">
+					<owner exact="faction.ownerless"/>
+					<position x="-27km" y="1km" z="-3km"/>
+					<rotation yaw="-7deg" pitch="13deg" roll="-52deg"/>
+				</create_ship>
+				<set_object_name object="$ship" page="20005" line="9052" comment="Taurus"/>
+			</do_if>
+			
+		</actions>
+	</replace>
+</diff>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<mdscript name="uncharted_objects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+		
+		<!-- Script Entry -->
+		<!-- Only activates on NewGameStart -->
+		<cue name="Start">
+			<conditions>
+				<event_cue_signalled cue="md.Setup.GameStart"/>
+			</conditions>
+			<actions>
+				<signal_cue cue="Place_Claimable_Ships"/>
+			</actions>
+		</cue>
+		
+		<!-- Patch to activate Script on existing Saves -->
+		<cue name="Start_Patch" onfail="cancel">
+			<conditions>
+				<check_value value="player.age" min="10s"/>
+			</conditions>
+			<actions>
+				<force_cue cue="Start"/>
+			</actions>
+		</cue>
+		
+		<!-- Place unclaimed Ships in the Universe -->
+		<cue name="Place_Claimable_Ships" version="2">
+			<conditions>
+				<event_cue_signalled/>
+			</conditions>
+			<actions>
+				<set_value name="$debugchance" exact="0"/>
+				
+				<!-- Sector 800 - Hades -->
+				<find_zone name="$zone" macro="macro.zone001_cluster_800_sector001_macro"/>
+				<do_if value="$zone.exists">
+					<create_ship name="$ship" macro="macro.ship_tel_l_destroyer_01_b_macro" zone="$zone">
+						<owner exact="faction.ownerless"/>
+						<position x="0" y="0" z="0" />
+						<rotation yaw="0deg" pitch="0deg" roll="0deg"/>
+					</create_ship>
+					<set_object_name object="$ship" page="20005" line="1055" comment="Styx"/>
+				</do_if>
+				
+				<!-- Sector 808 - Ocraroke's Storm -->
+				<find_sector name="$sector" macro="macro.cluster_808_sector001_macro"/>
+				<do_if value="$sector.exists">
+					<set_value name="$RandomPitch" min="0deg" max="360deg"/>
+					<set_value name="$RandomRoll" min="0deg" max="360deg"/>
+					<set_value name="$RandomYaw" min="0deg" max="360deg"/>
+					<create_ship name="$ship" macro="macro.ship_par_m_frigate_01_b_macro" sector="$sector">
+						<owner exact="faction.ownerless"/>
+						<position x="111km" y="-7.5km" z="-54.632km"/>
+						<rotation yaw="$RandomYaw" pitch="$RandomPitch" roll="$RandomRoll"/>
+					</create_ship>
+					<set_object_name object="$ship" page="20005" line="9045" comment="Sarutahiko"/>
+				</do_if>
+				
+				<!-- Sector 810 - Mists of Elysium I -->
+				<find_sector name="$sector" macro="macro.cluster_810_sector001_macro"/>
+				<do_if value="$sector.exists">
+					<set_value name="$RandomPitch" min="0deg" max="360deg"/>
+					<set_value name="$RandomRoll" min="0deg" max="360deg"/>
+					<set_value name="$RandomYaw" min="0deg" max="360deg"/>
+					<create_ship name="$ship" macro="macro.ship_tel_m_trans_container_01_a_macro" sector="$sector">
+						<owner exact="faction.ownerless"/>
+						<position x="-11km" y="-7.5km" z="14.632km"/>
+						<rotation yaw="$RandomYaw" pitch="$RandomPitch" roll="$RandomRoll"/>
+					</create_ship>
+					<set_object_name object="$ship" page="20005" line="6051" comment="Nature's Profit"/>
+				</do_if>
+				
+				<!-- Sector 816 - Great Trench -->
+				<find_sector name="$sector" macro="macro.cluster_816_sector001_macro"/>
+				<do_if value="$sector.exists">
+					<set_value name="$RandomPitch" min="0deg" max="360deg"/>
+					<set_value name="$RandomRoll" min="0deg" max="360deg"/>
+					<set_value name="$RandomYaw" min="0deg" max="360deg"/>
+					<create_ship name="$ship" macro="macro.ship_arg_m_trans_container_01_a_macro" sector="$sector">
+						<owner exact="faction.ownerless"/>
+						<position x="78.5km" y="1.1km" z="8.632km"/>
+						<rotation yaw="$RandomYaw" pitch="$RandomPitch" roll="$RandomRoll"/>
+					</create_ship>
+					<set_object_name object="$ship" page="20005" line="7034" comment="Io"/>
+				</do_if>
+				
+				<!-- Sector 818 - Mines of Fortune -->
+				<find_sector name="$sector" macro="macro.cluster_818_sector001_macro"/>
+				<do_if value="$sector.exists">
+					<set_value name="$RandomPitch" min="0deg" max="360deg"/>
+					<set_value name="$RandomRoll" min="0deg" max="360deg"/>
+					<set_value name="$RandomYaw" min="0deg" max="360deg"/>
+					<create_ship name="$ship" macro="macro.ship_tel_m_miner_solid_01_b_macro" sector="$sector">
+						<owner exact="faction.ownerless"/>
+						<position x="-31km" y="2.5km" z="64.632km"/>
+						<rotation yaw="$RandomYaw" pitch="$RandomPitch" roll="$RandomRoll"/>
+					</create_ship>
+					<set_object_name object="$ship" page="20005" line="6054" comment="Goldminer's Dream"/>
+				</do_if>
+				
+				<!-- Sector 823 - Interworlds -->
+				<find_sector name="$sector" macro="macro.cluster_823_sector001_macro"/>
+				<do_if value="$sector.exists">
+					<set_value name="$RandomPitch" min="0deg" max="360deg"/>
+					<set_value name="$RandomRoll" min="0deg" max="360deg"/>
+					<set_value name="$RandomYaw" min="0deg" max="360deg"/>
+					<create_ship name="$ship" macro="macro.ship_par_m_corvette_01_b_macro" sector="$sector">
+						<owner exact="faction.ownerless"/>
+						<position x="11km" y="2.5km" z="-14.632km"/>
+						<rotation yaw="$RandomYaw" pitch="$RandomPitch" roll="$RandomRoll"/>
+					</create_ship>
+					<set_object_name object="$ship" page="20005" line="9046" comment="Tsukuyomi"/>
+				</do_if>
+				
+				<!-- Sector 805 - Shores of Infinty -->
+				<find_sector name="$sector" macro="macro.cluster_805_sector001_macro"/>
+				<do_if value="$sector.exists">
+					<set_value name="$RandomPitch" min="0deg" max="360deg"/>
+					<set_value name="$RandomRoll" min="0deg" max="360deg"/>
+					<set_value name="$RandomYaw" min="0deg" max="360deg"/>
+					<set_value name="$RandomX" min="-100km" max="100km"/>
+					<set_value name="$RandomY" min="-10km" max="10km"/>
+					<set_value name="$RandomZ" min="-100km" max="100km"/>
+					<create_ship name="$ship" macro="macro.ship_arg_l_destroyer_01_b_macro" sector="$sector">
+						<owner exact="faction.ownerless"/>
+						<position x="$RandomX" y="$RandomY" z="$RandomZ"/>
+						<rotation yaw="$RandomYaw" pitch="$RandomPitch" roll="$RandomRoll"/>
+					</create_ship>
+					<set_object_name object="$ship" page="20005" line="7043" comment="Titania"/>
+				</do_if>
+				
+			</actions>
+		</cue>
+		
+	</cues>
+</mdscript>

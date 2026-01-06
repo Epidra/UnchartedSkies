@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="Uncharted_Names" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+		
+		<!-- Changes the Names of Xenon-controlled Systems to their original Names -->
+		<!--cue name="GameLoaded" instantiate="true">
+			<conditions>
+				<event_game_loaded />
+			</conditions>
+			<actions>
+				<set_value name="stat.savegames_loaded" operation="add" />
+				<signal_cue cue="Start" check="false" />
+			</actions>
+		</cue>
+		<cue name="Start" version="30">
+			<actions/>
+			<cues>
+				<cue name="FaulyLogic_Renamer">
+					<conditions>
+						<event_cue_signalled cue="md.Setup.Start" />
+						<check_value value="player.galaxy.macro == macro.xu_ep2_universe_macro" comment="only in main-galaxy" />
+					</conditions>
+					<actions>
+						<find_cluster required="true" name="$FaultyLogic_Cluster"  macro="macro.cluster_25_macro" />
+						<find_sector  required="true" name="$FaultyLogic_a_Sector" macro="macro.cluster_25_sector001_macro" space="player.galaxy" />
+						<find_sector  required="true" name="$FaultyLogic_b_Sector" macro="macro.cluster_25_sector002_macro" space="player.galaxy" />
+					</actions>
+					<cues>
+						<cue name="FaultyLogic_Owner_Check" onfail="cancel">
+							<conditions>
+								<check_value value="$FaultyLogic_a_Sector.owner != faction.xenon"/>
+							</conditions>
+						</cue>
+						<cue name="FaultyLogic_Owner_Event">
+							<conditions>
+								<event_cue_completed cue="FaultyLogic_Owner_Check"/>
+							</conditions>
+							<actions>
+								<signal_cue cue="Rename_FaultyLogic"/>
+							</actions>
+							<cues/>
+						</cue>
+						<cue name="Rename_FaultyLogic">
+							<conditions>
+								<event_cue_signalled/>
+							</conditions>
+							<actions>
+								<set_object_name object="$FaultyLogic_Cluster"  name="'{80000,30001}'"/>
+								<set_object_name object="$FaultyLogic_a_Sector" name="'{80000,30002}'"/>
+								<set_object_name object="$FaultyLogic_b_Sector" name="'{80000,30003}'"/>
+							</actions>
+						</cue>
+					</cues>
+				</cue>
+			</cues>
+		</cue-->
+		
+	</cues>
+</mdscript>

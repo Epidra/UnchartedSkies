@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	
+	<!-- Arcadian Endeavour -to- Arcadian Endeavour(voiced) -->
+	<replace sel="//cue[@name='Setup_RaiderHubShip']/actions/set_object_name">
+		<set_object_name object="$RaiderHubShip" page="20101" line="122001" comment="Arcadian Endeavour"/>
+	</replace>
+	
+	<!-- Golden Flea -to- Golden Flea(voiced) -->
+	<replace sel="//cue[@name='Setup_AceShip']//set_object_name">
+		<set_object_name object="$AceShip" page="20101" line="122101" comment="Golden Flea"/>
+	</replace>
+	
+	<!-- Carefree Whirlwind -to- Carefree Whirlwind(voiced) -->
+	<replace sel="//cue[@name='Ch5_2a_DeliverFleet_ShipSetup']//set_object_name">
+		<set_object_name object="$AceShip" page="20101" line="122201" comment="Carefree Whirlwind"/>
+	</replace>
+	
+	<!-- Rolling Rock -to- Rolling Rock(voiced) -->
+	<replace sel="//cue[@name='Ch6_Mellerd_Arrives']//set_object_name">
+		<set_object_name object="$MellerdShip" page="20101" line="121901" comment="Rolling Rock"/>
+	</replace>
+	
+	<!-- Golden Flea -to- Golden Flea(voiced) -->
+	<replace sel="//cue[@name='Ch7_Force_Mellerd_Choice']//set_object_name">
+		<set_object_name object="$AceShip" page="20101" line="122101" comment="Golden Flea"/>
+	</replace>
+	
+	<!-- Rolling Rock -to- Rolling Rock(voiced) -->
+	<replace sel="//cue[@name='Create_AmbushShips']//set_object_name">
+		<set_object_name object="$MellerdShip" page="20101" line="121901" comment="Rolling Rock"/>
+	</replace>
+	
+	<!-- Raven Prototype -to- Midas Touch(voiced) -->
+	<add sel="//cue[@name='Ch6_SetupHangar']/actions">
+		<set_object_name object="$EscapeShip" page="20101" line="122401" comment="Midas Touch"/>
+	</add>
+	
+	<!--  Naming of Buyable Ship during Pirate Quest -->
+	<add sel="//cue[@name='Ch4_2_BarDecoy_Ship']/actions">
+		<set_object_name object="$BarDecoy_SoldShip" page="20005" line="6052" comment="Nature's Gain"/>
+	</add>
+	
+</diff>

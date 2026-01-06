@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	
+	<!-- Velvet Thunder -to- Stromboli(voiced) -->
+	<replace sel="//library[@name='Setup_Wingmate']//set_object_name[@line='201']">
+		<set_object_name object="$WingmateShip" page="20101" line="200501" comment="Velvet Thunder"/>
+	</replace>
+	
+	<!-- Gumption's Gambit -to- Krakatoa(voiced) -->
+	<replace sel="//library[@name='Setup_Wingmate']//set_object_name[@line='204']">
+		<set_object_name object="$WingmateShip" page="20101" line="201001" comment="Gumption's Gambit"/>
+	</replace>
+	
+	<!-- Velvet Thunder -to- Stromboli(voiced) -->
+	<replace sel="//cue[@name='Ch8_4_Spawn_Ownerless_Ship']//set_object_name">
+		<set_object_name object="$AbandonedWingmateShip" page="20101" line="200501" comment="Velvet Thunder"/>
+	</replace>
+	
+	<!-- Litigious Rodent -to- Izanami(voiced) -->
+	<replace sel="//cue[@name='Ch18_Setup_Asteroid_Base_Tunnels']//set_object_name">
+		<set_object_name object="$OldYakiShip" page="20101" line="86901" comment="Litigious Rodent"/>
+	</replace>
+	
+	<!-- Gumption's Gambit -to- Krakatoa(voiced) -->
+	<replace sel="//cue[@name='Ch22_B_3_Wingmate_Orders']//set_object_name">
+		<set_object_name object="$WingmateShip" page="20101" line="201001" comment="Gumption's Gambit"/>
+	</replace>
+	
+	<!-- Katana(reward) -to- Kvasir(voiced) -->
+	<add sel="//cue[@name='Ch19_1_Secret_Service_Speak_TerranShip_EndSignalCue']/actions">
+		<set_object_name object="$ProtectoratePlayerShip" page="20101" line="66801" comment="Kvasir"/>
+	</add>
+	
+	<!-- Delilah's Swansong -to- Amaterasu(voiced) -->
+	<replace sel="//cue[@name='Ch22_D_Setup_Reward_Ship']//set_object_name">
+		<set_object_name object="$SecretServiceRewardShip" page="20101" line="86501" comment="Delilah's Swansong"/>
+	</replace>
+	
+</diff>

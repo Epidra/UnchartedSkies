@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	
+	<!-- Oberth -to- Oberth(voiced) -->
+	<replace sel="//cue[@name='Ch1_Setup_ResearchShip']//set_object_name">
+		<set_object_name object="$ResearchShip" page="20101" line="121001" comment="Oberth"/>
+	</replace>
+	
+	<!-- Oberth -to- Oberth(voiced) -->
+	<replace sel="//cue[@name='Setup_ResearchShip_Recovery']//set_object_name">
+		<set_object_name object="$ResearchShip" page="20101" line="121001" comment="Oberth"/>
+	</replace>
+	
+	<!-- Geometric Owl -to- Artemis(voiced) -->
+	<replace sel="//cue[@name='Ch4_Setup_MissionShip']//set_object_name">
+		<set_object_name object="$BettyShip" page="20101" line="32001" comment="Expedition Ship"/>
+	</replace>
+	
+</diff>

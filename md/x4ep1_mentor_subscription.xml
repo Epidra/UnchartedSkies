@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	
+	<!-- Naming of abandoned ship in Hewa -->
+	<add sel="//cue[@name='Phase_Escape_Find_Station']/actions/do_if">
+		<do_if value="$SplitStation.owner.primaryrace == race.argon">
+			<set_object_name object="$AbandonedShip" page="20005" line="7039" comment="Rhea"/>
+		</do_if>
+		<do_elseif value="$SplitStation.owner.primaryrace == race.paranid">
+			<set_object_name object="$AbandonedShip" page="20005" line="1061" comment="Kazuko"/>
+		</do_elseif>
+		<do_elseif value="$SplitStation.owner.primaryrace == race.teladi">
+			<set_object_name object="$AbandonedShip" page="20005" line="6038" comment="Company Pride"/>
+		</do_elseif>
+		<do_else>
+			<set_object_name object="$AbandonedShip" page="20005" line="7014" comment="Luna"/>
+		</do_else>
+	</add>
+	
+	<!-- Naming of Rescue Ship sent by Boso Ta -->
+	<add sel="//cue[@name='Phase_Terranborn_Ownership_Speak_2']/actions">
+		<set_object_name object="$RescueShip" page="20101" line="201401" comment="Cotopaxi"/>
+	</add>
+	
+	<!-- Naming of Buyable Ship during Engine Mod Quest -->
+	<add sel="//cue[@name='RM_EngineMod_CollectPrize']/actions//do_if[@value='$S_Docks.count ge 2']">
+		<set_object_name object="$RacingShip" page="20005" line="1062" comment="Samsara"/>
+	</add>
+	
+</diff>

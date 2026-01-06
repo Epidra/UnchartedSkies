@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+	
+	<!-- Emperor's Pride - Gharial MK1 -->
+	<add sel="//cue[@name='SpawnAbandonedShipEmperorsPride']/actions/do_if">
+		<set_object_name object="$emperorsprideabandoned" page="20005" line="5031" comment="Tharka's Sun"/>
+	</add>
+	
+</diff>

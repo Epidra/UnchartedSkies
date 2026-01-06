@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	
+	<!-- Sector 601 - Watchful Gaze -->
+	<replace sel="/macros/macro[@name='Zone005_Cluster_601_Sector001_macro']/connections/connection[@name='connection_ClusterGate601To602']/offset"> <!-- GATE to 802 -->
+		<offset>
+			<position x="32564.55" y="500" z="-18029.36" />
+			<quaternion qx="0" qy="-0.8660254" qz="0" qw="0.5" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone002_Cluster_601_Sector001_macro']/connections/connection[@name='connection_ClusterGate601To031']/offset"> <!-- GATE to 031 -->
+		<offset>
+			<position x="8642.898" y="500" z="-28974.15" />
+			<quaternion qx="0" qy="0" qz="0" qw="1" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 602 - Barren Shores -->
+	<replace sel="/macros/macro[@name='Zone004_Cluster_602_Sector001_macro']/connections/connection[@name='connection_ClusterGate602To603']/offset"> <!-- GATE to 803 -->
+		<offset>
+			<position x="27700.43" y="500" z="34673.92" />
+			<quaternion qx="0" qy="-0.9396926" qz="0" qw="0.3420202" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone003_Cluster_602_Sector001_macro']/connections/connection[@name='connection_ClusterGate602To601']/offset"> <!-- GATE to 801 -->
+		<offset>
+			<position x="-33010.41" y="500" z="-23371.21" />
+			<quaternion qx="0" qy="0.081" qz="0" qw="0.997" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone001_Cluster_602_Sector001_macro']/connections/connection[@name='connection_ClusterGateInactive']"> <!-- GATE inactive -->
+		<connection name="connection_ClusterGateInactive" ref="gates">
+			<offset>
+				<position x="-40372.15" y="500" z="34347.17" />
+				<quaternion qx="0" qy="-0.526" qz="0" qw="0.850" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space">
+				<properties>
+					<state active="false" />
+				</properties>
+			</macro>
+		</connection>
+	</replace>
+	
+	<!-- Sector 603 - Great Reef -->
+	<replace sel="/macros/macro[@name='Zone002_Cluster_603_Sector001_macro']/connections/connection[@name='connection_ClusterGate603To605']/offset"> <!-- GATE to 805 -->
+		<offset>
+			<position x="3881.567" y="500" z="30223.01" />
+			<quaternion qx="0" qy="0.916" qz="0" qw="0.402" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone004_Cluster_603_Sector001_macro']/connections/connection[@name='connection_ClusterGate603To602']/offset"> <!-- GATE to 802 -->
+		<offset>
+			<position x="-26425.06" y="500" z="-28918.49" />
+			<quaternion qx="0" qy="0.5000001" qz="0" qw="0.8660253" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone005_Cluster_603_Sector001_macro']/connections/connection[@name='connection_ClusterGate603To604']/offset"> <!-- GATE to 804 -->
+		<offset>
+			<position x="35130.94" y="500" z="34930.41" />
+			<quaternion qx="0" qy="1" qz="0" qw="0" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 604 - Ocean of Fantasy -->
+	<replace sel="/macros/macro[@name='Zone004_Cluster_604_Sector001_macro']/connections/connection[@name='connection_ClusterGate604To603']/offset"> <!-- GATE to 803 -->
+		<offset>
+			<position x="-476.9363" y="500" z="-27319.47" />
+			<quaternion qx="0" qy="0" qz="0" qw="1" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone001_Cluster_604_Sector001_macro']/connections/connection[@name='connection_ClusterGateInactive']"> <!-- GATE inactive -->
+		<connection name="connection_ClusterGateInactive" ref="gates">
+			<offset>
+				<position x="9896.396" y="500" z="41897.36" />
+				<quaternion qx="0" qy="-0.819" qz="0" qw="0.574" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space">
+				<properties>
+					<state active="false" />
+				</properties>
+			</macro>
+		</connection>
+	</replace>
+	
+</diff>

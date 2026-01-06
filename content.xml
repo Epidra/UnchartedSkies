@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="ws_invalid" name="Uncharted Skies" description="Repositions all sectors on the map to give a nicer, more cohesive look" author="Epidra2077" version="100" save="1" enabled="1" sync="false">
+<content id="ws_2888557861" name="Uncharted Skies" description="Repositions all sectors on the map to give a nicer, more cohesive look" author="Epidra2077" version="332" save="1" enabled="1" sync="false">
+
+  <dependency id="ego_dlc_terran" optional="true" name="Cradle of Humanity"/>
+  <dependency id="ego_dlc_split" optional="true" name="Split Vendetta"/>
+  <dependency id="ego_dlc_pirate" optional="true" name="Tides of Avarice"/>
+  <dependency id="ego_dlc_boron" optional="true" name="Kingdom End"/>
+  
+  <dependency id="ws_1705279348" optional="true" name="Rise of the Ossian Raider"/>
+  <dependency id="ws_2975343282" optional="true" name="X-Universum-light / ab 6.0"/>
+  <dependency id="ws_1780035703" optional="true" name="X Universe + / as of 6.0"/>
+  <dependency id="xpan" optional="true" name="xpan"/>
   
 </content>

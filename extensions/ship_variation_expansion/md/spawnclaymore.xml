@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	
+	<!-- Savage Spur - Claymore -->
+	<add sel="//cue[@name='SpawnAbandonedShipSavageSpurII']/actions/do_if">
+		<set_object_name object="$savagespuriiandoned" page="20101" line="66701" comment="Loki"/>
+	</add>
+	
+</diff>

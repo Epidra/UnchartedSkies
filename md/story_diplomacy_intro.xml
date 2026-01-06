@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	
+	<!-- Freighter - Story Related -->
+	<add sel="//cue[@name='Pt1_Manager_Conv_1']/actions">
+		<set_object_name object="$LentFreighter" page="20005" line="9026" comment="Hatikvah's Faith"/>
+	</add>
+	
+</diff>

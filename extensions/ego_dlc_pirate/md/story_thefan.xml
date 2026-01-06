@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	
+	<!-- Promethean Spark -to- Promethean Spark(voiced) -->
+	<replace sel="//cue[@name='Ch1_Create_Scavenger']//set_object_name">
+		<set_object_name object="$Ch1_ScavengerShip" page="20101" line="121201" comment="Promethean Spark (Ch1 rebellious Trader Ship)"/>
+	</replace>
+	
+	<!-- Bestowed in Perpetuity -to- Bestowed in Perpetuity(voiced) -->
+	<replace sel="//cue[@name='Ch2_Setup_TheFanShip']//set_object_name">
+		<set_object_name object="$TheFanShip" page="20101" line="121301" comment="Bestowed in Perpetuity(Ch2 Fan Trader Ship)"/>
+	</replace>
+	
+	<!-- JP Morgans Knife -to- JP Morgans Knife(voiced) -->
+	<replace sel="//cue[@name='Ch3_2_Setup']//set_object_name">
+		<set_object_name object="$SalvageShip" page="20101" line="121401" comment="J.P. Morgan's Knife(New Fan Ship)"/>
+	</replace>
+	
+	<!-- JP Morgans Knife -to- JP Morgans Knife(voiced) -->
+	<replace sel="//cue[@name='Ch10_Enforcer_MoveTheFanFromHQ']//set_object_name">
+		<set_object_name object="$TheFanShipCh3" page="20101" line="121401" comment="J.P. Morgan's Knife(New Fan Ship)"/>
+	</replace>
+	
+	<!-- JP Morgans Knife -to- JP Morgans Knife(voiced) -->
+	<replace sel="//cue[@name='TheFan_MoveTheFanAwayFromHQ']//do_if[@value='$HQdock.isoperational']/set_object_name">
+		<set_object_name object="$TheFanShipCh3" page="20101" line="121401" comment="J.P. Morgan's Knife(New Fan Ship)"/>
+	</replace>
+	
+	<!-- JP Morgans Knife -to- JP Morgans Knife(voiced) -->
+	<replace sel="//cue[@name='TheFan_MoveTheFanAwayFromHQ']//do_else/set_object_name">
+		<set_object_name object="$TheFanShipCh3" page="20101" line="121401" comment="J.P. Morgan's Knife(New Fan Ship)"/>
+	</replace>
+	
+</diff>

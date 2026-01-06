@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	
+	<!-- Silent Witness - Sokotra Plunderer -->
+	<add sel="//cue[@name='SpawnAbandonedShipSilentWitness']/actions/do_if">
+		<set_object_name object="$silentwitnessabandoned" page="20005" line="9080" comment="Fifth Cascade"/>
+	</add>
+	
+</diff>

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<diff>
+	
+	<!-- Hatikvah's Choice -->
+	<!-- Everything is mirrored along the x/z-diagonal axis -->
+	
+	
+	
+	<!-- Main Star -->
+	<replace sel="/components/component[@name='Cluster_29']/layers/layer/lights/omni[@name='XU Omni02']/offset">
+		<offset>
+			<position x="-2.680971E+08" y="9.239134E+07" z="-2.337272E+08"/>
+		</offset>
+	</replace>
+
+	<!-- Background Stars -->
+	<replace sel="/components/component[@name='Cluster_29']/connections/connection[@name='Connection02']/offset">
+		<offset>
+			<position x="-1.226126E+07" y="31.25" z="-8100462"/>
+		</offset>
+	</replace>
+
+	<!-- Big Star -->
+	<replace sel="/components/component[@name='Cluster_29']/connections/connection[@name='Connection03']/offset">
+		<offset>
+			<position x="-1.612505E+07" y="2669496" z="2.311606E+07"/>
+		</offset>
+	</replace>
+
+	<!-- Medium Star -->
+	<replace sel="/components/component[@name='Cluster_29']/connections/connection[@name='Connection04']/offset">
+		<offset>
+			<position x="-4130791" y="7461504" z="7.107266E+07"/>
+		</offset>
+	</replace>
+
+	<!-- Small Star -->
+	<replace sel="/components/component[@name='Cluster_29']/connections/connection[@name='Connection05']/offset">
+		<offset>
+			<position x="-5.220297E+07" y="2.394771E+07" z="6.744726E+07"/>
+		</offset>
+	</replace>
+
+	<!-- Nebula -->
+	<replace sel="/components/component[@name='Cluster_29']/connections/connection[@name='Connection06']/offset">
+		<offset>
+			<position x="-8.687709E+07" y="7376470" z="-2.106784E+08"/>
+		</offset>
+	</replace>
+
+	<!-- Gas Giant -->
+	<replace sel="/components/component[@name='Cluster_29']/connections/connection[@name='Connection07']/offset">
+		<offset>
+			<position x="4.974199E+07" y="-2480008" z="-3.420138E+07"/>
+		</offset>
+	</replace>
+
+	<!-- Gas Giant's Atmosphere -->
+	<replace sel="/components/component[@name='Cluster_29']/connections/connection[@name='Connection08']/offset">
+		<offset>
+			<position x="4.974199E+07" y="-2480008" z="-3.420138E+07"/>
+		</offset>
+	</replace>
+
+	<!--Gas Giant's Rings -->
+	<replace sel="/components/component[@name='Cluster_29']/connections/connection[@name='Connection09']/offset">
+		<offset>
+			<position x="4.974199E+07" y="-2480008" z="-3.420138E+07"/>
+		</offset>
+	</replace>
+
+</diff>

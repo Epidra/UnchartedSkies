@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	
+	<!-- Sector 601 - Watchful Gaze -->
+	<replace sel="/macros/macro[@name='Cluster_601_Sector001_macro']/connections/connection[@name='Zone005_Cluster_601_Sector001_connection']/offset"> <!-- GATE to 802 -->
+		<offset>	<position x="137328.5" y="0" z="138576.5" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_601_Sector001_macro']/connections/connection[@name='Zone002_Cluster_601_Sector001_connection']/offset"> <!-- GATE to 031 -->
+		
+		<offset>	<position x="-104500.2" y="0" z="-126969.5" />	</offset>
+	</replace>
+	
+	<!-- Sector 602 - Barren Shores -->
+	<replace sel="/macros/macro[@name='Cluster_602_Sector001_macro']/connections/connection[@name='Zone004_Cluster_602_Sector001_connection']/offset"> <!-- GATE to 803 -->
+		<offset>	<position x="121474.9" y="0" z="-4501.229" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_602_Sector001_macro']/connections/connection[@name='Zone003_Cluster_602_Sector001_connection']/offset"> <!-- GATE to 801 -->
+		<offset>	<position x="-133889.7" y="0" z="-138467.94" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_602_Sector001_macro']/connections/connection[@name='Zone001_Cluster_602_Sector001_connection']/offset"> <!-- GATE inactive -->
+		<offset>	<position x="94656.418" y="0" z="-131536.6" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_602_Sector001_macro']/connections/connection[@name='Zone002_Cluster_602_Sector001_connection']/offset"> <!-- empty -->
+		<offset>	<position x="85.55412" y="0" z="115545.4" />	</offset>
+	</replace>
+	
+	<!-- Sector 603 - Great Reef -->
+	<replace sel="/macros/macro[@name='Cluster_603_Sector001_macro']/connections/connection[@name='Zone001_Cluster_603_Sector001_connection']/offset"> <!-- empty -->
+		<offset>	<position x="142074" y="0" z="71801.65" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_603_Sector001_macro']/connections/connection[@name='Zone002_Cluster_603_Sector001_connection']/offset"> <!-- GATE to 805 -->
+		<offset>	<position x="-98169.94" y="0" z="101618.8" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_603_Sector001_macro']/connections/connection[@name='Zone004_Cluster_603_Sector001_connection']/offset"> <!-- GATE to 802 -->
+		<offset>	<position x="-57990.49" y="0" z="-130164.1" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_603_Sector001_macro']/connections/connection[@name='Zone005_Cluster_603_Sector001_connection']/offset"> <!-- GATE to 804 -->
+		<offset>	<position x="22972.12" y="0" z="119150.4" />	</offset>
+	</replace>
+	
+	<!-- Sector 604 - Ocean of Fantasy -->
+	<replace sel="/macros/macro[@name='Cluster_604_Sector001_macro']/connections/connection[@name='Zone004_Cluster_604_Sector001_connection']/offset"> <!-- GATE to 803 -->
+		<offset>	<position x="-30677.88" y="0" z="-122754.3" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_604_Sector001_macro']/connections/connection[@name='Zone001_Cluster_604_Sector001_connection']/offset"> <!-- GATE inactive -->
+		<offset>	<position x="121771.5" y="0" z="106741.4" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_604_Sector001_macro']/connections/connection[@name='Zone002_Cluster_604_Sector001_connection']/offset"> <!-- empty -->
+		<offset>	<position x="-22312.77" y="0" z="118045.5" />	</offset>
+	</replace>
+	
+</diff>

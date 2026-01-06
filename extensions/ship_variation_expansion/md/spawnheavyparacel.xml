@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	
+	<!-- Tharka's Cascade - Heavy Paracel -->
+	<add sel="//cue[@name='SpawnAbandonedShipSilentWitness']/actions/do_if">
+		<set_object_name object="$tharkascascadexviiabandoned" page="20005" line="7044" comment="Oberon"/>
+	</add>
+	
+</diff>

@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	
+	<!-- New Zones -->
+	<add sel="/macros">
+		
+		<!-- Sector 800 - Hades -->
+		<macro name="Zone001_Cluster_800_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_800_Sector001_macro" class="zone"> <!-- GATE 1 -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone003_Cluster_800_Sector001_macro" class="zone"> <!-- GATE 2 -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone004_Cluster_800_Sector001_macro" class="zone"> <!-- GATE 3 -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone005_Cluster_800_Sector001_macro" class="zone"> <!-- GATE 4 -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone006_Cluster_800_Sector001_macro" class="zone"> <!-- GATE 5 -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone007_Cluster_800_Sector001_macro" class="zone"> <!-- GATE 6 -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		
+		<!-- Sector 801 - Merchant Haven -->
+		<macro name="Zone001_Cluster_801_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_801_Sector001_macro" class="zone"> <!-- GATE - Memory of Profit X -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate801To039" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0" qz="0" qw="1" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_801_Sector001_macro" class="zone"> <!-- GATE - Mists of Elysium I -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate801To810" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0" qz="0" qw="1" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space">
+						<properties>
+							<state active="false" />
+						</properties>
+					</macro>
+				</connection>
+			</connections>
+		</macro>
+
+		<!-- Sector 802 - Shareholder's Fortune -->
+		<macro name="Zone001_Cluster_802_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone004_Cluster_802_Sector001_macro" class="zone"> <!-- GATE - Memory of Profit IX -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate802To003" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.899" qz="0" qw="0.438" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_802_Sector001_macro" class="zone"> <!-- DEAD GATE -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate802To000" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.912" qz="0" qw="0.409" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone002_Cluster_802_Sector001_macro" class="zone"> <!-- empty -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		
+		<!-- Sector 803 - Light of Heart -->
+		<macro name="Zone001_Cluster_803_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_803_Sector001_macro" class="zone"> <!-- GATE - Silent Witness I -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate803To008" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.764" qz="0" qw="0.645" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_803_Sector001_macro" class="zone"> <!-- GATE - Montalaar -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate803To804" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.397" qz="0" qw="0.918" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+		<!-- Sector 804 - Montalaar -->
+		<macro name="Zone001_Cluster_804_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_804_Sector001_macro" class="zone"> <!-- GATE - Argon Prime -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate804to014" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0" qz="0" qw="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_804_Sector001_macro" class="zone"> <!-- GATE - Light of Heart -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate804To803" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.951" qz="0" qw="0.309" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone004_Cluster_804_Sector001_macro" class="zone"> <!-- DEAD GATE -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate804To000" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.764" qz="0" qw="0.645" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+		<!-- Sector 805 - Shores of Infinity -->
+		<macro name="Zone001_Cluster_805_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_805_Sector001_macro" class="zone"> <!-- GATE - Interworlds -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate805To823" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0" qz="0" qw="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_805_Sector001_macro" class="zone"> <!-- DEAD GATE -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate805To000" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0" qz="0" qw="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+		<!-- Sector 806 - Preacher's Void IV -->
+		<macro name="Zone001_Cluster_806_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone003_Cluster_806_Sector001_macro" class="zone"> <!-- GATE - Cardinal's Redress -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate806To036" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-1" qz="0" qw="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone002_Cluster_806_Sector001_macro" class="zone"> <!-- GATE - Preacher's Void VI -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate806To807" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.625" qz="0" qw="0.780" />
+					</offset>
+					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+		<!-- Sector 807 - Preacher's Void VI -->
+		<macro name="Zone001_Cluster_807_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone003_Cluster_807_Sector001_macro" class="zone"> <!-- GATE - Preacher's Void IV -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate807To806" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.707" qz="0" qw="0.707" />
+					</offset>
+					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone002_Cluster_807_Sector001_macro" class="zone"> <!-- GATE - Ocraroke's Storm -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate807To808" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.929" qz="0" qw="0.371" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone004_Cluster_807_Sector001_macro" class="zone"> <!-- GATE - Consecrated Fire -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate807To815" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0" qz="0" qw="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+		<!-- Sector 808 - Ocraroke's Storm -->
+		<macro name="Zone001_Cluster_808_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_808_Sector001_macro" class="zone"> <!-- GATE - Preacher's Void VI -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate808To807" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.633" qz="0" qw="0.774" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_808_Sector001_macro" class="zone"> <!-- GATE - Nopileos' Fortune -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate808To004" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.987" qz="0" qw="0.159" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone004_Cluster_808_Sector001_macro" class="zone"> <!-- KHAAK -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone005_Cluster_808_Sector001_macro" class="zone"> <!-- PIRATE BASE -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		
+		<!-- Sector 809 - Thyn's Abyss -->
+		<macro name="Zone001_Cluster_809_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_809_Sector001_macro" class="zone"> <!-- GATE - Consecrated Fire -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate809To815" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-1" qz="0" qw="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_809_Sector001_macro" class="zone"> <!-- GATE - Atiya's Misfortune -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate809To026" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.851" qz="0" qw="0.526" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone004_Cluster_809_Sector001_macro" class="zone"> <!-- DEAD GATE -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate809To300" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.781" qz="0" qw="0.624" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+		<!-- Sector 810 - Mists of Elysium I -->
+		<macro name="Zone001_Cluster_810_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_810_Sector001_macro" class="zone"> <!-- GATE - Merchant Haven -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate810To801" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-1" qz="0" qw="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space">
+						<properties>
+							<state active="false" />
+						</properties>
+					</macro>
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_810_Sector001_macro" class="zone"> <!-- GATE - Mists of Elysium II -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate810To811" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.382" qz="0" qw="0.924" />
+					</offset>
+					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone004_Cluster_810_Sector001_macro" class="zone"> <!-- GATE - Mists of Elysium III -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate810To812" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0" qz="0" qw="0" />
+					</offset>
+					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+		<!-- Sector 811 - Mists of Elysium II -->
+		<macro name="Zone001_Cluster_811_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="env_debris_xenon_xxl_01_macro" ref="anything">
+					<offset>
+						<position x="-5904.296875" y="99" z="-980.46875" />
+						<quaternion qx="-0.0792836919" qy="-0.4820460677" qz="-0.0438561663" qw="0.8714483976" />
+					</offset>
+					<macro ref="env_debris_xenon_xxl_01_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone002_Cluster_811_Sector001_macro" class="zone"> <!-- GATE - Nopileos's Fortune -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate811To004" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.918" qz="0" qw="0.396" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_811_Sector001_macro" class="zone"> <!-- GATE - Mists of Elysium I -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate811To810" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.942" qz="0" qw="0.336" />
+					</offset>
+					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone004_Cluster_811_Sector001_macro" class="zone"> <!-- GATE - Mists of Elysium III -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate811to812" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.439" qz="0" qw="0.898" />
+					</offset>
+					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+		<!-- Sector 812 - Mists of Elysium III -->
+		<macro name="Zone001_Cluster_812_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="env_debris_xenon_xxl_02_macro" ref="anything">
+					<offset>
+						<position x="-5705.001953125" y="1272.9990234375" z="0" />
+						<quaternion qx="-7.5e-09" qy="0" qz="0" qw="1" />
+					</offset>
+					<macro ref="env_debris_xenon_xxl_02_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone002_Cluster_812_Sector001_macro" class="zone"> <!-- GATE - Shining Currents -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate812To813" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.354" qz="0" qw="0.935" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space">
+						<properties>
+							<state active="false" />
+						</properties>
+					</macro>
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_812_Sector001_macro" class="zone"> <!-- GATE - Mists of Elysium I -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate812To810" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-1" qz="0" qw="0" />
+					</offset>
+					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone004_Cluster_812_Sector001_macro" class="zone"> <!-- GATE - Mists of Elysium II -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate812To811" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.903" qz="0" qw="0.429" />
+					</offset>
+					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+		<!-- Sector 813 - Shining Currents -->
+		<macro name="Zone001_Cluster_813_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_813_Sector001_macro" class="zone"> <!-- GATE - Mists of Elysium III -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate813To812" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.873" qz="0" qw="0.488" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space">
+						<properties>
+							<state active="false" />
+						</properties>
+					</macro>
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_813_Sector001_macro" class="zone"> <!-- GATE - Sacred Relic -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate813To023" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0" qz="0" qw="1" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone004_Cluster_813_Sector001_macro" class="zone"> <!-- DEAD GATE -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate813To300" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.822" qz="0" qw="0.570" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+		<!-- Sector 814 - Clarity's End -->
+		<macro name="Zone001_Cluster_814_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_814_Sector001_macro" class="zone"> <!-- GATE - Consecrated Fire -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate814To815" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.989" qz="0" qw="0.149" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_814_Sector001_macro" class="zone"> <!-- GATE - Depths of Silence -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate814To824" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.717" qz="0" qw="0.697" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone004_Cluster_814_Sector001_macro" class="zone"> <!-- GATE - Sacred Relic -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate814To023" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.845" qz="0" qw="0.535" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+		<!-- Sector 815 - Consecrated Fire -->
+		<macro name="Zone001_Cluster_815_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_815_Sector001_macro" class="zone"> <!-- GATE - Preacher's Void VI -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate815To807" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.949" qz="0" qw="0.314" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_815_Sector001_macro" class="zone"> <!-- GATE - Thyn's Abyss -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate815To809" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.544" qz="0" qw="0.839" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone004_Cluster_815_Sector001_macro" class="zone"> <!-- GATE - Clarity's End -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate815To814" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.681" qz="0" qw="0.732" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone005_Cluster_815_Sector001_macro" class="zone"> <!-- DEAD GATE -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate815To300" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0" qz="0" qw="1" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+		<!-- Sector 816 - Great Trench 001 -->
+		<macro name="Zone001_Cluster_816_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_816_Sector001_macro" class="zone"> <!-- GATE - Getsu Fune -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate816To048" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.338" qz="0" qw="0.941" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_816_Sector001_macro" class="zone"> <!-- Asteroid Field 1 -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone004_Cluster_816_Sector001_macro" class="zone"> <!-- Asteroid Field 2 -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		
+		<!-- Sector 816 - Great Trench 002 -->
+		<macro name="Zone001_Cluster_816_Sector002_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_816_Sector002_macro" class="zone"> <!-- GATE - Dark Waters -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate816To817" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-1" qz="0" qw="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+		<!-- Sector 816 - Great Trench SH -->
+		<macro name="tzoneCluster_816_Sector001SHCon6_GateZone_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="SHCon6_gate" />
+			</connections>
+		</macro>
+		<macro name="tzoneCluster_816_Sector001SHCon10_GateZone_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="SHCon10_gate" />
+			</connections>
+		</macro>
+		<macro name="tzoneCluster_816_Sector002SHCon5_GateZone_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="SHCon5_gate" />
+			</connections>
+		</macro>
+		<macro name="tzoneCluster_816_Sector002SHCon9_GateZone_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="SHCon9_gate" />
+			</connections>
+		</macro>
+		
+		<!-- Sector 817 - Dark Waters -->
+		<macro name="Zone001_Cluster_817_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_817_Sector001_macro" class="zone"> <!-- GATE - Great Trench -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate817To816" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0" qz="0" qw="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_817_Sector001_macro" class="zone"> <!-- GATE - Mines of Fortune -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate817To818" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.303" qz="0" qw="0.953" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone004_Cluster_817_Sector001_macro" class="zone"> <!-- GATE - The Shallows -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate817To822" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.688" qz="0" qw="0.725" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+		<!-- Sector 818 - Mines of Fortune -->
+		<macro name="Zone001_Cluster_818_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_818_Sector001_macro" class="zone"> <!-- GATE - Dark Waters -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate818To817" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.7071067691" qz="0" qw="0.7071067691" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_818_Sector001_macro" class="zone"> <!-- GATE - Matrix 79A -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate818To819" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.864" qz="0" qw="0.503" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone004_Cluster_818_Sector001_macro" class="zone"> <!-- EMPTY -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		
+		<!-- Sector 819 - Matrix 79A -->
+		<macro name="Zone001_Cluster_819_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_819_Sector001_macro" class="zone"> <!-- GATE - Mines of Fortune -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate819To818" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.604" qz="0" qw="0.797" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_819_Sector001_macro" class="zone"> <!-- GATE - Wastelands III -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate819To820" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.764" qz="0" qw="0.645" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone004_Cluster_819_Sector001_macro" class="zone"> <!-- EMPTY -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone005_Cluster_819_Sector001_macro" class="zone"> <!-- EMPTY - Matrix 79B -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate819To033" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0" qz="0" qw="0" />
+					</offset>
+					<macro ref="props_gates_orb_accelerator_01_macro" connection="space">
+						<properties>
+							<state active="false" />
+						</properties>
+					</macro>
+				</connection>
+			</connections>
+		</macro>
+		
+		<!-- Sector 820 - Wastelands III -->
+		<macro name="Zone001_Cluster_820_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_820_Sector001_macro" class="zone"> <!-- GATE - Wastelands V -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate820To821" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.918" qz="0" qw="0.396" />
+					</offset>
+					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_820_Sector001_macro" class="zone"> <!-- GATE - Heretic's End -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate820To031" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-1" qz="0" qw="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone004_Cluster_820_Sector001_macro" class="zone"> <!-- GATE - Matrix 79A -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate820To819" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.625" qz="0" qw="0.780" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone005_Cluster_820_Sector001_macro" class="zone"> <!-- PIRATE BASE -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		
+		<!-- Sector 821 - Wastelands V -->
+		<macro name="Zone001_Cluster_821_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_821_Sector001_macro" class="zone"> <!-- GATE - Wastelands III -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate821To820" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.707" qz="0" qw="0.707" />
+					</offset>
+					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_821_Sector001_macro" class="zone"> <!-- GATE - The Shallows -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate821To822" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.688" qz="0" qw="0.725" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone004_Cluster_821_Sector001_macro" class="zone"> <!-- KHAAK -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		
+		<!-- Sector 822 - The Shallows 001 -->
+		<macro name="Zone001_Cluster_822_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_822_Sector001_macro" class="zone"> <!-- GATE - Dark Waters -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate822To817" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.733" qz="0" qw="0.680" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+		<!-- Sector 822 - The Shallows 002 -->
+		<macro name="Zone001_Cluster_822_Sector002_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_822_Sector002_macro" class="zone"> <!-- GATE - Interworlds -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate822To823" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.983" qz="0" qw="0.185" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+		<!-- Sector 822 - The Shallows 003 -->
+		<macro name="Zone001_Cluster_822_Sector003_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_822_Sector003_macro" class="zone"> <!-- GATE - Wastelands V -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate822To821" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.625" qz="0" qw="0.780" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+		<!-- Sector 822 - The Shallows SH -->
+		<macro name="tzoneCluster_822_Sector001SHCon5_GateZone_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="SHCon5_gate" />
+			</connections>
+		</macro>
+		<macro name="tzoneCluster_822_Sector001SHCon7_GateZone_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="SHCon7_gate" />
+			</connections>
+		</macro>
+		<macro name="tzoneCluster_822_Sector001SHCon8_GateZone_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="SHCon8_gate" />
+			</connections>
+		</macro>
+		<macro name="tzoneCluster_822_Sector001SHCon9_GateZone_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="SHCon9_gate" />
+			</connections>
+		</macro>
+		<macro name="tzoneCluster_822_Sector002SHCon5_GateZone_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="SHCon5_gate" />
+			</connections>
+		</macro>
+		<macro name="tzoneCluster_822_Sector002SHCon9_GateZone_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="SHCon9_gate" />
+			</connections>
+		</macro>
+		<macro name="tzoneCluster_822_Sector002SHCon11_GateZone_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="SHCon11_gate" />
+			</connections>
+		</macro>
+		<macro name="tzoneCluster_822_Sector002SHCon12_GateZone_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="SHCon12_gate" />
+			</connections>
+		</macro>
+		<macro name="tzoneCluster_822_Sector003SHCon4_GateZone_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="SHCon4_gate" />
+			</connections>
+		</macro>
+		<macro name="tzoneCluster_822_Sector003SHCon6_GateZone_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="SHCon6_gate" />
+			</connections>
+		</macro>
+		<macro name="tzoneCluster_822_Sector003SHCon10_GateZone_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="SHCon10_gate" />
+			</connections>
+		</macro>
+		<macro name="tzoneCluster_822_Sector003SHCon12_GateZone_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="SHCon12_gate" />
+			</connections>
+		</macro>
+		
+		<!-- Sector 823 - Interworlds 001 -->
+		<macro name="Zone001_Cluster_823_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_823_Sector001_macro" class="zone"> <!-- GATE - Litany of Fury -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate823To423" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-1" qz="0" qw="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_823_Sector001_macro" class="zone"> <!-- GATE - Shores of Infinity -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate823To805" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.707" qz="0" qw="0.707" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+		<!-- Sector 823 - Interworlds 002 -->
+		<macro name="Zone001_Cluster_823_Sector002_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_823_Sector002_macro" class="zone"> <!-- GATE - The Shallows -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate823To822" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.123" qz="0" qw="0.992" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+		<!-- Sector 823 - Interworlds SH -->
+		<macro name="tzoneCluster_823_Sector001SHCon6_GateZone_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="SHCon6_gate" />
+			</connections>
+		</macro>
+		<macro name="tzoneCluster_823_Sector001SHCon10_GateZone_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="SHCon10_gate" />
+			</connections>
+		</macro>
+		<macro name="tzoneCluster_823_Sector002SHCon5_GateZone_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="SHCon5_gate" />
+			</connections>
+		</macro>
+		<macro name="tzoneCluster_823_Sector002SHCon9_GateZone_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="SHCon9_gate" />
+			</connections>
+		</macro>
+
+		<!-- Sector 824 - Depths of Silence -->
+		<macro name="Zone001_Cluster_824_Sector001_macro" class="zone"> <!-- CENTER -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+		<macro name="Zone002_Cluster_824_Sector001_macro" class="zone"> <!-- DEAD GATE -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate824To000" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.914" qz="0" qw="0.406" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone003_Cluster_824_Sector001_macro" class="zone"> <!-- GATE - Clarity's End -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate824To814" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="0.754" qz="0" qw="0.656" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone004_Cluster_824_Sector001_macro" class="zone"> <!-- DEAD GATE -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate824To300" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.391" qz="0" qw="0.920" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		<macro name="Zone005_Cluster_824_Sector001_macro" class="zone"> <!-- GATE - Scale Plate Green -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate824To021" ref="gates">
+					<offset>
+						<position x="0" y="0" z="0" />
+						<quaternion qx="0" qy="-0.953" qz="0" qw="0.304" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+	</add>
+	
+	
+	
+	
+	
+	<!-- Reposition Jump Gates -->
+	
+	<!-- Sector 003 - Memory of Profit IX -->
+	<add sel="/macros/macro[@name='Zone002_Cluster_03_Sector001_macro']/connections">
+		<connection name="connection_ClusterGate003To802" ref="gates">
+			<offset>
+				<position x="-5541.83984375" y="0" z="-47390.9921875" />
+				<quaternion qx="0" qy="0.614" qz="0" qw="0.789" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
+	</add>
+	
+	<!-- Sector 004 - Nopileos' Fortune -->
+	<add sel="/macros/macro[@name='Zone020_Cluster_04_Sector001_macro']/connections">
+		<connection name="connection_ClusterGate304To301" ref="gates">
+			<offset>
+				<position x="-20276.0625" y="0" z="12205.078125" />
+				<quaternion qx="0" qy="-0.8660253882" qz="0" qw="-0.5" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
+		<connection name="connection_ClusterGate004To811" ref="gates">
+			<offset>
+				<position x="48529" y="0" z="-18762" />
+				<quaternion qx="0" qy="-0.707" qz="0" qw="0.707" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
+	</add>
+	<replace sel="/macros/macro[@name='Zone001_Cluster_04_Sector002_macro']/connections/connection[@name='connection_ClusterGate004To001']/offset">
+		<offset>
+			<position x="-22276.0625" y="0" z="12005.078125" />
+			<quaternion qx="0" qy="0.426" qz="0" qw="0.905" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 005 - Path to Profit -->
+	<add sel="/macros/macro[@name='Zone003_Cluster_05_Sector001_macro']">
+		<connections>
+			<connection name="connection_ClusterGate005To035" ref="gates">
+				<offset>
+					<position x="1242.138671875" y="0" z="6470.4609375" />
+					<quaternion qx="0" qy="0" qz="0" qw="1" />
+				</offset>
+				<macro ref="props_gates_anc_gate_macro" connection="space" />
+			</connection>
+		</connections>
+	</add>
+	
+	<!-- Sector 008 - Silent Witness I -->
+	<remove sel="/macros/macro[@name='Zone003_Cluster_08_Sector001_macro']/connections/connection[@name='connection_ClusterGate008To306']" />
+	<add sel="/macros/macro[@name='Zone006_Cluster_08_Sector001_macro']/connections">
+		<connection name="connection_ClusterGate008To306" ref="gates">
+			<offset>
+				<position x="-51242.138671875" y="0" z="50647.4609375" />
+				<quaternion qx="0" qy="0" qz="0" qw="0" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
+	</add>
+	<replace sel="/macros/macro[@name='Zone003_Cluster_08_Sector001_macro']/connections/connection[@name='connection_ClusterGate008To002']/offset">
+		<offset>
+			<position x="18364.75" y="0" z="-10007.1103515625" />
+			<quaternion qx="0" qy="-0.485" qz="0" qw="0.875" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 009 - Bright Promise -->
+	<replace sel="/macros/macro[@name='Zone004_Cluster_09_Sector001_macro']/connections/connection[@name='connection_ClusterGate009to015']/offset">
+		<offset>
+			<position x="23184.0515136719" y="0" z="1693.9086914062" />
+			<quaternion qx="0" qy="-0.670" qz="0" qw="0.742" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 014 - Argon Prime -->
+	<replace sel="/macros/macro[@name='Zone002_Cluster_14_Sector001_macro']/connections/connection[@name='connection_ClusterGate014To309']/offset">
+		<offset>
+			<position x="-17914.6171875" y="0" z="45058.72265625" />
+			<quaternion qx="0" qy="1" qz="0" qw="0" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 015 - Ianamus Zura -->
+	<replace sel="/macros/macro[@name='Zone001_Cluster_15_Sector002_macro']/connections/connection[@name='connection_ClusterGate015To408']/offset">
+		<offset>
+			<position x="31532.564453125" y="0" z="37157.8129882812" />
+			<quaternion qx="0" qy="-0.993" qz="0" qw="0.118" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 021 - Scale Plate Green -->
+	<add sel="/macros/macro[@name='Zone003_Cluster_21_Sector001_macro']/connections">
+		<connection name="connection_ClusterGate021To824" ref="gates">
+			<offset>
+				<position x="0" y="0" z="0" />
+				<quaternion qx="0" qy="0" qz="0" qw="0" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
+	</add>
+	
+	<!-- Sector 023 - Sacred Relic -->
+	<add sel="/macros/macro[@name='Zone003_Cluster_23_Sector001_macro']">
+		<connections>
+			<connection name="connection_ClusterGate023To813" ref="gates">
+				<offset>
+					<position x="51242.138671875" y="0" z="16470.4609375" />
+					<quaternion qx="0" qy="-0.764" qz="0" qw="0.645" />
+				</offset>
+				<macro ref="props_gates_anc_gate_macro" connection="space" />
+			</connection>
+		</connections>
+	</add>
+	
+	<!-- Sector 024 - Holy Vision -->
+	<replace sel="/macros/macro[@name='Zone004_Cluster_24_Sector001_macro']/connections/connection[@name='connection_ClusterGate024To036']/offset">
+		<offset>
+			<position x="-29041.86328125" y="0" z="41541.625" />
+			<quaternion qx="0" qy="-0.929" qz="0" qw="0.371" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 025 - Faulty Logic -->
+	<replace sel="/macros/macro[@name='Zone003_Cluster_25_Sector002_macro']/connections/connection[@name='connection_ClusterGate025To026']/offset">
+		<offset>
+			<position x="-27498.87109375" y="0" z="20218.75" />
+			<quaternion qx="0" qy="0" qz="0" qw="0" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 026 - Atiya's Misfortune -->
+	<add sel="/macros/macro[@name='Zone001_Cluster_26_Sector001_macro']">
+		<connections>
+			<connection name="connection_ClusterGate026To300" ref="gates">
+				<offset>
+					<position x="0" y="0" z="0" />
+					<quaternion qx="0" qy="-1" qz="0" qw="0" />
+				</offset>
+				<macro ref="props_gates_anc_gate_macro" connection="space" />
+			</connection>
+		</connections>
+	</add>
+	<replace sel="/macros/macro[@name='Zone004_Cluster_26_Sector001_macro']/connections/connection[@name='connection_ClusterGate026To049']/offset">
+		<offset>
+			<position x="-27498.87109375" y="0" z="20218.75" />
+			<quaternion qx="0" qy="-0.8660253882" qz="0" qw="-0.5" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 027 - The Void -->
+	<replace sel="/macros/macro[@name='Zone003_Cluster_27_Sector001_macro']/connections/connection[@name='connection_ClusterGate027To028']/offset">
+		<offset>
+			<position x="12398.4375" y="0" z="7507.8125" />
+			<quaternion qx="0" qy="0.782" qz="0" qw="0.624" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone001_Cluster_27_Sector001_macro']/connections/connection[@name='connection_ClusterGate027To013']/offset">
+		<offset>
+			<position x="12398.4375" y="0" z="7507.8125" />
+			<quaternion qx="0" qy="-0.856" qz="0" qw="0.516" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 028 - Antigone Memorial -->
+	<replace sel="/macros/macro[@name='Zone004_Cluster_28_Sector001_macro']/connections/connection[@name='connection_ClusterGate028To113']/offset">
+		<offset>
+			<position x="-13114.908203125" y="0" z="-40702.740234375" />
+			<quaternion qx="0" qy="0.426" qz="0" qw="0.905" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 029 - Hatikvah's Choice -->
+	<remove sel="/macros/macro[@name='Zone001_Cluster_29_Sector001_macro']/connections/connection[@name='connection_ClusterGate029To030']" />
+	<remove sel="/macros/macro[@name='Zone002_Cluster_29_Sector001_macro']/connections/connection[@name='connection_ClusterGate029To032']" />
+	<add sel="/macros/macro[@name='Zone002_Cluster_29_Sector002_macro']">
+		<connections>
+			<connection name="connection_ClusterGate029To030" ref="gates">
+				<offset>
+					<position x="-61414.802734375" y="0" z="-67491.9140625" />
+					<quaternion qx="0" qy="0.456" qz="0" qw="0.890" />
+				</offset>
+				<macro ref="props_gates_anc_gate_macro" connection="space" />
+			</connection>
+		</connections>
+	</add>
+	<add sel="/macros/macro[@name='Zone001_Cluster_29_Sector002_macro']">
+		<connections>
+			<connection name="connection_ClusterGate029To032" ref="gates">
+				<offset>
+					<position x="29410.802734375" y="0" z="53451.9140625" />
+					<quaternion qx="0" qy="0.821" qz="0" qw="0.571" />
+				</offset>
+				<macro ref="props_gates_anc_gate_macro" connection="space" />
+			</connection>
+		</connections>
+	</add>
+	
+	<!-- Sector 031 - Heretic's End -->
+	<add sel="/macros/macro[@name='Zone004_Cluster_31_Sector001_macro']">
+		<connections>
+			<connection name="connection_ClusterGate031To820" ref="gates">
+				<offset>
+					<position x="37575.5625" y="0" z="7086.3188476562" />
+					<quaternion qx="0" qy="0" qz="0" qw="0" />
+				</offset>
+				<macro ref="props_gates_anc_gate_macro" connection="space" />
+			</connection>
+		</connections>
+	</add>
+	<replace sel="/macros/macro[@name='Zone002_Cluster_31_Sector001_macro']/connections/connection[@name='connection_ClusterGate031To403']/offset">
+		<offset>
+			<position x="-6473.7700195312" y="0" z="9275.88671875" />
+			<quaternion qx="0" qy="0.8660253286" qz="0" qw="0.5000000596" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 032 - Tharka's Cascade -->
+	<remove sel="/macros/macro[@name='Zone003_Cluster_32_Sector002_macro']/connections/connection[@name='connection_ClusterGate032To033']" />
+	<add sel="/macros/macro[@name='Zone001_Cluster_32_Sector002_macro']/connections">
+		<connection name="connection_ClusterGate032To033" ref="gates">
+			<offset>
+				<position x="-10534.26953125" y="0" z="-32082.03125" />
+				<quaternion qx="0" qy="-0.106" qz="0" qw="0.994" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
+	</add>
+	
+	<!-- Sector 033 - Matrix 79B -->
+	<replace sel="/macros/macro[@name='Zone001_Cluster_33_Sector001_macro']/connections/connection[@name='connection_ClusterGate033To032']/offset">
+		<offset>
+			<position x="26891.814453125" y="0" z="17170.951171875" />
+			<quaternion qx="0" qy="-0.825" qz="0" qw="0.565" />
+		</offset>
+	</replace>
+	<add sel="/macros/macro[@name='Zone004_Cluster_33_Sector001_macro']">
+		<connections>
+			<connection name="connection_ClusterGate033To819" ref="gates">
+				<offset>
+					<position x="1242.138671875" y="0" z="16470.4609375" />
+					<quaternion qx="0" qy="1" qz="0" qw="0" />
+				</offset>
+				<macro ref="props_gates_orb_accelerator_01_macro" connection="space">
+					<properties>
+						<state active="false" />
+					</properties>
+				</macro>
+			</connection>
+		</connections>
+	</add>
+	
+	<!-- Sector 034 - Profit Center Alpha -->
+	<replace sel="/macros/macro[@name='Zone004_Cluster_34_Sector001_macro']/connections/connection[@name='connection_ClusterGate034to420']/offset">
+		<offset>
+			<position x="11498.787109375" y="500" z="38158.05078125" />
+			<quaternion qx="0" qy="0.993" qz="0" qw="0.118" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 035 - Lasting Vengeance -->
+	<add sel="/macros/macro[@name='Zone003_Cluster_35_Sector001_macro']">
+		<connections>
+			<connection name="connection_ClusterGate035To003" ref="gates">
+				<offset>
+					<position x="1242.138671875" y="0" z="16470.4609375" />
+					<quaternion qx="0" qy="1" qz="0" qw="0" />
+				</offset>
+				<macro ref="props_gates_anc_gate_macro" connection="space" />
+			</connection>
+		</connections>
+	</add>
+	
+	<!-- Sector 036 - Cardinal's Redress -->
+	<replace sel="/macros/macro[@name='Zone002_Cluster_36_Sector001_macro']/connections/connection[@name='connection_ClusterGate036To024']/offset">
+		<offset>
+			<position x="10392.5361328125" y="0" z="27418.662109375" />
+			<quaternion qx="0" qy="0" qz="0" qw="1" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 039 - Memory of Profit X -->
+	<add sel="/macros/macro[@name='Zone002_Cluster_39_Sector001_macro']">
+		<connections>
+			<connection name="connection_ClusterGate039To801" ref="gates">
+				<offset>
+					<position x="-21242.138671875" y="0" z="-20647.4609375" />
+					<quaternion qx="0" qy="-0.764" qz="0" qw="0.645" />
+				</offset>
+				<macro ref="props_gates_anc_gate_macro" connection="space" />
+			</connection>
+		</connections>
+	</add>
+	
+	<!-- Sector 048 - Getsu Fune -->
+	<add sel="/macros/macro[@name='Zone002_Cluster_48_Sector001_macro']/connections">
+		<connection name="connection_ClusterGate048To816" ref="gates">
+			<offset>
+				<position x="0" y="0" z="0" />
+				<quaternion qx="0" qy="-1" qz="0" qw="0" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
+	</add>
+	
+	<!-- Sector 049 - Frontier Edge -->
+	<replace sel="/macros/macro[@name='Zone003_Cluster_49_Sector001_macro']/connections/connection[@name='connection_ClusterGate049To027']/offset">
+		<offset>
+			<position x="12398.4375" y="0" z="7507.8125" />
+			<quaternion qx="0" qy="-1" qz="0" qw="0" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone001_Cluster_49_Sector001_macro']/connections/connection[@name='connection_ClusterGate049To026']/offset">
+		<offset>
+			<position x="12398.4375" y="0" z="7507.8125" />
+			<quaternion qx="0" qy="-0.36" qz="0" qw="0.930" />
+		</offset>
+	</replace>
+	
+</diff>

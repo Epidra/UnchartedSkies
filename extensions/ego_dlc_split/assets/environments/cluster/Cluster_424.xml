@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<diff>
+	
+	<!-- Emperor's Pride -->
+	
+	
+	
+	<!-- Moon 1 -->
+	<replace sel="/components/component[@name='Cluster_424']/connections/connection[@name='Connection05']/offset">
+		<offset>
+			<position x="1.628913E+08" y="3.520266E+07" z="1.813757E+08"/>
+		</offset>
+	</replace>
+	
+	<!-- Moon 2 - This one -->
+	<replace sel="/components/component[@name='Cluster_424']/connections/connection[@name='Connection06']/offset">
+		<offset>
+			<position x="-1.43571E+08" y="0.218133E+07" z="0.081649E+07"/>
+		</offset>
+	</replace>
+	
+</diff>

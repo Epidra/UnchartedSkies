@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<diff>
+
+	<!-- Adds voiced names to unclaimed ships -->
+	<replace sel="/mdscript/cues/cue[@name='Place_Claimable_Ships']">
+		<cue name="Place_Claimable_Ships" version="2">
+			<conditions>
+				<event_cue_signalled/>
+			</conditions>
+			<actions>
+				<set_value name="$debugchance" exact="0"/>
+				
+				<!-- Themis -->
+				<!-- DANGEROUS REGION SHIELD DAMAGE - M ship-->
+				<find_sector name="$sector" macro="macro.cluster_27_sector001_macro"/>
+				<do_if value="$sector.exists">
+					<create_ship name="$ship" macro="macro.ship_arg_m_miner_solid_01_a_macro" sector="$sector">
+						<owner exact="faction.ownerless"/>
+						<position x="-281km" y="-7.5km" z="254.632km"/>
+						<rotation yaw="150deg" pitch="-20deg" roll="10deg"/>
+					</create_ship>
+					<set_object_name object="$ship" page="20005" line="7025" comment="Themis"/>
+				</do_if>
+				
+				<!-- Dione -->
+				<!-- Cluster 1 remote area - S ship-->
+				<find_sector name="$sector" macro="macro.cluster_01_sector001_macro"/>
+				<do_if value="$sector.exists">
+					<create_ship name="$ship" macro="macro.ship_arg_s_fighter_02_a_macro" sector="$sector">
+						<owner exact="faction.ownerless"/>
+						<position x="-332.267km" y="24.156km" z="380.257km"/>
+						<rotation yaw="-12deg" pitch="9deg" roll="10deg"/>
+					</create_ship>
+					<set_object_name object="$ship" page="20005" line="7035" comment="Dione"/>
+				</do_if>
+				
+				<!-- Narasimha -->
+				<!--deep in xenon space - L ship-->
+				<find_sector name="$sector" macro="macro.cluster_25_sector002_macro"/>
+				<do_if value="$sector.exists">
+					<create_ship name="$ship" macro="macro.ship_par_l_destroyer_01_a_macro" sector="$sector">
+						<owner exact="faction.ownerless"/>
+						<position x="-165.396km" y="-0.489km" z="145.876km"/>
+						<rotation yaw="-112deg" pitch="0.6deg" roll="30deg"/>
+					</create_ship>
+					<set_object_name object="$ship" page="20005" line="9075" comment="Narasimha"/>
+				</do_if>
+				
+				<!-- Ariel -->
+				<!-- at the end of the super long exploration highway, further direction sun - S ship-->
+				<find_sector name="$sector" macro="macro.cluster_04_sector001_macro"/>
+				<do_if value="$sector.exists">
+					<create_ship name="$ship" macro="macro.ship_arg_s_trans_container_01_a_macro" sector="$sector">
+						<owner exact="faction.ownerless"/>
+						<position x="977.984km" y="2.922km" z="1175.323km"/>
+						<rotation yaw="6deg" pitch="-37deg" roll="1deg"/>
+					</create_ship>
+					<set_object_name object="$ship" page="20005" line="7041" comment="Ariel"/>
+				</do_if>
+				
+				<!-- Shiokaze -->
+				<!--silent witness, "in the middle of nowhere" S ship-->
+				<find_sector name="$sector" macro="macro.cluster_45_sector001_macro"/>
+				<do_if value="$sector.exists">
+					<create_ship name="$ship" macro="macro.ship_par_s_fighter_01_a_macro" sector="$sector">
+						<owner exact="faction.ownerless"/>
+						<position x="56.460km" y="0.156km" z="95.379km"/>
+						<rotation yaw="-31deg" pitch="4deg" roll="50deg"/>
+					</create_ship>
+					<set_object_name object="$ship" page="20005" line="1060" comment="Shiokaze"/>
+				</do_if>
+				
+				<!-- Company Strength -->
+				<!--company regard, 100 km behind gate to xenon cluster M ship-->
+				<find_sector name="$sector" macro="macro.cluster_20_sector001_macro"/>
+				<do_if value="$sector.exists">
+					<create_ship name="$ship" macro="macro.ship_tel_m_frigate_01_b_macro" sector="$sector">
+						<owner exact="faction.ownerless"/>
+						<position x="-147.826km" y="-0.156km" z="-185.094km"/>
+						<rotation yaw="15deg" pitch="-3deg" roll="-30deg"/>
+					</create_ship>
+					
+					<set_object_name object="$ship" page="20005" line="6039" comment="Company Strength"/>
+				</do_if>
+			
+			</actions>
+			<patch sinceversion="2">
+				<find_sector name="$patch_sector" macro="macro.cluster_27_sector001_macro"/>
+				<do_if value="$patch_sector.exists">
+					<find_object name="$patch_ship" macro="macro.ship_arg_m_miner_solid_01_a_macro" owner="faction.ownerless" space="$patch_sector">
+						<match_distance x="-274km" y="-6.5km" z="268.632km" space="$patch_sector" max="5km"/>
+					</find_object>
+					<do_if value="$patch_ship">
+						<warp object="$patch_ship" sector="$patch_sector">
+							<safepos x="-281km" y="-7.5km" z="254.632km"/>
+							<rotation yaw="150deg" pitch="-20deg" roll="10deg"/>
+						</warp>
+						<debug_text text="'Moving placed ship ' + $patch_ship + ' ' + $patch_ship.knownname + ' in ' + $patch_sector + ' ' + $patch_sector.knownname" filter="savegame"/>
+					</do_if>
+				</do_if>
+				<remove_value name="$patch_ship"/>
+				<remove_value name="$patch_sector"/>
+			</patch>
+			
+		</cue>
+	</replace>
+</diff>

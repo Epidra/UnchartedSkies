@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="uncharted_sectors" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+		
+		<!-- Activates on every Game Start -->
+		<!-- Make sure it only fires up on the Main Galaxy -->
+		<cue name="Start" version="1">
+			<conditions>
+				<event_cue_signalled cue="md.Setup.Start" />
+				<check_value value="player.galaxy.macro == macro.xu_ep2_universe_macro" comment="only in main-galaxy" />
+			</conditions>
+			
+			<!-- Find all needed Sectors and save theis address for later -->
+			<actions>
+				<find_cluster macro="macro.cluster_33_macro" required="true" name="$Matrix79_b_Cluster"   />
+				<find_cluster macro="macro.cluster_819_macro" required="true" name="$Matrix79_a_Cluster"   />
+				<find_cluster macro="macro.cluster_602_macro" required="true" name="$Cluster_BarrenShores" />
+				<find_cluster macro="macro.cluster_604_macro" required="true" name="$Cluster_OceanOfFantasy" />
+				<find_cluster macro="macro.cluster_402_macro" required="true" name="$Cluster_FamilyKritt" />
+				<find_cluster macro="macro.cluster_415_macro" required="true" name="$Cluster_SplitMatrix" />
+				<find_cluster macro="macro.cluster_609_macro" required="true" name="$Cluster_MenelausOasis" />
+
+				<find_cluster macro="macro.cluster_810_macro" required="true" name="$MistsOfElysium_1_Cluster"   />
+				<find_cluster macro="macro.cluster_811_macro" required="true" name="$MistsOfElysium_2_Cluster"   />
+				<find_cluster macro="macro.cluster_812_macro" required="true" name="$MistsOfElysium_3_Cluster"   />
+				<find_cluster macro="macro.cluster_813_macro" required="true" name="$ShiningCurrents_Cluster"   />
+				<find_cluster macro="macro.cluster_801_macro" required="true" name="$MerchantHaven_Cluster"   />
+
+				<find_sector macro="macro.cluster_33_sector001_macro"  space="player.galaxy" required="true" name="$Matrix79_b_Sector"     />
+				<find_sector macro="macro.cluster_819_sector001_macro" space="player.galaxy" required="true" name="$Matrix79_a_Sector"     />
+				<find_sector macro="macro.cluster_402_sector001_macro" space="player.galaxy" extension="'ego_dlc_split'" required="true" name="$KrittSector" />
+				<find_sector macro="macro.cluster_415_sector001_macro" space="player.galaxy" extension="'ego_dlc_split'" required="true" name="$SplitMatrixSector" />
+				<find_sector macro="macro.cluster_602_sector001_macro" space="player.galaxy" extension="'ego_dlc_boron'" required="true" name="$BarrenShoresSector" />
+				<find_sector macro="macro.cluster_604_sector001_macro" space="player.galaxy" extension="'ego_dlc_boron'" required="true" name="$OceanOfFantasySector" />
+				<find_sector macro="macro.cluster_609_sector001_macro" space="player.galaxy" extension="'ego_dlc_boron'" required="true" name="$MenelausOasisSector" />
+
+				<find_sector macro="macro.cluster_810_sector001_macro" space="player.galaxy" required="true" name="$MistsOfElysium_1_Sector"     />
+				<find_sector macro="macro.cluster_811_sector001_macro" space="player.galaxy" required="true" name="$MistsOfElysium_2_Sector"     />
+				<find_sector macro="macro.cluster_812_sector001_macro" space="player.galaxy" required="true" name="$MistsOfElysium_3_Sector"     />
+				<find_sector macro="macro.cluster_813_sector001_macro" space="player.galaxy" required="true" name="$ShiningCurrents_Sector"     />
+				<find_sector macro="macro.cluster_801_sector001_macro" space="player.galaxy" required="true" name="$MerchantHaven_Sector"     />
+			</actions>
+			<cues>
+				
+				<!-- Condition - Sector Discovered -->
+				<cue name="Matrix79_A_PlayerDiscovered_Check" onfail="cancel">
+					<conditions>
+						<check_value value="$Matrix79_a_Sector.isknown"/>
+					</conditions>
+				</cue>
+				<cue name="Matrix79_B_PlayerDiscovered_Check" onfail="cancel">
+					<conditions>
+						<check_value value="$Matrix79_b_Sector.isknown"/>
+					</conditions>
+				</cue>
+				<cue name="MenelausOasis_PlayerDiscovered_Check" onfail="cancel">
+					<conditions>
+						<check_value value="$MenelausOasisSector.isknown"/>
+					</conditions>
+				</cue>
+				<cue name="MistsOfElysium_PlayerDiscovered_Check" onfail="cancel">
+					<conditions>
+						<check_value value="$MistsOfElysium_2_Sector.isknown"/>
+					</conditions>
+				</cue>
+				
+				<!-- Events to find out what is happening -->
+				<cue name="Matrix79_PlayerDiscovered_Event">
+					<conditions>
+						<check_any>
+							<event_object_known_to_player object="$Matrix79_a_Sector"/>
+							<event_object_known_to_player object="$Matrix79_b_Sector"/>
+							<event_cue_completed cue="Matrix79_A_PlayerDiscovered_Check"/>
+							<event_cue_completed cue="Matrix79_B_PlayerDiscovered_Check"/>
+						</check_any>
+					</conditions>
+					<actions>
+						<signal_cue cue="Matrix79_Opening"/>
+					</actions>
+				</cue>
+				<cue name="MistsOfElysium_PlayerDiscovered_Event">
+					<conditions>
+						<check_any>
+							<event_object_known_to_player object="$MistsOfElysium_2_Sector"/>
+							<event_cue_completed cue="MistsOfElysium_PlayerDiscovered_Check"/>
+						</check_any>
+					</conditions>
+					<actions>
+						<signal_cue cue="MerchantHaven_Opening"/>
+						<signal_cue cue="ShiningCurrents_Opening"/>
+					</actions>
+				</cue>
+				<cue name="BarrenShores_PlayerDiscovered_Event">
+					<conditions>
+						<check_any>
+							<event_object_known_to_player object="$MenelausOasisSector"/>
+							<event_cue_completed cue="MenelausOasis_PlayerDiscovered_Check"/>
+						</check_any>
+					</conditions>
+					<actions>
+						<signal_cue cue="BarrenShores_Opening"/>
+					</actions>
+				</cue>
+				<cue name="OceanOfFantasy_PlayerDiscovered_Event">
+					<conditions>
+						<check_any>
+							<event_cue_completed cue="md.Story_Boron.Ch7_Completed"/>
+						</check_any>
+					</conditions>
+					<actions>
+						<signal_cue cue="OceanOfFantasy_Opening"/>
+					</actions>
+				</cue>
+				
+				<!-- Gate Opening CUE - Matrix 79A+B -->
+				<cue name="Matrix79_Opening">
+					<conditions>
+						<event_cue_signalled/>
+					</conditions>
+					<actions>
+						<find_gate name="$Matrix79_B_Gates" multiple="true" space="$Matrix79_b_Sector" active="false" />
+						<do_for_each name="$g" in="$Matrix79_B_Gates">
+							<do_if value=" ($g.exit.exists) and ($g.exit.sector == $Matrix79_a_Sector)">
+								<set_value name="$Matrix_A_B_Gate" exact="$g.exit" />
+								<set_value name="$Matrix_B_A_Gate" exact="$g" />
+							</do_if>
+						</do_for_each>
+						<remove_value name="$Matrix79_B_Gates" />
+						<set_object_active object="$Matrix_B_A_Gate" />
+					</actions>
+				</cue>
+				
+				<!-- Gate Opening CUE - Shining Currents -->
+				<cue name="ShiningCurrents_Opening">
+					<conditions>
+						<event_cue_signalled/>
+					</conditions>
+					<actions>
+						<find_gate name="$ShiningCurrents_Gates" multiple="true" space="$ShiningCurrents_Sector" active="false" />
+						<do_for_each name="$g" in="$ShiningCurrents_Gates">
+							<do_if value=" ($g.exit.exists) and ($g.exit.sector == $MistsOfElysium_3_Sector)">
+								<set_value name="$Elysium_Shining_Gate" exact="$g.exit" />
+								<set_value name="$Shining_Elysium_Gate" exact="$g" />
+							</do_if>
+						</do_for_each>
+						<remove_value name="$ShiningCurrents_Gates" />
+						<set_object_active object="$Shining_Elysium_Gate" />
+					</actions>
+				</cue>
+				
+				<!-- Gate Opening CUE - Merchant Haven -->
+				<cue name="MerchantHaven_Opening">
+					<conditions>
+						<event_cue_signalled/>
+					</conditions>
+					<actions>
+						<find_gate name="$MerchantHaven_Gates" multiple="true" space="$MerchantHaven_Sector" active="false" />
+						<do_for_each name="$g" in="$MerchantHaven_Gates">
+							<do_if value=" ($g.exit.exists) and ($g.exit.sector == $MistsOfElysium_1_Sector)">
+								<set_value name="$Elysium_Merchant_Gate" exact="$g.exit" />
+								<set_value name="$Merchant_Elysium_Gate" exact="$g" />
+							</do_if>
+						</do_for_each>
+						<remove_value name="$MerchantHaven_Gates" />
+						<set_object_active object="$Merchant_Elysium_Gate" />
+					</actions>
+				</cue>
+				
+				<!-- Gate Opening CUE - Barren Shores / Family Kritt -->
+				<cue name="BarrenShores_Opening">
+					<conditions>
+						<event_cue_signalled/>
+					</conditions>
+					<actions>
+						<find_gate name="$BarrenShoresGates" multiple="true" space="$BarrenShoresSector" active="false" />
+						<do_for_each name="$g" in="$BarrenShoresGates">
+							<do_if value=" ($g.exit.exists) and ($g.exit.sector == $KrittSector)">
+								<set_value name="$FamilyKritt_BarrenShoresGate" exact="$g.exit" />
+								<set_value name="$BarrenShores_FamilyKrittGate" exact="$g" />
+							</do_if>
+						</do_for_each>
+						<remove_value name="$BarrenShoresGates" />
+						<set_object_active object="$BarrenShores_FamilyKrittGate" />
+					</actions>
+				</cue>
+				
+				<!-- Gate Opening CUE - Ocean of Fantasy / Split Matrix -->
+				<cue name="OceanOfFantasy_Opening">
+					<conditions>
+						<event_cue_signalled/>
+					</conditions>
+					<actions>
+						<find_gate name="$OceanOfFantasyGates" multiple="true" space="$OceanOfFantasySector" active="false" />
+						<do_for_each name="$g" in="$OceanOfFantasyGates">
+							<do_if value=" ($g.exit.exists) and ($g.exit.sector == $SplitMatrixSector)">
+								<set_value name="$SplitMatrix_OceanOfFantasyGate" exact="$g.exit" />
+								<set_value name="$OceanOfFantasy_SplitMatrixGate" exact="$g" />
+							</do_if>
+						</do_for_each>
+						<remove_value name="$OceanOfFantasyGates" />
+						<set_object_active object="$OceanOfFantasy_SplitMatrixGate" />
+					</actions>
+				</cue>
+				
+			</cues>
+		</cue>
+		
+	</cues>
+</mdscript>

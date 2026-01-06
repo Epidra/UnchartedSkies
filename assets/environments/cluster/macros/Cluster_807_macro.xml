@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	
+	<macro name="Cluster_807_macro" class="celestialbody">
+		<component ref="Cluster_807" />
+		<properties>
+			<identification unique="0" />
+		</properties>
+	</macro>
+	
+</macros>

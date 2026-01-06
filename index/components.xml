@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
-
+	
+	<entry name="Cluster_800" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_800"/>
+	<entry name="Cluster_801" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_801"/>
+	<entry name="Cluster_802" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_802"/>
+	<entry name="Cluster_803" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_803"/>
+	<entry name="Cluster_804" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_804"/>
+	<entry name="Cluster_805" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_805"/>
+	<entry name="Cluster_806" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_806"/>
+	<entry name="Cluster_807" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_807"/>
+	<entry name="Cluster_808" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_808"/>
+	<entry name="Cluster_809" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_809"/>
+	<entry name="Cluster_810" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_810"/>
+	<entry name="Cluster_811" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_811"/>
+	<entry name="Cluster_812" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_812"/>
+	<entry name="Cluster_813" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_813"/>
+	<entry name="Cluster_814" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_814"/>
+	<entry name="Cluster_815" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_815"/>
+	<entry name="Cluster_816" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_816"/>
+	<entry name="Cluster_817" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_817"/>
+	<entry name="Cluster_818" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_818"/>
+	<entry name="Cluster_819" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_819"/>
+	<entry name="Cluster_820" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_820"/>
+	<entry name="Cluster_821" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_821"/>
+	<entry name="Cluster_822" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_822"/>
+	<entry name="Cluster_823" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_823"/>
+	<entry name="Cluster_824" value="extensions\uncharted_skies\assets\environments\cluster\Cluster_824"/>
+	
+	<entry name="wormhole_v8" value="extensions\uncharted_skies\assets\environments\asteroids\wormhole_v8"/>
+	
 </index>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	
+	<!-- Controls the Move animation between 2 super Highway Gates -->
+	<!-- And propably their position -->
+	
+	
+	
+	<!-- Emperor's Pride SH-1 - Mirror at x-Axis -->
+	<replace sel="/macros/macro[@name='SuperHighway01_Cluster_424_macro']">
+		<macro name="SuperHighway01_Cluster_424_macro" class="highway">
+			<component ref="standardsechighway" />
+			<connections>
+				<connection ref="entrypoint">
+					<offset>
+						<position x="68159504" y="0" z="-1793578.125" />
+					</offset>
+				</connection>
+				<connection ref="exitpoint">
+					<offset>
+						<position x="-68159504" y="0" z="1793578.125" />
+					</offset>
+				</connection>
+			</connections>
+			<properties>
+				<boundaries>
+					<boundary class="splinetube">
+						<splineposition x="68159504"  y="0" z="-1793578.125" tx="-0.999653935432434" ty="0" tz="0.0263053085654974" weight="0" inlength="0"        outlength="11363900" />
+						<splineposition x="34079752"  y="0" z="-896789.0625" tx="-0.999654173851013" ty="0" tz="0.0262970551848412" weight="1" inlength="11363900" outlength="11363900" />
+						<splineposition x="0"         y="0" z="0"            tx="-0.999653935432434" ty="0" tz="0.0263053141534328" weight="1" inlength="11363900" outlength="11363800" />
+						<splineposition x="-34079756" y="0" z="896789.0625"  tx="-0.999654173851013" ty="0" tz="0.0262970551848412" weight="1" inlength="11363900" outlength="11363800" />
+						<splineposition x="-68159504" y="0" z="1793578.125"  tx="-0.999653935432434" ty="0" tz="0.0263053085654974" weight="0" inlength="11363900" outlength="0" />
+						<size r="300" />
+					</boundary>
+				</boundaries>
+				<controls>
+					<linear>
+						<time />
+					</linear>
+					<angular>
+						<roll />
+					</angular>
+				</controls>
+			</properties>
+		</macro>
+	</replace>
+	
+	<!-- Emperor's Pride SH-2 - Mirror at x-Axis -->
+	<replace sel="/macros/macro[@name='SuperHighway02_Cluster_424_macro']">
+		<macro name="SuperHighway02_Cluster_424_macro" class="highway">
+			<component ref="standardsechighway" />
+			<connections>
+				<connection ref="entrypoint">
+					<offset>
+						<position x="-68159504" y="0" z="1793582.5" />
+					</offset>
+				</connection>
+				<connection ref="exitpoint">
+					<offset>
+						<position x="68159504" y="0" z="-1793582.625" />
+					</offset>
+				</connection>
+			</connections>
+			<properties>
+				<boundaries>
+					<boundary class="splinetube">
+						<splineposition x="-68159504" y="0" z="1793582.5"    tx="0.999653935432434" ty="0" tz="-0.0263053718954325" weight="0" inlength="0"        outlength="11363900" />
+						<splineposition x="-34079756" y="0" z="896791.25"    tx="0.999654173851013" ty="0" tz="-0.0262970551848412" weight="1" inlength="11363800" outlength="11363900" />
+						<splineposition x="0"         y="0" z="0"            tx="0.999653935432434" ty="0" tz="-0.0263053830713034" weight="1" inlength="11363800" outlength="11363900" />
+						<splineposition x="34079752"  y="0" z="-896791.375"  tx="0.999654173851013" ty="0" tz="-0.0262970551848412" weight="1" inlength="11363900" outlength="11363900" />
+						<splineposition x="68159504"  y="0" z="-1793582.625" tx="0.999653935432434" ty="0" tz="-0.0263053718954325" weight="0" inlength="11363900" outlength="0" />
+						<size r="300" />
+					</boundary>
+				</boundaries>
+				<controls>
+					<linear>
+						<time />
+					</linear>
+					<angular>
+						<roll />
+					</angular>
+				</controls>
+			</properties>
+		</macro>
+	</replace>
+	
+</diff>

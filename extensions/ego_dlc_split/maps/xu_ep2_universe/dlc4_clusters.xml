@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	
+	<!-- Reposition Sub-Sectors -->
+	<!-- Offset is relative first Sub-Sector inside of the Sector -->
+	
+	
+	
+	<!-- Sector 424 - Emperor's Pride -->
+	<replace sel="/macros/macro[@name='Cluster_424_macro']/connections/connection[@name='SuperHighway01_Cluster_424_connection']/offset">	<offset>	<position x="-68359504"  y="0" z="1843578.125" />	</offset>		</replace>
+	<replace sel="/macros/macro[@name='Cluster_424_macro']/connections/connection[@name='SuperHighway02_Cluster_424_connection']/offset">	<offset>	<position x="-68359504"  y="0" z="1833473.125" />	</offset>		</replace>
+	<replace sel="/macros/macro[@name='Cluster_424_macro']/connections/connection[@name='Cluster_424_Sector002_connection']/offset">		<offset>	<position x="-136719008" y="0" z="3677055.75" />	</offset>		</replace>
+	<replace sel="/macros/macro[@name='Cluster_424_macro']/connections/connection[@name='C424S02_Region001_connection']/offset">			<offset>	<position x="-136719008" y="0" z="3677055.75" />	</offset>		</replace>
+	<replace sel="/macros/macro[@name='Cluster_424_macro']/connections/connection[@name='C424S02_Region002_connection']/offset">			<offset>	<position x="-136719008" y="0" z="3677055.75" />	</offset>		</replace>
+	
+</diff>

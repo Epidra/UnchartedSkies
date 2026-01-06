@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<regions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="region_definitions.xsd">
+	
+	<!-- Sector 809 - Thyn's Abyss - Nebula -->
+	<region name="region_c809s01_base" density="0.10" rotation="3" noisescale="15000" seed="8888" minnoisevalue="0.0" maxnoisevalue="1">
+		<boundary class="sphere">
+			<size r="1250000" />
+		</boundary>
+		<falloff>
+			<radial>
+				<step position="0.0" value="1.0" />
+				<step position="0.5" value="1.0" />
+				<step position="1.0" value="0.0" />
+			</radial>
+		</falloff>
+		<fields>
+			<volumetricfog multiplier="0.1" medium="fog_s3mid" texture="assets/textures/environments/volumefog\vf_chunky_diff" lodrule="nebulafar" size="1000000" sizevariation="0.25" densityfactor="0.0000025" rotation="1" rotationvariation="0.5" noisescale="1000000" seed="3214" minnoisevalue="0.0" maxnoisevalue="1.0" distancefactor="0.30" />
+			<nebula ref="fogpattern_v2_macro" localred="0" localgreen="20" localblue="10" localdensity="0.1" uniformred="0" uniformgreen="10" uniformblue="5" uniformdensity="8.5" backgroundfog="true" resources="hydrogen" fogdistance="25000" />
+		</fields>
+		<resources>
+			<resource ware="hydrogen" yield="medium" />
+		</resources>
+	</region>
+	
+	<!-- Shore of Infinity Test Field -->
+	<region name="infinity_hydrogen_field" density="0.5" rotation="0" noisescale="1000" seed="32" minnoisevalue="0.0" maxnoisevalue="1">
+    <falloff>
+      <lateral>
+        <step position="0.0" value="0.0" />
+        <step position="0.1" value="1.0" />
+        <step position="0.9" value="1.0" />
+        <step position="1.0" value="0.0" />
+      </lateral>
+      <radial>
+        <step position="0.0" value="1.0" />
+        <step position="0.3" value="1.0" />
+        <step position="0.5" value="0.9" />
+        <step position="0.9" value="0.4" />
+        <step position="1.0" value="0.0" />
+      </radial>
+    </falloff>
+    <fields>
+      <volumetricfog multiplier="0.5" medium="hydrogen" texture="assets/textures/environments/fog_maskrnd_07" lodrule="nebulafar" size="10000" sizevariation="0.84" densityfactor="0.37" rotation="360" rotationvariation="0.5" noisescale="10000" seed="320014" minnoisevalue="0.350" maxnoisevalue="1.0" distancefactor="0.3"/>
+      <!--       <positional ref="fog_outside_set1_blue_macro" densityfactor="0.50" rotationvariation="0.5" noisescale="1000" seed="32" minnoisevalue="0.30" maxnoisevalue="1" distancefactor="0.5"/> -->
+      <nebula ref="fogvolume_small_macro" localred="100" localgreen="100" localblue="100" localdensity="0.8" uniformred="49" uniformgreen="49" uniformblue="49" uniformdensity="0.2" backgroundfog="true" resources="hydrogen" />
+    </fields>
+    <resources>
+      <!--resource ware="hydrogen" yield="medhigh" /-->
+    </resources>
+  </region>
+  
+  <region name="region_cluster_815_sector_001" density="2.5" rotation="0" noisescale="10000" seed="32" minnoisevalue="0.15" maxnoisevalue="1">
+    <boundary class="sphere">
+      <size r="500000" />
+    </boundary>
+    <falloff>
+    </falloff>
+    <fields>
+      <nebula ref="fogpattern_v2_macro" localred="56" localgreen="32" localblue="28" localdensity="0.085" uniformred="56" uniformgreen="32" uniformblue="28" uniformdensity="0.3" backgroundfog="false" resources="methane" />
+      <!--positional ref="fog_outside_set1_red_macro" lodrule="nebula" densityfactor="0.10" rotation="0" rotationvariation="0.5" noisescale="25000" seed="30041982" minnoisevalue="0.9" maxnoisevalue="1.0" distancefactor="0.6"/-->
+      <volumetricfog multiplier="1.20" medium="fog_red" texture="assets/textures/environments/fog_patterncloud_08" lodrule="nebula" size="64000" sizevariation="0.5" densityfactor="0.1" rotation="360" rotationvariation="0.5" noisescale="25000" seed="30041982" minnoisevalue="0.90" maxnoisevalue="1.0" distancefactor="0.6"/>
+      <!--nice all sector fog!-->
+      <asteroid groupref="asteroid_nividium_l" densityfactor="0.125" rotation="360" rotationvariation="4" noisescale="25000" seed="30041982" minnoisevalue="0.9" maxnoisevalue="1"/>
+      <asteroid groupref="asteroid_ore_l" densityfactor="0.025" rotation="360" rotationvariation="4" noisescale="25000" seed="30041982" minnoisevalue="0.8" maxnoisevalue="1"/>
+      <asteroid groupref="asteroid_silicon_l" densityfactor="0.0125" rotation="360" rotationvariation="4" noisescale="25000" seed="30041982" minnoisevalue="0.8" maxnoisevalue="1"/>
+      <asteroid groupref="asteroid_ore_m" densityfactor="0.2" rotation="360" rotationvariation="8" noisescale="25000" seed="30041982" minnoisevalue="0.75" maxnoisevalue="1"/>
+      <asteroid groupref="asteroid_silicon_m" densityfactor="0.1" rotation="360" rotationvariation="8" noisescale="25000" seed="30041982" minnoisevalue="0.75" maxnoisevalue="1"/>
+      <asteroid groupref="asteroid_ore_s" densityfactor="0.4" rotation="360" rotationvariation="16" noisescale="25000" seed="30041982" minnoisevalue="0.7" maxnoisevalue="1"/>
+      <asteroid groupref="asteroid_silicon_s" densityfactor="0.2" rotation="360" rotationvariation="16" noisescale="25000" seed="30041982" minnoisevalue="0.7" maxnoisevalue="1"/>
+      <asteroid groupref="asteroid_ore_xs" densityfactor="0.4" rotation="360" rotationvariation="32" noisescale="25000" seed="30041982" minnoisevalue="0.65" maxnoisevalue="1"/>
+      <asteroid groupref="asteroid_silicon_xs" densityfactor="0.2" rotation="360" rotationvariation="32" noisescale="25000" seed="30041982" minnoisevalue="0.65" maxnoisevalue="1"/>
+    </fields>
+    <resources>
+      <resource ware="ore" yield="low" />
+      <resource ware="silicon" yield="low" />
+      <resource ware="nividium" yield="medium" />
+      <resource ware="methane" yield="medhigh" />
+    </resources>
+  </region>
+	
+</regions>
