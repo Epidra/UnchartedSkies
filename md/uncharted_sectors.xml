@@ -10,7 +10,7 @@
 				<check_value value="player.galaxy.macro == macro.xu_ep2_universe_macro" comment="only in main-galaxy" />
 			</conditions>
 			
-			<!-- Find all needed Sectors and save theis address for later -->
+			<!-- Find all needed Sectors and save their address for later -->
 			<actions>
 				<find_cluster macro="macro.cluster_33_macro" required="true" name="$Matrix79_b_Cluster"   />
 				<find_cluster macro="macro.cluster_819_macro" required="true" name="$Matrix79_a_Cluster"   />
@@ -19,13 +19,18 @@
 				<find_cluster macro="macro.cluster_402_macro" required="true" name="$Cluster_FamilyKritt" />
 				<find_cluster macro="macro.cluster_415_macro" required="true" name="$Cluster_SplitMatrix" />
 				<find_cluster macro="macro.cluster_609_macro" required="true" name="$Cluster_MenelausOasis" />
+				<find_cluster macro="macro.cluster_608_macro" required="true" name="$Cluster_AtreusClouds" />
 
 				<find_cluster macro="macro.cluster_810_macro" required="true" name="$MistsOfElysium_1_Cluster"   />
 				<find_cluster macro="macro.cluster_811_macro" required="true" name="$MistsOfElysium_2_Cluster"   />
 				<find_cluster macro="macro.cluster_812_macro" required="true" name="$MistsOfElysium_3_Cluster"   />
 				<find_cluster macro="macro.cluster_813_macro" required="true" name="$ShiningCurrents_Cluster"   />
 				<find_cluster macro="macro.cluster_801_macro" required="true" name="$MerchantHaven_Cluster"   />
-
+				<find_cluster macro="macro.cluster_805_macro" required="true" name="$ShoreOfInfinity_Cluster"   />
+				
+				<find_cluster macro="macro.xpan_clusterXPAN02_macro" required="true" name="$Cluster_DesectratedSkies" />
+				<find_cluster macro="macro.xpan_clusterXPAN10_macro" required="true" name="$Cluster_AphroditesStorm" />
+				
 				<find_sector macro="macro.cluster_33_sector001_macro"  space="player.galaxy" required="true" name="$Matrix79_b_Sector"     />
 				<find_sector macro="macro.cluster_819_sector001_macro" space="player.galaxy" required="true" name="$Matrix79_a_Sector"     />
 				<find_sector macro="macro.cluster_402_sector001_macro" space="player.galaxy" extension="'ego_dlc_split'" required="true" name="$KrittSector" />
@@ -33,12 +38,18 @@
 				<find_sector macro="macro.cluster_602_sector001_macro" space="player.galaxy" extension="'ego_dlc_boron'" required="true" name="$BarrenShoresSector" />
 				<find_sector macro="macro.cluster_604_sector001_macro" space="player.galaxy" extension="'ego_dlc_boron'" required="true" name="$OceanOfFantasySector" />
 				<find_sector macro="macro.cluster_609_sector001_macro" space="player.galaxy" extension="'ego_dlc_boron'" required="true" name="$MenelausOasisSector" />
+				<find_sector macro="macro.cluster_608_sector001_macro" space="player.galaxy" extension="'ego_dlc_boron'" required="true" name="$AtreusCloudsSector" />
 
 				<find_sector macro="macro.cluster_810_sector001_macro" space="player.galaxy" required="true" name="$MistsOfElysium_1_Sector"     />
 				<find_sector macro="macro.cluster_811_sector001_macro" space="player.galaxy" required="true" name="$MistsOfElysium_2_Sector"     />
 				<find_sector macro="macro.cluster_812_sector001_macro" space="player.galaxy" required="true" name="$MistsOfElysium_3_Sector"     />
 				<find_sector macro="macro.cluster_813_sector001_macro" space="player.galaxy" required="true" name="$ShiningCurrents_Sector"     />
 				<find_sector macro="macro.cluster_801_sector001_macro" space="player.galaxy" required="true" name="$MerchantHaven_Sector"     />
+				<find_sector macro="macro.cluster_805_sector001_macro" space="player.galaxy" required="true" name="$ShoreOfInfinity_Sector"     />
+				
+				<find_sector macro="macro.xpan_clusterXPAN02_sector001_macro" space="player.galaxy" extension="'xpan'" required="true" name="$DesectratedSkies_Sector"     />
+				<find_sector macro="macro.xpan_clusterXPAN10_sector003_macro" space="player.galaxy" extension="'xpan'" required="true" name="$AphroditesStorm_Sector"     />
+				
 			</actions>
 			<cues>
 				
@@ -56,6 +67,11 @@
 				<cue name="MenelausOasis_PlayerDiscovered_Check" onfail="cancel">
 					<conditions>
 						<check_value value="$MenelausOasisSector.isknown"/>
+					</conditions>
+				</cue>
+				<cue name="AtreusClouds_PlayerDiscovered_Check" onfail="cancel">
+					<conditions>
+						<check_value value="$AtreusCloudsSector.isknown"/>
 					</conditions>
 				</cue>
 				<cue name="MistsOfElysium_PlayerDiscovered_Check" onfail="cancel">
@@ -101,6 +117,17 @@
 						<signal_cue cue="BarrenShores_Opening"/>
 					</actions>
 				</cue>
+				<cue name="AtreusClouds_PlayerDiscovered_Event">
+					<conditions>
+						<check_any>
+							<event_object_known_to_player object="$AtreusCloudsSector"/>
+							<event_cue_completed cue="AtreusClouds_PlayerDiscovered_Check"/>
+						</check_any>
+					</conditions>
+					<actions>
+						<signal_cue cue="AtreusClouds_Opening"/>
+					</actions>
+				</cue>
 				<cue name="OceanOfFantasy_PlayerDiscovered_Event">
 					<conditions>
 						<check_any>
@@ -111,6 +138,7 @@
 						<signal_cue cue="OceanOfFantasy_Opening"/>
 					</actions>
 				</cue>
+
 				
 				<!-- Gate Opening CUE - Matrix 79A+B -->
 				<cue name="Matrix79_Opening">
@@ -181,6 +209,28 @@
 						</do_for_each>
 						<remove_value name="$BarrenShoresGates" />
 						<set_object_active object="$BarrenShores_FamilyKrittGate" />
+					</actions>
+				</cue>
+				
+				<!-- Gate Opening CUE - Atreus Clouds / Shores of Infinity -->
+				<cue name="AtreusClouds_Opening">
+					<conditions>
+						<event_cue_signalled/>
+					</conditions>
+					<actions>
+						<find_gate name="$AtreusCloudsGates" multiple="true" space="$AtreusCloudsSector" active="false" />
+						<do_for_each name="$g" in="$AtreusCloudsGates">
+							<do_if value=" ($g.exit.exists) and ($g.exit.sector == $ShoreOfInfinity_Sector)">
+								<set_value name="$ShoreOfInfinity_AtreusCloudsGate" exact="$g.exit" />
+								<set_value name="$AtreusClouds_ShoreofInfinityGate" exact="$g" />
+							</do_if>
+							<!--do_if value=" ($g.exit.exists) and ($g.exit.sector == $AphroditesStorm_Sector)">
+								<set_value name="$ShoreOfInfinity_AtreusCloudsGate" exact="$g.exit" />
+								<set_value name="$AtreusClouds_ShoreofInfinityGate" exact="$g" />
+							</do_if-->
+						</do_for_each>
+						<remove_value name="$AtreusCloudsGates" />
+						<set_object_active object="$AtreusClouds_ShoreofInfinityGate" />
 					</actions>
 				</cue>
 				

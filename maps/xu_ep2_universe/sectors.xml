@@ -25,6 +25,8 @@
 				<connection name="Zone001_Cluster_801_Sector001_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"       />	</offset>	<macro ref="Zone001_Cluster_801_Sector001_macro" connection="sector" />	</connection>
 				<connection name="Zone002_Cluster_801_Sector001_connection" ref="zones">	<offset>	<position x="-150000" y="0" z="-150000" />	</offset>	<macro ref="Zone002_Cluster_801_Sector001_macro" connection="sector" />	</connection>
 				<connection name="Zone003_Cluster_801_Sector001_connection" ref="zones">	<offset>	<position x="250000"  y="0" z="-50000"  />	</offset>	<macro ref="Zone003_Cluster_801_Sector001_macro" connection="sector" />	</connection>
+				<connection name="Zone004_Cluster_801_Sector001_connection" ref="zones">	<offset>	<position x="175000"  y="0" z="75000"  />	</offset>	<macro ref="Zone004_Cluster_801_Sector001_macro" connection="sector" />	</connection>
+				<connection name="Zone005_Cluster_801_Sector001_connection" ref="zones">	<offset>	<position x="150000"  y="0" z="150000"  />	</offset>	<macro ref="Zone005_Cluster_801_Sector001_macro" connection="sector" />	</connection>
 			</connections>
 		</macro>
 		
@@ -65,8 +67,10 @@
 			<component ref="standardsector" />
 			<connections>
 				<connection name="Zone001_Cluster_805_Sector001_connection" ref="zones">	<offset>	<position x="0"      y="0" z="0"      />	</offset>	<macro ref="Zone001_Cluster_805_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_805_Sector001_connection" ref="zones">	<offset>	<position x="50000"  y="0" z="-52430" />	</offset>	<macro ref="Zone002_Cluster_805_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_805_Sector001_connection" ref="zones">	<offset>	<position x="-40000" y="0" z="85000"  />	</offset>	<macro ref="Zone003_Cluster_805_Sector001_macro" connection="sector" />	</connection>
+				<connection name="Zone002_Cluster_805_Sector001_connection" ref="zones">	<offset>	<position x="100000" y="0" z="-100000" />	</offset>	<macro ref="Zone002_Cluster_805_Sector001_macro" connection="sector" />	</connection>
+				<connection name="Zone003_Cluster_805_Sector001_connection" ref="zones">	<offset>	<position x="-100000" y="0" z="100000"  />	</offset>	<macro ref="Zone003_Cluster_805_Sector001_macro" connection="sector" />	</connection>
+				<connection name="Zone004_Cluster_805_Sector001_connection" ref="zones">	<offset>	<position x="-100000" y="0" z="-100000"  />	</offset>	<macro ref="Zone004_Cluster_805_Sector001_macro" connection="sector" />	</connection>
+				<connection name="Zone005_Cluster_805_Sector001_connection" ref="zones">	<offset>	<position x="100000" y="0" z="100000"  />	</offset>	<macro ref="Zone005_Cluster_805_Sector001_macro" connection="sector" />	</connection>
 			</connections>
 		</macro>
 		
@@ -166,6 +170,7 @@
 				<connection name="Zone002_Cluster_814_Sector001_connection" ref="zones">	<offset>	<position x="-50000" y="0" z="75000"  />	</offset>	<macro ref="Zone002_Cluster_814_Sector001_macro" connection="sector" />	</connection>
 				<connection name="Zone003_Cluster_814_Sector001_connection" ref="zones">	<offset>	<position x="100000" y="0" z="-15000" />	</offset>	<macro ref="Zone003_Cluster_814_Sector001_macro" connection="sector" />	</connection>
 				<connection name="Zone004_Cluster_814_Sector001_connection" ref="zones">	<offset>	<position x="25000"  y="0" z="75000"  />	</offset>	<macro ref="Zone004_Cluster_814_Sector001_macro" connection="sector" />	</connection>
+				<connection name="Zone005_Cluster_814_Sector001_connection" ref="zones">	<offset>	<position x="-25000"  y="0" z="-75000"  />	</offset>	<macro ref="Zone005_Cluster_814_Sector001_macro" connection="sector" />	</connection>
 			</connections>
 		</macro>
 		

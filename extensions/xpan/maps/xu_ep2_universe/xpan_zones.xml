@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+
+	<!-- Sector xpan02 - Desecrated Skies -->
+	<replace sel="/macros/macro[@name='xpan_zone002_clusterXPAN02_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN02_cXPAN01_connection']">
+		<connection name="xpan_gate_cXPAN02_cXPAN01_connection" ref="gates">
+			<offset>
+				<position x="0" y="500" z="0"/>
+				<rotation yaw="360" pitch="0" roll="0"/>
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space">
+				<properties>
+					<state active="false" />
+				</properties>
+			</macro>
+		</connection>
+	</replace>
+	<replace sel="/macros/macro[@name='xpan_zone005_clusterXPAN02_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN02s001z005_cXPAN24s002z001_connection']">
+		<connection name="xpan_gate_cXPAN02s001z005_cXPAN24s002z001_connection" ref="gates">
+			<offset>
+				<position x="0" y="500" z="0"/>
+				<rotation yaw="-90" pitch="0" roll="0"/>
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space">
+				<properties>
+					<state active="false" />
+				</properties>
+			</macro>
+		</connection>
+	</replace>
+
+	<!-- Sector xpan10 - Aphrodite's Storm -->
+	<replace sel="/macros/macro[@name='xpan_Zone005_clusterXPAN10_Sector003_macro']/connections/connection[@name='xpan_gate_cXPAN10_cXPAN09_connection']">
+		<connection name="xpan_gate_cXPAN10_cXPAN09_connection" ref="gates">
+			<offset>
+				<position x="0" y="0" z="0"/>
+				<rotation yaw="-100" pitch="0" roll="0"/>
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space">
+				<properties>
+					<state active="false" />
+				</properties>
+			</macro>
+		</connection>
+	</replace>
+
+</diff>

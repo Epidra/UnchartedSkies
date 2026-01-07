@@ -56,6 +56,9 @@
 		<offset><position x="33514.703125" y="0" z="-136578.609375" /></offset>
 	</replace>
 	
+	<!-- Sector 107 - Jupiter - XPAN Sector -->
+	<remove sel="/macros/macro[@name='Cluster_107_Sector001_macro']/connections/connection[@name='ZoneXPAN_Cluster_107_Sector001_connection']"></remove>
+	
 	<!-- Sector 108 - Saturn -->
 	<replace sel="/macros/macro[@name='Cluster_108_Sector001_macro']/connections/connection[@name='Zone004_Cluster_108_Sector001_connection']/offset">
 		<offset><position x="-128262.0234375" y="0" z="-134751.28125" /></offset>
@@ -94,6 +97,11 @@
 	
 	<!-- Sector 111 - Pluto -->
 		<!-- unchanged -->
+	
+	<!-- Sector 113 - Segaris - XPAN Sector -->
+	<replace sel="/macros/macro[@name='Cluster_113_Sector001_macro']/connections/connection[@name='ZoneXPAN1_Cluster_113_Sector001_connection']/offset">
+		<offset><position x="275000" y="0" z="-275000" /></offset>
+	</replace>
 	
 	<!-- Sector 116 - Oort Cloud -->
 	<replace sel="/macros/macro[@name='Cluster_116_Sector001_macro']/connections/connection[@name='Zone002_Cluster_116_Sector001_connection']/offset">

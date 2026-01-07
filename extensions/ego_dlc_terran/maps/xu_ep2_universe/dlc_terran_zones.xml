@@ -5,13 +5,13 @@
 	<replace sel="/macros/macro[@name='Zone005_Cluster_101_Sector001_macro']/connections/connection[@name='connection_ClusterGate101To100']/offset">
 		<offset>
 			<position x="22341.65234375" y="0" z="-24570.845703125" />
-			<quaternion qx="0" qy="0" qz="0" qw="1" />
+			<rotation yaw="0" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	<replace sel="/macros/macro[@name='Zone001_Cluster_101_Sector001_macro']/connections/connection[@name='connection_ClusterGate101To102']/offset">
 		<offset>
 			<position x="-18350.76953125" y="0" z="15729.1943359375" />
-			<quaternion qx="0" qy="-0.9659258127" qz="0" qw="-0.2588190734" />
+			<rotation yaw="120" pitch="0" roll="0" />
         </offset>
 	</replace>
 	
@@ -19,7 +19,7 @@
 	<replace sel="/macros/macro[@name='Zone003_Cluster_102_Sector001_macro']/connections/connection[@name='connection_ClusterGate102To104']/offset">
 		<offset>
 			<position x="34975.328125" y="0" z="12766.701171875" />
-			<quaternion qx="0" qy="0" qz="0" qw="1" />
+			<rotation yaw="330" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	
@@ -27,7 +27,7 @@
 	<replace sel="/macros/macro[@name='Zone005_Cluster_104_Sector002_macro']/connections/connection[@name='connection_ClusterGate104To102']/offset">
 		<offset>
 			<position x="-33993.94921875" y="0" z="-4515.625" />
-			<quaternion qx="0" qy="-0.971" qz="0" qw="0.238" />
+			<rotation yaw="270" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	
@@ -35,7 +35,7 @@
 	<replace sel="/macros/macro[@name='Zone003_Cluster_106_Sector001_macro']/connections/connection[@name='connection_ClusterGate106To102']/offset">
 		<offset>
 			<position x="-1532.7606201172" y="0" z="-37154.18359375" />
-			<quaternion qx="0" qy="-1" qz="0" qw="0" />
+			<rotation yaw="180" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	
@@ -43,7 +43,7 @@
 	<replace sel="/macros/macro[@name='Zone005_Cluster_107_Sector001_macro']/connections/connection[@name='connection_ClusterGate107To108']/offset">
 		<offset>
 			<position x="-23993.94921875" y="0" z="-4520.35546875" />
-			<quaternion qx="0" qy="0" qz="0" qw="1" />
+			<rotation yaw="330" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	
@@ -51,13 +51,13 @@
 	<replace sel="/macros/macro[@name='Zone002_Cluster_108_Sector001_macro']/connections/connection[@name='connection_ClusterGate108To107']/offset">
 		<offset>
 			<position x="10392.5322265625" y="0" z="27418.677734375" />
-			<quaternion qx="0" qy="0.894" qz="0" qw="0.448" />
+			<rotation yaw="90" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	<replace sel="/macros/macro[@name='Zone005_Cluster_108_Sector001_macro']/connections/connection[@name='connection_ClusterGate108To109']/offset">
 		<offset>
 			<position x="-10993.94921875" y="0" z="-25520.3706054688" />
-			<quaternion qx="0" qy="-0.485" qz="0" qw="0.874" />
+			<rotation yaw="300" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	
@@ -65,13 +65,13 @@
 	<replace sel="/macros/macro[@name='Zone002_Cluster_109_Sector001_macro']/connections/connection[@name='connection_ClusterGate109To108']/offset">
 		<offset>
 			<position x="10392.5322265625" y="0" z="27418.669921875" />
-			<quaternion qx="0" qy="0.894" qz="0" qw="0.448" />
+			<rotation yaw="120" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	<replace sel="/macros/macro[@name='Zone001_Cluster_109_Sector001_macro']/connections/connection[@name='connection_ClusterGate109To110']/offset">
 		<offset>
 			<position x="42804.26171875" y="0" z="-6772.1567382812" />
-			<quaternion qx="0" qy="0.179" qz="0" qw="0.984" />
+			<rotation yaw="60" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	
@@ -92,11 +92,19 @@
 	<!-- Sector 111 - Pluto -->
 		<!-- unchanged -->
 	
+	<!-- Sector 113 - Segairs - XPAN Zones -->
+	<replace sel="/macros/macro[@name='ZoneXPAN1_Cluster_113_Sector001_macro']/connections/connection[@name='xpan_gate_cXPAN113zXPANs001_cXPAN19s001z001_connection']/offset">
+		<offset>
+			<position x="-37500" y="0" z="5500" />
+			<rotation yaw="0" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	
 	<!-- Sector 116 - Oort Cloud -->
 	<replace sel="/macros/macro[@name='Zone002_Cluster_116_Sector001_macro']/connections/connection[@name='connection_ClusterGate116To111']/offset">
 		<offset>
 			<position x="28336.65234375" y="0" z="34820.845703125" />
-			<quaternion qx="0" qy="0.923" qz="0" qw="0.386" />
+			<rotation yaw="180" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	

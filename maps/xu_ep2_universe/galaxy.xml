@@ -6,7 +6,7 @@
 	
 	<!-- Sector 002 - Eighteen Billion -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_02_connection']/offset">
-		<offset><position x="15000000" y="0" z="43300000" /></offset>
+		<offset><position x="15000000" y="0" z="25980000" /></offset>
 	</replace>
 	
 	<!-- Sector 003 - Memory of Profit IX -->
@@ -558,14 +558,14 @@
 	
 	
 	
-	<!-- MOD - Farnham's Legend -->
+	<!-- MOD - Farnham's Legend Revised -->
 	
-	<!-- MOD - Farnham's Legend Revised  - -  Sector - Farnham's Legend -->
+	<!-- MOD - Sector - Rev_01 - Farnham's Legend -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_Mod_FarnhamLegend_Rev_01_connection']/offset">
 		<offset><position x="-150000000" y="0" z="-51960000" /></offset>
 	</replace>
 	
-	<!-- MOD - Farnham's Legend Revised  - -  Sector - Matrix #47 -->
+	<!-- MOD - Sector - Rev_02 - Matrix #47 -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_Mod_FarnhamLegend_Rev_02_connection']/offset">
 		<offset><position x="-120000000" y="0" z="-69280000" /></offset>
 	</replace>
@@ -576,122 +576,122 @@
 	
 	<!-- MOD - Treybor Mod Collection -->
 	
-	<!-- MOD - Hatikvah's Faith  - -  Sector - Hatikvah's Faith -->
+	<!-- MOD - Hatikvah's Faith - Sector - cluster01 - Hatikvah's Faith -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster01_connection']/offset">
 		<offset><position x="-60000000" y="0" z="86600000"/></offset>
 	</replace>
 	
-	<!-- MOD - Icon  - -  Sector - Icon -->
+	<!-- MOD - Icon - Sector - cluster06 - Icon -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster06_connection']/offset">
 		<offset><position x="-75000000" y="0" z="25980000"/></offset>
 	</replace>
 	
-	<!-- MOD - Argon Teladi Border Sectors  - -  Sector - Aladna Hill -->
+	<!-- MOD - Argon Teladi Border Sectors - Sector - cluster07 - Aladna Hill -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster07_connection']/offset">
 		<offset><position x="0" y="0" z="51960000"/></offset>
 	</replace>
 	
-	<!-- MOD - Ralston  - -  Sector - Ralston -->
+	<!-- MOD - Ralston - Sector - cluster08 - Ralston -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster08_connection']/offset">
 		<offset><position x="-75000000" y="0" z="43300000"/></offset>
 	</replace>
 	
-	<!-- MOD - Argon Teladi Border Sectors  - -  Sector - New Income -->
+	<!-- MOD - Argon Teladi Border Sectors - Sector - cluster09 - New Income -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster09_connection']/offset">
 		<offset><position x="15000000" y="0" z="60620000"/></offset>
 	</replace>
 	
-	<!-- MOD - Argon Teladi Border Sectors  - -  Sector - CEO's Retreat -->
+	<!-- MOD - Argon Teladi Border Sectors - Sector - cluster10 - CEO's Retreat -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster10_connection']/offset">
 		<offset><position x="15000000" y="0" z="77940000"/></offset>
 	</replace>
 	
-	<!-- MOD - Argon Teladi Border Sectors  - -  Sector - The Expanse -->
+	<!-- MOD - Argon Teladi Border Sectors - Sector - cluster11 - The Expanse -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster11_connection']/offset">
 		<offset><position x="0" y="0" z="34640000"/></offset>
 	</replace>
 	  
-	<!-- MOD - Matrix #7  - -  Sector - Matrix #7 -->
+	<!-- MOD - Matrix #7 - Sector - cluster12 - Matrix #7 -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster12_connection']/offset">
 		<offset><position x="-135000000" y="0" z="25980000"/></offset>
 	</replace>
 	
-	<!-- MOD - Zyarth Xenon Border Sectors  - -  Sector - Matrix #191 -->
+	<!-- MOD - Zyarth Xenon Border Sectors - Sector - cluster15 - Matrix #191 -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster15_connection']/offset">
 		<offset><position x="-30000000" y="0" z="173200000"/></offset>
 	</replace>
 	
-	<!-- MOD - Zyarth Xenon Border Sectors  - -  Sector - Zyarth's Stand -->
+	<!-- MOD - Zyarth Xenon Border Sectors - Sector - cluster16 - Zyarth's Stand -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster16_connection']/offset">
 		<offset><position x="-30000000" y="0" z="155880000"/></offset>
 	</replace>
 	
-	<!-- MOD - Zyarth Xenon Border Sectors  - -  Sector - Family Z'rt -->
+	<!-- MOD - Zyarth Xenon Border Sectors - Sector - cluster17 - Family Z'rt -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster17_connection']/offset">
 		<offset><position x="-45000000" y="0" z="147220000"/></offset>
 	</replace>
 	
-	<!-- MOD - Matrix #499  - -  Sector - Matrix #499 -->
+	<!-- MOD - Matrix #499 - Sector - cluster18 - Matrix #499 -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster18_connection']/offset">
 		<offset><position x="75000000" y="0" z="95260000"/></offset>
 	</replace>
 	
-	<!-- MOD - Family Dhrun  - -  Sector - Family Dhrun -->
+	<!-- MOD - Family Dhrun - Sector - cluster20 - Family Dhrun -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster20_connection']/offset">
 		<offset><position x="-15000000" y="0" z="164540000"/></offset>
 	</replace>
 	
-	<!-- MOD - Zyarth Free Family Border Sectors  - -  Sector - Family Lom -->
+	<!-- MOD - Zyarth Free Family Border Sectors - Sector - cluster21 - Family Lom -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster21_connection']/offset">
 		<offset><position x="15000000" y="0" z="112580000"/></offset>
 	</replace>
 	
-	<!-- MOD - Zyarth Free Family Border Sectors  - -  Sector - Split Fire -->
+	<!-- MOD - Zyarth Free Family Border Sectors - Sector - cluster22 - Split Fire -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster22_connection']/offset">
 		<offset><position x="45000000" y="0" z="95260000"/></offset>
 	</replace>
 	
-	<!-- MOD - Zyarth Free Family Border Sectors  - -  Sector - Freedom's Reach -->
+	<!-- MOD - Zyarth Free Family Border Sectors - Sector - cluster23 - Freedom's Reach -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster23_connection']/offset">
 		<offset><position x="15000000" y="0" z="129900000"/></offset>
 	</replace>
 	
-	<!-- MOD - Family Khm  - -  Sector - Family Khm -->
+	<!-- MOD - Family Khm - Sector - cluster25 - Family Khm -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster25_connection']/offset">
 		<offset><position x="-45000000" y="0" z="112580000"/></offset>
 	</replace>
 	  
-	<!-- MOD - Teladi Paranid Border Sectors  - -  Sector - Merchant Haven -->
+	<!-- MOD - Teladi Paranid Border Sectors - Sector - cluster26 - Merchant Haven -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster26_connection']/offset">
 		<offset><position x="60000000" y="0" z="34640000"/></offset>
 	</replace>
 	
-	<!-- MOD - Teladi Paranid Border Sectors  - -  Sector - Holy Ground -->
+	<!-- MOD - Teladi Paranid Border Sectors - Sector - cluster27 - Holy Ground -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster27_connection']/offset">
 		<offset><position x="60000000" y="0" z="0"/></offset>
 	</replace>
 	
-	<!-- MOD - Teladi Paranid Border Sectors  - -  Sector - Sanctum Verge -->
+	<!-- MOD - Teladi Paranid Border Sectors - Sector - cluster28 - Sanctum Verge -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster28_connection']/offset">
 		<offset><position x="75000000" y="0" z="8660000"/></offset>
 	</replace>
 	
-	<!-- MOD - Nopileos' Legacy  - -  Sector - Nopileos' Lagacy -->
+	<!-- MOD - Nopileos' Legacy - Sector - cluster29 - Nopileos' Lagacy -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster29_connection']/offset">
 		<offset><position x="15000000" y="0" z="-8660000"/></offset>
 	</replace>
 	
-	<!-- MOD - Matrix Set 1  - -  Sector - Matrix #152 -->
+	<!-- MOD - Matrix Set 1 - Sector - cluster30 - Matrix #152 -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster30_connection']/offset">
 		<offset><position x="-45000000" y="0" z="-77940000"/></offset>
 	</replace>
 	
-	<!-- MOD - Matrix Set 1  - -  Sector - Matrix #118 -->
+	<!-- MOD - Matrix Set 1 - Sector - cluster31 - Matrix #118 -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster31_connection']/offset">
 		<offset><position x="-45000000" y="0" z="-95260000"/></offset>
 	</replace>
 	
-	<!-- MOD - Urvasi  - -  Sector - Urvasi -->
+	<!-- MOD - Urvasi - Sector - cluster32 - Urvasi -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='homebrew_cluster32_connection']/offset">
 		<offset><position x="-135000000" y="0" z="112580000"/></offset>
 	</replace>
@@ -702,12 +702,12 @@
 	
 	<!-- MOD - The Deep -->
 	
-	<!-- Sector - The Deep -->
+	<!-- Sector - thedeepc001 - The Deep -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='thedeep_cluster_thedeepc001_connection']/offset">
 		<offset><position x="-60000000" y="0" z="51960000"/></offset>
 	</replace>
 	
-	<!-- Sector - The Shallows -->
+	<!-- Sector - theshallowsc001 - The Shallows -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='thedeep_cluster_theshallowsc001_connection']/offset">
 		<offset><position x="-135000000" y="0" z="129900000"/></offset>
 	</replace>
@@ -718,102 +718,102 @@
 	
 	<!-- MOD - New Horizons -->
 	
-	<!-- Sector - Unknown Sector Alpha 1 -->
+	<!-- Sector - ClusterNHS01 - Unknown Sector Alpha 1 -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS01_connection']/offset">
 		<offset><position x="195000000" y="0" z="-25980000" /></offset>
 	</replace>
 	
-	<!-- Sector - Unknown Sector Alpha 2 -->
+	<!-- Sector - ClusterNHS02 - Unknown Sector Alpha 2 -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS02_connection']/offset">
 		<offset><position x="210000000" y="0" z="-51960000" /></offset>
 	</replace>
 	
-	<!-- Sector - Unknown Sector Alpha 3 -->
+	<!-- Sector - ClusterNHS03 - Unknown Sector Alpha 3 -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS03_connection']/offset">
 		<offset><position x="225000000" y="0" z="-60620000" /></offset>
 	</replace>
 	
-	<!-- Sector - Unknown Sector Alpha 4 -->
+	<!-- Sector - ClusterNHS04 - Unknown Sector Alpha 4 -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS04_connection']/offset">
 		<offset><position x="240000000" y="0" z="-103920000" /></offset>
 	</replace>
 	
-	<!-- Sector - Unknown Sector Alpha 5 -->
+	<!-- Sector - ClusterNHS05 - Unknown Sector Alpha 5 -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS05_connection']/offset">
 		<offset><position x="255000000" y="0" z="-112580000" /></offset>
 	</replace>
 	
-	<!-- Sector - Clouds of Profit -->
+	<!-- Sector - ClusterNHS06 - Clouds of Profit -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS06_connection']/offset">
 		<offset><position x="255000000" y="0" z="-181860000" /></offset>
 	</replace>
 	
-	<!-- Sector - Heart of Tranquility -->
+	<!-- Sector - ClusterNHS07 - Heart of Tranquility -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS07_connection']/offset">
 		<offset><position x="240000000" y="0" z="-190520000" /></offset>
 	</replace>
 	
-	<!-- Sector - CEO's Sprite -->
+	<!-- Sector - ClusterNHS08 - CEO's Sprite -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS08_connection']/offset">
 		<offset><position x="240000000" y="0" z="-173200000" /></offset>
 	</replace>
 	
-	<!-- Sector - Blue Profit -->
+	<!-- Sector - ClusterNHS09 - Blue Profit -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS09_connection']/offset">
 		<offset><position x="240000000" y="0" z="-155880000" /></offset>
 	</replace>
 	
-	<!-- Sector - Merchant Haven -->
+	<!-- Sector - ClusterNHS10 - Merchant Haven -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS10_connection']/offset">
 		<offset><position x="225000000" y="0" z="-199180000" /></offset>
 	</replace>
 	
-	<!-- Sector - Manager's Lagacy -->
+	<!-- Sector - ClusterNHS11 - Manager's Lagacy -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS11_connection']/offset">
 		<offset><position x="225000000" y="0" z="-181860000" /></offset>
 	</replace>
 	
-	<!-- Sector - Spaceweed Café -->
+	<!-- Sector - ClusterNHS12 - Spaceweed Café -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS12_connection']/offset">
 		<offset><position x="225000000" y="0" z="-216500000" /></offset>
 	</replace>
 	
-	<!-- Sector - Rusiris' Misfortune -->
+	<!-- Sector - ClusterNHS13 - Rusiris' Misfortune -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS13_connection']/offset">
 		<offset><position x="210000000" y="0" z="-155880000" /></offset>
 	</replace>
 	
-	<!-- Sector - Goldminer's Freehold -->
+	<!-- Sector - ClusterNHS14 - Goldminer's Freehold -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS14_connection']/offset">
 		<offset><position x="195000000" y="0" z="-199180000" /></offset>
 	</replace>
 	
-	<!-- Sector - Dark Skies -->
+	<!-- Sector - ClusterNHS15 - Dark Skies -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS15_connection']/offset">
 		<offset><position x="180000000" y="0" z="-190520000" /></offset>
 	</replace>
 	
-	<!-- Sector - Rhak's Gambit -->
+	<!-- Sector - ClusterNHS16 - Rhak's Gambit -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS16_connection']/offset">
 		<offset><position x="195000000" y="0" z="-216500000" /></offset>
 	</replace>
 	
-	<!-- Sector - Xenon Sector 254 -->
+	<!-- Sector - ClusterNHS17 - Xenon Sector 254 -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS17_connection']/offset">
 		<offset><position x="180000000" y="0" z="-225160000" /></offset>
 	</replace>
 	
-	<!-- Sector - Vacant Colony -->
+	<!-- Sector - ClusterNHS18 - Vacant Colony -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS18_connection']/offset">
 		<offset><position x="210000000" y="0" z="-225160000" /></offset>
 	</replace>
 	
-	<!-- Sector - CEO's Excavation -->
+	<!-- Sector - ClusterNHS19 - CEO's Excavation -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS19_connection']/offset">
 		<offset><position x="210000000" y="0" z="-207840000" /></offset>
 	</replace>
 	
-	<!-- Sector - Facility M67 -->
+	<!-- Sector - ClusterNHS20 - Facility M67 -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS20_connection']/offset">
 		<offset><position x="195000000" y="0" z="-164540000" /></offset>
 	</replace>
@@ -824,7 +824,7 @@
 	
 	<!-- MOD - Ring Space -->
 	
-	<!-- Sector - The Ring Space -->
+	<!-- Sector - Ring_Space - The Ring Space -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Ring_Space_Cluster_connection']/offset">
 		<offset><position x="-45000000" y="0" z="95260000"/></offset>
 	</replace>
@@ -835,107 +835,107 @@
 	
 	<!-- MOD - The Teleportation Wars -->
 	
-	<!-- Sector - Unknown Sector M Alpha -->
+	<!-- Sector - tppirate_Cluster_99 - Unknown Sector M Alpha -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='tppirate_Cluster_99_connection']/offset">
 		<offset><position x="-210000000" y="0" z="173200000" /></offset>
 	</replace>
 	
-	<!-- Sector - Greed's Embrace -->
+	<!-- Sector - tppirate_Cluster_98 - Greed's Embrace -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='tppirate_Cluster_98_connection']/offset">
 		<offset><position x="-210000000" y="0" z="190520000" /></offset>
 	</replace>
 	
-	<!-- Sector - Unknown Sector Gamma -->
+	<!-- Sector - tppirate_Cluster_97 - Unknown Sector Gamma -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='tppirate_Cluster_97_connection']/offset">
 		<offset><position x="-225000000" y="0" z="181860000" /></offset>
 	</replace>
 	
-	<!-- Sector - Unknown Sector Beta -->
+	<!-- Sector - tppirate_Cluster_96 - Unknown Sector Beta -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='tppirate_Cluster_96_connection']/offset">
 		<offset><position x="-225000000" y="0" z="164540000" /></offset>
 	</replace>
 	
-	<!-- Sector - Outcome of Persistence -->
+	<!-- Sector - tppirate_Cluster_95 - Outcome of Persistence -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='tppirate_Cluster_95_connection']/offset">
 		<offset><position x="-240000000" y="0" z="155880000" /></offset>
 	</replace>
 	
-	<!-- Sector - Ocraroke's Bridge -->
+	<!-- Sector - tppirate_Cluster_94 - Ocraroke's Bridge -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='tppirate_Cluster_94_connection']/offset">
 		<offset><position x="-240000000" y="0" z="173200000" /></offset>
 	</replace>      
 	
-	<!-- Sector - Bala Gi's Defiance -->
+	<!-- Sector - tppirate_Cluster_93 - Bala Gi's Defiance -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='tppirate_Cluster_93_connection']/offset">
 		<offset><position x="-240000000" y="0" z="190520000" /></offset>
 	</replace>
 	
-	<!-- Sector - Olmancketslat's Temptation -->
+	<!-- Sector - tppirate_Cluster_92 - Olmancketslat's Temptation -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='tppirate_Cluster_92_connection']/offset">
 		<offset><position x="-225000000" y="0" z="199180000" /></offset>
 	</replace>
 	
-	<!-- Sector - Talent's Leisure -->
+	<!-- Sector - tppirate_Cluster_91 - Talent's Leisure -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='tppirate_Cluster_91_connection']/offset">
 		<offset><position x="-210000000" y="0" z="207840000" /></offset>
 	</replace>
 	
-	<!-- Sector - Veil of Destruction -->
+	<!-- Sector - tppirate_Cluster_90 - Veil of Destruction -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='tppirate_Cluster_90_connection']/offset">
 		<offset><position x="-195000000" y="0" z="199180000" /></offset>
 	</replace>
 	
-	<!-- Sector - Danna's Anguish -->
+	<!-- Sector - tppirate_Cluster_89 - Danna's Anguish -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='tppirate_Cluster_89_connection']/offset">
 		<offset><position x="-195000000" y="0" z="216500000" /></offset>
 	</replace>
 	
-	<!-- Sector - Prime Speculation -->
+	<!-- Sector - tppirate_Cluster_88 - Prime Speculation -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='tppirate_Cluster_88_connection']/offset">
 		<offset><position x="-210000000" y="0" z="225160000" /></offset>
 	</replace>
 	
-	<!-- Sector - Farnham's Pride -->
+	<!-- Sector - tppirate_Cluster_87 - Farnham's Pride -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='tppirate_Cluster_87_connection']/offset">
 		<offset><position x="-225000000" y="0" z="216500000" /></offset>
 	</replace>
 	
-	<!-- Sector - Roots of Oppurtunity -->
+	<!-- Sector - tppirate_Cluster_86 - Roots of Oppurtunity -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='tppirate_Cluster_86_connection']/offset">
 		<offset><position x="-240000000" y="0" z="225160000" /></offset>
 	</replace>
 	
-	<!-- Sector - Cheron's Fate -->
+	<!-- Sector - tppirate_Cluster_85 - Cheron's Fate -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='tppirate_Cluster_85_connection']/offset">
 		<offset><position x="-240000000" y="0" z="207840000" /></offset>
 	</replace>
 	
-	<!-- Sector - Verdict of Illusion -->
+	<!-- Sector - tppirate_Cluster_84 - Verdict of Illusion -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='tppirate_Cluster_84_connection']/offset">
 		<offset><position x="-255000000" y="0" z="199180000" /></offset>
 	</replace>
 	
-	<!-- Sector - Critical Exchange -->
+	<!-- Sector - tppirate_Cluster_83 - Critical Exchange -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='tppirate_Cluster_83_connection']/offset">
 		<offset><position x="-255000000" y="0" z="181860000" /></offset>
 	</replace>
 	
-	<!-- Sector - Lost Profits -->
+	<!-- Sector - tppirate_Cluster_82 - Lost Profits -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='tppirate_Cluster_82_connection']/offset">
 		<offset><position x="-255000000" y="0" z="164540000" /></offset>
 	</replace>
 	
-	<!-- Sector - Hurricaine of Dominion -->
+	<!-- Sector - tppirate_Cluster_81 - Hurricaine of Dominion -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='tppirate_Cluster_81_connection']/offset">
 		<offset><position x="-255000000" y="0" z="147220000" /></offset>
 	</replace>
 	
-	<!-- Sector - Unknown Sector Epsilon -->
+	<!-- Sector - tppirate_Cluster_80 - Unknown Sector Epsilon -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='tppirate_Cluster_80_connection']/offset">
 		<offset><position x="-180000000" y="0" z="207840000" /></offset>
 	</replace>
 	
-	<!-- Sector - Medi-Tech Headquarters -->
+	<!-- Sector - tppirate_Cluster_01 - Medi-Tech Headquarters -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='meditech_Cluster_01_connection']/offset">
 		<offset><position x="30000000" y="0" z="-17320000" /></offset>
 	</replace>
@@ -946,17 +946,17 @@
 	
 	<!-- MOD - The Ancients -->
 	
-	<!-- Sector - Fala'munga -->
+	<!-- Sector - Ancient - Fala'munga -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_Ancient_connection']/offset">
 		<offset><position x="210000000" y="0" z="-103920000" /></offset>
 	</replace>
 	
-	<!-- Sector - The Space Duck -->
+	<!-- Sector - Spaceduck - The Space Duck -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_Spaceduck_connection']/offset">
 		<offset><position x="255000000" y="0" z="129900000" /></offset>
 	</replace>
 	
-	<!-- Sector - Kyriak -->
+	<!-- Sector - Kyriak - Kyriak -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_Kyriak_connection']/offset">
 		<offset><position x="-240000000" y="0" z="-207840000" /></offset>
 	</replace>
@@ -967,7 +967,7 @@
 	
 	<!-- MOD - President's End-->
 	
-	<!-- Sector - President's End -->
+	<!-- Sector - PresidentsEnd - President's End -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_PresidentsEnd_connection']/offset">
 		<offset><position x="-15000000" y="0" z="95260000" /></offset>
 	</replace>
@@ -980,67 +980,67 @@
 	
 	<!--   XPAN - Original -->
 	
-	<!-- Sector - Tartarus -->
+	<!-- Sector - xpan01 - Tartarus -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='cluster_xpan01_connection']/offset">
 		<offset><position x="-60000000" y="0" z="-121240000" /></offset>
 	</replace>
 	
-	<!-- Sector - Adventure's Promise -->
+	<!-- Sector - xpan02 - Adventure's Promise -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='cluster_xpan02_connection']/offset">
 		<offset><position x="15000000" y="0" z="-129900000" /></offset>
 	</replace>
 	
-	<!-- Sector - Prometheus IV -->
+	<!-- Sector - xpan03 - Prometheus IV -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='cluster_xpan03_connection']/offset">
 		<offset><position x="0" y="0" z="-155880000" /></offset>
 	</replace>
 	
-	<!-- Sector - Prometeus III -->
+	<!-- Sector - xpan04 - Prometeus III -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='cluster_xpan04_connection']/offset">
 		<offset><position x="-15000000" y="0" z="-164540000" /></offset>
 	</replace>				 
 	
-	<!-- Sector - Prometheus II -->
+	<!-- Sector - xpan05 - Prometheus II -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='cluster_xpan05_connection']/offset">
 		<offset><position x="-30000000" y="0" z="-155880000" /></offset>
 	</replace>
 	
-	<!-- Sector - Prometheus I -->
+	<!-- Sector - xpan06 - Prometheus I -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='cluster_xpan06_connection']/offset">
 		<offset><position x="-45000000" y="0" z="-147220000" /></offset>
 	</replace>
 	
-	<!-- Sector - Rising Solitude -->
+	<!-- Sector - xpan07 - Rising Solitude -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='cluster_xpan07_connection']/offset">
 		<offset><position x="-60000000" y="0" z="-138560000" /></offset>
 	</replace>
 	
-	<!-- Sector - Gunne's Crusade -->
+	<!-- Sector - xpan08 - Gunne's Crusade -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='cluster_xpan08_connection']/offset">
 		<offset><position x="-75000000" y="0" z="-129900000" /></offset>
 	</replace>
 	
-	<!-- Sector - Artemis -->
+	<!-- Sector - xpan09 - Artemis -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='cluster_xpan09_connection']/offset">
 		<offset><position x="-135000000" y="0" z="-77940000" /></offset>
 	</replace>
 	
-	<!-- Sector - Aphrodite's Storm -->
+	<!-- Sector - xpan10 - Aphrodite's Storm -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='cluster_xpan10_connection']/offset">
 		<offset><position x="-105000000" y="0" z="-112580000" /></offset>
 	</replace>
 	
-	<!-- Sector - Oberon -->
+	<!-- Sector - xpan11 - Oberon -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='cluster_xpan11_connection']/offset">
 		<offset><position x="-105000000" y="0" z="-95260000" /></offset>
 	</replace>
 	
-	<!-- Sector - Freedom's Reach -->
+	<!-- Sector - xpan12 - Freedom's Reach -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='cluster_xpan12_connection']/offset">
 		<offset><position x="15000000" y="0" z="-43310000" /></offset>
 	</replace>
 	
-	<!-- Sector - Oort Cloud Omega -->
+	<!-- Sector - xpan13 - Oort Cloud Omega -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='cluster_xpan13_connection']/offset">
 		<offset><position x="-195000000" y="0" z="-77940000" /></offset>
 	</replace>
@@ -1051,199 +1051,199 @@
 	
 	<!-- MOD - xPAN Advanced -->
 	
-	<!-- Sector xpan01 - Split Fire -->
+	<!-- Sector - clusterXPAN01 - Split Fire -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN01_connection']/offset">
-		<offset><position x="-45000000" y="0" z="129900000" /></offset>
+		<offset><position x="-45000000" y="0" z="216500000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan02 - Desecrated Skies -->
+	<!-- Sector - clusterXPAN02 - Desecrated Skies -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN02_connection']/offset">
-		<offset><position x="-15000000" y="0" z="164540000" /></offset>
-	</replace>
-	
-	<!-- Sector xpan03 - Prometheus IV -->
-	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN03_connection']/offset">
 		<offset><position x="-90000000" y="0" z="190520000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan04 - Prometheus III -->
-	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN04_connection']/offset">
+	<!-- Sector - clusterXPAN03 - Prometheus IV -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN03_connection']/offset">
 		<offset><position x="-105000000" y="0" z="199180000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan05 - Prometheus II -->
+	<!-- Sector - clusterXPAN04 - Prometheus III -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN04_connection']/offset">
+		<offset><position x="-120000000" y="0" z="207840000" /></offset>
+	</replace>
+	
+	<!-- Sector - clusterXPAN05 - Prometheus II -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN05_connection']/offset">
+		<offset><position x="-135000000" y="0" z="199180000" /></offset>
+	</replace>
+	
+	<!-- Sector - clusterXPAN06 - Prometheus I -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN06_connection']/offset">
 		<offset><position x="-120000000" y="0" z="190520000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan06 - Prometheus I -->
-	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN06_connection']/offset">
-		<offset><position x="-105000000" y="0" z="181860000" /></offset>
-	</replace>
-	
-	<!-- Sector xpan07 - Rising Solitude -->
+	<!-- Sector - clusterXPAN07 - Rising Solitude -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN07_connection']/offset">
 		<offset><position x="-195000000" y="0" z="181860000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan08 - Gunne's Crusade -->
+	<!-- Sector - clusterXPAN08 - Gunne's Crusade -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN08_connection']/offset">
-		<offset><position x="-210000000" y="0" z="173200000" /></offset>
+		<offset><position x="-210000000" y="0" z="103920000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan09 - Artemis -->
+	<!-- Sector - clusterXPAN09 - Artemis -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN09_connection']/offset">
-		<offset><position x="-210000000" y="0" z="138560000" /></offset>
+		<offset><position x="-180000000" y="0" z="103920000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan10 - Aphrodite's Storm -->
+	<!-- Sector - clusterXPAN10 - Aphrodite's Storm -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN10_connection']/offset">
-		<offset><position x="-180000000" y="0" z="86600000" /></offset>
+		<offset><position x="-195000000" y="0" z="95260000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan11 - Treasure Chest -->
+	<!-- Sector - clusterXPAN11 - Treasure Chest -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN11_connection']/offset">
-		<offset><position x="-30000000" y="0" z="-69280000" /></offset>
+		<offset><position x="-15000000" y="0" z="-129900000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan12 - Sanctum Verge -->
+	<!-- Sector - clusterXPAN12 - Sanctum Verge -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN12_connection']/offset">
-		<offset><position x="15000000" y="0" z="-129900000" /></offset>
-	</replace>
-	
-	<!-- Sector xpan13 - Circle of Deceit IV -->
-	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN13_connection']/offset">
-		<offset><position x="15000000" y="0" z="-147220000" /></offset>
-	</replace>
-	
-	<!-- Sector xpan14 - Circle of Deceit V -->
-	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN14_connection']/offset">
-		<offset><position x="0" y="0" z="-155880000" /></offset>
-	</replace>
-	
-	<!-- Sector xpan15 - Circle of Deceit VIII -->
-	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN15_connection']/offset">
-		<offset><position x="-15000000" y="0" z="-147220000" /></offset>
-	</replace>
-	
-	<!-- Sector xpan16 - Circle of Deceit II -->
-	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN16_connection']/offset">
 		<offset><position x="0" y="0" z="-138560000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan17 - Emperor's Ridge -->
+	<!-- Sector - clusterXPAN13 - Circle of Deceit IV -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN13_connection']/offset">
+		<offset><position x="0" y="0" z="-155880000" /></offset>
+	</replace>
+	
+	<!-- Sector - clusterXPAN14 - Circle of Deceit V -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN14_connection']/offset">
+		<offset><position x="-15000000" y="0" z="-164540000" /></offset>
+	</replace>
+	
+	<!-- Sector - clusterXPAN15 - Circle of Deceit VIII -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN15_connection']/offset">
+		<offset><position x="-30000000" y="0" z="-155880000" /></offset>
+	</replace>
+	
+	<!-- Sector - clusterXPAN16 - Circle of Deceit II -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN16_connection']/offset">
+		<offset><position x="-15000000" y="0" z="-147220000" /></offset>
+	</replace>
+	
+	<!-- Sector - clusterXPAN17 - Emperor's Ridge -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN17_connection']/offset">
-		<offset><position x="-60000000" y="0" z="-138560000" /></offset>
+		<offset><position x="-45000000" y="0" z="-147220000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan18 - Ash -->
+	<!-- Sector - clusterXPAN18 - Ash -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN18_connection']/offset">
-		<offset><position x="-105000000" y="0" z="-164540000" /></offset>
+		<offset><position x="-90000000" y="0" z="-173200000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan19 - Julian's Burden -->
+	<!-- Sector - clusterXPAN19 - Julian's Burden -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN19_connection']/offset">
-		<offset><position x="-180000000" y="0" z="-51960000" /></offset>
+		<offset><position x="-150000000" y="0" z="-138560000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan20 - Danna's Chance -->
+	<!-- Sector - clusterXPAN20 - Danna's Chance -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN20_connection']/offset">
-		<offset><position x="-90000000" y="0" z="-138560000" /></offset>
+		<offset><position x="-105000000" y="0" z="-147220000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan21 - Ashley's Paradise -->
+	<!-- Sector - clusterXPAN21 - Ashley's Paradise -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN21_connection']/offset">
-		<offset><position x="-165000000" y="0" z="-43300000" /></offset>
+		<offset><position x="-150000000" y="0" z="-86600000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan22 - Blue Horizon -->
+	<!-- Sector - clusterXPAN22 - Blue Horizon -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN22_connection']/offset">
-		<offset><position x="-90000000" y="0" z="-121240000" /></offset>
+		<offset><position x="-120000000" y="0" z="-138560000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan23 - Red Light -->
+	<!-- Sector - clusterXPAN23 - Red Light -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN23_connection']/offset">
-		<offset><position x="-105000000" y="0" z="-112580000" /></offset>
+		<offset><position x="-180000000" y="0" z="-103920000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan24 - Dark Horizon -->
+	<!-- Sector - clusterXPAN24 - Dark Horizon -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN24_connection']/offset">
-		<offset><position x="-15000000" y="0" z="181860000" /></offset>
+		<offset><position x="-45000000" y="0" z="181860000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan25 - Sudden Respite -->
+	<!-- Sector - clusterXPAN25 - Sudden Respite -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN25_connection']/offset">
-		<offset><position x="-0" y="0" z="190520000" /></offset>
+		<offset><position x="-15000000" y="0" z="199180000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan26 - Cathedral of Xaar -->
+	<!-- Sector - clusterXPAN26 - Cathedral of Xaar -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN26_connection']/offset">
-		<offset><position x="30000000" y="0" z="-138560000" /></offset>
+		<offset><position x="15000000" y="0" z="-147220000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan27 - Shadow's End -->
+	<!-- Sector - clusterXPAN27 - Shadow's End -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN27_connection']/offset">
-		<offset><position x="-165000000" y="0" z="-60620000" /></offset>
+		<offset><position x="-135000000" y="0" z="-147220000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan28 - Ket's Reckoning -->
+	<!-- Sector - clusterXPAN28 - Ket's Reckoning -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN28_connection']/offset">
-		<offset><position x="-150000000" y="0" z="-51960000" /></offset>
+		<offset><position x="-150000000" y="0" z="-121240000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan29 - Legal Directive -->
+	<!-- Sector - clusterXPAN29 - Legal Directive -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN29_connection']/offset">
-		<offset><position x="105000000" y="0" z="8660000" /></offset>
+		<offset><position x="105000000" y="0" z="43300000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan30 - CEO'S Doubt -->
+	<!-- Sector - clusterXPAN30 - CEO'S Doubt -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN30_connection']/offset">
-		<offset><position x="180000000" y="0" z="-17320000" /></offset>
+		<offset><position x="180000000" y="0" z="-51960000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan31 - Spaceweed Grove -->
+	<!-- Sector - clusterXPAN31 - Spaceweed Grove -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN31_connection']/offset">
-		<offset><position x="135000000" y="0" z="8660000" /></offset>
+		<offset><position x="135000000" y="0" z="43300000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan32 - Rusiris' Dream -->
+	<!-- Sector - clusterXPAN32 - Rusiris' Dream -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN32_connection']/offset">
-		<offset><position x="120000000" y="0" z="17320000" /></offset>
+		<offset><position x="120000000" y="0" z="51960000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan33 - Nopileos' Legacy -->
+	<!-- Sector - clusterXPAN33 - Nopileos' Legacy -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN33_connection']/offset">
-		<offset><position x="150000000" y="0" z="34640000" /></offset>
+		<offset><position x="135000000" y="0" z="60620000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan34 - Zhin's Resurgence -->
+	<!-- Sector - clusterXPAN34 - Zhin's Resurgence -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN34_connection']/offset">
+		<offset><position x="150000000" y="0" z="51960000" /></offset>
+	</replace>
+	
+	<!-- Sector - clusterXPAN35 - Njy's Deception -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN35_connection']/offset">
+		<offset><position x="150000000" y="0" z="86600000" /></offset>
+	</replace>
+	
+	<!-- Sector - clusterXPAN36 - The Boneyard -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN36_connection']/offset">
 		<offset><position x="150000000" y="0" z="17320000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan35 - Njy's Deception -->
-	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN35_connection']/offset">
-		<offset><position x="165000000" y="0" z="60620000" /></offset>
-	</replace>
-	
-	<!-- Sector xpan36 - The Boneyard -->
-	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN36_connection']/offset">
-		<offset><position x="105000000" y="0" z="-77940000" /></offset>
-	</replace>
-	
-	<!-- Sector xpan37 - Mi Ton's Refuge -->
+	<!-- Sector - clusterXPAN37 - Mi Ton's Refuge -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN37_connection']/offset">
-		<offset><position x="120000000" y="0" z="-103920000" /></offset>
+		<offset><position x="165000000" y="0" z="-25980000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan38 - Three Worlds -->
+	<!-- Sector - clusterXPAN38 - Three Worlds -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN38_connection']/offset">
-		<offset><position x="120000000" y="0" z="-138560000" /></offset>
+		<offset><position x="30000000" y="0" z="-138560000" /></offset>
 	</replace>
 	
-	<!-- Sector xpan39 - Tempting Fumes -->
+	<!-- Sector - clusterXPAN39 - Tempting Fumes -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN39_connection']/offset">
-		<offset><position x="30000000" y="0" z="-86600000" /></offset>
+		<offset><position x="0" y="0" z="-121240000" /></offset>
 	</replace>
 	
 	
@@ -1254,22 +1254,22 @@
 	
 	<!-- Sector ror1 - Theia -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_ror1_connection']/offset">
-		<offset><position x="120000000" y="0" z="69280000" /></offset>
+		<offset><position x="90000000" y="0" z="17320000" /></offset>
 	</replace>
 	
 	<!-- Sector ror2 - Triton -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_ror2_connection']/offset">
-		<offset><position x="120000000" y="0" z="51960000" /></offset>
+		<offset><position x="105000000" y="0" z="8660000" /></offset>
 	</replace>
 	
 	<!-- Sector ror3 - Holy Gound -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_ror3_connection']/offset">
-		<offset><position x="45000000" y="0" z="164540000" /></offset>
+		<offset><position x="30000000" y="0" z="190520000" /></offset>
 	</replace>
 	
 	<!-- Sector ror4 - Event Horizon -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_ror4_connection']/offset">
-		<offset><position x="45000000" y="0" z="147220000" /></offset>
+		<offset><position x="30000000" y="0" z="173200000" /></offset>
 	</replace>
 	
 	
@@ -1280,122 +1280,122 @@
 	
 	<!-- Sector 90 - Lost Colony I/II -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_90_connection']/offset">
-		<offset><position x="-135000000" y="0" z="25980000" /></offset>
+		<offset><position x="-210000000" y="0" z="51960000" /></offset>
 	</replace>
 	
 	<!-- Sector 91 - Wasteland Colony -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_91_connection']/offset">
-		<offset><position x="-135000000" y="0" z="8660000" /></offset>
+		<offset><position x="-225000000" y="0" z="43300000" /></offset>
 	</replace>
 	
 	<!-- Sector 92 - Lone Giant -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_92_connection']/offset">
-		<offset><position x="-120000000" y="0" z="-69280000" /></offset>
+		<offset><position x="-120000000" y="0" z="-103920000" /></offset>
 	</replace>
 	
 	<!-- Sector 93 - Omicron Alpha -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_93_connection']/offset">
-		<offset><position x="0" y="0" z="17320000" /></offset>
+		<offset><position x="75000000" y="0" z="199180000" /></offset>
 	</replace>
 	
 	<!-- Sector 94 - Matrix #24 -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_94_connection']/offset">
-		<offset><position x="45000000" y="0" z="-95260000" /></offset>
+		<offset><position x="-60000000" y="0" z="-207840000" /></offset>
 	</replace>
 	
 	<!-- Sector 95 - Lost Colony III -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_95_connection']/offset">
-		<offset><position x="-150000000" y="0" z="34640000" /></offset>
+		<offset><position x="-225000000" y="0" z="60620000" /></offset>
 	</replace>
 	
 	<!-- Sector 96 - Aldrin Polarstern -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_96_connection']/offset">
-		<offset><position x="0" y="0" z="34640000" /></offset>
+		<offset><position x="75000000" y="0" z="216500000" /></offset>
 	</replace>
 	
 	<!-- Sector 97 - Tycoon Greed -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_97_connection']/offset">
-		<offset><position x="-135000000" y="0" z="-77940000" /></offset>
+		<offset><position x="-135000000" y="0" z="-129900000" /></offset>
 	</replace>
 	
 	<!-- Sector 98 - Omicron Beta -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_98_connection']/offset">
-		<offset><position x="15000000" y="0" z="8660000" /></offset>
+		<offset><position x="105000000" y="0" z="199180000" /></offset>
 	</replace>
 	
 	<!-- Sector 903 - Matrix System -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_903_connection']/offset">
-		<offset><position x="-150000000" y="0" z="121240000" /></offset>
+		<offset><position x="90000000" y="0" z="190520000" /></offset>
 	</replace>
 	
 	<!-- Sector 904 - Tau XXI -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_904_connection']/offset">
-		<offset><position x="-165000000" y="0" z="43300000" /></offset>
+		<offset><position x="-240000000" y="0" z="51960000" /></offset>
 	</replace>
 	
 	<!-- Sector 905 - Sigma XIX -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_905_connection']/offset">
-		<offset><position x="30000000" y="0" z="69280000" /></offset>
+		<offset><position x="120000000" y="0" z="207840000" /></offset>
 	</replace>
 	
 	<!-- Sector 907 - Omicron Gamma -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_907_connection']/offset">
-		<offset><position x="15000000" y="0" z="-8660000" /></offset>
+		<offset><position x="105000000" y="0" z="164540000" /></offset>
 	</replace>
 	
 	<!-- Sector 908 - Hercules Steel Chamber -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_908_connection']/offset">
-		<offset><position x="-150000000" y="0" z="-121240000" /></offset>
+		<offset><position x="-165000000" y="0" z="-147220000" /></offset>
 	</replace>
 	
 	<!-- Sector 909 - Aldrin Expedition -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_909_connection']/offset">
-		<offset><position x="90000000" y="0" z="-138560000" /></offset>
+		<offset><position x="15000000" y="0" z="-181860000" /></offset>
 	</replace>
 	
 	<!-- Sector 910 - Aldrin Research -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_910_connection']/offset">
-		<offset><position x="90000000" y="0" z="-155880000" /></offset>
+		<offset><position x="15000000" y="0" z="-199180000" /></offset>
 	</replace>
 	
 	<!-- Sector 911 - Aldrin Ore Belt -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_911_connection']/offset">
-		<offset><position x="75000000" y="0" z="-164540000" /></offset>
+		<offset><position x="0" y="0" z="-207840000" /></offset>
 	</replace>
 	
 	<!-- Sector 912 - Perseus Bay -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_912_connection']/offset">
-		<offset><position x="60000000" y="0" z="-155880000" /></offset>
+		<offset><position x="-15000000" y="0" z="-199180000" /></offset>
 	</replace>
 	
 	<!-- Sector 913 - Zeus Judgement Halls -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_913_connection']/offset">
-		<offset><position x="75000000" y="0" z="-147220000" /></offset>
+		<offset><position x="0" y="0" z="-190520000" /></offset>
 	</replace>
 	
 	<!-- Sector 914 - The Shallows Odysseus -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_914_connection']/offset">
-		<offset><position x="-45000000" y="0" z="-147220000" /></offset>
+		<offset><position x="-45000000" y="0" z="-181860000" /></offset>
 	</replace>
 	
 	<!-- Sector 915 - Odin Walhalla -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_915_connection']/offset">
-		<offset><position x="-120000000" y="0" z="-155880000" /></offset>
+		<offset><position x="-105000000" y="0" z="-199180000" /></offset>
 	</replace>
 	
 	<!-- Sector 916 - Thor Redemption -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_916_connection']/offset">
-		<offset><position x="-135000000" y="0" z="-147220000" /></offset>
+		<offset><position x="-150000000" y="0" z="-190520000" /></offset>
 	</replace>
 	
 	<!-- Sector 917 - Loki Dungeon -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_917_connection']/offset">
-		<offset><position x="-150000000" y="0" z="-138560000" /></offset>
+		<offset><position x="-165000000" y="0" z="-181860000" /></offset>
 	</replace>
 	
 	<!-- Sector 918 - The Expanse Galaxies -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_918_connection']/offset">
-		<offset><position x="150000000" y="0" z="-103920000" /></offset>
+		<offset><position x="135000000" y="0" z="-164540000" /></offset>
 	</replace>
 	
 	<!-- Sector 919 - Miranda Nightsky -->
@@ -1405,52 +1405,52 @@
 	
 	<!-- Sector 920 - Odin War Memorial -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_920_connection']/offset">
-		<offset><position x="-120000000" y="0" z="-121240000" /></offset>
+		<offset><position x="-120000000" y="0" z="-173200000" /></offset>
 	</replace>
 	
 	<!-- Sector 921 - Admiral Honor Guard -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_921_connection']/offset">
-		<offset><position x="-120000000" y="0" z="-103920000" /></offset>
+		<offset><position x="-165000000" y="0" z="-112580000" /></offset>
 	</replace>
 	
 	<!-- Sector 922 - Protectorate Flashpoint -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_922_connection']/offset">
-		<offset><position x="135000000" y="0" z="-112580000" /></offset>
+		<offset><position x="45000000" y="0" z="-164540000" /></offset>
 	</replace>
 	
 	<!-- Sector 923 - Thor Arena -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_923_connection']/offset">
-		<offset><position x="-150000000" y="0" z="-155880000" /></offset>
+		<offset><position x="-165000000" y="0" z="-199180000" /></offset>
 	</replace>
 	
 	<!-- Sector 924 - Mysterious Facility I -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_924_connection']/offset">
-		<offset><position x="-45000000" y="0" z="77940000" /></offset>
+		<offset><position x="-60000000" y="0" z="69280000" /></offset>
 	</replace>
 	
 	<!-- Sector 925 - Abandoned Outpost II -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_925_connection']/offset">
-		<offset><position x="-60000000" y="0" z="-121240000" /></offset>
+		<offset><position x="-60000000" y="0" z="-155880000" /></offset>
 	</replace>
 	
 	<!-- Sector 926 - Abandoned Outpost I -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_926_connection']/offset">
-		<offset><position x="-165000000" y="0" z="-95260000" /></offset>
+		<offset><position x="-255000000" y="0" z="-43300000" /></offset>
 	</replace>
 	
 	<!-- Sector 927 - Abandoned Outpost III -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_927_connection']/offset">
-		<offset><position x="-135000000" y="0" z="-25980000" /></offset>
+		<offset><position x="-255000000" y="0" z="25980000" /></offset>
 	</replace>
 	
 	<!-- Sector 928 - Theia World of Dreams -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_928_connection']/offset">
-		<offset><position x="30000000" y="0" z="-17320000" /></offset>
+		<offset><position x="120000000" y="0" z="138560000" /></offset>
 	</replace>
 	
 	<!-- Sector 929 - Mysterious Facility II -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_929_connection']/offset">
-		<offset><position x="75000000" y="0" z="-77940000" /></offset>
+		<offset><position x="75000000" y="0" z="-60620000" /></offset>
 	</replace>
 	
 	
@@ -1459,42 +1459,42 @@
 	
 	<!-- MOD - DeadAir - Gallente -->
 	
-	<!-- Sector - Mies -->
+	<!-- Sector - DGA1 - Mies -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DGA1_connection']/offset">
 		<offset><position x="150000000" y="0" z="-121240000" /></offset>
 	</replace>
 	
-	<!-- Sector - Oursulaert -->
+	<!-- Sector - DGA2 - Oursulaert -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DGA2_connection']/offset">
 		<offset><position x="150000000" y="0" z="-138560000" /></offset>
 	</replace>
 	
-	<!-- Sector - Duripant -->
+	<!-- Sector - DGA3 - Duripant -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DGA3_connection']/offset">
 		<offset><position x="165000000" y="0" z="-112580000" /></offset>
 	</replace>
 	
-	<!-- Sector - Luminaire -->
+	<!-- Sector - DGA4 - Luminaire -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DGA4_connection']/offset">
 		<offset><position x="165000000" y="0" z="-129900000" /></offset>
 	</replace>
 	
-	<!-- Sector - Algogille -->
+	<!-- Sector - DGA5 - Algogille -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DGA5_connection']/offset">
 		<offset><position x="165000000" y="0" z="-147220000" /></offset>
 	</replace>
 	
-	<!-- Sector - Synchelle -->
+	<!-- Sector - DGA6 - Synchelle -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DGA6_connection']/offset">
 		<offset><position x="180000000" y="0" z="-121240000" /></offset>
 	</replace>
 	
-	<!-- Sector - Couster -->
+	<!-- Sector - DGA7 - Couster -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DGA7_connection']/offset">
 		<offset><position x="180000000" y="0" z="-138560000" /></offset>
 	</replace>
 	
-	<!-- Sector - Seyllin -->
+	<!-- Sector - DGA8 - Seyllin -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DGA8_connection']/offset">
 		<offset><position x="-30000000" y="0" z="-69280000" /></offset>
 	</replace>
@@ -1505,42 +1505,42 @@
 	
 	<!-- MOD - DeadAir - Amarr -->
 	
-	<!-- Sector - Heidon -->
+	<!-- Sector - DAM1 - Heidon -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DAM1_connection']/offset">
 		<offset><position x="90000000" y="0" z="-190520000" /></offset>
 	</replace>
 	
-	<!-- Sector - Bhizheba -->
+	<!-- Sector - DAM2 - Bhizheba -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DAM2_connection']/offset">
 		<offset><position x="90000000" y="0" z="-207840000" /></offset>
 	</replace>
 	
-	<!-- Sector - Irnal -->
+	<!-- Sector - DAM3 - Irnal -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DAM3_connection']/offset">
 		<offset><position x="105000000" y="0" z="-181860000" /></offset>
 	</replace>
 	
-	<!-- Sector - Amarr -->
+	<!-- Sector - DAM4 - Amarr -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DAM4_connection']/offset">
 		<offset><position x="105000000" y="0" z="-199180000" /></offset>
 	</replace>
 	
-	<!-- Sector - Ashab -->
+	<!-- Sector - DAM5 - Ashab -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DAM5_connection']/offset">
 		<offset><position x="105000000" y="0" z="-216500000" /></offset>
 	</replace>
 	
-	<!-- Sector - Sarum Prime -->
+	<!-- Sector - DAM6 - Sarum Prime -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DAM6_connection']/offset">
 		<offset><position x="120000000" y="0" z="-190520000" /></offset>
 	</replace>
 	
-	<!-- Sector - Chaven -->
+	<!-- Sector - DAM7 - Chaven -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DAM7_connection']/offset">
 		<offset><position x="120000000" y="0" z="-207840000" /></offset>
 	</replace>
 	
-	<!-- Sector - Misaba -->
+	<!-- Sector - DAM8 - Misaba -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DAM8_connection']/offset">
 		<offset><position x="75000000" y="0" z="-43300000" /></offset>
 	</replace>
@@ -1551,42 +1551,42 @@
 	
 	<!-- MOD - DeadAir - Minmatar -->
 	
-	<!-- Sector - Onga -->
+	<!-- Sector - DMI1 - Onga -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DMI1_connection']/offset">
 		<offset><position x="45000000" y="0" z="147220000" /></offset>
 	</replace>
 	
-	<!-- Sector - Ameinaka -->
+	<!-- Sector - DMI2 - Ameinaka -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DMI2_connection']/offset">
 		<offset><position x="45000000" y="0" z="129900000" /></offset>
 	</replace>
 	
-	<!-- Sector - Ammold -->
+	<!-- Sector - DMI3 - Ammold -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DMI3_connection']/offset">
 		<offset><position x="60000000" y="0" z="155880000" /></offset>
 	</replace>
 	
-	<!-- Sector - Pator -->
+	<!-- Sector - DMI4 - Pator -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DMI4_connection']/offset">
 		<offset><position x="60000000" y="0" z="138560000" /></offset>
 	</replace>
 	
-	<!-- Sector - Urlen -->
+	<!-- Sector - DMI5 - Urlen -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DMI5_connection']/offset">
 		<offset><position x="60000000" y="0" z="121240000" /></offset>
 	</replace>
 	
-	<!-- Sector - Ivar -->
+	<!-- Sector - DMI6 - Ivar -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DMI6_connection']/offset">
 		<offset><position x="75000000" y="0" z="147220000" /></offset>
 	</replace>
 	
-	<!-- Sector - Rens -->
+	<!-- Sector - DMI7 - Rens -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DMI7_connection']/offset">
 		<offset><position x="75000000" y="0" z="129900000" /></offset>
 	</replace>
 	
-	<!-- Sector - Anamake -->
+	<!-- Sector - DMI8 - Anamake -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DMI8_connection']/offset">
 		<offset><position x="-30000000" y="0" z="69280000" /></offset>
 	</replace>
@@ -1597,42 +1597,42 @@
 	
 	<!-- MOD - DeadAir - Caldari -->
 	
-	<!-- Sector - Perimeter -->
+	<!-- Sector - DAL1 - Perimeter -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DAL1_connection']/offset">
 		<offset><position x="180000000" y="0" z="69280000" /></offset>
 	</replace>
 	
-	<!-- Sector - Niyabainen -->
+	<!-- Sector - DAL2 - Niyabainen -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DAL2_connection']/offset">
 		<offset><position x="180000000" y="0" z="51960000" /></offset>
 	</replace>
 	
-	<!-- Sector - Ikuchi -->
+	<!-- Sector - DAL3 - Ikuchi -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DAL3_connection']/offset">
 		<offset><position x="195000000" y="0" z="77940000" /></offset>
 	</replace>
 	
-	<!-- Sector - New Caldari -->
+	<!-- Sector - DAL4 - New Caldari -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DAL4_connection']/offset">
 		<offset><position x="195000000" y="0" z="60620000" /></offset>
 	</replace>
 	
-	<!-- Sector - Jita -->
+	<!-- Sector - DAL5 - Jita -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DAL5_connection']/offset">
 		<offset><position x="195000000" y="0" z="43300000" /></offset>
 	</replace>
 	
-	<!-- Sector - Hirtamon -->
+	<!-- Sector - DAL6 - Hirtamon -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DAL6_connection']/offset">
 		<offset><position x="210000000" y="0" z="69280000" /></offset>
 	</replace>
 	
-	<!-- Sector - Kisogo -->
+	<!-- Sector - DAL7 - Kisogo -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DAL7_connection']/offset">
 		<offset><position x="210000000" y="0" z="51960000" /></offset>
 	</replace>
 	
-	<!-- Sector - Maila -->
+	<!-- Sector - DAL8 - Maila -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_DAL8_connection']/offset">
 		<offset><position x="45000000" y="0" z="60620000" /></offset>
 	</replace>
@@ -1659,7 +1659,7 @@
 		
 		<!-- Sector 802 - Shareholder's Fortune -->
 		<connection name="Cluster_802_connection" ref="clusters">
-			<offset><position x="15000000" y="0" z="25980000" /></offset>
+			<offset><position x="15000000" y="0" z="43300000" /></offset>
 			<macro ref="Cluster_802_macro" connection="galaxy" />
 		</connection>
 		
@@ -1791,7 +1791,7 @@
 		
 		<!-- Sector 824 - Depths of Silence -->
 		<connection name="Cluster_824_connection" ref="clusters">
-			<offset><position x="105000000" y="0" z="-129900000" /></offset>
+			<offset><position x="90000000" y="0" z="-121240000" /></offset>
 			<macro ref="Cluster_824_macro" connection="galaxy" />
 		</connection>
 		
@@ -1801,13 +1801,13 @@
 	
 	
 	
-	<!-- Jump Gate Connections - REMOVE -->
+	<!-- Jump Gate Connections - Base Game - REMOVE -->
 	
 	<!-- Gate - Eighteen Billion   002-to-003   Memory of Profit IX -->
-	<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate002To008']" /-->
+	<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate002To003']" />
 	
 	<!-- Gate - Eighteen Billion   002-to-008   Silent Witness -->
-	<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate002To008']" /-->
+	<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate002To008']" />
 	
 	<!-- Gate - Nopileos' Fortune   004-to-001   Grand Exchange -->
 	<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate001To004']" />
@@ -1849,6 +1849,151 @@
 	
 	
 	
+	<!-- Jump Gate Connections - X-Universe+ - REMOVE -->
+	
+	<!-- Gate - Lost Colony I/II   090-to-031   Heretic's End -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate090To031']" />
+	<!-- Gate - Lost Colony I/II   090-to-091   Wasteland Colony -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate090To091']" /-->
+	<!-- Gate - Wasteland Colony   091-to-048   Getsu Fune -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate091To048']" />
+	<!-- Gate - Wasteland Colony   091-to-092   Lone Giant -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate012To092']" />
+	<!-- Gate - Matrix 79B   033-to-903   Matrix System -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate033To903']" />
+	<!-- Gate - Matrix #24   094-to-021   Scale Plate Green -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate094To021']" /-->
+	<!-- Gate - Silent Witness I   008-to-093   Omicron Alpha -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate008To093']" />
+	<!-- Gate - Omicron Alpha   093-to-907   Omicron Gamma -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate093To907']" />
+	<!-- Gate - Omicron Alpha   093-to-096   Aldrin Polarstern -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate093To096']" /-->
+	<!-- Gate - Omicron Alpha   093-to-098   Omicron Beta -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate093To098']" />
+	<!-- Gate - Omicron Gamma   907-to-004   Nopileos's Fortune -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate907To004']" />
+	<!-- Gate - Lost Colony I/II   090-to-095   Lost Colony III -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate090To095']" /-->
+	<!-- Gate - Litany of Fury   423-to-095   Lost Colony III -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate423To095']" />
+	<!-- Gate - Lone Giant   092-to-049   Frontier Edge -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate092To049']" /-->
+	<!-- Gate - Lone Giant   092-to-097   Tycoon Greed -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate092To097']" /-->
+	<!-- Gate - Matrix 9   017-to-905   Sigma XIX -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate017To905']" />
+	<!-- Gate - Sigma XIX   905-to-098   Omicron Beta -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate905To098']" /-->
+	<!-- Gate - Family Nhuut   418-to-905   Sigma XIX -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate418To905']" />
+	<!-- Gate - Matrix System   903-to-424   Emperor's Pride -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate903To424']" />
+	<!-- Gate - Matrix System   903-to-414   Rhy's Defiance -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate903To414']" />
+	<!-- Gate - Wasteland Colony   091-to-904   Tau XXI -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate091To904']" /-->
+	<!-- Gate - Hercules Steel Chamber   908-to-114   Gaian Prophecy -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate908To114']" />
+	<!-- Gate - Hercules Steel Chamber   908-to-917   Loki Dungeon -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate908To917']" /-->
+	<!-- Gate - Thor Redemption   916-to-917   Loki Dungeon -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate916To917']" /-->
+	<!-- Gate - Thor Redemption   916-to-915   Odin Walhalla -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate916To915']" /-->
+	<!-- Gate - The Shallows Odysseus   914-to-915   Odin Walhalla -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate914To915']" /-->
+	<!-- Gate - The Shallows Odysseus   914-to-912   Perseus Bay -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate914To912']" /-->
+	<!-- Gate - Zeus Judgement Halls   913-to-912   Perseus Bay -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate913To912']" /-->
+	<!-- Gate - Aldrin Ore Belt   911-to-912   Perseus Bay -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate911To912']" /-->
+	<!-- Gate - Zeus Judgement Halls   913-to-909   Aldrin Expedition -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate913To909']" /-->
+	<!-- Gate - Aldrin Ore Belt   911-to-910   Aldrin Research -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate911To910']" /-->
+	<!-- Gate - Aldrin Expedition   909-to-910   Aldrin Research -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate909To910']" /-->
+	<!-- Gate - Aldrin Expedition   909-to-922   Protectorate Flashpoint -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate909To922']" /-->
+	<!-- Gate - Protectorate Flashpoint   922-to-918   The Expanse Galaxies -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate922To918']" /-->
+	<!-- Gate - Miranda Nightsky   919-to-918   The Expanse Galaxies -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate919To918']" /-->
+	<!-- Gate - Miranda Nightsky   919-to-050   Turquoise Sea -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate919To050']" /-->
+	<!-- Gate - Odin War Memorial   920-to-915   Odin Walhalla -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate920To915']" /-->
+	<!-- Gate - Admiral Honor Guard   921-to-920   Odin War Memorial -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate921To920']" />
+	<!-- Gate - Admiral Honor Guard   921-to-097   Tycoon Greed -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate921To097']" />
+	<!-- Gate - Thor Arena   923-to-917   Loki Dungeon -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate923To917']" /-->
+	<!-- Gate - Thor Arena   923-to-916   Thor Redemption -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate923To916']" /-->
+	<!-- Gate - Matrix 9   017-to-032   Matrix 79B -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate017To032']" />
+	<!-- Gate - Tau XXI   904-to-100   Asteroid Belt -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate904To100']" />
+	<!-- Gate - Matrix #24   094-to-925   Abandoned Outpost II -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate094To925']" /-->
+	<!-- Gate - Abandoned Outpost II   925-to-026   Atiyas Misfortune -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate925To026']" />
+	<!-- Gate - Abandoned Outpost I   926-to-925   Abandoned Outpost II -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate926To925']" /-->
+	<!-- Gate - Abandoned Outpost I   926-to-116   Oort Cloud -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate926To116']" />
+	<!-- Gate - Abandoned Outpost III   927-to-926   Abandoned Outpost I -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate927To926']" /-->
+	<!-- Gate - Abandoned Outpost III   927-to-424   Emperor's Pride -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate927To424']" />
+	<!-- Gate - Theia World of Dreams   928-to-907   Omicron Gamma -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate928To907']" /-->
+	<!-- Gate - Theia World of Dreams   928-to-913   Zeus Judgement Halls -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate928To913']" />
+	<!-- Gate - Hatikvah's Choice   029-to-924   Mysterious Facility I -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate029To924']" /-->
+	<!-- Gate - Wretched Skies IV   400-to-924   Mysterious Facility I -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate400To924']" /-->
+	<!-- Gate - The Expanse Galaxies   918-to-929   Mysterious Facility II -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate918To929']" />
+	<!-- Gate - Pious Mists IX   038-to-929   Mysterious Facility II -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate038To929']" />
+	<!-- Gate - Aldrin Expedition   909-to-xpan13   Circle of Deceit IV -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate909ToXPAN13']" /-->
+	<!-- Gate - Admiral Honor Guard   921-to-xpan22   Blue Horizon -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate921ToXPAN22']" />
+	<!-- Gate - Tycoon Greed   097-to-xpan21   Ashley's Paradise -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGate097ToXPAN21']" />
+	
+	
+	
+	
+	
+	<!-- Jump Gate Connections - Xpan Advanced - REMOVE -->
+	
+	<!-- Gate - Split Fire   xpan01-to-xpan02   Desecrated Skies -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN01_cXPAN02']" />
+	<!-- Gate - Split Fire   xpan01-to-402   Family Kritt -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN01_cXPAN402s001']" />
+	<!-- Gate - Split Fire   xpan01-to-404   Zyarth's Dominion I -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN01_cXPAN404s001']" />
+	<!-- Gate - Split Fire   xpan01-to-045   Silent Witness XII -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN01s001z004_cL45s001z001']" />
+	<!-- Gate - Desecrated Skies   xpan02-to-xpan03   Prometheus IV -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN02s001z003_cXPAN03s001z002']" />
+	<!-- Gate - Desecrated Skies   xpan02-to-415   Matrix 598 -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN02s001z001_cXPAN415z003s001']" />
+	<!-- Gate - Prometheus IV   xpan03-to-xpan04   Prometheus III -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN03s001z004_cXPAN04s001z002']" /-->
+	<!-- Gate - Prometheus II   xpan05-to-xpan04   Prometheus III -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN05s001z004_cXPAN04s001z005']" /-->
+	<!-- Gate - Prometheus I   xpan06-to-xpan05   Prometheus II -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN06s001z005_cXPAN05s001z005']" /-->
+	<!-- Gate - Rising Solitude   xpan07-to-xpan05   Prometheus II -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN07s001z002_cXPAN05s001z001']" /-->
+	<!-- Gate - Rising Solitude   xpan07-to-xpan08   Gunne's Crusade -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN07s001z004_cXPAN08s001z002']" /-->
+	<!-- Gate - Rising Solitude   xpan07-to-033   Matrix 79B -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN07s001z002_cL33s001z002']" />
+	<!-- Gate - Gunne's Crusade   xpan08-to-xpan09   Artemis -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN08s001z004_cXPAN09s001z002']" />
+	<!-- Gate - Aphrodite's Storm   xpan10-to-xpan09   Artemis -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN10_cXPAN09']" /-->
+	<!-- Gate - Aphrodite's Storm   xpan10-to-423   Litany of Fury -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN10s002z001_cXPAN423z003s002']" />
+	<!-- Gate - Aphrodite's Storm   xpan10-to-422   Wretched Skies X -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN10s001z001_cXPAN422s001']" />
+	<!-- Gate - Treasure Chest   xpan11-to-006   Black Hole Sun -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN11s001z002_cL06s002z003']" />
+	<!-- Gate - Treasure Chest   xpan11-to-004   Nopileos's Fortune -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN11s001z004_cL04s001z0013']" />
+	<!-- Gate - Circle of Deceit IV   xpan13-to-xpan12   Sanctum Verge -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN13s001z003_cXPAN12s001z002']" /-->
+	<!-- Gate - Circle of Deceit IV   xpan13-to-xpan14   Circle of Deceit V -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN13s001z004_cXPAN14s001z002']" /-->
+	<!-- Gate - Circle of Deceit VIII   xpan15-to-xpan14   Circle of Deceit V -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN15s001z004_cXPAN14s001z005']" /-->
+	<!-- Gate - Circle of Deceit II   xpan16-to-xpan15   Circle of Deceit VIII -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN16s001z005_cXPAN15s001z005']" /-->
+	<!-- Gate - Circle of Deceit II   xpan16-to-035   Lasting Vengeance -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN16s001z004_cL35s001z003']" />
+	<!-- Gate - Emperor's Ridge   xpan17-to-xpan15   Circle of Deceit VIII -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN17s001z003_cXPAN15s001z001']" /-->
+	<!-- Gate - Emperor's Ridge   xpan17-to-xpan18   Ash -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN17s001z004_cXPAN18s001z002']" /-->
+	<!-- Gate - Emperor's Ridge   xpan17-to-026   Atiyas Misfortune -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN17s001z002_Cl26s002z001']" />
+	<!-- Gate - Ash   xpan18-to-xpan20   Danna's Chance -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN18s001z004_cXPAN20s001z002']" /-->
+	<!-- Gate - Julian's Burden   xpan19-to-xpan23   Red Light -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN19s001z002_cXPAN23s001z001']" />
+	<!-- Gate - Julian's Burden   xpan19-to-113   Segaris -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN19s001z001_cXPAN113zXPANs001_connection']" />
+	<!-- Gate - Danna's Chance   xpan20-to-xpan22   Blue Horizon -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN20s001z004_cXPAN22s001z003']" /-->
+	<!-- Gate - Ashley's Paradise   xpan21-to-xpan19   Julian's Burden -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN21s001z003_cXPAN19s001z003']" />
+	<!-- Gate - Red Light   xpan23-to-xpan22   Blue Horizon -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN23s001z004_cXPAN22s001z004']" />
+	<!-- Gate - Red Light   xpan23-to-028   Antigone Memorial -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN23s001z005_cL28s002z003']" />
+	<!-- Gate - Dark Horizon   xpan24-to-xpan02   Desecrated Skies -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='cXPAN24s002z004_xpan_gate_cXPAN002s001z002']" />
+	<!-- Gate - Sudden Respite   xpan25-to-xpan24   Dark Horizon -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='cXPAN25s001z001_xpan_gate_cXPAN24s003z005']" />
+	<!-- Gate - Sudden Respite   xpan25-to-417   Eleventh Hour -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='cXPAN25s002z001_xpan_gate_c417']" /-->
+	<!-- Gate - Cathedral of Xaar   xpan26-to-023   Sacred Relic -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN26s003z005_cL23s001z005']" />
+	<!-- Gate - Cathedral of Xaar   xpan26-to-xpan38   Three Worlds -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN26s001z001_cXPAN38s001z004']" /-->
+	<!-- Gate - Cathedral of Xaar   xpan26-to-xpan13   Circle of Deceit IV -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN26s002z001_cXPAN13s001z002']" /-->
+	<!-- Gate - Shadow's End   xpan27-to-xpan21   Ashley's Paradise -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN27s001z001_cXPAN21s001z001']" />
+	<!-- Gate - Shadow's End   xpan27-to-107   Jupiter -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN27s001z002_cL107s001']" />
+	<!-- Gate - Ket's Reckoning   xpan28-to-xpan27   Shadow's End -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN28s001z001_cXPAN27s001z004']" />
+	<!-- Gate - Ket's Reckoning   xpan28-to-424   Emperor's Pride -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN28s002z005_cXPAN424s001']" />
+	<!-- Gate - Ket's Reckoning   xpan28-to-028   Antigone Memorial -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN28s003z003_cL28s001z003']" />
+	<!-- Gate - Legal Directive   xpan29-to-xpan30   CEO'S Doubt -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN29s001z001_cXPAN30s001z001']" />
+	<!-- Gate - Legal Directive   xpan29-to-xpan32   Rusiris' Dream -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN29s001z003_cXPAN32s002z005']" /-->
+	<!-- Gate - CEO'S Doubt   xpan30-to-050   Turquoise Sea -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN30s001z004_cL50s001сXPAN']" /-->
+	<!-- Gate - Spaceweed Grove   xpan31-to-xpan32   Rusiris' Dream -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN31s001z003_cXPAN32s001z003']" /-->
+	<!-- Gate - Rusiris' Dream   xpan32-to-015   Ianamus Zura -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN32s002z004_cL15s001сXPAN']" />
+	<!-- Gate - Rusiris' Dream   xpan32-to-015   Ianamus Zura -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN32s003z004_cL15s002сXPAN']" />
+	<!-- Gate - Nopileos' Legacy   xpan33-to-xpan32   Rusiris' Dream -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN33s001z002_cXPAN32s003z002']" /-->
+	<!-- Gate - Zhin's Resurgence   xpan34-to-xpan31   Spaceweed Grove -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN34s001z004_cXPAN31s001z004']" /-->
+	<!-- Gate - Zhin's Resurgence   xpan34-to-xpan35   Njy's Deception -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN34s001z002_cXPAN35s001z004']" /-->
+	<!-- Gate - Njy's Deception   xpan35-to-412   Tharka's Ravine VIII -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN35s001z005_cXPAN412zXPANs001']" /-->
+	<!-- Gate - Njy's Deception   xpan35-to-413   Tharka's Ravine IV -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN35s002z003_cXPAN413z003s001']" /-->
+	<!-- Gate - The Boneyard   xpan36-to-xpan37   Mi Ton's Refuge -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN36s001z003_cXPAN37s002z005']" /-->
+	<!-- Gate - The Boneyard   xpan36-to-010   Unholy Retribution -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN36s002z005_cL10s001zXPAN']" />
+	<!-- Gate - Three Worlds   xpan38-to-xpan37   Mi Ton's Refuge -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN38s001z003_cXPAN37s001z003']" />
+	<!-- Gate - Tempting Fumes   xpan39-to-xpan11   Treasure Chest -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN39s001z005_cXPAN11s001z003']" />
+	<!-- Gate - Tempting Fumes   xpan39-to-xpan12   Sanctum Verge -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN39s001z004_cXPAN12s001z004']" /-->
+	
+	
+	
+	
+	
+	<!-- Jump Gate Connections - Rise of the Ossian Raider - REMOVE -->
+	
+	<!-- Gate - Theia   ror1-to-044   Silent Witness XI -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGaterorTo044']"/>
+	<!-- Gate - Theia   ror1-to-ror2   Triton -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGateRor1ToRor2']"/-->
+	<!-- Gate - Holy Ground   ror3-to-ror4   Event Horizon -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGateRor3ToRor4']"/-->
+	<!-- Gate - Theia   ror1-to-009   Bright Promise -->			<remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGaterorTo009']"/>
+	<!-- Gate - Triton   ror2-to-ror4   Event Horizon -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGateRor2ToRor4']"/-->
+	<!-- Gate - Event Horizon   ror4-to-017   Matrix 9 -->			<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='ClusterGateRor4To017']"/-->
+	
+	
+	
+	
+	
 	<!-- Jump Gate Connections - ADD -->
 	<add sel="/macros/macro[@name='XU_EP2_universe_macro']/connections">
 		
@@ -1878,14 +2023,14 @@
 		</connection>
 		
 		<!-- Gate - Memory of Profit IX   003-to-802   Shareholder's Fortune -->
-		<connection name="ClusterGate003To802" ref="destination" path="../Cluster_03_connection/Cluster_03_Sector001_connection/Zone002_Cluster_03_Sector001_connection/connection_ClusterGate003To802">
+		<connection name="ClusterGate003To802" ref="destination" path="../Cluster_03_connection/Cluster_03_Sector001_connection/Zone002_Cluster_03_Sector001_connection/connection_ClusterGate003To002">
 			<macro       connection="destination" path="../../../../../Cluster_802_connection/Cluster_802_Sector001_connection/Zone004_Cluster_802_Sector001_connection/connection_ClusterGate802To003" />
 		</connection>
 		
 		<!-- Gate - Memory of Profit IX   003-to-2   Eighteen Billion -->
-		<!--connection name="ClusterGate003To802" ref="destination" path="../Cluster_03_connection/Cluster_03_Sector001_connection/Zone002_Cluster_03_Sector001_connection/connection_ClusterGate003To802">
+		<connection name="ClusterGate003To802" ref="destination" path="../Cluster_03_connection/Cluster_03_Sector001_connection/Zone002_Cluster_03_Sector001_connection/connection_ClusterGate003To802">
 			<macro       connection="destination" path="../../../../../Cluster_02_connection/Cluster_02_Sector001_connection/Zone002_Cluster_02_Sector001_connection/connection_ClusterGate002To003" />
-		</connection-->
+		</connection>
 		
 		<!-- Gate - Silent Witness I   008-to-803   Light of Heart -->
 		<connection name="ClusterGate008To803" ref="destination" path="../Cluster_08_connection/Cluster_08_Sector001_connection/Zone006_Cluster_08_Sector001_connection/connection_ClusterGate008To306">
@@ -2127,6 +2272,305 @@
 			<macro       connection="destination" path="../../../../../Cluster_415_connection/Cluster_415_Sector001_connection/Zone004_Cluster_415_Sector001_connection/connection_ClusterGate415To404" />
 		</connection>
 		
+				<!-- Gate - Shores of Infinity   805-to-608   Atreus' Clouds -->
+		<connection name="ClusterGate805Tp608" ref="destination" path="../Cluster_805_connection/Cluster_805_Sector001_connection/Zone005_Cluster_805_Sector001_connection/connection_ClusterGate805To302">
+			<macro       connection="destination" path="../../../../../Cluster_608_connection/Cluster_608_Sector001_connection/Zone003_Cluster_608_Sector001_connection/connection_ClusterGate608To" />
+		</connection>
+		
+	</add>
+	
+	<!-- Jump Gate Connections - ADD - Universe+ -->
+	<add sel="/macros/macro[@name='XU_EP2_universe_macro']/connections">
+		
+		<!-- Gate - Thyn's Abyss   809-to-914   The Shallows Odysseus -->
+		<!--connection name="ClusterGate809Tp914" ref="destination" path="../Cluster_809_connection/Cluster_809_Sector001_connection/Zone004_Cluster_809_Sector001_connection/connection_ClusterGate809To300">
+			<macro       connection="destination" path="../../../../../Cluster_914_connection/Cluster_914_Sector001_connection/Zone004_Cluster_914_Sector001_connection/connection_ClusterGate914To809" />
+		</connection-->
+		
+		<!-- Gate - Depths of Silence   824-to-922   Protectorate Flashpoint -->
+		<!--connection name="ClusterGate824To922" ref="destination" path="../Cluster_824_connection/Cluster_824_Sector001_connection/Zone004_Cluster_824_Sector001_connection/connection_ClusterGate824To300">
+			<macro       connection="destination" path="../../../../../Cluster_922_connection/Cluster_922_Sector001_connection/Zone002_Cluster_922_Sector001_connection/connection_ClusterGate922To918" />
+		</connection-->
+		
+		<!-- Gate - Depths of Silence   824-to-929   Mysterious Facility II -->
+		<connection name="ClusterGate824To929" ref="destination" path="../Cluster_824_connection/Cluster_824_Sector001_connection/Zone002_Cluster_824_Sector001_connection/connection_ClusterGate824To301">
+			<macro       connection="destination" path="../../../../../Cluster_929_connection/Cluster_929_Sector001_connection/Zone004_Cluster_929_Sector001_connection/connection_ClusterGate929To918" />
+		</connection>
+		
+		<!-- Gate - Shining Currents   813-to-929   Mysterious Facility II -->
+		<connection name="ClusterGate813To929" ref="destination" path="../Cluster_813_connection/Cluster_813_Sector001_connection/Zone004_Cluster_813_Sector001_connection/connection_ClusterGate813To300">
+			<macro       connection="destination" path="../../../../../Cluster_929_connection/Cluster_929_Sector001_connection/Zone003_Cluster_929_Sector001_connection/connection_ClusterGate929To038" />
+		</connection>
+		
+		
+		
+		
+		
+		<!-- Gate - Gaian Prophecy   114-to-921   Admiral Honor Guard -->
+		<connection name="ClusterGate114To921" ref="destination" path="../Cluster_114_connection/Cluster_114_Sector001_connection/Zone003_Cluster_114_Sector001_connection/connection_ClusterGate114To908">
+			<macro       connection="destination" path="../../../../../Cluster_921_connection/Cluster_921_Sector001_connection/Zone003_Cluster_921_Sector001_connection/connection_ClusterGate921To097" />
+		</connection>
+		
+		<!-- Gate - Hercules Steel Chamber   908-to-921   Admiral Honor Guard -->
+		<connection name="ClusterGate908To921" ref="destination" path="../Cluster_908_connection/Cluster_908_Sector001_connection/Zone002_Cluster_908_Sector001_connection/connection_ClusterGate908To114">
+			<macro       connection="destination" path="../../../../../Cluster_921_connection/Cluster_921_Sector001_connection/Zone004_Cluster_921_Sector001_connection/connection_ClusterGate921To920" />
+		</connection>
+		
+		<!-- Gate - Tycoon Greed   97-to-921   Admiral Honor Guard -->
+		<connection name="ClusterGate097To921" ref="destination" path="../Cluster_97_connection/Cluster_97_Sector001_connection/Zone002_Cluster_97_Sector001_connection/connection_ClusterGate097ToXPAN21">
+			<macro       connection="destination" path="../../../../../Cluster_921_connection/Cluster_921_Sector001_connection/Zone002_Cluster_921_Sector001_connection/connection_ClusterGate921ToXPAN22" />
+		</connection>
+		
+		<!-- Gate - Tycoon Greed   97-to-920   Odin War Memorial -->
+		<connection name="ClusterGate097To920" ref="destination" path="../Cluster_97_connection/Cluster_97_Sector001_connection/Zone004_Cluster_97_Sector001_connection/connection_ClusterGate097To921">
+			<macro       connection="destination" path="../../../../../Cluster_920_connection/Cluster_920_Sector001_connection/Zone001_Cluster_920_Sector001_connection/connection_ClusterGate920To921" />
+		</connection>
+		
+		
+		
+		
+		
+		<!-- Gate - Abandoned Outpost III   927-to-904   Tau XXI -->
+		<connection name="ClusterGate927To904" ref="destination" path="../Cluster_927_connection/Cluster_927_Sector001_connection/Zone003_Cluster_927_Sector001_connection/connection_ClusterGate927To424">
+			<macro       connection="destination" path="../../../../../Cluster_904_connection/Cluster_904_Sector001_connection/Zone005_Cluster_904_Sector001_connection/connection_ClusterGate904To100" />
+		</connection>
+		
+		<!-- Lost Colony I/II   90-to-805   Shore of Infinity -->
+		<connection name="ClusterGate090To805" ref="destination" path="../Cluster_90_connection/Cluster_90_Sector002_connection/Zone002_Cluster_90_Sector002_connection/connection_ClusterGate090To031">
+			<macro       connection="destination" path="../../../../../Cluster_805_connection/Cluster_805_Sector001_connection/Zone004_Cluster_805_Sector001_connection/connection_ClusterGate805To301" />
+		</connection>
+		
+		
+		
+		
+		
+		<!-- Gate - Omicron Alpha   93-to-903   Matrix System -->
+		<connection name="ClusterGate093To903" ref="destination" path="../Cluster_93_connection/Cluster_93_Sector001_connection/Zone002_Cluster_93_Sector001_connection/connection_ClusterGate093To008">
+			<macro       connection="destination" path="../../../../../Cluster_903_connection/Cluster_903_Sector002_connection/Zone004_Cluster_903_Sector002_connection/connection_ClusterGate903To424" />
+		</connection>
+		
+		<!-- Gate - Omicron Beta   98-to-903   Matrix System -->
+		<connection name="ClusterGate098To903" ref="destination" path="../Cluster_98_connection/Cluster_98_Sector001_connection/Zone002_Cluster_98_Sector001_connection/connection_ClusterGate098To093">
+			<macro       connection="destination" path="../../../../../Cluster_903_connection/Cluster_903_Sector003_connection/Zone003_Cluster_903_Sector003_connection/connection_ClusterGate903To414" />
+		</connection>
+		
+		<!-- Gate - Omicron Gamma   907-to-903   Matrix System -->
+		<connection name="ClusterGate907To903" ref="destination" path="../Cluster_907_connection/Cluster_907_Sector001_connection/Zone004_Cluster_907_Sector001_connection/connection_ClusterGate907To093">
+			<macro       connection="destination" path="../../../../../Cluster_903_connection/Cluster_903_Sector001_connection/Zone003_Cluster_903_Sector001_connection/connection_ClusterGate903To033" />
+		</connection>
+		
+		<!-- Gate - Heart of Acrimony II   411-to-928   Theia World of Dreams -->
+		<connection name="ClusterGate411To928" ref="destination" path="../Cluster_411_connection/Cluster_411_Sector001_connection/Zone003_Cluster_411_Sector001_connection/connection_ClusterGate411To300">
+			<macro       connection="destination" path="../../../../../Cluster_928_connection/Cluster_928_Sector001_connection/Zone003_Cluster_928_Sector001_connection/connection_ClusterGate928To913" />
+		</connection>
+		
+	</add>
+	
+	
+	
+	
+	
+	<!-- Jump Gate Connections - ADD - XPAN Advanced -->
+	<add sel="/macros/macro[@name='XU_EP2_universe_macro']/connections">
+		
+		<!-- Gate - Clarity's End   814-to-xpan38   Three Worlds -->
+		<connection name="ClusterGate814ToXpan38" ref="destination" path="../Cluster_814_connection/Cluster_814_Sector001_connection/Zone005_Cluster_814_Sector001_connection/connection_ClusterGate814To300">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN38_connection/xpan_clusterXPAN38_sector001_connection/xpan_zone003_clusterXPAN38_sector001_connection/xpan_gate_cXPAN38s001z003_cXPAN37s001z003_connection" />
+		</connection>
+		
+		<!-- Gate - Circle of Deceit II   xpan16-to-xpan11   Treasure Chest -->
+		<connection name="ClusterGateXpan16ToXpan11" ref="destination" path="../xpan_clusterXPAN16_connection/xpan_clusterXPAN16_sector001_connection/xpan_zone004_clusterXPAN16_sector001_connection/xpan_gate_cXPAN16s001z004_cL35s001z003_connection">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN11_connection/xpan_clusterXPAN11_sector001_connection/xpan_zone003_clusterXPAN11_sector001_connection/xpan_gate_cXPAN11s001z003_cXPAN39s001z005_connection" />
+		</connection>
+		
+		<!-- Gate - Tempting Fumes   xpan39-to-xpan11   Treasure Chest -->
+		<connection name="ClusterGateXpan39ToXpan11" ref="destination" path="../xpan_clusterXPAN39_connection/xpan_clusterXPAN39_sector001_connection/xpan_zone005_clusterXPAN39_sector001_connection/xpan_gate_cXPAN39s001z005_cXPAN11s001z003_connection">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN11_connection/xpan_clusterXPAN11_sector001_connection/xpan_zone004_clusterXPAN11_sector001_connection/xpan_gate_cXPAN11s001z004_cL04s001z0013_connection" />
+		</connection>
+		
+		<!-- Gate - Consecrated Fire   815-to-xpan11   Treasure Chest -->
+		<connection name="ClusterGate815ToXpan11" ref="destination" path="../Cluster_815_connection/Cluster_815_Sector001_connection/Zone005_Cluster_815_Sector001_connection/connection_ClusterGate815To300">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN11_connection/xpan_clusterXPAN11_sector001_connection/xpan_zone002_clusterXPAN11_sector001_connection/xpan_gate_cXPAN11s001z002_cL06s002z003_connection" />
+		</connection>
+		
+		<!-- Gate - Thyn's Abyss   809-to-xpan17   Emperor's Ridge -->
+		<connection name="ClusterGate809ToXpan17" ref="destination" path="../Cluster_809_connection/Cluster_809_Sector001_connection/Zone004_Cluster_809_Sector001_connection/connection_ClusterGate809To300">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN17_connection/xpan_clusterXPAN17_sector001_connection/xpan_zone002_clusterXPAN17_sector001_connection/xpan_gate_cXPAN17s001z002_Cl26s002z001_connection" />
+		</connection>
+		
+		
+		
+		
+		
+		<!-- Gate - Shadow's End   xpan27-to-xpan22   Blue Horizon -->
+		<connection name="ClusterGateXpan27ToXpan22" ref="destination" path="../xpan_clusterXPAN27_connection/xpan_clusterXPAN27_sector001_connection/xpan_zone004_clusterXPAN27_sector001_connection/xpan_gate_cXPAN27s001z004_cXPAN28s001z001_connection">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN22_connection/xpan_clusterXPAN22_sector001_connection/xpan_zone004_clusterXPAN22_sector001_connection/xpan_gate_cXPAN22s001z004_cXPAN23s001z004_connection" />
+		</connection>
+		
+		<!-- Gate - Shadow's End   xpan27-to-xpan19   Julian's Burden -->
+		<connection name="ClusterGateXpan27ToXpan19" ref="destination" path="../xpan_clusterXPAN27_connection/xpan_clusterXPAN27_sector001_connection/xpan_zone002_clusterXPAN27_sector001_connection/xpan_gate_cXPAN27s001z002_cL107s001_connection">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN19_connection/xpan_clusterXPAN19_sector001_connection/xpan_zone001_clusterXPAN19_sector001_connection/xpan_gate_cXPAN19_cXPAN113zXPANs001_connection" />
+		</connection>
+		
+		<!-- Gate - Ket's Reckoning   xpan28-to-xpan19   Julian's Burden -->
+		<connection name="ClusterGateXpan28ToXpan19" ref="destination" path="../xpan_clusterXPAN28_connection/xpan_clusterXPAN28_sector001_connection/xpan_zone001_clusterXPAN28_sector001_connection/xpan_gate_cXPAN28s001z001_cXPAN27s001z004_connection">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN19_connection/xpan_clusterXPAN19_sector001_connection/xpan_zone002_clusterXPAN19_sector001_connection/xpan_gate_cXPAN19s001z002_cXPAN23s001z001_connection" />
+		</connection>
+		
+		<!-- Gate - Ket's Reckoning   xpan28-to-xpan21   Ashley's Paradise -->
+		<connection name="ClusterGateXpan28ToXpan21" ref="destination" path="../xpan_clusterXPAN28_connection/xpan_clusterXPAN28_sector003_connection/xpan_zone003_clusterXPAN28_sector003_connection/xpan_gate_cXPAN28s003z003_cL28s001z003_connection">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN21_connection/xpan_clusterXPAN21_sector001_connection/xpan_zone003_clusterXPAN21_sector001_connection/xpan_gate_cXPAN21s001z003_cXPAN19s001z003_connection" />
+		</connection>
+		
+		<!-- Gate - Ket's Reckoning   xpan28-to-xpan23   Red Light -->
+		<connection name="ClusterGateXpan28ToXpan23" ref="destination" path="../xpan_clusterXPAN28_connection/xpan_clusterXPAN28_sector002_connection/xpan_zone005_clusterXPAN28_sector002_connection/xpan_gate_cXPAN28s002z005_cXPAN424s001_connection">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN23_connection/xpan_clusterXPAN23_sector001_connection/xpan_zone004_clusterXPAN23_sector001_connection/xpan_gate_cXPAN23s001z004_cXPAN22s001z004_connection" />
+		</connection>
+		
+		<!-- Gate - Brennan's Triumph   115-to-xpan23   Red Light -->
+		<connection name="ClusterGate115ToXpan23" ref="destination" path="../Cluster_115_connection/Cluster_115_Sector001_connection/Zone006_Cluster_115_Sector001_connection/connection_ClusterGate115To">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN23_connection/xpan_clusterXPAN23_sector001_connection/xpan_zone005_clusterXPAN23_sector001_connection/xpan_gate_cXPAN23s001z005_cL28s001z003_connection" />
+		</connection>
+		
+		<!-- Gate - Segaris   113-to-xpan21   Ashley's Paradise -->
+		<connection name="ClusterGate113ToXpan21" ref="destination" path="../Cluster_113_connection/Cluster_113_Sector001_connection/ZoneXPAN1_Cluster_113_Sector001_connection/xpan_gate_cXPAN113zXPANs001_cXPAN19s001z001_connection">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN21_connection/xpan_clusterXPAN21_sector001_connection/xpan_zone001_clusterXPAN21_sector001_connection/xpan_gate_cXPAN21s001z001_cXPAN27s001z001_connection" />
+		</connection>
+		
+		
+		
+		
+		
+		<!-- Gate - Aphrodite's Storm   xpan10-to-608   Atreus' Clouds -->
+		<!--connection name="ClusterGateXpan10To608" ref="destination" path="../xpan_clusterXPAN10_connection/xpan_clusterXPAN10_sector003_connection/xpan_zone005_clusterXPAN10_sector003_connection/xpan_gate_cXPAN10_cXPAN09_connection">
+			<macro       connection="destination" path="../../../../../Cluster_608_connection/Cluster_608_Sector001_connection/Zone003_Cluster_608_Sector001_connection/connection_ClusterGate608To" />
+		</connection-->
+		
+		<!-- Gate - Aphrodite's Storm   xpan10-to-xpan08   Gunne's Crusade -->
+		<connection name="ClusterGateXpan10ToXpan08" ref="destination" path="../xpan_clusterXPAN10_connection/xpan_clusterXPAN10_sector002_connection/xpan_zone001_clusterXPAN10_sector002_connection/xpan_gate_cXPAN10s002z001_cXPAN423z003s002_connection">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN08_connection/xpan_clusterXPAN08_sector001_connection/xpan_zone004_clusterXPAN08_sector001_connection/xpan_gate_cXPAN08s001z004_cXPAN09s001z002_connection" />
+		</connection>
+		
+		<!-- Gate - Aphrodite's Storm   xpan10-to-xpan09   Artemis -->
+		<!--connection name="ClusterGateXpan10ToXpan09" ref="destination" path="../xpan_clusterXPAN10_connection/xpan_clusterXPAN10_sector001_connection/xpan_zone001_clusterXPAN10_sector001_connection/xpan_gate_cXPAN10s001z001_cXPAN422s001_connection">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN09_connection/xpan_clusterXPAN09_sector002_connection/xpan_zone001_clusterXPAN09_sector002_connection/xpan_gate_cXPAN09s001z002_cXPAN08s001z004_connection" />
+		</connection-->
+		
+		<!-- Gate - Shore of Infinity   805-to-xpan09   Aphrodite's Storm -->
+		<connection name="ClusterGate805ToXpan09" ref="destination" path="../Cluster_805_connection/Cluster_805_Sector001_connection/Zone003_Cluster_805_Sector001_connection/connection_ClusterGate805To300">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN10_connection/xpan_clusterXPAN10_sector001_connection/xpan_zone001_clusterXPAN10_sector001_connection/xpan_gate_cXPAN10s001z001_cXPAN422s001_connection" />
+		</connection>
+		
+		
+		
+		
+		
+		<!-- Gate - Desecrated Skies   xpan02-to-xpan03   Prometheus IV -->
+		<connection name="ClusterGateXpan02ToXpan03" ref="destination" path="../xpan_clusterXPAN02_connection/xpan_clusterXPAN02_sector001_connection/xpan_zone001_clusterXPAN02_sector001_connection/xpan_gate_cXPAN02s001z001_cXPAN415z003s001_connection">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN03_connection/xpan_clusterXPAN03_sector001_connection/xpan_zone002_clusterXPAN03_sector001_connection/xpan_gate_cXPAN03s001z002_cXPAN02s001z003_connection" />
+		</connection>
+		
+		<!-- Gate - Desecrated Skies   xpan02-to-604   Ocean of Fantasy -->
+		<!--connection name="ClusterGateXpan02To604" ref="destination" path="../xpan_clusterXPAN02_connection/xpan_clusterXPAN02_sector001_connection/xpan_zone002_clusterXPAN02_sector001_connection/xpan_gate_cXPAN02_cXPAN01_connection">
+			<macro       connection="destination" path="../../../../../Cluster_604_connection/Cluster_604_Sector001_connection/Zone001_Cluster_604_Sector001_connection/connection_ClusterGateInactive" />
+		</connection-->
+		
+		<!-- Gate - Desecrated Skies   xpan02-to-415   Matrix #598 -->
+		<!--connection name="ClusterGateXpan02ToXpan01" ref="destination" path="../xpan_clusterXPAN02_connection/xpan_clusterXPAN02_sector001_connection/xpan_zone005_clusterXPAN02_sector001_connection/xpan_gate_cXPAN02s001z005_cXPAN24s002z001_connection">
+			<macro       connection="destination" path="../../../../../Cluster_415_connection/Cluster_415_Sector001_connection/Zone004_Cluster_415_Sector001_connection/connection_ClusterGate415To404" />
+		</connection-->
+		
+		<!-- Gate - Desecrated Skies   xpan02-to-xpan01   Split Fire -->
+		<connection name="ClusterGateXpan02To415" ref="destination" path="../xpan_clusterXPAN02_connection/xpan_clusterXPAN02_sector001_connection/xpan_zone003_clusterXPAN02_sector001_connection/xpan_gate_cXPAN02s001z003_cXPAN03s001z002_connection">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN01_connection/xpan_clusterXPAN01_sector001_connection/xpan_zone005_clusterXPAN01_sector001_connection/xpan_gate_cXPAN01z005s001_cXPAN402s001_connection" />
+		</connection>
+		
+		<!-- Gate - Sudden Respite   xpan25-to-xpan01   Split Fire -->
+		<connection name="ClusterGateXpan25ToXpan01" ref="destination" path="../xpan_clusterXPAN25_connection/xpan_clusterXPAN25_sector001_connection/xpan_zone001_clusterXPAN25_sector001_connection/xpan_gate_cXPAN25s001z001_cXPAN24s003z005_connection">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN01_connection/xpan_clusterXPAN01_sector001_connection/xpan_zone002_clusterXPAN01_sector001_connection/xpan_gate_cXPAN01z002s001_cXPAN404s001_connection" />
+		</connection>
+		
+		<!-- Gate - Dark Horizon   xpan24-to-xpan01   Split Fire -->
+		<connection name="ClusterGateXpan24To415" ref="destination" path="../xpan_clusterXPAN24_connection/xpan_clusterXPAN24_sector003_connection/xpan_zone005_clusterXPAN24_sector003_connection/xpan_gate_cXPAN24s003z005_cXPAN25z003s001_connection">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN01_connection/xpan_clusterXPAN01_sector001_connection/xpan_zone003_clusterXPAN01_sector001_connection/xpan_gate_cXPAN01s001z003_cL45s001z001_connection" />
+		</connection>
+		
+		<!-- Gate - Dark Horizon   xpan24-to-415   Matrix #598 -->
+		<connection name="ClusterGateXpan24ToXpan01" ref="destination" path="../xpan_clusterXPAN24_connection/xpan_clusterXPAN24_sector002_connection/xpan_zone001_clusterXPAN24_sector002_connection/xpan_gate_cXPAN24s002z001_cXPAN002s001z005_connection">
+			<macro       connection="destination" path="../../../../../Cluster_415_connection/Cluster_415_Sector001_connection/ZoneXPAN_Cluster_415_Sector001_connection/xpan_gate_cXPAN415z003s001_cXPAN02s001z001_connection" />
+		</connection>
+		
+		
+		
+		
+		
+		<!-- Gate - Zhin's Resurgence   xpan34-to-xpan31   Spaceweed Grove -->
+		<connection name="ClusterGateXpan34ToXpan31" ref="destination" path="../xpan_clusterXPAN34_connection/xpan_clusterXPAN34_sector001_connection/xpan_zone004_clusterXPAN34_sector001_connection/xpan_gate_cXPAN34s001z004_cXPAN31s001z004_connection">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN31_connection/xpan_clusterXPAN31_sector001_connection/xpan_zone004_clusterXPAN31_sector001_connection/xpan_gate_cXPAN31s001z004_cXPAN34s001z004_connection" />
+		</connection>
+		
+		<!-- Gate - Rusiris' Dream   xpan32-to-xpan31   Spaceweed Grove -->
+		<connection name="ClusterGateXpan32ToXpan31" ref="destination" path="../xpan_clusterXPAN32_connection/xpan_clusterXPAN32_sector003_connection/xpan_zone002_clusterXPAN32_sector003_connection/xpan_gate_cXPAN32s003z002_cXPAN33s001z002_connection">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN31_connection/xpan_clusterXPAN31_sector001_connection/xpan_zone003_clusterXPAN31_sector001_connection/xpan_gate_cXPAN31s001z003_cXPAN32s001z003_connection" />
+		</connection>
+		
+		<!-- Gate - Rusiris' Dream   xpan32-to-015   Ianamus Zura -->
+		<connection name="ClusterGateXpan32ToXpan33" ref="destination" path="../xpan_clusterXPAN32_connection/xpan_clusterXPAN32_sector003_connection/xpan_zone004_clusterXPAN32_sector003_connection/xpan_gate_cXPAN32s003z004_cL15s002сXPAN_connection">
+			<macro       connection="destination" path="../../../../../Cluster_15_connection/Cluster_15_Sector002_connection/ZoneXPAN_Cluster_15_Sector002_connection/xpan_gate_cL15s002сXPAN_cXPAN32s003z004_connection" />
+		</connection>
+		
+		<!-- Gate - Rusiris' Dream   xpan32-to-xpan33   Nopileos' Legacy -->
+		<!--connection name="ClusterGateXpan32ToXpan36" ref="destination" path="../xpan_clusterXPAN32_connection/xpan_clusterXPAN32_sector001_connection/xpan_zone003_clusterXPAN32_sector001_connection/xpan_gate_cXPAN32s001z003_cXPAN31s001z003_connection">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN33_connection/xpan_clusterXPAN33_sector001_connection/xpan_zone002_clusterXPAN33_sector001_connection/xpan_gate_cXPAN33s001z002_cXPAN32s003z002_connection" />
+		</connection-->
+		
+		<!-- Gate - Legal Directive   xpan29-to-xpan36   The Boneyard -->
+		<connection name="ClusterGateXpan29To015" ref="destination" path="../xpan_clusterXPAN29_connection/xpan_clusterXPAN29_sector001_connection/xpan_zone001_clusterXPAN29_sector001_connection/xpan_gate_cXPAN29s001z001_cXPAN30s001z001_connection">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN36_connection/xpan_clusterXPAN36_sector002_connection/xpan_zone005_clusterXPAN36_sector002_connection/xpan_gate_cXPAN36s002z005_cL10s001zXPAN_connection" />
+		</connection>
+		
+		<!-- Gate - Mi Ton's Refuge   xpan37-to-xpan30   CEO's Doubt -->
+		<connection name="ClusterGateXpan37ToXpan30" ref="destination" path="../xpan_clusterXPAN37_connection/xpan_clusterXPAN37_sector001_connection/xpan_zone003_clusterXPAN37_sector001_connection/xpan_gate_cXPAN37s001z003_cXPAN38s001z003_connection">
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN30_connection/xpan_clusterXPAN30_sector001_connection/xpan_zone001_clusterXPAN30_sector001_connection/xpan_gate_cXPAN30s001z001_cXPAN29s001z001_connection" />
+		</connection>
+		
+	</add>
+	
+	
+	
+	<!-- Jump Gate Connections - ADD - Rise of the Ossian Raider -->
+	<add sel="/macros/macro[@name='XU_EP2_universe_macro']/connections">
+		
+		<!-- Gate - Merchant Haven   801-to-ror1   Theia -->
+		<connection name="ClusterGate801ToRor1" ref="destination" path="../Cluster_801_connection/Cluster_801_Sector001_connection/Zone004_Cluster_801_Sector001_connection/connection_ClusterGate801To300">
+			<macro       connection="destination" path="../../../../../Cluster_ror1_connection/Cluster_ror1_Sector001_connection/Zone002_Cluster_ror1_Sector001_connection/connection_ClusterGaterorTo044" />
+		</connection>
+	</add>
+	
+	
+	
+	
+	
+	<!-- Jump Gate Connections - ADD - Rise of the Ossian Raider - XPAN Advanced -->
+	<add sel="/macros/macro[@name='XU_EP2_universe_macro']/connections">
+		
+		<!-- Gate - Theia   ror1-to-015   Ianamus Zura -->
+		<connection name="ClusterGateRor1To015" ref="destination" path="../Cluster_ror1_connection/Cluster_ror1_Sector001_connection/Zone004_Cluster_ror1_Sector001_connection/connection_ClusterGaterorTo009">
+			<macro       connection="destination" path="../../../../../Cluster_15_connection/Cluster_15_Sector001_connection/ZoneXPAN_Cluster_15_Sector001_connection/xpan_gate_cL15s001сXPAN_cXPAN32s002z004_connection" />
+		</connection>
+	</add>
+	
+	
+	
+	
+	
+	<!-- Jump Gate Connections - ADD - Universe+ - XPAN Advanced -->
+	<add sel="/macros/macro[@name='XU_EP2_universe_macro']/connections">
+		
+		<!-- Gate - Split Fire   xpan01-to-93   Omicron Alpha -->
+		<connection name="ClusterGateXpan01To093" ref="destination" path="../xpan_clusterXPAN01_connection/xpan_clusterXPAN01_sector001_connection/xpan_zone004_clusterXPAN01_sector001_connection/xpan_gate_cXPAN01_cXPAN02_connection">
+			<macro       connection="destination" path="../../../../../Cluster_93_connection/Cluster_93_Sector001_connection/Zone004_Cluster_93_Sector001_connection/connection_ClusterGate093To907" />
+		</connection>
 	</add>
 	
 </diff>

@@ -187,9 +187,22 @@
 			</station>
 		</station>
 		
+		<!-- Xenon Station - Mists of Elysium I -->
+		<station id="xen_defence1_cluster_810_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_810_sector001_macro" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+					<variation exact="0"/>
+				</loadout>
+			</station>
+		</station>
 		
-		
-		<!-- Xenon Station - Mists of Elysium II-->
+		<!-- Xenon Station - Mists of Elysium II -->
 		<station id="shipyard_xenon_cluster_811" race="xenon" owner="xenon" type="shipyard">
 			<quotas>
 				<quota galaxy="1" zone="1" />
@@ -247,6 +260,21 @@
 				<quota galaxy="1" zone="1" />
 			</quotas>
 			<location class="zone" macro="zone004_cluster_811_sector001_macro" />
+			<station>
+				<select faction="xenon" tags="[defence]" />
+				<loadout>
+					<level exact="1.0" />
+					<variation exact="0"/>
+				</loadout>
+			</station>
+		</station>
+		
+		<!-- Xenon Station - Mists of Elysium III -->
+		<station id="xen_defence1_cluster_812_sector001" race="xenon" owner="xenon" type="defence">
+			<quotas>
+				<quota galaxy="1" zone="1" />
+			</quotas>
+			<location class="zone" macro="zone001_cluster_812_sector001_macro" />
 			<station>
 				<select faction="xenon" tags="[defence]" />
 				<loadout>

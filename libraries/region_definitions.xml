@@ -45,7 +45,7 @@
       <nebula ref="fogvolume_small_macro" localred="100" localgreen="100" localblue="100" localdensity="0.8" uniformred="49" uniformgreen="49" uniformblue="49" uniformdensity="0.2" backgroundfog="true" resources="hydrogen" />
     </fields>
     <resources>
-      <!--resource ware="hydrogen" yield="medhigh" /-->
+      <resource ware="hydrogen" yield="medhigh" />
     </resources>
   </region>
   
