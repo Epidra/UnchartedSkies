@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-
+	
+	<!--replace sel="//station[@id='tel_defence_cluster_02_sector001_01']/@owner">ministry</replace-->
+	<!--replace sel="//station[@id='tel_defence_cluster_02_sector001_02']/@owner">ministry</replace-->
+	
+	<replace sel="//station[@id='sca_piratestation_cluster_705']/position">
+		<position x="75000" y="-3000" z="-150000" pitch="0" yaw="35" roll="0" />
+	</replace>
+	
 	<!-- Special Objects -->
 	<add sel="/god/objects">
 		
@@ -187,21 +194,6 @@
 			</station>
 		</station>
 		
-		<!-- Xenon Station - Mists of Elysium I -->
-		<station id="xen_defence1_cluster_810_sector001" race="xenon" owner="xenon" type="defence">
-			<quotas>
-				<quota galaxy="1" zone="1" />
-			</quotas>
-			<location class="zone" macro="zone001_cluster_810_sector001_macro" />
-			<station>
-				<select faction="xenon" tags="[defence]" />
-				<loadout>
-					<level exact="1.0" />
-					<variation exact="0"/>
-				</loadout>
-			</station>
-		</station>
-		
 		<!-- Xenon Station - Mists of Elysium II -->
 		<station id="shipyard_xenon_cluster_811" race="xenon" owner="xenon" type="shipyard">
 			<quotas>
@@ -260,21 +252,6 @@
 				<quota galaxy="1" zone="1" />
 			</quotas>
 			<location class="zone" macro="zone004_cluster_811_sector001_macro" />
-			<station>
-				<select faction="xenon" tags="[defence]" />
-				<loadout>
-					<level exact="1.0" />
-					<variation exact="0"/>
-				</loadout>
-			</station>
-		</station>
-		
-		<!-- Xenon Station - Mists of Elysium III -->
-		<station id="xen_defence1_cluster_812_sector001" race="xenon" owner="xenon" type="defence">
-			<quotas>
-				<quota galaxy="1" zone="1" />
-			</quotas>
-			<location class="zone" macro="zone001_cluster_812_sector001_macro" />
 			<station>
 				<select faction="xenon" tags="[defence]" />
 				<loadout>
@@ -498,12 +475,12 @@
 			</station>
 		</station>
 		
-		<!-- Khaak Stations - Shareholder's Fortune -->
+		<!-- Khaak Stations - Fifth Cascade -->
 		<station id="kha_station_802" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone003_Cluster_802_Sector001_macro" />
+			<location class="zone" macro="Zone001_Cluster_802_Sector001_macro" />
 			<position x="3233" y="0" z="-7934"  pitch="0" roll="0" safepos="false"  />
 			<station macro="landmarks_kha_hive_01_macro">
 				<loadout>
@@ -516,7 +493,7 @@
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone003_Cluster_802_Sector001_macro" />
+			<location class="zone" macro="Zone001_Cluster_802_Sector001_macro" />
 			<position x="-2028.94" y="-191.401" z="-11973.229" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -529,7 +506,7 @@
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone003_Cluster_802_Sector001_macro" />
+			<location class="zone" macro="Zone001_Cluster_802_Sector001_macro" />
 			<position x="9621.613" y="-38.231" z="-12756.949" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -542,7 +519,7 @@
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone003_Cluster_802_Sector001_macro" />
+			<location class="zone" macro="Zone001_Cluster_802_Sector001_macro" />
 			<position x="9336.49" y="-20.033" z="-3242.936" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -555,7 +532,7 @@
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone003_Cluster_802_Sector001_macro" />
+			<location class="zone" macro="Zone001_Cluster_802_Sector001_macro" />
 			<position x="876.686" y="21.167" z="5.019" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -568,7 +545,7 @@
 			<quotas>
 				<quota galaxy="2" />
 			</quotas>
-			<location class="zone" macro="Zone003_Cluster_802_Sector001_macro" />
+			<location class="zone" macro="Zone001_Cluster_802_Sector001_macro" />
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
 					<level exact="1.0"/>
@@ -656,12 +633,12 @@
 			</station>
 		</station>
 		
-		<!-- Khaak Stations - Shining Currents -->
+		<!-- Khaak Stations - Inquisitor's Wrath -->
 		<station id="kha_station_813" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone004_Cluster_813_Sector001_macro" />
+			<location class="zone" macro="Zone003_Cluster_813_Sector001_macro" />
 			<position x="3233" y="0" z="-7934"  pitch="0" roll="0" safepos="false"  />
 			<station macro="landmarks_kha_hive_01_macro">
 				<loadout>
@@ -674,7 +651,7 @@
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone004_Cluster_813_Sector001_macro" />
+			<location class="zone" macro="Zone003_Cluster_813_Sector001_macro" />
 			<position x="-2028.94" y="-191.401" z="-11973.229" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -687,7 +664,7 @@
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone004_Cluster_813_Sector001_macro" />
+			<location class="zone" macro="Zone003_Cluster_813_Sector001_macro" />
 			<position x="9621.613" y="-38.231" z="-12756.949" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -700,7 +677,7 @@
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone004_Cluster_813_Sector001_macro" />
+			<location class="zone" macro="Zone003_Cluster_813_Sector001_macro" />
 			<position x="9336.49" y="-20.033" z="-3242.936" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -713,7 +690,7 @@
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone004_Cluster_813_Sector001_macro" />
+			<location class="zone" macro="Zone003_Cluster_813_Sector001_macro" />
 			<position x="876.686" y="21.167" z="5.019" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -726,7 +703,7 @@
 			<quotas>
 				<quota galaxy="2" />
 			</quotas>
-			<location class="zone" macro="Zone004_Cluster_813_Sector001_macro" />
+			<location class="zone" macro="Zone003_Cluster_813_Sector001_macro" />
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
 					<level exact="1.0"/>

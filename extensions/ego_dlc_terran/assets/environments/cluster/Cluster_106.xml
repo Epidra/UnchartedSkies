@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <diff>
 	
+	
+	
 	<!-- Mercury Flipped on z-Axis -->
-	
-	
 	
 	<!-- Mercury - Planet -->
 	<replace sel="/components/component[@name='Cluster_106']/connections/connection[@name='Connection04']/offset">

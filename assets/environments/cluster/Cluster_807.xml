@@ -341,11 +341,11 @@
 					<position x="8.405367E+07" y="1.706716E+07" z="3.760157E+07"/>
 				</offset>
 				<parts>
-					<part name="planet001b">
+					<part name="planet">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="newplanets.planet_cluster26_planet1"/>
+									<material id="1" ref="newplanets.planet1_cluster_02"/>
 								</materials>
 							</lod>
 						</lods>
@@ -362,11 +362,11 @@
 					<quaternion qx="3.879666E-02" qy="4.321016E-03" qz="0.1106073" qw="-0.9930973"/>
 				</offset>
 				<parts>
-					<part name="atmosphere001">
+					<part name="atmosphere">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="newplanets.atmo_cluster26_planet1"/>
+									<material id="1" ref="newplanets.atmo_cluster_02_planet1"/>
 								</materials>
 							</lod>
 						</lods>

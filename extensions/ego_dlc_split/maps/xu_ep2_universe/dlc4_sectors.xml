@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
 	
+	<!-- Sector 400 - Wretched Skies IV -->
+	<replace sel="/macros/macro[@name='Cluster_400_Sector001_macro']/connections/connection[@name='Zone004_Cluster_400_Sector001_connection']/offset">
+		<offset>
+          <position x="69261.015625" y="0" z="57018.04296875" />
+        </offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_400_Sector001_macro']/connections/connection[@name='Zone003_Cluster_400_Sector001_connection']/offset">
+		<offset>
+          <position x="92201.28125" y="0" z="-35614.76953125" />
+        </offset>
+	</replace>
+	
 	<!-- Sector 402 - Family Kritt -->
 	<replace sel="/macros/macro[@name='Cluster_402_Sector001_macro']/connections/connection[@name='Zone003_Cluster_402_Sector001_connection']/offset">
 		<offset>	<position x="-21916.24609375" y="0" z="108944.6796875" />	</offset>

@@ -166,14 +166,14 @@
 			<!-- Planet -->
 			<connection name="Connection007" tags="part  ">
 				<offset>
-					<position x="3.00350E+07" y="0.492513E+07" z="4.00350E+07"/>
+					<position x="5.00350E+07" y="0.492513E+07" z="6.00350E+07"/>
 				</offset>
 				<parts>
-					<part name="planet">
+					<part name="planet001b">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="newplanets.planet1_cluster_02"/>
+									<material id="1" ref="newplanets.planet_cluster26_planet1"/>
 								</materials>
 							</lod>
 						</lods>
@@ -186,14 +186,15 @@
 			</connection>
 			<connection name="Connection008" tags="part  ">
 				<offset>
-					<position x="3.00350E+07" y="0.492513E+07" z="4.00350E+07"/>
+					<position x="5.00350E+07" y="0.492513E+07" z="6.00350E+07"/>
 				</offset>
 				<parts>
-					<part name="atmosphere">
+					<part name="atmosphere001">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="newplanets.atmo_cluster_02_planet1"/>
+									
+									<material id="1" ref="newplanets.atmo_cluster26_planet1"/>
 								</materials>
 							</lod>
 						</lods>
@@ -204,6 +205,8 @@
 					</part>
 				</parts>
 			</connection>
+			
+			
 			
 		</connections>
 	</component>

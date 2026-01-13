@@ -3,7 +3,7 @@
 	
 	
 	
-	<!-- Shining Currents -->
+	<!-- Inquisitor's Wrath -->
 	
 	<component name="Cluster_813" class="celestialbody">
 		<source geometry="extensions\uncharted_skies\assets\environments\cluster\Cluster_813_data"/>
@@ -37,7 +37,7 @@
 			<connection name="Connection001" tags="part  ">
 				<offset/>
 				<parts>
-					<part name="part_c02_bg">
+					<part name="part_c30_bg">
 						<lods>
 							<lod index="0">
 								<materials>
@@ -46,14 +46,14 @@
 							</lod>
 						</lods>
 						<size>
-							<max x="5.96968E+08" y="5.96972E+08" z="5.96968E+08"/>
-							<center x="62.5" y="-31.25" z="62.5"/>
+							<max x="5.441747E+08" y="5.450214E+08" z="5.441747E+08"/>
+							<center x="0" y="0" z="-62.5"/>
 						</size>
 					</part>
 				</parts>
 			</connection>
 			
-			<!-- Background Stars -->
+			<!-- Bacground Stars -->
 			<connection name="Connection002" tags="part  ">
 				<offset>
 					<position x="1.226121E+07" y="0" z="8100438"/>
@@ -81,13 +81,13 @@
 				</parts>
 			</connection>
 			
-			<!-- Background Stars -->
+			<!-- Bacground Stars -->
 			<connection name="Connection003" tags="part  ">
 				<offset>
-					<position x="-3.0798E+07" y="-9366668" z="-1.38582E+07"/>
+					<position x="-4.030675E+07" y="4.737275E+07" z="-7.264697E+07"/>
 				</offset>
 				<parts>
-					<part name="mediumstar001">
+					<part name="nebula01">
 						<lods>
 							<lod index="0">
 								<materials>
@@ -96,20 +96,20 @@
 							</lod>
 						</lods>
 						<size>
-							<max x="4.833151E+08" y="4.40161E+08" z="4.641957E+08"/>
-							<center x="-3629469" y="-1085785" z="370014.7"/>
+							<max x="4.421192E+08" y="2.487106E+08" z="3.496882E+08"/>
+							<center x="2.674213E+07" y="1.839714E+07" z="3.447142E+07"/>
 						</size>
 					</part>
 				</parts>
 			</connection>
 			
-			<!-- Background Stars -->
+			<!-- Bacground Stars -->
 			<connection name="Connection004" tags="part  ">
 				<offset>
-					<position x="-1.338431E+07" y="9588839" z="1.399331E+07"/>
+					<position x="5377156" y="1.54702E+07" z="4.754675E+07"/>
 				</offset>
 				<parts>
-					<part name="smallstar001">
+					<part name="mediumstar01">
 						<lods>
 							<lod index="0">
 								<materials>
@@ -118,20 +118,20 @@
 							</lod>
 						</lods>
 						<size>
-							<max x="4.79781E+08" y="4.271116E+08" z="4.517703E+08"/>
-							<center x="-1.0174E+07" y="1743567" z="-8205781"/>
+							<max x="4.550263E+08" y="4.022284E+08" z="4.392247E+08"/>
+							<center x="2.806192E+07" y="-3.408786E+07" z="-6.991874E+07"/>
 						</size>
 					</part>
 				</parts>
 			</connection>
 			
-			<!-- Background Stars -->
+			<!-- Bacground Stars -->
 			<connection name="Connection005" tags="part  ">
 				<offset>
-					<position x="-1.023914E+07" y="4093156" z="-1.481975E+07"/>
+					<position x="582031.3" y="2.471836E+07" z="-4.34179E+07"/>
 				</offset>
 				<parts>
-					<part name="bigstar001">
+					<part name="smallstar01">
 						<lods>
 							<lod index="0">
 								<materials>
@@ -140,20 +140,20 @@
 							</lod>
 						</lods>
 						<size>
-							<max x="4.534431E+08" y="4.265936E+08" z="4.436975E+08"/>
-							<center x="-9033671" y="-48562.5" z="2.073083E+07"/>
+							<max x="4.242289E+08" y="3.714908E+08" z="5.244477E+08"/>
+							<center x="13421.88" y="1.910283E+07" z="1.676629E+07"/>
 						</size>
 					</part>
 				</parts>
 			</connection>
 			
-			<!-- Nebula -->
+			<!-- Bacground Stars -->
 			<connection name="Connection006" tags="part  ">
 				<offset>
-					<position x="-2.372034E+07" y="1.061391E+07" z="7498750"/>
+					<position x="390468.8" y="-2.326178E+07" z="7215977"/>
 				</offset>
 				<parts>
-					<part name="nebula001">
+					<part name="bigstar01">
 						<lods>
 							<lod index="0">
 								<materials>
@@ -162,58 +162,38 @@
 							</lod>
 						</lods>
 						<size>
-							<max x="4.987009E+08" y="4.757024E+08" z="4.802885E+08"/>
-							<center x="3591891" y="-9942702" z="-9262250"/>
+							<max x="4.073327E+08" y="4.084024E+08" z="4.2338E+08"/>
+							<center x="2488219" y="2.693827E+07" z="8454711"/>
 						</size>
 					</part>
 				</parts>
 			</connection>
 			
-			<!-- Planet -->
+			<!-- Moon -->
 			<connection name="Connection007" tags="part  ">
 				<offset>
-					<position x="0" y="-0.400197E+08" z="0"/>
-					<quaternion qx="-0" qy="-0" qz="-0.7071068" qw="-0.7071067"/>
+					<position x="1.592944E+07" y="10086287" z="1.537602E+07"/>
 				</offset>
 				<parts>
-					<part name="planet001c">
+					<part name="moon2b">
 						<lods>
 							<lod index="0">
 								<materials>
-									<material id="1" ref="newplanets.planet_cluster23_planet1"/>
+									<material id="1" ref="newplanets.planet_cluster30_moon2"/>
 								</materials>
 							</lod>
 						</lods>
 						<size>
-							<max x="2.578E+08" y="2.578E+08" z="2.578E+08"/>
-							<center x="0" y="0" z="-15.625"/>
-						</size>
-					</part>
-				</parts>
-			</connection>
-			<connection name="Connection008" tags="part  ">
-				<offset>
-					<position x="0" y="-0.400197E+08" z="0"/>
-					<quaternion qx="-0" qy="-0" qz="-0.7071068" qw="-0.7071067"/>
-				</offset>
-				<parts>
-					<part name="atmosphere001">
-						<lods>
-							<lod index="0">
-								<materials>
-									<material id="1" ref="newplanets.atmo_cluster23_planet1"/>
-								</materials>
-							</lod>
-						</lods>
-						<size>
-							<max x="2.6E+08" y="2.6E+08" z="2.6E+08"/>
-							<center x="0" y="0" z="-15.625"/>
+							<max x="1.4937E+07" y="1.4937E+07" z="1.4937E+07"/>
+							<center x="-1.953125" y="0" z="0"/>
 						</size>
 					</part>
 				</parts>
 			</connection>
 			
 		</connections>
+		
+		
 	</component>
 	
 </components>

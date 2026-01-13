@@ -3,7 +3,7 @@
 	
 	
 	
-	<!-- Light of Heart -->
+	<!-- Shadow of Giants -->
 	
 	<component name="Cluster_803" class="celestialbody">
 		<source geometry="extensions\uncharted_skies\assets\environments\cluster\Cluster_803_data"/>
@@ -14,7 +14,7 @@
 					<omni name="XU Omni01" shadow="0" r="232" g="250" b="255" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_ol" trigger="1" intensity="1">
 						<lightanimations/>
 						<offset>
-							<position x="3.687679E+08" y="1.37292E+08" z="5.965161E+07"/>
+							<position x="3.687679E+08" y="0.37292E+08" z="4.965161E+07"/>
 						</offset>
 					</omni>
 					<ambient name="XU Ambient001" r="25" g="25" b="25" range="1E+10" intensity="1">
@@ -144,7 +144,7 @@
 			<!-- Gas Giant -->
 			<connection name="Connection006" tags="part  ">
 				<offset>
-					<position x="1.661778E+07" y="1.769109E+07" z="9.787449E+07"/>
+					<position x="6.661778E+07" y="-0.769109E+07" z="-7.787449E+07"/>
 				</offset>
 				<parts>
 					<part name="planet001">
@@ -164,7 +164,7 @@
 			</connection>
 			<connection name="Connection007" tags="part  ">
 				<offset>
-					<position x="1.661778E+07" y="1.769109E+07" z="9.787449E+07"/>
+					<position x="6.661778E+07" y="-0.769109E+07" z="-7.787449E+07"/>
 				</offset>
 				<parts>
 					<part name="Sphere004">
@@ -186,7 +186,7 @@
 			<!-- Moon 1 -->
 			<connection name="Connection008" tags="part  ">
 				<offset>
-					<position x="-90296.88" y="-4147877" z="-8.879974E+07"/>
+					<position x="-1.4465E+08" y="-4.578541E+07" z="-2.184576E+08"/>
 				</offset>
 				<parts>
 					<part name="Sphere002">
@@ -206,7 +206,7 @@
 			</connection>
 			<connection name="Connection009" tags="part  ">
 				<offset>
-					<position x="-90296.88" y="-4147877" z="-8.879974E+07"/>
+					<position x="-1.4465E+08" y="-4.578541E+07" z="-2.184576E+08"/>
 				</offset>
 				<parts>
 					<part name="atmosphereb">
@@ -228,7 +228,8 @@
 			<!-- Moon 2 -->
 			<connection name="Connection010" tags="part  ">
 				<offset>
-					<position x="1.7465E+08" y="4.578541E+07" z="2.184576E+08"/>
+				<position x="90296.88" y="4147877" z="7.879974E+07"/>
+					
 				</offset>
 				<parts>
 					<part name="Sphere003">
@@ -248,7 +249,8 @@
 			</connection>
 			<connection name="Connection011" tags="part  ">
 				<offset>
-					<position x="1.7465E+08" y="4.578541E+07" z="2.184576E+08"/>
+					
+					<position x="90296.88" y="4147877" z="7.879974E+07"/>
 				</offset>
 				<parts>
 					<part name="atmosphereb001">

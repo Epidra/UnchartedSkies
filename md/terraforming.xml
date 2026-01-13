@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	
+	<!-- Add to Mission Signal -->
+	<add sel="//cue[@name='Signal_Terraforming_Cues']/actions">
+		<find_sector name="$PreacherVoid" macro="macro.cluster_807_sector001_macro" required="1"/>
+		<find_sector name="$ClarityEnd" macro="macro.cluster_814_sector001_macro" required="1"/>
+		<do_if value="$PreacherVoid.isknown">
+			<signal_cue cue="Terraforming_PreacherVoid"/>
+			<cancel_cue cue="Terraforming_PreacherVoid_Entered_Check"/>
+		</do_if>
+		<do_if value="$ClarityEnd.isknown">
+			<signal_cue cue="Terraforming_ClarityEnd"/>
+			<cancel_cue cue="Terraforming_ClarityEnd_Entered_Check"/>
+		</do_if>
+		<!--signal_cue cue="Terraforming_Xenon_TharkasCascade"/     works but not tested properly -->
+	</add>
+	
+	
+	
+	
+	
+	<!-- Add new Cues -->
+	<add sel="//cue[@name='Start']/cues">
+		
+		
+		
+		
+		
+		<!-- Load Game with Terraforming already unlocked - Preacher Void -->
+		<cue name="Terraforming_PreacherVoid_Signal" onfail="cancel" comment="Player loaded a save with Terraforming unlocked">
+			<conditions>
+				<check_value value="Signal_Terraforming_Cues.state == cuestate.complete"/>
+			</conditions>
+			<actions>
+				<find_sector name="$PreacherVoid" macro="macro.cluster_807_sector001_macro" required="1"/>
+				<do_if value="$PreacherVoid.isknown">
+					<signal_cue cue="Terraforming_PreacherVoid"/>
+					<cancel_cue cue="Terraforming_PreacherVoid_Entered_Check"/>
+				</do_if>
+			</actions>
+		</cue>
+		
+		
+		
+		
+		
+		<!-- Load Game with Terraforming already unlocked - Clarity End -->
+		<cue name="Terraforming_ClarityEnd_Signal" onfail="cancel" comment="Player loaded a save with Terraforming unlocked">
+			<conditions>
+				<check_value value="Signal_Terraforming_Cues.state == cuestate.complete"/>
+			</conditions>
+			<actions>
+				<find_sector name="$ClarityEnd" macro="macro.cluster_814_sector001_macro" required="1"/>
+				<do_if value="$ClarityEnd.isknown">
+					<signal_cue cue="Terraforming_ClarityEnd"/>
+					<cancel_cue cue="Terraforming_ClarityEnd_Entered_Check"/>
+				</do_if>
+			</actions>
+		</cue>
+		
+		
+		
+		
+		
+		<!-- Enter Sector with Terraforming already unlocked - Preacher Void -->
+		<cue name="Terraforming_PreacherVoid_Entered" comment="Player entered Preacher's Void and has Terraforming unlocked">
+			<actions>
+				<find_sector name="$PreacherVoid" macro="macro.cluster_807_sector001_macro" required="1"/>
+			</actions>
+			<cues>
+				<cue name="Terraforming_PreacherVoid_Entered_Check">
+					<conditions>
+						<event_object_changed_sector object="player.entity" sector="$PreacherVoid"/>
+						<check_value value="Signal_Terraforming_Cues.state == cuestate.complete"/>
+					</conditions>
+					<delay min="if player.debug then 5s else 1200s" max="if player.debug then 10s else 1800s"/>
+					<actions>
+						<signal_cue cue="Terraforming_PreacherVoid"/>
+					</actions>
+				</cue>
+			</cues>
+		</cue>
+		
+		
+		
+		
+		
+		<!-- Enter Sector with Terraforming already unlocked - Clarity End -->
+		<cue name="Terraforming_ClarityEnd_Entered" comment="Player entered Clarity's End and has Terraforming unlocked">
+			<actions>
+				<find_sector name="$ClarityEnd" macro="macro.cluster_814_sector001_macro" required="1"/>
+			</actions>
+			<cues>
+				<cue name="Terraforming_ClarityEnd_Entered_Check">
+					<conditions>
+						<event_object_changed_sector object="player.entity" sector="$ClarityEnd"/>
+						<check_value value="Signal_Terraforming_Cues.state == cuestate.complete"/>
+					</conditions>
+					<delay min="if player.debug then 5s else 1200s" max="if player.debug then 10s else 1800s"/>
+					<actions>
+						<signal_cue cue="Terraforming_ClarityEnd"/>
+					</actions>
+				</cue>
+			</cues>
+		</cue>
+		
+		
+		
+		
+		
+		<!-- Create Paranid Character for Cutscenes -->
+		<cue name="Terraforming_Create_HOL_Computer">
+			<conditions>
+				<event_cue_signalled/>
+			</conditions>
+			<actions>
+				<create_cue_actor name="$HolyOrder_Computer" cue="namespace" macro="character_computer_terraforming_arg_contact_macro">
+					<page exact="8200"/>
+					<owner exact="faction.holyorderfanatic"/>
+					<skills>
+						<skill type="management"  exact="6"/>
+						<skill type="morale"      exact="0"/>
+						<skill type="piloting"    exact="0"/>
+						<skill type="engineering" exact="0"/>
+						<skill type="boarding"    exact="0"/>
+					</skills>
+				</create_cue_actor>
+				<set_entity_traits entity="$HolyOrder_Computer" missionactor="true"/>
+			</actions>
+		</cue>
+		
+		
+		
+		
+		
+		<!-- Create Paranid Character for Cutscenes -->
+		<cue name="Terraforming_Create_PAR_Computer">
+			<conditions>
+				<event_cue_signalled/>
+			</conditions>
+			<actions>
+				<create_cue_actor name="$HolyOrder_Computer" cue="namespace" macro="character_computer_terraforming_arg_contact_macro">
+					<page exact="8200"/>
+					<owner exact="faction.buccaneers"/>
+					<skills>
+						<skill type="management"  exact="6"/>
+						<skill type="morale"      exact="0"/>
+						<skill type="piloting"    exact="0"/>
+						<skill type="engineering" exact="0"/>
+						<skill type="boarding"    exact="0"/>
+					</skills>
+				</create_cue_actor>
+				<set_entity_traits entity="$HolyOrder_Computer" missionactor="true"/>
+			</actions>
+		</cue>
+		
+		
+		
+		
+		
+		<!-- Terraforming Mission - Preacher's Void -->
+		<cue name="Terraforming_PreacherVoid" version="1">
+			<conditions>
+				<event_cue_signalled/>
+			</conditions>
+			<actions>
+				<do_if value="not $Cluster_PreacherVoid_Completed?">
+					<find_cluster name="$Cluster_PreacherVoid"  macro="macro.cluster_807_macro"/>
+					<find_cluster name="$Cluster_PreacherVoid2" macro="macro.cluster_806_macro"/>
+					<find_sector  required="true" name="$Sector_PreacherVoid"  macro="macro.cluster_807_sector001_macro" space="player.galaxy" />
+					<find_sector  required="true" name="$Sector_PreacherVoid2" macro="macro.cluster_806_sector001_macro" space="player.galaxy" />
+					<add_to_group groupname="$TerraformingClusters" object="$Cluster_PreacherVoid"/>
+					<append_to_list name="$OfferCues" exact="Terraforming_Preacher_CreateOffer"/>
+					<signal_cue cue="Refresh_Offers" check="false"/>
+					<initialise_terraforming cluster="$Cluster_PreacherVoid" partname="'planet'"/>
+					
+					<!--Set initial stats-->
+					<set_terraforming_stat cluster="$Cluster_PreacherVoid" id="'airpressure'" value="4"/>
+					<set_terraforming_stat cluster="$Cluster_PreacherVoid" id="'oxygen'" value="0"/>
+					<set_terraforming_stat cluster="$Cluster_PreacherVoid" id="'methane'" value="3"/>
+					<set_terraforming_stat cluster="$Cluster_PreacherVoid" id="'humidity'" value="1"/>
+					<set_terraforming_stat cluster="$Cluster_PreacherVoid" id="'population'" value="0"/>
+					<set_value name="$GlobalWarmingLimitTable.{$Cluster_PreacherVoid}" exact="5"/>
+					<set_value name="$AddedAtmoPressureTable.{$Cluster_PreacherVoid}" exact="0" comment="3 methane / 4"/>
+					
+					<!--Set up projects-->
+					<run_actions ref="SetupGeneralProjects">
+						<param name="Cluster" value="$Cluster_PreacherVoid"/>
+						<param name="GlobalWarmingLimit" value="5"/>
+					</run_actions>
+					<set_value name="$Terraforming_Preacher_HousingTargetAmount" exact="10000000"/>
+					
+					<!--Create mission character-->
+					<signal_cue cue="Terraforming_Create_HOL_Computer" check="false"/>
+				</do_if>
+			</actions>
+			<cues>
+				
+				<!-- Create a new Mission Offer for PreacherVoid -->
+				<cue name="Terraforming_Preacher_CreateOffer">
+					<conditions>
+						<event_cue_signalled/>
+					</conditions>
+					<actions>
+						<debug_text text="'Creating offer for cue Terraforming_Preacher_CreateMission'" chance="$DebugChance"/>
+						
+						<!-- Select the right HQ name -->
+						<do_if value="$HQ.hasbeenrenamed">
+							<set_value name="$HQName" exact="$HQ.knownname"/>
+						</do_if>
+						<do_else>
+							<set_value name="$HQName" exact="{20102,2011}"/>
+						</do_else>
+						<substitute_text text="$RelocateObjectiveText" source="{1004,1091}">
+							<replace string="'$STATION$'" with="$HQName"/>
+							<replace string="'$LOCATION$'" with="$Cluster_PreacherVoid.knownname"/>
+						</substitute_text>
+						<substitute_text text="$HousingObjectiveText" source="{1004,1090}">
+							<replace string="'$AMOUNT$'" with="'%,s'.[$Terraforming_Preacher_HousingTargetAmount]"/>
+						</substitute_text>
+						
+						<!-- create Mission Description -->
+						<create_offer cue="Terraforming_Preacher_CreateMission" type="missiontype.think" actor="$BosoTa" difficulty="level.veryhard" faction="faction.holyorder" group="missiongroup.terraforming" name="{8300,1001}" description="{8300,1002}" rewardtext="{8300,1003}">
+							<briefing>
+								<objective step="1" action="objective.relocate" text="$RelocateObjectiveText" encyclopedia="$Cluster_PreacherVoid"/>
+								<objective step="2" action="objective.build_project" text="terraforming.project.agr_fields_spices.name"/>
+								<objective step="3" action="objective.build_housing" text="$HousingObjectiveText"/>
+								<objective step="4" action="objective.build_project" text="terraforming.project.ame_temple.name"/>
+							</briefing>
+						</create_offer>
+						
+						<!-- Clean-up -->
+						<remove_value name="$RelocateObjectiveText"/>
+						<remove_value name="$HousingObjectiveText"/>
+					</actions>
+				</cue>
+				
+				<!-- Create the Mission for Preacher's Void - Includes Update Conditions -->
+				<cue name="Terraforming_Preacher_CreateMission">
+					<conditions>
+						<event_cue_signalled/>
+					</conditions>
+					<actions>
+						<debug_text text="'Creating mission for cue Terraforming_Preacher_CreateMission'" chance="$DebugChance"/>
+						<create_mission cue="Terraforming_Preacher_CreateMission" offercue="Terraforming_Preacher_CreateMission"/>
+						<set_terraforming_mission_activated cluster="$Cluster_PreacherVoid" missioncue="Terraforming_Preacher_CreateMission"/>
+						<remove_offer cue="Terraforming_Preacher_CreateMission"/>
+						<set_value name="$AcceptedOfferCue" exact="Terraforming_Preacher_CreateOffer"/>
+						<do_if value="@$AbortMissionCue">
+							<signal_cue cue="$AbortMissionCue"/>
+						</do_if>
+						<set_value name="$AbortMissionCue" exact="Terraforming_Preacher_AbortMission"/>
+						<set_value name="$OptionalSteps" exact="0"/>
+						<substitute_text text="$CutsceneCaption" source="{1015,191}">
+							<replace string="'$LOCATION$'" with="{20005,1049}"/>
+							<replace string="'$PERSON$'" with="$HolyOrder_Computer.knownname"/>
+						</substitute_text>
+					</actions>
+					<cues>
+						
+						<!-- Intro Dialog -->
+						<cue name="Terraforming_Preacher_Intro_Ref" ref="md.LIB_Dialog.Speak_Actor">
+							<param name="Actor"             value="$HolyOrder_Computer"/>
+							<param name="CutsceneKey"       value="table[ $key = 'ShowCharacterAntigone']"/>
+							<param name="CutsceneCaption"   value="$CutsceneCaption"/>
+							<param name="Lines"             value="[[1001]]"/>
+						</cue>
+						
+						<!-- Cancel Mission and reload Mission Offer -->
+						<cue name="Terraforming_Preacher_AbortMission">
+							<conditions>
+								<check_any>
+									<event_mission_aborted cue="Terraforming_Preacher_CreateMission"/>
+									<event_cue_signalled/>
+								</check_any>
+							</conditions>
+							<actions>
+								<debug_text text="'Removing mission for cue Terraforming_Preacher_CreateMission'" chance="$DebugChance"/>
+								<remove_mission cue="Terraforming_Preacher_CreateMission"/>
+								<remove_value name="$AcceptedOfferCue"/>
+								<remove_value name="$AbortMissionCue"/>
+								<set_terraforming_mission_deactivated cluster="$Cluster_PreacherVoid"/>
+								<reset_cue cue="Terraforming_Preacher_CreateMission"/>
+								<reset_cue cue="Terraforming_Preacher_CreateOffer"/>
+								<signal_cue cue="Refresh_Offers"/>
+							</actions>
+						</cue>
+						
+						<!-- Manager for keeping track of Objectives -->
+						<cue name="Terraforming_Preacher_Init_ObjectiveManager" version="4">
+							<actions>
+								<do_if value="not $Cluster_Preacher_Completed?">
+									<do_if value="$HQ.cluster != $Cluster_PreacherVoid">
+										<do_if value="not $ProjectStep?">
+											<set_value name="$ProjectStep" exact="1"/>
+										</do_if>
+										<set_value name="$RelocateComplete" exact="false"/>
+									</do_if>
+									<do_else>
+										<set_value name="$RelocateComplete" exact="true"/>
+									</do_else>
+									<do_if value="$Cluster_PreacherVoid.terraforming.project.agr_fields_spices.complete == false">
+										<do_if value="not $ProjectStep?">
+											<set_value name="$ProjectStep" exact="2"/>
+										</do_if>
+										<set_value name="$WheatFieldsComplete" exact="false"/>
+									</do_if>
+									<do_else>
+										<set_value name="$WheatFieldsComplete" exact="true"/>
+									</do_else>
+									<do_if value="$Cluster_PreacherVoid.terraforming.stat.population.value lt $Terraforming_Preacher_HousingTargetAmount">
+										<do_if value="not $ProjectStep?">
+											<set_value name="$ProjectStep" exact="3"/>
+										</do_if>
+										<set_value name="$HousingComplete" exact="false"/>
+									</do_if>
+									<do_else>
+										<set_value name="$HousingComplete" exact="true"/>
+									</do_else>
+									<do_if value="$Cluster_PreacherVoid.terraforming.project.ame_temple.complete == false">
+										<do_if value="not $ProjectStep?">
+											<set_value name="$ProjectStep" exact="4"/>
+										</do_if>
+										<set_value name="$TropicalResortComplete" exact="false"/>
+									</do_if>
+									<do_else>
+										<set_value name="$TropicalResortComplete" exact="true"/>
+									</do_else>
+										
+									<!-- select corect HQ name -->
+									<do_if value="$HQ.hasbeenrenamed">
+										<set_value name="$HQName" exact="$HQ.knownname"/>
+									</do_if>
+									<do_else>
+										<set_value name="$HQName" exact="{20102,2011}"/>
+									</do_else>
+									<substitute_text text="$RelocateObjectiveText" source="{1004,1091}">
+										<replace string="'$STATION$'" with="$HQName"/>
+										<replace string="'$LOCATION$'" with="$Cluster_PreacherVoid.knownname"/>
+									</substitute_text>
+									<substitute_text text="$HousingObjectiveText" source="{1004,1090}">
+										<replace string="'$AMOUNT$'" with="'%,s'.[$Terraforming_Preacher_HousingTargetAmount]"/>
+									</substitute_text>
+										
+									<!-- Setup objective - Hangar not built -->
+									<do_if value="not $HQ.canbuildclass.{class.ship_s}">
+										<update_mission cue="Terraforming_Preacher_CreateMission">
+											<briefing replace="true">
+												<objective step="1" action="objective.build_module" object="$HQ" text="{20104,61301}" comment="Build S/M Ship Fabrication Module"/>
+												<objective step="2" action="objective.relocate" text="$RelocateObjectiveText" encyclopedia="$Cluster_PreacherVoid" completed="$RelocateComplete"/>
+												<objective step="3" action="objective.build_project" text="terraforming.project.agr_fields_spices.name" completed="$WheatFieldsComplete"/>
+												<objective step="4" action="objective.build_housing" text="$HousingObjectiveText" completed="$HousingComplete"/>
+												<objective step="5" action="objective.build_project" text="terraforming.project.ame_temple.name" completed="$TropicalResortComplete"/>
+											</briefing>
+										</update_mission>
+										<do_if value="not $BuildObjective?">
+											<set_value name="$OptionalSteps" operation="add" exact="1"/>
+											<set_value name="$BuildObjective"/>
+											<signal_cue cue="Terraforming_Preacher_Trigger_BuildModule_Objective"/>
+										</do_if>
+										<set_objective_from_briefing cue="Terraforming_Preacher_CreateMission" step="1"/>
+									</do_if>
+										
+									<!-- Setup objective - Hangar already working -->
+									<do_else>
+										<do_if value="$BuildObjective?">
+											<set_value name="$OptionalSteps" operation="subtract" exact="1"/>
+											<remove_value name="$BuildObjective"/>
+										</do_if>
+										<update_mission cue="Terraforming_Preacher_CreateMission">
+											<briefing replace="true">
+												<objective step="1" action="objective.relocate" text="$RelocateObjectiveText" encyclopedia="$Cluster_PreacherVoid" completed="$RelocateComplete"/>
+												<objective step="2" action="objective.build_project" text="terraforming.project.agr_fields_spices.name" completed="$WheatFieldsComplete"/>
+												<objective step="3" action="objective.build_housing" text="$HousingObjectiveText" completed="$HousingComplete"/>
+												<objective step="4" action="objective.build_project" text="terraforming.project.ame_temple.name" completed="$TropicalResortComplete"/>
+											</briefing>
+										</update_mission>
+										<do_if value="$OptionalSteps ge 1">
+											<set_value name="$ProjectStep" operation="add" exact="$OptionalSteps"/>
+										</do_if>
+										<do_else>
+											<set_value name="$OptionalSteps" exact="0"/>
+										</do_else>
+										<set_value name="$ProjectStep" operation="add" exact="$OptionalSteps"/>
+										<set_objective_from_briefing cue="Terraforming_Preacher_CreateMission" step="$ProjectStep"/>
+									</do_else>
+										
+									<!-- Clean-up -->
+									<remove_value name="$ProjectStep"/>
+									<remove_value name="$RelocateObjectiveText"/>
+									<remove_value name="$HousingObjectiveText"/>
+								</do_if>
+							</actions>
+						</cue>
+							
+						<!-- Condition - Build S-M Hangar -->
+						<cue name="Terraforming_Preacher_BuildModule_Check">
+							<actions>
+								<find_object_component groupname="$WharfModules" object="$HQ" class="class.buildmodule">
+									<match_any>
+										<match canbuildclass="class.ship_m"/>
+										<match canbuildclass="class.ship_s"/>
+									</match_any>
+								</find_object_component>
+							</actions>
+							<cues>
+								<cue name="Terraforming_Preacher_BuildModuleDestroyed" instantiate="true">
+									<conditions>
+										<event_object_destroyed group="$WharfModules"/>
+										<check_value value="$WharfModules.count == 1" comment="trigger another check when the last build module is destroyed"/>
+									</conditions>
+									<actions>
+										<signal_cue_instantly cue="Terraforming_Preacher_ObjectiveUpdate" param="['RequestBuildModule']"/>
+									</actions>
+								</cue>
+							</cues>
+						</cue>
+						
+						<!-- Update Objective -->
+						<cue name="Terraforming_Preacher_ObjectiveUpdate" instantiate="true">
+							<conditions>
+								<check_any>
+									<event_terraforming_stat_changed cluster="$Cluster_PreacherVoid"/>
+									<event_terraforming_project_succeeded cluster="$Cluster_PreacherVoid"/>
+									<event_object_changed_cluster object="$HQ"/>
+									<event_cue_signalled/>
+								</check_any>
+							</conditions>
+							<actions>
+								<do_if value="typeof event.param == datatype.list ">
+									<do_if value="event.param.{1} == 'ModulesGroup'" comment="make sure the signal came from CheckStation_BuildModule">
+										<add_to_group groupname="$WharfModules" group="event.param.{2}"/>
+									</do_if>
+								</do_if>
+								<reset_cue cue="Terraforming_Preacher_Init_ObjectiveManager"/>
+							</actions>
+						</cue>
+						
+						<!-- Condition - Trigger Build Objective -->
+						<cue name="Terraforming_Preacher_Trigger_BuildModule_Objective" instantiate="true">
+							<conditions>
+								<event_cue_signalled/>
+							</conditions>
+							<cues>
+								<cue name="Terraforming_Preacher_BuildModule" ref="AdditionalObjective_BuildModule">
+									<!-- Required to Signal the Update Cue when Building is finished -->
+									<param name="UpdateCue" value="Terraforming_Preacher_ObjectiveUpdate"/>
+									<param name="Station" value="$HQ"/>
+								</cue>
+							</cues>
+						</cue>
+					</cues>
+				</cue>
+				
+				<!-- Cutscene - Milestone 1 -->
+				<cue name="Terraforming_Preacher_Milestone_1">
+					<conditions>
+						<check_any>
+							<event_terraforming_project_succeeded cluster="$Cluster_PreacherVoid" project="'ter_volcanocaps'"/>
+						</check_any>
+					</conditions>
+					<actions>
+						<substitute_text text="$CutsceneCaption" source="{1015,191}">
+							<replace string="'$LOCATION$'" with="{20005,1049}"/>
+							<replace string="'$PERSON$'" with="$HolyOrder_Computer.knownname"/>
+						</substitute_text>
+					</actions>
+					<cues>
+						<cue name="Terraforming_Preacher_Report_1_Ref" ref="md.LIB_Dialog.Speak_Actors">
+							<param name="Actor"             value="[$HolyOrder_Computer,$BosoTa]"/>
+							<param name="CutsceneKey"       value="[table[$key = 'ShowCharacterAntigone'],table[$key = 'ShowCharacterBoron']]"/>
+							<param name="CutsceneCaption"   value="[true, $CutsceneCaption]"/>
+							<param name="Lines"             value="[[1002]]"/>
+						</cue>
+					</cues>
+				</cue>
+				
+				<!-- Cutscene - Milestone 2 -->
+				<cue name="Terraforming_Preacher_Milestone_2">
+					<conditions>
+						<event_terraforming_stat_changed cluster="$Cluster_PreacherVoid"/>
+						<check_value value="$Cluster_PreacherVoid.terraforming.stat.temperature.value le 3"/>
+						<check_value value="$Cluster_PreacherVoid.terraforming.stat.humidity.value ge 1"/>
+						<check_value value="$Cluster_PreacherVoid.terraforming.stat.airpressure.value ge 1"/>
+					</conditions>
+					<actions>
+						<substitute_text text="$CutsceneCaption" source="{1015,191}">
+							<replace string="'$LOCATION$'" with="{20005,1049}"/>
+							<replace string="'$PERSON$'" with="$HolyOrder_Computer.knownname"/>
+						</substitute_text>
+					</actions>
+					<cues>
+						<cue name="Terraforming_Preacher_Report_2_Ref" ref="md.LIB_Dialog.Speak_Actor">
+							<param name="Actor"             value="$HolyOrder_Computer"/>
+							<param name="CutsceneKey"       value="table[ $key = 'ShowCharacterAntigone']"/>
+							<param name="CutsceneCaption"   value="$CutsceneCaption"/>
+							<param name="Lines"             value="[[1003]]"/>
+						</cue>
+					</cues>
+				</cue>
+				
+				<!-- Cutscene - Mission Complete -->
+				<cue name="Terraforming_Preacher_MissionComplete" version="6">
+					<conditions>
+						<check_any>
+							<event_terraforming_stat_changed cluster="$Cluster_PreacherVoid" stat="'population'"/>
+							<event_terraforming_project_succeeded cluster="$Cluster_PreacherVoid" project="'agr_fields_spices'"/>
+							<event_terraforming_project_succeeded cluster="$Cluster_PreacherVoid" project="'ame_temple'"/>
+						</check_any>
+						<check_value value="$Cluster_PreacherVoid.terraforming.stat.population.value ge $Terraforming_Preacher_HousingTargetAmount"/>
+						<check_value value="$Cluster_PreacherVoid.terraforming.project.agr_fields_spices.complete"/>
+						<check_value value="$Cluster_PreacherVoid.terraforming.project.ame_temple.complete"/>
+					</conditions>
+					<actions>
+						<cancel_cue cue="Terraforming_Preacher_ObjectiveUpdate"/>
+						
+						
+						<set_object_name object="$Cluster_PreacherVoid"   name="'{8000,3042}'"/>
+						<set_object_name object="$Cluster_PreacherVoid2"  name="'{8000,3042}'"/>
+						
+						<set_object_name object="$Sector_PreacherVoid"   name="'{8000,3071}'"/>
+						<set_object_name object="$Sector_PreacherVoid2"  name="'{8000,3061}'"/>
+						
+						<set_world_settlements cluster="$Cluster_PreacherVoid" partname="'planet'" page="1042" line="16041" comment="Multiple Cities"/>
+						
+						<remove_from_list name="$OfferCues" exact="Terraforming_Preacher_CreateOffer"/>
+						<remove_value name="$AbortMissionCue"/>
+						<remove_mission cue="Terraforming_Preacher_CreateMission" type="completed"/>
+						<set_value name="$Cluster_PreacherVoid_Completed"/>
+						<set_terraforming_mission_completed cluster="$Cluster_PreacherVoid"/>
+						<unlock_achievement name="TERRAFORMING_MISSION"/>
+						<set_value name="stat.terraforming_missions_completed" operation="add"/>
+						<substitute_text text="$CutsceneCaption" source="{1015,191}">
+							<replace string="'$LOCATION$'" with="{20005,1056}"/>
+							<replace string="'$PERSON$'" with="$HolyOrder_Computer.knownname"/>
+						</substitute_text>
+					</actions>
+					<cues>
+						<cue name="Terraforming_Preacher_VideoEmail">
+							<actions>
+								<substitute_text text="$EmailTitle" source="{30500,11001}">
+									<replace string="'$CLUSTERNAME$'" with="$Cluster_PreacherVoid.knownname"/>
+								</substitute_text>
+								<write_incoming_message title="$EmailTitle" text="{30500,11002}" source="if player.target then player.target else player.entity.container" highpriority="true" comment="Preachers Misfortune Terraforming Wrap Email">
+									<cutscene key="'terraforming_Preachers_misfortune'"/>
+								</write_incoming_message>
+							</actions>
+						</cue>
+						<cue name="Terraforming_Preacher_Report_3_Ref" ref="md.LIB_Dialog.Speak_Actor">
+							<param name="Actor"             value="$HolyOrder_Computer"/>
+							<param name="CutsceneKey"       value="table[ $key = 'ShowCharacterCinder']"/>
+							<param name="CutsceneCaption"   value="$CutsceneCaption"/>
+							<param name="Lines"             value="[[1004]]"/>
+						</cue>
+					</cues>
+				</cue>
+				
+				<!-- DEBUG Command -->
+				<cue name="DEBUG_Terraforming_Preacher" onfail="cancel">
+					<conditions>
+						<check_value value="$DebugWarpCues?"/>
+					</conditions>
+					<delay exact="1ms"/>
+					<actions>
+						<append_to_list name="$DebugWarpCues" exact="DEBUG_Terraforming_Preacher_WarpPlayerShip"/>
+						<append_to_list name="$DebugSetStatsCues" exact="DEBUG_Terraforming_Preacher_SetEndStats"/>
+					</actions>
+					<cues>
+						<cue name="DEBUG_Terraforming_Preacher_WarpPlayerShip">
+							<conditions>
+								<event_cue_signalled/>
+							</conditions>
+							<actions>
+								<run_actions ref="DEBUG_Terraforming_WarpPlayerShip">
+									<param name="Cluster" value="$Cluster_PreacherVoid"/>
+								</run_actions>
+							</actions>
+						</cue>
+						<cue name="DEBUG_Terraforming_Preacher_SetEndStats">
+							<conditions>
+								<event_cue_signalled/>
+							</conditions>
+							<actions>
+								<set_terraforming_stat cluster="$Cluster_PreacherVoid" id="'temperature'" value="6"/>
+								<set_terraforming_stat cluster="$Cluster_PreacherVoid" id="'oxygen'" value="9"/>
+								<set_terraforming_stat cluster="$Cluster_PreacherVoid" id="'methane'" value="0"/>
+								<set_terraforming_stat cluster="$Cluster_PreacherVoid" id="'humidity'" value="4"/>
+								<set_terraforming_stat cluster="$Cluster_PreacherVoid" id="'seismicactivity'" value="1"/>
+							</actions>
+						</cue>
+						<cue name="DEBUG_Terraforming_Preacher_SetPopulation">
+							<conditions>
+								<event_cue_signalled/>
+							</conditions>
+							<actions>
+								<set_terraforming_stat cluster="$Cluster_PreacherVoid" id="'population'" value="10000000000L"/>
+							</actions>
+						</cue>
+					</cues>
+				</cue>
+			
+			</cues>
+		</cue>
+		
+		
+		
+		
+		
+		<!-- Terraforming Mission - Clarity's End -->
+		<cue name="Terraforming_ClarityEnd">
+			<conditions>
+				<event_cue_signalled/>
+			</conditions>
+			<actions>
+				<do_if value="not $Cluster_ClarityEnd_Completed?">
+					<find_cluster name="$Cluster_ClarityEnd" macro="macro.cluster_814_macro"/>
+					<find_sector  required="true" name="$Sector_ClarityEnd"  macro="macro.cluster_814_sector001_macro" space="player.galaxy" />
+					<add_to_group groupname="$TerraformingClusters" object="$Cluster_ClarityEnd"/>
+					<append_to_list name="$OfferCues" exact="Terraforming_ClarityEnd_CreateOffer"/>
+					<signal_cue cue="Refresh_Offers" check="false"/>
+					<initialise_terraforming cluster="$Cluster_ClarityEnd" partname="'planet001b'"/>
+					
+					<!--Set initial stats-->
+					<set_terraforming_stat cluster="$Cluster_ClarityEnd" id="'temperature'" value="9"/>
+					<set_terraforming_stat cluster="$Cluster_ClarityEnd" id="'oxygen'" value="0"/>
+					<set_terraforming_stat cluster="$Cluster_ClarityEnd" id="'methane'" value="2"/>
+					<set_terraforming_stat cluster="$Cluster_ClarityEnd" id="'humidity'" value="0"/>
+					<set_terraforming_stat cluster="$Cluster_ClarityEnd" id="'seismicactivity'" value="3"/>
+					<set_terraforming_stat cluster="$Cluster_ClarityEnd" id="'population'" value="0"/>
+					<set_value name="$AddedAtmoPressureTable.{$Cluster_ClarityEnd}" exact="0" comment="2 methane / 4"/>
+					
+					<!--Set up projects-->
+					<run_actions ref="SetupGeneralProjects">
+						<param name="Cluster" value="$Cluster_ClarityEnd"/>
+						<param name="EnergyProject" value="'pwr_geothermal'"/>
+					</run_actions>
+					<add_terraforming_project cluster="$Cluster_ClarityEnd" id="'ter_volcanocaps'"/>
+					<set_value name="$Terraforming_ClarityEnd_HousingTargetAmount" exact="100000000"/>
+					<add_terraforming_event cluster="$Cluster_ClarityEnd" id="'evt_quake_mild'"/>
+					<add_terraforming_event cluster="$Cluster_ClarityEnd" id="'evt_quake_moderate'"/>
+					<add_terraforming_event cluster="$Cluster_ClarityEnd" id="'evt_quake_severe'"/>
+					
+					<!--Create mission character-->
+					<signal_cue cue="Terraforming_Create_PAR_Computer" check="false"/>
+					
+				</do_if>
+			</actions>
+			<cues>
+				
+				<!-- Create a new Mission Offer for ClarityEnd -->
+				<cue name="Terraforming_ClarityEnd_CreateOffer">
+					<conditions>
+						<event_cue_signalled/>
+					</conditions>
+					<actions>
+						<debug_text text="'Creating offer for cue Terraforming_ClarityEnd_CreateMission'" chance="$DebugChance"/>
+						
+						<!-- get correct name for HQ -->
+						<do_if value="$HQ.hasbeenrenamed">
+							<set_value name="$HQName" exact="$HQ.knownname"/>
+						</do_if>
+						<do_else>
+							<set_value name="$HQName" exact="{20102,2011}"/>
+						</do_else>
+						<substitute_text text="$RelocateObjectiveText" source="{1004,1091}">
+							<replace string="'$STATION$'" with="$HQName"/>
+							<replace string="'$LOCATION$'" with="$Cluster_ClarityEnd.knownname"/>
+						</substitute_text>
+						<substitute_text text="$HousingObjectiveText" source="{1004,1090}">
+							<replace string="'$AMOUNT$'" with="'%,s'.[$Terraforming_ClarityEnd_HousingTargetAmount]"/>
+						</substitute_text>
+						
+						<!-- create Mission Description -->
+						<create_offer cue="Terraforming_ClarityEnd_CreateMission" type="missiontype.think" actor="$BosoTa" difficulty="level.veryhard" faction="faction.paranid" group="missiongroup.terraforming" name="{8300,2001}" description="{8300,2002}" rewardtext="{8300,2003}">
+							<briefing>
+								<objective step="1" action="objective.relocate" text="$RelocateObjectiveText" encyclopedia="$Cluster_ClarityEnd"/>
+								<objective step="2" action="objective.build_project" text="terraforming.project.agr_fields_soja.name"/>
+								<objective step="3" action="objective.build_housing" text="$HousingObjectiveText"/>
+								<objective step="4" action="objective.build_project" text="terraforming.project.trn_pilot.name"/>
+							</briefing>
+						</create_offer>
+						
+						<!-- clean-up -->
+						<remove_value name="$RelocateObjectiveText"/>
+						<remove_value name="$HousingObjectiveText"/>
+					</actions>
+				</cue>
+				
+				<!-- Create the Mission for Clarity's End - Includes Update Conditions -->
+				<cue name="Terraforming_ClarityEnd_CreateMission">
+					<conditions>
+						<event_cue_signalled/>
+					</conditions>
+					<actions>
+						<debug_text text="'Creating mission for cue Terraforming_ClarityEnd_CreateMission'" chance="$DebugChance"/>
+						<create_mission cue="Terraforming_ClarityEnd_CreateMission" offercue="Terraforming_ClarityEnd_CreateMission"/>
+						<set_terraforming_mission_activated cluster="$Cluster_ClarityEnd" missioncue="Terraforming_ClarityEnd_CreateMission"/>
+						<remove_offer cue="Terraforming_ClarityEnd_CreateMission"/>
+						<set_value name="$AcceptedOfferCue" exact="Terraforming_ClarityEnd_CreateOffer"/>
+						<do_if value="@$AbortMissionCue">
+							<signal_cue cue="$AbortMissionCue"/>
+						</do_if>
+						<set_value name="$AbortMissionCue" exact="Terraforming_ClarityEnd_AbortMission"/>
+						<set_value name="$OptionalSteps" exact="0"/>
+					</actions>
+					<cues>
+						
+						<!-- Intro Dialog -->
+						<cue name="Terraforming_ClarityEnd_Intro_Ref" ref="md.LIB_Dialog.Speak_Actor">
+							<param name="Actor"             value="$Paranid_Computer"/>
+							<param name="CutsceneKey"       value="table[ $key = 'ShowCharacter']"/>
+							<param name="Lines"             value="[[2001]]"/>
+						</cue>
+						
+						<!-- Cancel Mission and reload Mission Offer -->
+						<cue name="Terraforming_ClarityEnd_AbortMission">
+							<conditions>
+								<check_any>
+									<event_mission_aborted cue="Terraforming_ClarityEnd_CreateMission"/>
+									<event_cue_signalled/>
+								</check_any>
+							</conditions>
+							<actions>
+								<debug_text text="'Removing mission for cue Terraforming_ClarityEnd_CreateMission'" chance="$DebugChance"/>
+								<remove_mission cue="Terraforming_ClarityEnd_CreateMission"/>
+								<remove_value name="$AcceptedOfferCue"/>
+								<remove_value name="$AbortMissionCue"/>
+								<set_terraforming_mission_deactivated cluster="$Cluster_ClarityEnd"/>
+								<reset_cue cue="Terraforming_ClarityEnd_CreateMission"/>
+								<reset_cue cue="Terraforming_ClarityEnd_CreateOffer"/>
+								<signal_cue cue="Refresh_Offers"/>
+							</actions>
+						</cue>
+						
+						<!-- Manager for keeping track of Objectives -->
+						<cue name="Terraforming_ClarityEnd_Init_ObjectiveManager" version="4">
+							<actions>
+								<do_if value="not $Cluster_ClarityEnd_Completed?">
+									<do_if value="$HQ.cluster != $Cluster_ClarityEnd">
+										<do_if value="not $ProjectStep?">
+											<set_value name="$ProjectStep" exact="1"/>
+										</do_if>
+										<set_value name="$RelocateComplete" exact="false"/>
+									</do_if>
+									<do_else>
+										<set_value name="$RelocateComplete" exact="true"/>
+									</do_else>
+									<do_if value="$Cluster_ClarityEnd.terraforming.project.agr_fields_soja.complete == false">
+										<do_if value="not $ProjectStep?">
+											<set_value name="$ProjectStep" exact="2"/>
+										</do_if>
+										<set_value name="$SunriseFieldsComplete" exact="false"/>
+									</do_if>
+									<do_else>
+										<set_value name="$SunriseFieldsComplete" exact="true"/>
+									</do_else>
+									<do_if value="$Cluster_ClarityEnd.terraforming.stat.population.value lt $Terraforming_ClarityEnd_HousingTargetAmount">
+										<do_if value="not $ProjectStep?">
+											<set_value name="$ProjectStep" exact="3"/>
+										</do_if>
+										<set_value name="$HousingComplete" exact="false"/>
+									</do_if>
+									<do_else>
+										<set_value name="$HousingComplete" exact="true"/>
+									</do_else>
+									<do_if value="$Cluster_ClarityEnd.terraforming.project.trn_pilot.complete == false">
+										<do_if value="not $ProjectStep?">
+											<set_value name="$ProjectStep" exact="4"/>
+										</do_if>
+										<set_value name="$ArtCollegeComplete" exact="false"/>
+									</do_if>
+									<do_else>
+										<set_value name="$ArtCollegeComplete" exact="true"/>
+									</do_else>
+									
+									<!-- get correct name for HQ -->
+									<do_if value="$HQ.hasbeenrenamed">
+										<set_value name="$HQName" exact="$HQ.knownname"/>
+									</do_if>
+									<do_else>
+										<set_value name="$HQName" exact="{20102,2011}"/>
+									</do_else>
+									<substitute_text text="$RelocateObjectiveText" source="{1004,1091}">
+										<replace string="'$STATION$'" with="$HQName"/>
+										<replace string="'$LOCATION$'" with="$Cluster_ClarityEnd.knownname"/>
+									</substitute_text>
+									<substitute_text text="$HousingObjectiveText" source="{1004,1090}">
+										<replace string="'$AMOUNT$'" with="'%,s'.[$Terraforming_ClarityEnd_HousingTargetAmount]"/>
+									</substitute_text>
+									
+									<!-- update mission - no hanger built -->
+									<do_if value="not $HQ.canbuildclass.{class.ship_s}">
+										<update_mission cue="Terraforming_ClarityEnd_CreateMission">
+											<briefing replace="true">
+												<objective step="1" action="objective.build_module" object="$HQ" text="{20104,61301}" comment="Build S/M Ship Fabrication Module"/>
+												<objective step="2" action="objective.relocate" text="$RelocateObjectiveText" encyclopedia="$Cluster_ClarityEnd" completed="$RelocateComplete"/>
+												<objective step="3" action="objective.build_project" text="terraforming.project.agr_fields_soja.name" completed="$SunriseFieldsComplete"/>
+												<objective step="4" action="objective.build_housing" text="$HousingObjectiveText" completed="$HousingComplete"/>
+												<objective step="5" action="objective.build_project" text="terraforming.project.trn_pilot.name" completed="$ArtCollegeComplete"/>
+											</briefing>
+										</update_mission>
+										<do_if value="not $BuildObjective?">
+											<set_value name="$OptionalSteps" operation="add" exact="1"/>
+											<set_value name="$BuildObjective"/>
+											<signal_cue cue="Terraforming_ClarityEnd_Trigger_BuildModule_Objective"/>
+										</do_if>
+										<set_objective_from_briefing cue="Terraforming_ClarityEnd_CreateMission" step="1"/>
+									</do_if>
+									
+									<!-- update mission - hangar already built -->
+									<do_else>
+										<do_if value="$BuildObjective?">
+											<set_value name="$OptionalSteps" operation="subtract" exact="1"/>
+											<remove_value name="$BuildObjective"/>
+										</do_if>
+										<update_mission cue="Terraforming_ClarityEnd_CreateMission">
+											<briefing replace="true">
+												<objective step="1" action="objective.relocate" text="$RelocateObjectiveText" encyclopedia="$Cluster_ClarityEnd" completed="$RelocateComplete"/>
+												<objective step="2" action="objective.build_project" text="terraforming.project.agr_fields_soja.name" completed="$SunriseFieldsComplete"/>
+												<objective step="3" action="objective.build_housing" text="$HousingObjectiveText" completed="$HousingComplete"/>
+												<objective step="4" action="objective.build_project" text="terraforming.project.trn_pilot.name" completed="$ArtCollegeComplete"/>
+											</briefing>
+										</update_mission>
+										<do_if value="$OptionalSteps ge 1">
+											<set_value name="$ProjectStep" operation="add" exact="$OptionalSteps"/>
+										</do_if>
+										<do_else>
+											<set_value name="$OptionalSteps" exact="0"/>
+										</do_else>
+										<set_value name="$ProjectStep" operation="add" exact="$OptionalSteps"/>
+										<set_objective_from_briefing cue="Terraforming_ClarityEnd_CreateMission" step="$ProjectStep"/>
+									</do_else>
+									
+									<!-- clean-up -->
+									<remove_value name="$ProjectStep"/>
+									<remove_value name="$RelocateObjectiveText"/>
+									<remove_value name="$HousingObjectiveText"/>
+								</do_if>
+							</actions>
+						</cue>
+						
+						<!-- Condition - Build S-M Hangar -->
+						<cue name="Terraforming_ClarityEnd_BuildModule_Check">
+							<actions>
+								<find_object_component groupname="$WharfModules" object="$HQ" class="class.buildmodule">
+									<match_any>	
+										<match canbuildclass="class.ship_m"/>
+										<match canbuildclass="class.ship_s"/>
+									</match_any>
+								</find_object_component>
+							</actions>
+							<cues>
+								<cue name="Terraforming_ClarityEnd_BuildModuleDestroyed" instantiate="true">
+									<conditions>
+										<event_object_destroyed group="$WharfModules"/>
+										<check_value value="$WharfModules.count == 1" comment="trigger another check when the last build module is destroyed"/>
+									</conditions>
+									<actions>
+										<signal_cue_instantly cue="Terraforming_ClarityEnd_ObjectiveUpdate" param="['RequestBuildModule']"/>
+									</actions>
+								</cue>
+							</cues>
+						</cue>
+						
+						<!-- Update Objective -->
+						<cue name="Terraforming_ClarityEnd_ObjectiveUpdate" instantiate="true">
+							<conditions>
+								<check_any>
+									<event_terraforming_stat_changed cluster="$Cluster_ClarityEnd"/>
+									<event_terraforming_project_succeeded cluster="$Cluster_ClarityEnd"/>
+									<event_object_changed_cluster object="$HQ"/>
+									<event_cue_signalled/>
+								</check_any>
+							</conditions>
+							<actions>
+								<do_if value="typeof event.param == datatype.list ">
+									<do_if value="event.param.{1} == 'ModulesGroup'" comment="make sure the signal came from CheckStation_BuildModule">
+										<add_to_group groupname="$WharfModules" group="event.param.{2}"/>
+									</do_if>
+								</do_if>
+								<debug_text text="'Sunflower Project Finished: ' + $Cluster_ClarityEnd.terraforming.project.agr_fields_soja.complete"/>
+								<reset_cue cue="Terraforming_ClarityEnd_Init_ObjectiveManager"/>
+							</actions>
+						</cue>
+						
+						<!-- Condition - Trigger Build Objective -->
+						<cue name="Terraforming_ClarityEnd_Trigger_BuildModule_Objective" instantiate="true">
+							<conditions>
+								<event_cue_signalled/>
+							</conditions>
+							<cues>
+								<cue name="Terraforming_ClarityEnd_BuildModule" ref="AdditionalObjective_BuildModule">
+									<!-- Required to Signal the Update Cue when Building is finished -->
+									<param name="UpdateCue" value="Terraforming_ClarityEnd_ObjectiveUpdate"/>
+									<param name="Station" value="$HQ"/>
+								</cue>
+							</cues>
+						</cue>
+					</cues>
+				</cue>
+				
+				<!-- Cutscene - Milestone 1 -->
+				<cue name="Terraforming_ClarityEnd_Milestone_1">
+					<conditions>
+						<event_terraforming_stat_changed cluster="$Cluster_ClarityEnd"/>
+						<check_value value="$Cluster_ClarityEnd.terraforming.habitable"/>
+					</conditions>
+					<cues>
+						<cue name="Terraforming_ClarityEnd_Contact_1_Ref" ref="md.LIB_Dialog.Speak_Actor">
+							<param name="Actor"             value="$Paranid_Computer"/>
+							<param name="CutsceneKey"       value="table[ $key = 'ShowCharacter']"/>
+							<param name="Lines"             value="[[2002]]"/>
+						</cue>
+					</cues>
+				</cue>
+				
+				<!-- Cutscene - Milestone 2 -->
+				<cue name="Terraforming_ClarityEnd_Milestone_2">
+					<conditions>
+						<event_terraforming_stat_changed cluster="$Cluster_ClarityEnd" stat="'population'"/>
+					</conditions>
+					<cues>
+						<cue name="Terraforming_ClarityEnd_Contact_2_Ref" ref="md.LIB_Dialog.Speak_Actor">
+							<param name="Actor"             value="$Paranid_Computer"/>
+							<param name="CutsceneKey"       value="table[ $key = 'ShowCharacter']"/>
+							<param name="Lines"             value="[[2003]]"/>
+						</cue>
+					</cues>
+				</cue>
+				
+				<!-- Cutscene - Mission Complete -->
+				<cue name="Terraforming_ClarityEnd_MissionComplete" version="6">
+					<conditions>
+						<check_any>
+							<event_terraforming_stat_changed cluster="$Cluster_ClarityEnd" stat="'population'"/>
+							<event_terraforming_project_succeeded cluster="$Cluster_ClarityEnd"/>
+						</check_any>
+						<check_value value="$Cluster_ClarityEnd.terraforming.stat.population.value ge $Terraforming_ClarityEnd_HousingTargetAmount"/>
+						<check_value value="$Cluster_ClarityEnd.terraforming.project.agr_fields_soja.complete"/>
+						<check_value value="$Cluster_ClarityEnd.terraforming.project.trn_pilot.complete"/>
+					</conditions>
+					<actions>
+						<cancel_cue cue="Terraforming_ClarityEnd_ObjectiveUpdate"/>
+						
+						<set_object_name object="$Cluster_ClarityEnd"  name="'{8000,3141}'"/>
+						<set_object_name object="$Sector_ClarityEnd"  name="'{8000,3141}'"/>
+						
+						<remove_value name="$AbortMissionCue"/>
+						<remove_from_list name="$OfferCues" exact="Terraforming_ClarityEnd_CreateOffer"/>
+						<remove_mission cue="Terraforming_ClarityEnd_CreateMission" type="completed"/>
+						<set_value name="$Cluster_ClarityEnd_Completed"/>
+						<set_terraforming_mission_completed cluster="$Cluster_ClarityEnd"/>
+						<unlock_achievement name="TERRAFORMING_MISSION"/>
+						<set_value name="stat.terraforming_missions_completed" operation="add"/>
+					</actions>
+					<cues>
+						<cue name="Terraforming_ClarityEnd_VideoEmail">
+							<actions>
+								<substitute_text text="$EmailTitle" source="{30500,11001}">
+									<replace string="'$CLUSTERNAME$'" with="$Cluster_ClarityEnd.knownname"/>
+								</substitute_text>
+								<write_incoming_message title="$EmailTitle" text="{30500,11002}" source="if player.target then player.target else player.entity.container" highpriority="true" comment="ClarityEnd Terraforming Wrap Email">
+									<cutscene key="'terraforming_ClarityEnd'"/>
+								</write_incoming_message>
+							</actions>
+						</cue>
+						<cue name="Terraforming_ClarityEnd_Report_3_Ref" ref="md.LIB_Dialog.Speak_Actor">
+							<param name="Actor"             value="$Paranid_Computer"/>
+							<param name="CutsceneKey"       value="table[ $key = 'ShowCharacter']"/>
+							<param name="Lines"             value="[[3004]]"/>
+						</cue>
+					</cues>
+				</cue>
+				
+				<!-- DEBUG Command -->
+				<cue name="DEBUG_Terraforming_ClarityEnd" onfail="cancel">
+					<conditions>
+						<check_value value="$DebugWarpCues?"/>
+					</conditions>
+					<delay exact="1ms"/>
+					<actions>
+						<append_to_list name="$DebugWarpCues" exact="DEBUG_Terraforming_ClarityEnd_WarpPlayerShip"/>
+						<append_to_list name="$DebugSetStatsCues" exact="DEBUG_Terraforming_ClarityEnd_SetEndStats"/>
+					</actions>
+					<cues>
+						<cue name="DEBUG_Terraforming_ClarityEnd_WarpPlayerShip">
+							<conditions>
+								<event_cue_signalled/>
+							</conditions>
+							<actions>
+								<run_actions ref="DEBUG_Terraforming_WarpPlayerShip">
+									<param name="Cluster" value="$Cluster_ClarityEnd"/>
+								</run_actions>
+							</actions>
+						</cue>
+						<cue name="DEBUG_Terraforming_ClarityEnd_SetEndStats">
+							<conditions>
+								<event_cue_signalled/>
+							</conditions>
+							<actions>
+								<set_terraforming_stat cluster="$Cluster_ClarityEnd" id="'airpressure'" value="6"/>
+								<set_terraforming_stat cluster="$Cluster_ClarityEnd" id="'oxygen'" value="9"/>
+								<set_terraforming_stat cluster="$Cluster_ClarityEnd" id="'methane'" value="0"/>
+								<set_terraforming_stat cluster="$Cluster_ClarityEnd" id="'humidity'" value="4"/>
+							</actions>
+						</cue>
+					</cues>
+				</cue>
+			
+			</cues>
+		</cue>			
+	
+	</add>
+</diff>

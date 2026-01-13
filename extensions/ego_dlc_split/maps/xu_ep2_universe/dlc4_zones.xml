@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
 	
+	<!-- Sector 400 - Wretched Skies IV -->
+	<replace sel="/macros/macro[@name='Zone004_Cluster_400_Sector001_macro']/connections/connection[@name='connection_ClusterGate400To401']/offset">
+		<offset>
+			<position x="-35000" y="0" z="30000" />
+			<rotation yaw="210" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	
 	<!-- Sector 402 - Family Kritt -->
 	<add sel="/macros/macro[@name='Zone001_Cluster_402_Sector001_macro']/connections">
 		<connection name="connection_ClusterGate402To602" ref="gates">
@@ -23,17 +31,6 @@
 			<rotation yaw="330" pitch="0" roll="0" />
 		</offset>
 	</replace>
-	
-	<!-- Sector 406 - Zyarth's Dominion X -->
-	<!--add sel="/macros/macro[@name='Zone001_Cluster_406_Sector001_macro']/connections">
-		<connection name="connection_ClusterGate406To415" ref="gates">
-			<offset>
-				<position x="34821" y="0" z="1278" />
-				<rotation yaw="0" pitch="0" roll="0" />
-			</offset>
-			<macro ref="props_gates_anc_gate_macro" connection="space" />
-		</connection>
-	</add-->
 	
 	<!-- Sector 411 - Heart of Acrimony II -->
 	<add sel="/macros/macro[@name='Zone003_Cluster_411_Sector001_macro']/connections">

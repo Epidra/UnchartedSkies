@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <diff>
 	
 	<!-- Velvet Thunder -to- Stromboli(voiced) -->
@@ -31,9 +31,9 @@
 		<set_object_name object="$ProtectoratePlayerShip" page="20101" line="66801" comment="Kvasir"/>
 	</add>
 	
-	<!-- Delilah's Swansong -to- Amaterasu(voiced) -->
+	<!-- Delilah's Swansong -to- Skadi(voiced) -->
 	<replace sel="//cue[@name='Ch22_D_Setup_Reward_Ship']//set_object_name">
-		<set_object_name object="$SecretServiceRewardShip" page="20101" line="86501" comment="Delilah's Swansong"/>
+		<set_object_name object="$SecretServiceRewardShip" page="20101" line="67101" comment="Delilah's Swansong"/>
 	</replace>
 	
 </diff>

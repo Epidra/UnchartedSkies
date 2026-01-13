@@ -83,12 +83,12 @@
 		</connection>
 	</replace>
 	
-	<!-- Sector 608 - Atreus' Clouds -->
-	<replace sel="/macros/macro[@name='Zone003_Cluster_608_Sector001_macro']/connections/connection[@name='connection_ClusterGate608To']"> <!-- GATE inactive -->
-		<connection name="connection_ClusterGate608To" ref="gates">
+	<!-- Sector 609 - Menelaus' Oasis -->
+	<add sel="/macros/macro[@name='Zone005_Cluster_609_Sector001_macro']/connections">
+		<connection name="connection_ClusterGate609To801" ref="gates">
 			<offset>
-				<position x="21414.41" y="500" z="-22981.74" />
-				<rotation yaw="0" pitch="0" roll="0" />
+				<position x="-45000" y="0" z="-45000" />
+				<rotation yaw="30" pitch="0" roll="0" />
 			</offset>
 			<macro ref="props_gates_anc_gate_macro" connection="space">
 				<properties>
@@ -96,6 +96,6 @@
 				</properties>
 			</macro>
 		</connection>
-	</replace>
+	</add>
 	
 </diff>

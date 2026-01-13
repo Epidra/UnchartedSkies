@@ -3,7 +3,7 @@
 	
 	
 	
-	<!-- Shareholder's Fortune -->
+	<!-- Fifth Cascade -->
 	
 	<component name="Cluster_802" class="celestialbody">
 		<source geometry="extensions\uncharted_skies\assets\environments\cluster\Cluster_802_data"/>
@@ -218,7 +218,7 @@
 			<!-- Planet -->
 			<connection name="Connection010" tags="part  ">
 				<offset>
-					<position x="-5.862312E+07" y="-1939902" z="-2.162312E+07"/>
+					<position x="-4.162312E+07" y="2.162312E+07" z="-4.162312E+07"/>
 				</offset>
 				<parts>
 					<part name="planet001c">
@@ -238,7 +238,7 @@
 			</connection>
 			<connection name="Connection011" tags="part  ">
 				<offset>
-					<position x="-5.862311E+07" y="-1939902" z="-2.162312E+07"/>
+					<position x="-4.162312E+07" y="2.162312E+07" z="-4.162312E+07"/>
 				</offset>
 				<parts>
 					<part name="atmosphere001">
@@ -260,7 +260,7 @@
 			<!-- Moon -->
 			<connection name="Connection012" tags="part  ">
 				<offset>
-					<position x="1.498843E+08" y="-3.360002E+07" z="0"/>
+					<position x="0.498843E+08" y="5.160002E+07" z="0"/>
 				</offset>
 				<parts>
 					<part name="Sphere003">
@@ -280,7 +280,7 @@
 			</connection>
 			<connection name="Connection013" tags="part  ">
 				<offset>
-					<position x="1.498843E+08" y="-3.360002E+07" z="0"/>
+					<position x="0.498843E+08" y="5.160002E+07" z="0"/>
 				</offset>
 				<parts>
 					<part name="atmosphereb001">
@@ -298,6 +298,11 @@
 					</part>
 				</parts>
 			</connection>
+			
+
+			
+			
+			
 			
 		</connections>
 	</component>

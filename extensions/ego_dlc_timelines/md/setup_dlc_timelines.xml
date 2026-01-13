@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<remove sel="//cue[@name='Timelines_States']/actions/find_gate[@name='$Gate_PE']" />
+	<remove sel="//cue[@name='Timelines_States']/actions/set_object_active[@object='$Gate_PE']" />
+	
+	<add sel="//cue[@name='Timelines_States']/actions">
+		<find_sector groupname="$Sectors" name="$EighteenBillion" macro="macro.cluster_02_sector001_macro" space="player.galaxy" required="true"/>
+		<find_sector groupname="$Sectors" name="$MemoryOfProfit" macro="macro.cluster_03_sector001_macro" space="player.galaxy" required="true"/>
+		<find_sector groupname="$Sectors" name="$SilentWitness" macro="macro.cluster_08_sector001_macro" space="player.galaxy" required="true"/>
+		
+		<find_gate name="$Gate_PE" active="1" space="$PresidentsEnd" accelerator="false" comment="President's End" required="1" destination="$SilentWitness"/>
+        <set_object_active object="$Gate_PE" activate="0"/>
+		
+		<find_gate name="$Gate_P1" active="1" space="$PresidentsEnd" accelerator="false" comment="abc" required="1"  destination="$EighteenBillion"/>
+        <set_object_active object="$Gate_P1" activate="0"/>
+		
+		<find_gate name="$Gate_P2" active="1" space="$PresidentsEnd" accelerator="false" comment="abc" required="1"  destination="$MemoryOfProfit"/>
+        <set_object_active object="$Gate_P2" activate="0"/>
+		
+		<find_gate name="$Gate_X3" active="1" space="$NopileosMemorial" accelerator="false" comment="abc" required="1"  destination="$SilentWitness"/>
+        <set_object_active object="$Gate_X3" activate="0"/>
+		
+	</add>
+	
+	<add sel="//cue[@name='Timelines_Activate_Everything']/actions">
+		<set_object_active object="$Gate_P1" activate="1"/>
+		<set_object_active object="$Gate_P2" activate="1"/>
+		<set_object_active object="$Gate_X3" activate="1"/>
+	</add>
+	
+	<add sel="//cue[@name='PresidentsEnd_Unlock']/actions">
+		<set_object_active object="$Gate_P1" activate="1"/>
+		<set_object_active object="$Gate_P2" activate="1"/>
+	</add>
+	
+	<add sel="//cue[@name='M0Battle_Unlock']/actions">
+		<set_object_active object="$Gate_X3" activate="1"/>
+	</add>
+	
+</diff>
