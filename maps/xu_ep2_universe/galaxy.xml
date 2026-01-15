@@ -14,7 +14,7 @@
 		<offset><position x="30000000" y="0" z="34640000" /></offset>
 	</replace>
 	
-	<!-- Sector 004 - Nopileos's Fortune -->
+	<!-- Sector 004 - Nopileos' Fortune -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_04_connection']/offset">
 		<offset><position x="15000000" y="0" z="-25980000" /></offset>
 	</replace>
@@ -49,7 +49,7 @@
 		<offset><position x="60000000" y="0" z="-34640000" /></offset>
 	</replace>
 	
-	<!-- Sector 011 - Pontifex's Claim -->
+	<!-- Sector 011 - Pontifex' Claim -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_11_connection']/offset">
 		<offset><position x="-0" y="0" z="-69280000" /></offset>
 	</replace>
@@ -124,7 +124,7 @@
 		<offset><position x="-60000000" y="0" z="-69280000" /></offset>
 	</replace>
 	
-	<!-- Sector 026 - Atiyas Misfortune -->
+	<!-- Sector 026 - Atiya's Misfortune -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_26_connection']/offset">
 		<offset><position x="-60000000" y="0" z="-86600000" /></offset>
 	</replace>
@@ -633,6 +633,31 @@
 		<offset><position x="-60000000" y="0" z="-121240000" /></offset>
 	</replace>
 	
+	<!-- Sector 720 - Ore Belt -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_720_connection']/offset">
+		<offset><position x="-105000000" y="0" z="-77940000" /></offset>
+	</replace>
+	
+	<!-- Sector 721 - Adventure's Promise -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_721_connection']/offset">
+		<offset><position x="-120000000" y="0" z="-69280000" /></offset>
+	</replace>
+	
+	<!-- Sector 722 - Sanctum Verge -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_722_connection']/offset">
+		<offset><position x="-105000000" y="0" z="-112580000" /></offset>
+	</replace>
+	
+	<!-- Sector 723 - Tempting Fumes -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_723_connection']/offset">
+		<offset><position x="-75000000" y="0" z="-112580000" /></offset>
+	</replace>
+	
+	<!-- Sector 724 - Circle of Deceit -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_724_connection']/offset">
+		<offset><position x="-180000000" y="0" z="-86600000" /></offset>
+	</replace>
+	
 	
 	
 	
@@ -917,7 +942,7 @@
 		<offset><position x="225000000" y="0" z="-181860000" /></offset>
 	</replace>
 	
-	<!-- Sector - ClusterNHS12 - Spaceweed CafĂ© -->
+	<!-- Sector - ClusterNHS12 - Spaceweed Café -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='NH_ClusterNHS12_connection']/offset">
 		<offset><position x="225000000" y="0" z="-216500000" /></offset>
 	</replace>
@@ -1390,6 +1415,51 @@
 		<offset><position x="0" y="0" z="-121240000" /></offset>
 	</replace>
 	
+	<!-- Sector - clusterXPAN40 - Nishala -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN40_connection']/offset">
+		<offset><position x="-150000000" y="0" z="121240000" /></offset>
+	</replace>
+	
+	<!-- Sector - clusterXPAN41 - Yanva -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN41_connection']/offset">
+		<offset><position x="-165000000" y="0" z="112580000" /></offset>
+	</replace>
+	
+	<!-- Sector - clusterXPAN42 - Pavana -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN42_connection']/offset">
+		<offset><position x="-180000000" y="0" z="103920000" /></offset>
+	</replace>
+	
+	<!-- Sector - clusterXPAN43 - Circle of Labour IV -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN43_connection']/offset">
+		<offset><position x="135000000" y="0" z="181860000" /></offset>
+	</replace>
+	
+	<!-- Sector - clusterXPAN44 - Circle of Labour III -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN44_connection']/offset">
+		<offset><position x="150000000" y="0" z="173200000" /></offset>
+	</replace>
+	
+	<!-- Sector - clusterXPAN45 - Circle of Labour VI -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN45_connection']/offset">
+		<offset><position x="150000000" y="0" z="190520000" /></offset>
+	</replace>
+	
+	<!-- Sector - clusterXPAN46 - Circle of Labour V -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN46_connection']/offset">
+		<offset><position x="165000000" y="0" z="181860000" /></offset>
+	</replace>
+	
+	<!-- Sector - clusterXPAN47 - Court of Curbs -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN47_connection']/offset">
+		<offset><position x="180000000" y="0" z="155880000" /></offset>
+	</replace>
+	
+	<!-- Sector - clusterXPAN48 - First Impact -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_clusterXPAN48_connection']/offset">
+		<offset><position x="180000000" y="0" z="138560000" /></offset>
+	</replace>
+	
 	
 	
 	
@@ -1787,12 +1857,12 @@
 	
 	<!-- MOD - X Rebirth Sectors -->
 	
-	<!-- Sector - 01 - Omicron Lyrae -->
+	<!-- Sector - omycronlyrae - Omicron Lyrae -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='omicronlyrae_cluster01_connection']/offset">
 		<offset><position x="60000000 " y="0" z="155880000" /></offset>
 	</replace>
 	
-	<!-- Sector - 02 - Maelstrom -->
+	<!-- Sector - maelstrom - Maelstrom -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='maelstrom_cluster02_connection']/offset">
 		<offset><position x="75000000" y="0" z="164540000" /></offset>
 	</replace>
@@ -1811,6 +1881,73 @@
 	<!-- Sector - 02 - Shadow's Edge -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_NCS_02_connection']/offset">
 		<offset><position x="-90000000" y="0" z="103920000" /></offset>
+	</replace>
+	
+	
+	
+	
+	
+	<!-- MOD - Ethereal Enclave -->
+	
+	<!-- Sector - 996 - Ethereal Enclave -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='qqww_cluster996_connection']/offset">
+		<offset><position x="0" y="0" z="86600000"/></offset>
+	</replace>
+	
+	
+	
+	
+	
+	<!-- MOD - Living Place Plus -->
+	
+	<!-- Sector - LP001 - Matrix Prototype -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_LP001_connection']/offset">
+		<offset><position x="-135000000" y="0" z="112580000"/></offset>
+	</replace>
+	
+	<!-- Sector - LP002 - Lost Colony -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_LP002_connection']/offset">
+		<offset><position x="-135000000" y="0" z="60620000"/></offset>
+	</replace>
+	
+	<!-- Sector - LP004 - Hub #19 -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_LP004_connection']/offset">
+		<offset><position x="15000000" y="0" z="-112580000"/></offset>
+	</replace>
+	
+	<!-- Sector - LP005 - Akeela's Beacon Wreck -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_LP005_connection']/offset">
+		<offset><position x="30000000" y="0" z="-86600000"/></offset>
+	</replace>
+	
+	<!-- Sector - LP006 - Hub #21 -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_LP006_connection']/offset">
+		<offset><position x="-165000000" y="0" z="43300000"/></offset>
+	</replace>
+	
+	<!-- Sector - LP007 - Spaceweed Grove Twin -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_LP007_connection']/offset">
+		<offset><position x="-120000000" y="0" z="-86600000"/></offset>
+	</replace>
+	
+	<!-- Sector - LP009 - Untainted Eternity -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_LP009_connection']/offset">
+		<offset><position x="-45000000" y="0" z="-60620000"/></offset>
+	</replace>
+	
+	<!-- Sector - LP010 - Aldrin Research -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_LP010_connection']/offset">
+		<offset><position x="-165000000" y="0" z="-95260000"/></offset>
+	</replace>
+	
+	<!-- Sector - LP011 - Night Sky Wing -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_LP011_connection']/offset">
+		<offset><position x="-30000000" y="0" z="155880000"/></offset>
+	</replace>
+	
+	<!-- Sector - LP012 - Ghinn's Escape X The Cove -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_LP012_connection']/offset">
+		<offset><position x="135000000" y="0" z="43300000"/></offset>
 	</replace>
 	
 	
@@ -2109,7 +2246,7 @@
 	<!--          Shadow's End   xpan27-to-xpan21   Ashley's Paradise     -->		   <remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN27s001z001_cXPAN21s001z001']" />
 	<!--          Shadow's End   xpan27-to-107      Jupiter               -->		   <remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN27s001z002_cL107s001']" />
 	<!--       Ket's Reckoning   xpan28-to-xpan27   Shadow's End          -->		   <remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN28s001z001_cXPAN27s001z004']" />
-	<!--       Ket's Reckoning   xpan28-to-424      Emperor's Pride       -->		   <remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN28s002z005_cXPAN424s001']" />
+	<!--       Ket's Reckoning   xpan28-to-xpan40   Nishala               -->		   <remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN28s002z005_cXPAN40s001']" />
 	<!--       Ket's Reckoning   xpan28-to-028      Antigone Memorial     -->		   <remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN28s003z003_cL28s001z003']" />
 	<!--       Legal Directive   xpan29-to-xpan30   CEO'S Doubt           -->		   <remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN29s001z001_cXPAN30s001z001']" />
 	<!--       Legal Directive   xpan29-to-xpan32   Rusiris' Dream        -->		<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN29s001z003_cXPAN32s002z005']" /-->
@@ -2123,7 +2260,7 @@
 	<!--       Njy's Deception   xpan35-to-412      Tharka's Ravine VIII  -->		<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN35s001z005_cXPAN412zXPANs001']" /-->
 	<!--       Njy's Deception   xpan35-to-413      Tharka's Ravine IV    -->		<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN35s002z003_cXPAN413z003s001']" /-->
 	<!--          The Boneyard   xpan36-to-xpan37   Mi Ton's Refuge       -->		<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN36s001z003_cXPAN37s002z005']" /-->
-	<!--          The Boneyard   xpan36-to-010      Unholy Retribution    -->		   <remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN36s002z005_cL10s001zXPAN']" />
+	<!--          The Boneyard   xpan36-to-021      Scale Plate Green     -->		   <remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN36s002z005_cL21s001zXPAN']" />
 	<!--          Three Worlds   xpan38-to-xpan37   Mi Ton's Refuge       -->		   <remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN38s001z003_cXPAN37s001z003']" />
 	<!--        Tempting Fumes   xpan39-to-xpan11   Treasure Chest        -->		   <remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN39s001z005_cXPAN11s001z003']" />
 	<!--        Tempting Fumes   xpan39-to-xpan12   Sanctum Verge         -->		<!--remove sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='xpan_gate_cXPAN39s001z004_cXPAN12s001z004']" /-->
@@ -2726,7 +2863,7 @@
 		</connection>
 		
 		<!-- Ket's Reckoning   xpan28-to-xpan23   Red Light -->
-		<connection name="ClusterGateXpan28ToXpan23" ref="destination" path="../xpan_clusterXPAN28_connection/xpan_clusterXPAN28_sector002_connection/xpan_zone005_clusterXPAN28_sector002_connection/xpan_gate_cXPAN28s002z005_cXPAN424s001_connection">
+		<connection name="ClusterGateXpan28ToXpan23" ref="destination" path="../xpan_clusterXPAN28_connection/xpan_clusterXPAN28_sector002_connection/xpan_zone005_clusterXPAN28_sector002_connection/xpan_gate_cXPAN28s002z005_cXPAN40s001_connection">
 			<macro       connection="destination" path="../../../../../xpan_clusterXPAN23_connection/xpan_clusterXPAN23_sector001_connection/xpan_zone004_clusterXPAN23_sector001_connection/xpan_gate_cXPAN23s001z004_cXPAN22s001z004_connection" />
 		</connection>
 		
@@ -2807,7 +2944,7 @@
 		
 		<!-- Legal Directive   xpan29-to-xpan36   The Boneyard -->
 		<connection name="ClusterGateXpan29To015" ref="destination" path="../xpan_clusterXPAN29_connection/xpan_clusterXPAN29_sector001_connection/xpan_zone001_clusterXPAN29_sector001_connection/xpan_gate_cXPAN29s001z001_cXPAN30s001z001_connection">
-			<macro       connection="destination" path="../../../../../xpan_clusterXPAN36_connection/xpan_clusterXPAN36_sector002_connection/xpan_zone005_clusterXPAN36_sector002_connection/xpan_gate_cXPAN36s002z005_cL10s001zXPAN_connection" />
+			<macro       connection="destination" path="../../../../../xpan_clusterXPAN36_connection/xpan_clusterXPAN36_sector002_connection/xpan_zone005_clusterXPAN36_sector002_connection/xpan_gate_cXPAN36s002z005_cL21s001zXPAN_connection" />
 		</connection>
 		
 		<!-- Mi Ton's Refuge   xpan37-to-xpan30   CEO's Doubt -->
