@@ -18,12 +18,13 @@
 				<!-- Menelaus' Oasis      -->	<find_sector macro="macro.cluster_609_sector001_macro" space="player.galaxy" extension="'ego_dlc_boron'" required="true" name="$MenelausOasisSector"     />
 				<!-- Barren Shores        -->	<find_sector macro="macro.cluster_602_sector001_macro" space="player.galaxy" extension="'ego_dlc_boron'" required="true" name="$BarrenShoresSector"      />
 				<!-- Family Kritt         -->	<find_sector macro="macro.cluster_402_sector001_macro" space="player.galaxy" extension="'ego_dlc_split'" required="true" name="$KrittSector"             />
-				<!-- Fifth Cascade        -->	<find_sector macro="macro.cluster_802_sector001_macro" space="player.galaxy"                             required="true" name="$Unclaimed_North_Sector"  />
-				<!-- Atreus' Clouds       -->	<find_sector macro="macro.cluster_608_sector001_macro" space="player.galaxy" extension="'ego_dlc_boron'" required="true" name="$AtreusCloudsSector"      />
 				<!-- Light Water          -->	<find_sector macro="macro.cluster_801_sector001_macro" space="player.galaxy"                             required="true" name="$Unclaimed_South_Sector"  />
+				<!-- Fifth Cascade        -->	<find_sector macro="macro.cluster_802_sector001_macro" space="player.galaxy"                             required="true" name="$Unclaimed_North_Sector"  />
+				<!-- Shore of Infinity    -->	<find_sector macro="macro.cluster_805_sector001_macro" space="player.galaxy"                             required="true" name="$ShoreOfInfinity_Sector"  />
 				<!-- Mists of Elysium I   -->	<find_sector macro="macro.cluster_810_sector001_macro" space="player.galaxy"                             required="true" name="$MistsOfElysium_1_Sector" />
 				<!-- Mists of Elysium II  -->	<find_sector macro="macro.cluster_811_sector001_macro" space="player.galaxy"                             required="true" name="$MistsOfElysium_2_Sector" />
 				<!-- Mists of Elysium III -->	<find_sector macro="macro.cluster_812_sector001_macro" space="player.galaxy"                             required="true" name="$MistsOfElysium_3_Sector" />
+				<!-- Matrix 598           -->	<find_sector macro="macro.cluster_415_sector001_macro" space="player.galaxy" extension="'ego_dlc_split'" required="true" name="$MatrixSector"            />
 				
 			</actions>
 			<patch  sinceversion="3">
@@ -70,19 +71,19 @@
 						<check_value value="$MenelausOasisSector.isknown"/>
 					</conditions>
 				</cue>
-				<cue name="AtreusClouds_PlayerDiscovered_Check" onfail="cancel">
-					<conditions>
-						<check_value value="$AtreusCloudsSector.isknown"/>
-					</conditions>
-				</cue>
 				<cue name="MistsOfElysium_PlayerDiscovered_Check" onfail="cancel">
 					<conditions>
 						<check_value value="$MistsOfElysium_2_Sector.isknown"/>
 					</conditions>
 				</cue>
-				<cue name="BoronStory_Completed_Check" onfail="cancel">
+				<cue name="FifthCascade_PlayerDiscovered_Check" onfail="cancel">
 					<conditions>
-						<check_value value="md.Story_Boron.Ch7_MissionCompleted.state == cuestate.complete"/>
+						<check_value value="$Unclaimed_North_Sector.isknown"/>
+					</conditions>
+				</cue>
+				<cue name="LightWater_PlayerDiscovered_Check" onfail="cancel">
+					<conditions>
+						<check_value value="$Unclaimed_South_Sector.isknown"/>
 					</conditions>
 				</cue>
 				
@@ -134,21 +135,6 @@
 						</check_any>
 					</conditions>
 					<actions>
-						<find_gate name="$Hidden_Gates" multiple="true" space="$Unclaimed_South_Sector" />
-						<do_for_each name="$g" in="$Hidden_Gates">
-							<set_object_active object="$g" />
-						</do_for_each>
-						<remove_value name="$Hidden_Gates" />
-					</actions>
-				</cue>
-				<cue name="AtreusClouds_PlayerDiscovered_Event">
-					<conditions>
-						<check_any>
-							<event_object_known_to_player object="$AtreusCloudsSector"/>
-							<event_cue_completed cue="AtreusClouds_PlayerDiscovered_Check"/>
-						</check_any>
-					</conditions>
-					<actions>
 						<find_gate name="$BarrenShoresGates" multiple="true" space="$BarrenShoresSector" />
 						<do_for_each name="$g" in="$BarrenShoresGates">
 							<do_if value=" ($g.exit.exists) and ($g.exit.sector == $KrittSector)">
@@ -158,19 +144,38 @@
 						<remove_value name="$BarrenShoresGates" />
 					</actions>
 				</cue>
-				<cue name="BoronStory_Finished_Event">
+				<cue name="FifthCascade_PlayerDiscovered_Event">
 					<conditions>
 						<check_any>
-							<event_cue_completed cue="md.Story_Boron.Ch7_MissionCompleted"/>
-							<event_cue_completed cue="BoronStory_Completed_Check"/>
+							<event_object_known_to_player object="$Unclaimed_North_Sector"/>
+							<event_cue_completed cue="FifthCascade_PlayerDiscovered_Check"/>
 						</check_any>
 					</conditions>
 					<actions>
-						<find_gate name="$Hidden_Gates" multiple="true" space="$Unclaimed_North_Sector" />
-						<do_for_each name="$g" in="$Hidden_Gates">
-							<set_object_active object="$g" />
+						<find_gate name="$FifthCascadeGates" multiple="true" space="$Unclaimed_North_Sector" />
+						<do_for_each name="$g" in="$FifthCascadeGates">
+							<do_if value=" ($g.exit.exists) and ($g.exit.sector == $MatrixSector)">
+								<set_object_active object="$g" />
+							</do_if>
 						</do_for_each>
-						<remove_value name="$Hidden_Gates" />
+						<remove_value name="$FifthCascadeGates" />
+					</actions>
+				</cue>
+				<cue name="LightWater_PlayerDiscovered_Event">
+					<conditions>
+						<check_any>
+							<event_object_known_to_player object="$Unclaimed_South_Sector"/>
+							<event_cue_completed cue="LightWater_PlayerDiscovered_Check"/>
+						</check_any>
+					</conditions>
+					<actions>
+						<find_gate name="$LightWaterGates" multiple="true" space="$Unclaimed_South_Sector" />
+						<do_for_each name="$g" in="$LightWaterGates">
+							<do_if value=" ($g.exit.exists) and ($g.exit.sector == $ShoreOfInfinity_Sector)">
+								<set_object_active object="$g" />
+							</do_if>
+						</do_for_each>
+						<remove_value name="$LightWaterGates" />
 					</actions>
 				</cue>
 				

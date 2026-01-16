@@ -61,6 +61,12 @@
 		<rotation yaw="120" pitch="0" roll="0"/>
         </offset>
 	</replace>
+	<replace sel="/macros/macro[@name='xpan_Zone004_clusterXPAN10_Sector002_macro']/connections/connection[@name='xpan_gate_cXPAN10s002z001_cXPAN42s001z001_connection']/offset">
+        <offset> 
+          <position x="0" y="0" z="0"/>
+		<rotation yaw="240" pitch="0" roll="0"/>
+        </offset>
+	</replace>
 	<add sel="/macros/macro[@name='xpan_Zone002_clusterXPAN10_Sector002_macro']">
 		<connections>
 			<connection name="connection_ClusterGateX06To900" ref="gates">
@@ -176,6 +182,42 @@
         <offset> 
           <position x="0" y="0" z="0"/>
 		<rotation yaw="120" pitch="0" roll="0"/>
+        </offset>
+	</replace>
+	
+	<!-- Sector xpan40 - Nishala -->
+	<replace sel="/macros/macro[@name='xpan_zone005_clusterXPAN40_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN40s001z005_cXPAN41s001z002_connection']/offset">
+        <offset> 
+          <position x="0" y="0" z="0"/>
+		<rotation yaw="60" pitch="0" roll="0"/>
+        </offset>
+	</replace>
+	
+	<!-- Sector xpan41 - Yanva -->
+	<replace sel="/macros/macro[@name='xpan_zone002_clusterXPAN41_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN41s001z002_cXPAN40s001z005_connection']/offset">
+        <offset> 
+          <position x="0" y="0" z="0"/>
+		<rotation yaw="270" pitch="0" roll="0"/>
+        </offset>
+	</replace>
+	<replace sel="/macros/macro[@name='xpan_zone005_clusterXPAN41_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN41s001z005_cXPAN42s001z005_connection']/offset">
+        <offset> 
+          <position x="0" y="0" z="0"/>
+		<rotation yaw="90" pitch="0" roll="0"/>
+        </offset>
+	</replace>
+	
+	<!-- Sector xpan42 - Pavana -->
+	<replace sel="/macros/macro[@name='xpan_zone001_clusterXPAN42_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN42s001z001_cXPAN10s002z001_connection']/offset">
+        <offset> 
+          <position x="0" y="0" z="0"/>
+		<rotation yaw="60" pitch="0" roll="0"/>
+        </offset>
+	</replace>
+	<replace sel="/macros/macro[@name='xpan_zone005_clusterXPAN42_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN42s001z005_cXPAN41s001z005_connection']/offset">
+        <offset> 
+          <position x="0" y="0" z="0"/>
+		<rotation yaw="240" pitch="0" roll="0"/>
         </offset>
 	</replace>
 	

@@ -39,7 +39,7 @@
 			<component ref="standardzone" />
 			<connections/>
 		</macro>
-		<macro name="Zone002_Cluster_801_Sector001_macro" class="zone"> <!-- GATE - Menelaus' Oasis -->
+		<macro name="Zone002_Cluster_801_Sector001_macro" class="zone"> <!-- GATE - Atreus' Clouds -->
 			<component ref="standardzone" />
 			<connections>
 				<connection name="connection_ClusterGate801To609" ref="gates">

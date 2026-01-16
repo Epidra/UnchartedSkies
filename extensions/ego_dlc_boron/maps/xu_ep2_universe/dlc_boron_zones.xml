@@ -69,8 +69,8 @@
 			<rotation yaw="0" pitch="0" roll="0" />
 		</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='Zone001_Cluster_604_Sector001_macro']/connections/connection[@name='connection_ClusterGateInactive']"> <!-- GATE inactive -->
-		<connection name="connection_ClusterGateInactive" ref="gates">
+	<replace sel="/macros/macro[@name='Zone003_Cluster_604_Sector001_macro']/connections/connection[@name='connection_ClusterGate604to048']"> <!-- GATE to 048 -->
+		<connection name="connection_ClusterGate604to048" ref="gates">
 			<offset>
 				<position x="9896.396" y="500" z="41897.36" />
 				<rotation yaw="180" pitch="0" roll="0" />

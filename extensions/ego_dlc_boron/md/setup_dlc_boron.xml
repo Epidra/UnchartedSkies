@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<diff>
+
+	<add sel="//cue[@name='BoronFaction_States']/actions">
+		
+		<find_sector macro="macro.cluster_801_sector001_macro" space="player.galaxy" required="true" name="$Unclaimed_South_Sector"/>
+		<find_gate name="$AtreusCloudGates" multiple="true" space="$AtreusCloudSector" active="false" />
+        <do_for_each name="$g" in="$AtreusCloudGates">
+          <do_if value=" ($g.exit.exists) and ($g.exit.sector == $Unclaimed_South_Sector)">
+            <set_value name="$AtreusCloud_Cluster720Gate" exact="$g" />
+            <set_value name="$Cluster720_AtreusCloudGate" exact="$g.exit" />
+          </do_if>
+        </do_for_each>
+		
+		<find_sector macro="macro.cluster_802_sector001_macro" space="player.galaxy" required="true" name="$Unclaimed_North_Sector"/>
+		<find_gate name="$OceanOfFantasyGates" multiple="true" space="$OceanOfFantasySector" active="false" />
+		<do_for_each name="$g" in="$OceanOfFantasyGates">
+			<do_if value=" ($g.exit.exists) and ($g.exit.sector == $Unclaimed_North_Sector)">
+				<set_value name="$OceanOfFantasy_GetsuFuneGate" exact="$g" />
+				<set_value name="$GetsuFune_OceanOfFantasyGate" exact="$g.exit" />
+			</do_if>
+		</do_for_each>
+		
+	</add>
+	
+	<add sel="//cue[@name='BoronFaction_States']/patch[@sinceversion='3']">
+	
+		<find_sector macro="macro.cluster_801_sector001_macro" space="player.galaxy" required="true" name="$Unclaimed_South_Sector"/>
+		<find_gate name="$AtreusCloudGates" multiple="true" space="$AtreusCloudSector" active="false" />
+        <do_for_each name="$g" in="$AtreusCloudGates">
+          <do_if value=" ($g.exit.exists) and ($g.exit.sector == $Unclaimed_South_Sector)">
+            <set_value name="$AtreusCloud_Cluster720Gate" exact="$g" />
+            <set_value name="$Cluster720_AtreusCloudGate" exact="$g.exit" />
+          </do_if>
+        </do_for_each>
+		
+		<find_sector macro="macro.cluster_802_sector001_macro" space="player.galaxy" required="true" name="$Unclaimed_North_Sector"/>
+		<find_gate name="$OceanOfFantasyGates" multiple="true" space="$OceanOfFantasySector" active="false" />
+		<do_for_each name="$g" in="$OceanOfFantasyGates">
+			<do_if value=" ($g.exit.exists) and ($g.exit.sector == $Unclaimed_North_Sector)">
+				<set_value name="$OceanOfFantasy_GetsuFuneGate" exact="$g" />
+				<set_value name="$GetsuFune_OceanOfFantasyGate" exact="$g.exit" />
+			</do_if>
+		</do_for_each>
+		
+	</add>
+	
+</diff>

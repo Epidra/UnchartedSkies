@@ -6,12 +6,15 @@
 		<offset>	<position x="150000" y="0" z="0" />	</offset>
 	</replace>
 	
-	<!-- Sector xpan08 - Aphrodite's Storm -->
+	<!-- Sector xpan10 - Aphrodite's Storm -->
 	<replace sel="/macros/macro[@name='xpan_clusterXPAN10_sector002_macro']/connections/connection[@name='xpan_Zone002_clusterXPAN10_Sector002_connection']/offset">
 		 <offset>	<position x="36000" y="0" z="-119000" />	</offset>
 	</replace>
 	<replace sel="/macros/macro[@name='xpan_clusterXPAN10_sector002_macro']/connections/connection[@name='xpan_Zone001_clusterXPAN10_Sector002_connection']/offset">
 		<offset>	<position x="38000" y="0" z="173000" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN10_sector002_macro']/connections/connection[@name='xpan_Zone004_clusterXPAN10_Sector002_connection']/offset">
+		<offset>	<position x="206542.96875" y="0" z="44961.9140625" />	</offset>
 	</replace>
 	
 	<!-- Sector xpan11 - Treasure Chest -->
@@ -88,5 +91,26 @@
 	<replace sel="/macros/macro[@name='xpan_clusterXPAN36_Sector002_macro']/connections/connection[@name='xpan_Zone002_ClusterXPAN36_Sector002_connection']/offset">
 		<offset>	<position x="-16613.28125" y="0" z="160593.75" />	</offset>
 	</replace-->
+	
+	<!-- Sector xpan40 - Nishala -->
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN40_sector001_macro']/connections/connection[@name='xpan_zone005_clusterXPAN40_sector001_connection']/offset">
+		<offset>	<position x="-200000" y="0" z="-200000" />	</offset>
+	</replace>
+	
+	<!-- Sector xpan41 - Yanva -->
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN41_sector001_macro']/connections/connection[@name='xpan_zone005_clusterXPAN41_sector001_connection']/offset">
+		<offset>	<position x="0" y="0" z="-200000" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN41_sector001_macro']/connections/connection[@name='xpan_zone002_clusterXPAN41_sector001_connection']/offset">
+		<offset>	<position x="200000" y="0" z="200000" />	</offset>
+	</replace>
+	
+	<!-- Sector xpan42 - Pavana -->
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN42_sector001_macro']/connections/connection[@name='xpan_zone001_clusterXPAN42_sector001_connection']/offset">
+		<offset>	<position x="-200000" y="0" z="-200000" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN42_sector001_macro']/connections/connection[@name='xpan_zone005_clusterXPAN42_sector001_connection']/offset">
+		<offset>	<position x="200000" y="0" z="200000" />	</offset>
+	</replace>
 
 </diff>
