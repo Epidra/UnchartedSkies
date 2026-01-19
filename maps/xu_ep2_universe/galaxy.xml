@@ -658,6 +658,11 @@
 		<offset><position x="-180000000" y="0" z="-86600000" /></offset>
 	</replace>
 	
+	<!-- Sector 725 - Void of Opportunity -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_725_connection']/offset">
+		<offset><position x="-30000000" y="0" z="-17320000" /></offset>
+	</replace>
+	
 	
 	
 	
@@ -667,6 +672,17 @@
 	<!-- Sector 730 - Third Redemption -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_730_connection']/offset">
 		<offset><position x="-105000000" y="0" z="-77940000" /></offset>
+	</replace>
+	
+	
+	
+	
+	
+	<!-- DLC - ENVOY -->
+	
+	<!-- Sector 740 - Scarlet Star -->
+	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='Cluster_740_connection']/offset">
+		<offset><position x="-45000000" y="0" z="-8660000" /></offset>
 	</replace>
 	
 	
@@ -1117,7 +1133,7 @@
 	
 	<!-- Sector - tppirate_Cluster_01 - Medi-Tech Headquarters -->
 	<replace sel="/macros/macro[@name='XU_EP2_universe_macro']/connections/connection[@name='meditech_Cluster_01_connection']/offset">
-		<offset><position x="-30000000" y="0" z="-17320000" /></offset>
+		<offset><position x="-45000000" y="0" z="-8660000" /></offset>
 	</replace>
 	
 	
