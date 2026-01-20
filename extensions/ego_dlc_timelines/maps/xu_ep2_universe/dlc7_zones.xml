@@ -1,45 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?>
 <diff>
+	
+	<!-- Sector 701 - # -->
+	<!--                -->
+	
+	<!-- Sector 702 - # -->
+	<!--                -->
+	
+	<!-- Sector 703 - # -->
+	<!--                -->
+	
+	<!-- Sector 704 - # -->
+	<!--                -->
 
-	<!-- Sector 704 - President's End -->
-	<replace sel="/macros/macro[@name='Zone004_Cluster_704_Sector001_macro']/connections/connection[@name='connection_ClusterGate704To008']/offset">
+	<!-- Sector 705 - Nopileos' Memorial -->
+	<replace sel="/macros/macro[@name='Zone002_Cluster_705_Sector001_macro']/connections/connection[@name='connection_ClusterGate705To706']/offset"> <!-- inactive -->
 		<offset>
-			<position x="-37948.15" y="500" z="23676.41" />
-			<rotation yaw="120" pitch="0" roll="0" />
-		</offset>
-	</replace>
-	<replace sel="/macros/macro[@name='Zone002_Cluster_704_Sector001_macro']/connections/connection[@name='connection_ClusterGate704To0b']/offset">
-		<offset>
-			<position x="34121.37" y="500" z="-34389.22" />
-			<rotation yaw="30" pitch="0" roll="0" />
-		</offset>
-	</replace>
-	<replace sel="/macros/macro[@name='Zone003_Cluster_704_Sector001_macro']/connections/connection[@name='connection_ClusterGate704To0c']/offset">
-		<offset>
-			<position x="-41961.98" y="500" z="-40367.55" />
+			<position x="32564.56" y="500" z="-18029.35" />
 			<rotation yaw="300" pitch="0" roll="0" />
 		</offset>
 	</replace>
-
-	<!-- Sector 705 - Nopileos' Memorial -->
-	<replace sel="/macros/macro[@name='Zone004_Cluster_705_Sector001_macro']/connections/connection[@name='connection_ClusterGate705To0b']/offset">
+	<replace sel="/macros/macro[@name='Zone003_Cluster_705_Sector001_macro']/connections/connection[@name='connection_ClusterGate705To0a']/offset"> <!-- inquisitor -->
 		<offset>
-			<position x="-42857.7" y="500" z="-13633.59" />
-			<rotation yaw="240" pitch="0" roll="0" />
+			<position x="-44681.45" y="500" z="-39865.01" />
+			<rotation yaw="120" pitch="0" roll="0" />
 		</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='Zone002_Cluster_705_Sector001_macro']/connections/connection[@name='connection_ClusterGate705To706']/offset">
+	<replace sel="/macros/macro[@name='Zone004_Cluster_705_Sector001_macro']/connections/connection[@name='connection_ClusterGate705To0b']/offset"> <!-- black -->
 		<offset>
-			<position x="32564.56" y="500" z="-18029.35" />
-			<rotation yaw="30" pitch="0" roll="0" />
+			<position x="-42857.7" y="500" z="-13633.59" />
+			<rotation yaw="180" pitch="0" roll="0" />
 		</offset>
 	</replace>
 
 	<!-- Sector 706 - Hatikvah's Faith -->
-	<replace sel="/macros/macro[@name='Zone004_Cluster_706_Sector001_macro']/connections/connection[@name='connection_ClusterGate706To705']/offset">
+	<replace sel="/macros/macro[@name='Zone001_Cluster_706_Sector001_macro']/connections/connection[@name='connection_ClusterGate706To0a']/offset">
 		<offset>
-			<position x="-28407.44" y="500" z="2193.848" />
-			<rotation yaw="270" pitch="0" roll="0" />
+			<position x="35474.8383" y="500" z="45248.86" />
+			<rotation yaw="210" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	<replace sel="/macros/macro[@name='Zone002_Cluster_706_Sector001_macro']/connections/connection[@name='connection_ClusterGate706To014']/offset">
@@ -48,5 +45,13 @@
 			<rotation yaw="0" pitch="0" roll="0" />
 		</offset>
 	</replace>
+	<replace sel="/macros/macro[@name='Zone004_Cluster_706_Sector001_macro']/connections/connection[@name='connection_ClusterGate706To705']/offset">
+		<offset>
+			<position x="-28407.44" y="500" z="-32193.848" />
+			<rotation yaw="270" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	
+	
 	
 </diff>

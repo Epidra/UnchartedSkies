@@ -1,0 +1,183 @@
+<mdscript name="cartography">
+	<cues>
+		
+		<!-- Activates on every Game Start -->
+		<!-- Make sure it only fires up on the Main Galaxy -->
+		<cue name="Start" version="4">
+			<conditions>
+				<event_cue_signalled cue="md.Setup.Start" />
+				<check_value value="player.galaxy.macro == macro.xu_ep2_universe_macro" comment="only in main-galaxy" />
+			</conditions>
+			
+			<!-- Find all needed Sectors and save their address for later (Clusters are not needed here) -->
+			<actions>
+				
+				<!-- Discovery for  -  Depths of Silence -->
+				<!-- Depths of Silence     -->	<find_sector macro="macro.Sector_SKY04s01_macro"       space="player.galaxy" required="true" name="$Silence_Sector"     />
+				<!-- Mines of Fortune      -->	<find_sector macro="macro.Sector_SKY03s01_macro"       space="player.galaxy" required="true" name="$Mines_Sector"       />
+				<!-- Cardinal's Domain     -->	<find_sector macro="macro.cluster_709_sector001_macro" space="player.galaxy" required="true" name="$Cardinal_Sector"    />
+				
+				<!-- Discovery for  -  Dark Waters -->
+				<!-- Dark Waters           -->	<find_sector macro="macro.Sector_SKY23s01_macro"       space="player.galaxy" required="true" name="$DarkWater_Sector"   />
+				<!-- Matrix #598           -->	<find_sector macro="macro.cluster_415_sector001_macro" space="player.galaxy" required="true" name="$Matrix598_Sector"   />
+				
+				<!-- Discovery for  -  Shore of Infinity -->
+				<!-- Shore of Infinity     -->	<find_sector macro="macro.Sector_SKY20s01_macro"       space="player.galaxy" required="true" name="$Infinity_Sector"    />
+				<!-- Mists of Elysium II   -->	<find_sector macro="macro.Sector_SKY18s01_macro"       space="player.galaxy" required="true" name="$Elysium_Sector"     />
+				
+				<!-- Discovery for  -  Shareholder's Fortune -->
+				<!-- Leap of Faith         -->	<find_sector macro="macro.cluster_504_sector001_macro" space="player.galaxy" required="true" name="$Faith_Sector"       />
+				<!-- Avarice               -->	<find_sector macro="macro.cluster_500_sector001_macro" space="player.galaxy" required="true" name="$Avarice_Sector"     />
+				<!-- Shareholder's Fortune -->	<find_sector macro="macro.Sector_SKY02s01_macro"       space="player.galaxy" required="true" name="$Shareholder_Sector" />
+				<!-- Memory of Profit X    -->	<find_sector macro="macro.cluster_03_sector001_macro"  space="player.galaxy" required="true" name="$Memory_Sector"      />
+				
+			</actions>
+			<cues>
+				
+				
+				
+				<!-- Conditions - Sector is Discovered -->
+				<cue name="Check_Silence_Discovered" onfail="cancel">
+					<conditions>
+						<check_value value="$Silence_Sector.isknown"/>
+					</conditions>
+				</cue>
+				
+				<!-- Conditions - Sector is Discovered -->
+				<cue name="Check_Matrix598_Discovered" onfail="cancel">
+					<conditions>
+						<check_value value="$Matrix598_Sector.isknown"/>
+					</conditions>
+				</cue>
+				
+				<!-- Conditions - Sector is Discovered -->
+				<cue name="Check_Faith_Discovered" onfail="cancel">
+					<conditions>
+						<check_value value="$Faith_Sector.isknown"/>
+					</conditions>
+				</cue>
+				
+				<!-- Conditions - Sector is Discovered -->
+				<cue name="Check_Infinity_Discovered" onfail="cancel">
+					<conditions>
+						<check_value value="$Infinity_Sector.isknown"/>
+					</conditions>
+				</cue>
+				
+				<!-- Conditions - Sector is Discovered -->
+				<cue name="Check_Shareholder_Discovered" onfail="cancel">
+					<conditions>
+						<check_value value="$Shareholder_Sector.isknown"/>
+					</conditions>
+				</cue>
+				
+				
+				
+				
+				
+				<!-- Event - Unlock Gates  in  Depths of Silence -->
+				<cue name="Silence_PlayerDiscovered_Event">
+					<conditions>
+						<check_any>
+							<event_object_known_to_player object="$Silence_Sector"/>
+							<event_cue_completed cue="Check_Silence_Discovered"/>
+						</check_any>
+					</conditions>
+					<actions>
+						<find_gate name="$Silence_Gates" multiple="true" space="$Silence_Sector" active="false" />
+						<do_for_each name="$g" in="$Silence_Gates">
+							<do_if value=" ($g.exit.exists) and ($g.exit.sector == $Mines_Sector)">
+								<set_object_active object="$g" />
+							</do_if>
+							<do_if value=" ($g.exit.exists) and ($g.exit.sector == $Cardinal_Sector)">
+								<set_object_active object="$g" />
+							</do_if>
+						</do_for_each>
+						<remove_value name="$Silence_Gates" />
+					</actions>
+				</cue>
+				
+				<!-- Event - Unlock Gates  in  Dark Waters -->
+				<cue name="Matrix598_PlayerDiscovered_Event">
+					<conditions>
+						<check_any>
+							<event_object_known_to_player object="$Matrix598_Sector"/>
+							<event_cue_completed cue="Check_Matrix598_Discovered"/>
+						</check_any>
+					</conditions>
+					<actions>
+						<find_gate name="$Matrix598_Gates" multiple="true" space="$Matrix598_Sector" active="false" />
+						<do_for_each name="$g" in="$Matrix598_Gates">
+							<do_if value=" ($g.exit.exists) and ($g.exit.sector == $DarkWater_Sector)">
+								<set_object_active object="$g" />
+							</do_if>
+						</do_for_each>
+						<remove_value name="$Matrix598_Gates" />
+					</actions>
+				</cue>
+				
+				<!-- Event - Unlock Gates  in  Avarice -->
+				<cue name="Faith_PlayerDiscovered_Event">
+					<conditions>
+						<check_any>
+							<event_object_known_to_player object="$Faith_Sector"/>
+							<event_cue_completed cue="Check_Faith_Discovered"/>
+						</check_any>
+					</conditions>
+					<actions>
+						<find_gate name="$Avarice_Gates" multiple="true" space="$Avarice_Sector" active="false" />
+						<do_for_each name="$g" in="$Avarice_Gates">
+							<do_if value=" ($g.exit.exists) and ($g.exit.sector == $Shareholder_Sector)">
+								<set_object_active object="$g" />
+							</do_if>
+						</do_for_each>
+						<remove_value name="$Avarice_Gates" />
+					</actions>
+				</cue>
+				
+				<!-- Event - Unlock Gates  in  Shareholder's Fortune -->
+				<cue name="Shareholder_PlayerDiscovered_Event">
+					<conditions>
+						<check_any>
+							<event_object_known_to_player object="$Shareholder_Sector"/>
+							<event_cue_completed cue="Check_Shareholder_Discovered"/>
+						</check_any>
+					</conditions>
+					<actions>
+						<find_gate name="$Shareholder_Gates" multiple="true" space="$Shareholder_Sector" active="false" />
+						<do_for_each name="$g" in="$Shareholder_Gates">
+							<do_if value=" ($g.exit.exists) and ($g.exit.sector == $Memory_Sector)">
+								<set_object_active object="$g" />
+							</do_if>
+						</do_for_each>
+						<remove_value name="$Shareholder_Gates" />
+					</actions>
+				</cue>
+				
+				<!-- Event - Unlock Gates  in  Shore of Infinity -->
+				<cue name="Infinity_PlayerDiscovered_Event">
+					<conditions>
+						<check_any>
+							<event_object_known_to_player object="$Infinity_Sector"/>
+							<event_cue_completed cue="Check_Infinity_Discovered"/>
+						</check_any>
+					</conditions>
+					<actions>
+						<find_gate name="$Infinity_Gates" multiple="true" space="$Infinity_Sector" active="false" />
+						<do_for_each name="$g" in="$Infinity_Gates">
+							<do_if value=" ($g.exit.exists) and ($g.exit.sector == $Elysium_Sector)">
+								<set_object_active object="$g" />
+							</do_if>
+						</do_for_each>
+						<remove_value name="$Infinity_Gates" />
+					</actions>
+				</cue>
+				
+				
+				
+			</cues>
+		</cue>
+		
+	</cues>
+	
+</mdscript>

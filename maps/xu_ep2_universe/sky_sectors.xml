@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	
+	<!--   - -     SKY00 - Hades     - -   -->
+	<macro name="Sector_SKY00s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY00s01z01_connection" ref="zones">	<offset>	<position x="0"      y="4000" z="0"       />	</offset>	<macro ref="Zone_SKY00s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY00s01z02_connection" ref="zones">	<offset>	<position x="0"      y="5000" z="120000"  />	</offset>	<macro ref="Zone_SKY00s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY00s01z03_connection" ref="zones">	<offset>	<position x="75000"  y="5000" z="75000"   />	</offset>	<macro ref="Zone_SKY00s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY00s01z04_connection" ref="zones">	<offset>	<position x="75000"  y="5000" z="-75000"  />	</offset>	<macro ref="Zone_SKY00s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY00s01z05_connection" ref="zones">	<offset>	<position x="0"      y="5000" z="-120000" />	</offset>	<macro ref="Zone_SKY00s01z05_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY00s01z06_connection" ref="zones">	<offset>	<position x="-75000" y="5000" z="-75000"  />	</offset>	<macro ref="Zone_SKY00s01z06_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY00s01z07_connection" ref="zones">	<offset>	<position x="-75000" y="5000" z="75000"   />	</offset>	<macro ref="Zone_SKY00s01z07_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY01 - Herron's Nebula     - -   -->
+	<macro name="Sector_SKY01s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY01s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"       />	</offset>	<macro ref="Zone_SKY01s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY01s01z02_connection" ref="zones">	<offset>	<position x="45572"   y="0" z="108138"  />	</offset>	<macro ref="Zone_SKY01s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY01s01z03_connection" ref="zones">	<offset>	<position x="89982"   y="0" z="-100098" />	</offset>	<macro ref="Zone_SKY01s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY01s01z04_connection" ref="zones">	<offset>	<position x="-250000" y="0" z="120468"  />	</offset>	<macro ref="Zone_SKY01s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY01s01z05_connection" ref="zones">	<offset>	<position x="-145000" y="0" z="-84627"  />	</offset>	<macro ref="Zone_SKY01s01z05_macro" connection="sector" />	</connection>
+			<connection name="High_SKY01s01h02_connection" ref="zonehighways">
+				<offset>
+					<position x="62853.703125" y="0" z="-7190.8930664062" />
+				</offset>
+				<macro ref="High_SKY01s01h02_macro" connection="sector">
+				<connections>
+					<connection ref="entrypoint">
+						<macro path="../../Zone_SKY01s01z03_connection" connection="Highway02Connection01_gate" />
+					</connection>
+					<connection ref="exitpoint">
+						<macro path="../../Zone_SKY01s01z02_connection" connection="Highway02Connection02_gate" />
+					</connection>
+				</connections>
+			</macro>
+			</connection>
+			<connection name="High_SKY01s01h01_connection" ref="zonehighways">
+				<offset>
+					<position x="55265.83203125" y="0" z="-6267.576171875" />
+				</offset>
+				<macro ref="High_SKY01s01h01_macro" connection="sector">
+					<connections>
+						<connection ref="exitpoint">
+							<macro path="../../Zone_SKY01s01z03_connection" connection="Highway01Connection02_gate" />
+						</connection>
+						<connection ref="entrypoint">
+							<macro path="../../Zone_SKY01s01z02_connection" connection="Highway01Connection01_gate" />
+						</connection>
+					</connections>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY02 - Shareholder's Fortune     - -   -->
+	<macro name="Sector_SKY02s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY02s01z01_connection" ref="zones">	<offset>	<position x="-40000"  y="0" z="50000"  />	</offset>	<macro ref="Zone_SKY02s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY02s01z02_connection" ref="zones">	<offset>	<position x="-15000"  y="0" z="195000" />	</offset>	<macro ref="Zone_SKY02s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY02s01z03_connection" ref="zones">	<offset>	<position x="15000"   y="0" z="-95000" />	</offset>	<macro ref="Zone_SKY02s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY02s01z04_connection" ref="zones">	<offset>	<position x="-145000" y="0" z="65000"  />	</offset>	<macro ref="Zone_SKY02s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY02s01z05_connection" ref="zones">	<offset>	<position x="95000"   y="0" z="-25000" />	</offset>	<macro ref="Zone_SKY02s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY03 - Mines of Fortune     - -   -->
+	<macro name="Sector_SKY03s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY03s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"       />	</offset>	<macro ref="Zone_SKY03s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY03s01z02_connection" ref="zones">	<offset>	<position x="-75000"  y="0" z="75000"   />	</offset>	<macro ref="Zone_SKY03s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY03s01z03_connection" ref="zones">	<offset>	<position x="-25000"  y="0" z="-150000" />	</offset>	<macro ref="Zone_SKY03s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY03s01z04_connection" ref="zones">	<offset>	<position x="-200000" y="0" z="0"       />	</offset>	<macro ref="Zone_SKY03s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY03s01z05_connection" ref="zones">	<offset>	<position x="200000"  y="0" z="-25000"  />	</offset>	<macro ref="Zone_SKY03s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY04 - Depths of Silence     - -   -->
+	<macro name="Sector_SKY04s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY04s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"       />	</offset>	<macro ref="Zone_SKY04s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY04s01z02_connection" ref="zones">	<offset>	<position x="0"       y="0" z="125000"  />	</offset>	<macro ref="Zone_SKY04s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY04s01z03_connection" ref="zones">	<offset>	<position x="0"       y="0" z="-125000" />	</offset>	<macro ref="Zone_SKY04s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY04s01z04_connection" ref="zones">	<offset>	<position x="-125000" y="0" z="0"       />	</offset>	<macro ref="Zone_SKY04s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY04s01z05_connection" ref="zones">	<offset>	<position x="125000"  y="0" z="0"       />	</offset>	<macro ref="Zone_SKY04s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY05 - Preacher's Void IV     - -   -->
+	<macro name="Sector_SKY05s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY05s01z01_connection" ref="zones">	<offset>	<position x="1520"    y="0" z="82078"   />	</offset>	<macro ref="Zone_SKY05s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY05s01z02_connection" ref="zones">	<offset>	<position x="0"       y="0" z="250000"  />	</offset>	<macro ref="Zone_SKY05s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY05s01z03_connection" ref="zones">	<offset>	<position x="0"       y="0" z="-150000" />	</offset>	<macro ref="Zone_SKY05s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY05s01z04_connection" ref="zones">	<offset>	<position x="-150000" y="0" z="0"       />	</offset>	<macro ref="Zone_SKY05s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY05s01z05_connection" ref="zones">	<offset>	<position x="150000"  y="0" z="0"       />	</offset>	<macro ref="Zone_SKY05s01z05_macro" connection="sector" />	</connection>
+			<connection name="High_SKY05s01h01_connection" ref="zonehighways">
+				<offset>
+					<position x="-24076.140625" y="-2000" z="-28307.15234375" />
+				</offset>
+				<macro ref="High_SKY05s01h01_macro" connection="sector">
+					<connections>
+						<connection ref="exitpoint">
+							<macro path="../../Zone_SKY05s01z01_connection" connection="Highway01Connection02_gate" />
+						</connection>
+						<connection ref="entrypoint">
+							<macro path="../../Zone_SKY05s01z01_connection" connection="Highway01Connection01_gate" />
+						</connection>
+					</connections>
+				</macro>
+			</connection>
+			<connection name="High_SKY05s01h03_connection" ref="zonehighways">
+				<offset>
+					<position x="22603.580078125" y="0" z="95000.9921875" />
+				</offset>
+				<macro ref="High_SKY05s01h03_macro" connection="sector">
+					<connections>
+						<connection ref="exitpoint">
+							<macro path="../../Zone_SKY05s01z01_connection" connection="Highway03Connection02_gate" />
+						</connection>
+						<connection ref="entrypoint">
+							<macro path="../../Zone_SKY05s01z01_connection" connection="Highway03Connection01_gate" />
+						</connection>
+					</connections>
+				</macro>
+			</connection>
+			<connection name="High_SKY05s01h02_connection" ref="zonehighways">
+				<offset>
+					<position x="-774.4140625" y="0" z="92677.2578125" />
+				</offset>
+				<macro ref="High_SKY05s01h02_macro" connection="sector">
+					<connections>
+						<connection ref="entrypoint">
+							<macro path="../../Zone_SKY05s01z01_connection" connection="Highway02Connection01_gate" />
+						</connection>
+						<connection ref="exitpoint">
+							<macro path="../../Zone_SKY05s01z01_connection" connection="Highway02Connection02_gate" />
+						</connection>
+					</connections>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY06 - Preacher's Void VI     - -   -->
+	<macro name="Sector_SKY06s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY06s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"       />	</offset>	<macro ref="Zone_SKY06s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY06s01z02_connection" ref="zones">	<offset>	<position x="0"       y="0" z="250000"  />	</offset>	<macro ref="Zone_SKY06s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY06s01z03_connection" ref="zones">	<offset>	<position x="0"       y="0" z="-250000" />	</offset>	<macro ref="Zone_SKY06s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY06s01z04_connection" ref="zones">	<offset>	<position x="-250000" y="0" z="0"       />	</offset>	<macro ref="Zone_SKY06s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY06s01z05_connection" ref="zones">	<offset>	<position x="250000"  y="0" z="0"       />	</offset>	<macro ref="Zone_SKY06s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY07 - Inquisitor's Wrath     - -   -->
+	<macro name="Sector_SKY07s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY07s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"       />	</offset>	<macro ref="Zone_SKY07s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY07s01z02_connection" ref="zones">	<offset>	<position x="35973"   y="0" z="88150"   />	</offset>	<macro ref="Zone_SKY07s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY07s01z03_connection" ref="zones">	<offset>	<position x="-10131"  y="0" z="-105944" />	</offset>	<macro ref="Zone_SKY07s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY07s01z04_connection" ref="zones">	<offset>	<position x="-210000" y="0" z="-92500"   />	</offset>	<macro ref="Zone_SKY07s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY07s01z05_connection" ref="zones">	<offset>	<position x="150000"  y="0" z="12500"  />	</offset>	<macro ref="Zone_SKY07s01z05_macro" connection="sector" />	</connection>
+			<connection name="High_SKY07s01h01_connection" ref="zonehighways">
+				<offset>
+					<position x="61234.296875" y="0" z="-41723.8671875" />
+				</offset>
+				<macro ref="High_SKY07s01h01_macro" connection="sector">
+					<connections>
+						<connection ref="exitpoint">
+							<macro path="../../Zone_SKY07s01z03_connection" connection="Highway01Connection02_gate" />
+						</connection>
+						<connection ref="entrypoint">
+							<macro path="../../Zone_SKY07s01z02_connection" connection="Highway01Connection01_gate" />
+						</connection>
+					</connections>
+				</macro>
+			</connection>
+			<connection name="High_SKY07s01h02_connection" ref="zonehighways">
+				<offset>
+					<position x="77116.703125" y="0" z="-43841.10546875" />
+				</offset>
+				<macro ref="High_SKY07s01h02_macro" connection="sector">
+					<connections>
+						<connection ref="entrypoint">
+							<macro path="../../Zone_SKY07s01z03_connection" connection="Highway02Connection01_gate" />
+						</connection>
+						<connection ref="exitpoint">
+							<macro path="../../Zone_SKY07s01z02_connection" connection="Highway02Connection02_gate" />
+						</connection>
+					</connections>
+				</macro>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY08 - Ocraroke's Storm     - -   -->
+	<macro name="Sector_SKY08s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY08s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"       />	</offset>	<macro ref="Zone_SKY08s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY08s01z02_connection" ref="zones">	<offset>	<position x="-200000" y="0" z="175000"  />	</offset>	<macro ref="Zone_SKY08s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY08s01z03_connection" ref="zones">	<offset>	<position x="-125000" y="0" z="-125000" />	</offset>	<macro ref="Zone_SKY08s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY08s01z04_connection" ref="zones">	<offset>	<position x="-125000" y="0" z="0"       />	</offset>	<macro ref="Zone_SKY08s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY08s01z05_connection" ref="zones">	<offset>	<position x="25000"   y="0" z="0"       />	</offset>	<macro ref="Zone_SKY08s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY09 - Consecrated Fire     - -   -->
+	<macro name="Sector_SKY09s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY09s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"       />	</offset>	<macro ref="Zone_SKY09s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY09s01z02_connection" ref="zones">	<offset>	<position x="0"       y="0" z="100000"  />	</offset>	<macro ref="Zone_SKY09s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY09s01z03_connection" ref="zones">	<offset>	<position x="0"       y="0" z="-100000" />	</offset>	<macro ref="Zone_SKY09s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY09s01z04_connection" ref="zones">	<offset>	<position x="-100000" y="0" z="0"       />	</offset>	<macro ref="Zone_SKY09s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY09s01z05_connection" ref="zones">	<offset>	<position x="100000"  y="0" z="0"       />	</offset>	<macro ref="Zone_SKY09s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY10 - Thyn's Excavation     - -   -->
+	<macro name="Sector_SKY10s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY10s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"       />	</offset>	<macro ref="Zone_SKY10s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY10s01z02_connection" ref="zones">	<offset>	<position x="0"       y="0" z="350000"  />	</offset>	<macro ref="Zone_SKY10s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY10s01z03_connection" ref="zones">	<offset>	<position x="150000"  y="0" z="-225000" />	</offset>	<macro ref="Zone_SKY10s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY10s01z04_connection" ref="zones">	<offset>	<position x="-225000" y="0" z="-150000" />	</offset>	<macro ref="Zone_SKY10s01z04_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY11 - Thyn's Abyss II     - -   -->
+	<macro name="Sector_SKY11s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY11s01z01_connection" ref="zones">	<offset>	<position x="0"      y="0" z="0"       />	</offset>	<macro ref="Zone_SKY11s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY11s01z02_connection" ref="zones">	<offset>	<position x="0"      y="0" z="-350000" />	</offset>	<macro ref="Zone_SKY11s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY11s01z03_connection" ref="zones">	<offset>	<position x="0"      y="0" z="250000"  />	</offset>	<macro ref="Zone_SKY11s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY11s01z04_connection" ref="zones">	<offset>	<position x="-75000" y="0" z="225000"  />	</offset>	<macro ref="Zone_SKY11s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY11s01z05_connection" ref="zones">	<offset>	<position x="75000"  y="0" z="225000"  />	</offset>	<macro ref="Zone_SKY11s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY12 - Thyn's Abyss III     - -   -->
+	<macro name="Sector_SKY12s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY12s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"      />	</offset>	<macro ref="Zone_SKY12s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY12s01z02_connection" ref="zones">	<offset>	<position x="-350000" y="0" z="0"      />	</offset>	<macro ref="Zone_SKY12s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY12s01z03_connection" ref="zones">	<offset>	<position x="250000"  y="0" z="0"      />	</offset>	<macro ref="Zone_SKY12s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY12s01z04_connection" ref="zones">	<offset>	<position x="225000"  y="0" z="75000"  />	</offset>	<macro ref="Zone_SKY12s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY12s01z05_connection" ref="zones">	<offset>	<position x="225000"  y="0" z="-75000" />	</offset>	<macro ref="Zone_SKY12s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY13 - Thyn's Abyss V     - -   -->
+	<macro name="Sector_SKY13s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY13s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"      />	</offset>	<macro ref="Zone_SKY13s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY13s01z02_connection" ref="zones">	<offset>	<position x="350000"  y="0" z="0"      />	</offset>	<macro ref="Zone_SKY13s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY13s01z03_connection" ref="zones">	<offset>	<position x="-250000" y="0" z="0"      />	</offset>	<macro ref="Zone_SKY13s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY13s01z04_connection" ref="zones">	<offset>	<position x="-225000" y="0" z="-75000" />	</offset>	<macro ref="Zone_SKY13s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY13s01z05_connection" ref="zones">	<offset>	<position x="-225000" y="0" z="75000"  />	</offset>	<macro ref="Zone_SKY13s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY14 - #     - -   -->
+	<!--                               -->
+	
+	<!--   - -     SKY15 - Wastelands III     - -   -->
+	<macro name="Sector_SKY15s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY15s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"      />	</offset>	<macro ref="Zone_SKY15s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY15s01z02_connection" ref="zones">	<offset>	<position x="0"       y="0" z="250000" />	</offset>	<macro ref="Zone_SKY15s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY15s01z03_connection" ref="zones">	<offset>	<position x="-75000"  y="0" z="-100000"/>	</offset>	<macro ref="Zone_SKY15s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY15s01z04_connection" ref="zones">	<offset>	<position x="-175000" y="0" z="0"      />	</offset>	<macro ref="Zone_SKY15s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY15s01z05_connection" ref="zones">	<offset>	<position x="250000"  y="0" z="0"      />	</offset>	<macro ref="Zone_SKY15s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY16 - Wastelands V     - -   -->
+	<macro name="Sector_SKY16s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY16s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"      />	</offset>	<macro ref="Zone_SKY16s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY16s01z02_connection" ref="zones">	<offset>	<position x="0"       y="0" z="250000" />	</offset>	<macro ref="Zone_SKY16s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY16s01z03_connection" ref="zones">	<offset>	<position x="0"       y="0" z="-250000"/>	</offset>	<macro ref="Zone_SKY16s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY16s01z04_connection" ref="zones">	<offset>	<position x="-250000" y="0" z="0"      />	</offset>	<macro ref="Zone_SKY16s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY16s01z05_connection" ref="zones">	<offset>	<position x="200000"  y="0" z="0"      />	</offset>	<macro ref="Zone_SKY16s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY17 - Depths of Silence I     - -   -->
+	<macro name="Sector_SKY17s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY17s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"      />	</offset>	<macro ref="Zone_SKY17s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY17s01z02_connection" ref="zones">	<offset>	<position x="0"       y="0" z="250000" />	</offset>	<macro ref="Zone_SKY17s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY17s01z03_connection" ref="zones">	<offset>	<position x="0"       y="0" z="-250000"/>	</offset>	<macro ref="Zone_SKY17s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY17s01z04_connection" ref="zones">	<offset>	<position x="-250000" y="0" z="0"      />	</offset>	<macro ref="Zone_SKY17s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY17s01z05_connection" ref="zones">	<offset>	<position x="250000"  y="0" z="0"      />	</offset>	<macro ref="Zone_SKY17s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY18 - Depths of Silence II     - -   -->
+	<macro name="Sector_SKY18s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY18s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"      />	</offset>	<macro ref="Zone_SKY18s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY18s01z02_connection" ref="zones">	<offset>	<position x="0"       y="0" z="250000" />	</offset>	<macro ref="Zone_SKY18s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY18s01z03_connection" ref="zones">	<offset>	<position x="0"       y="0" z="-250000"/>	</offset>	<macro ref="Zone_SKY18s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY18s01z04_connection" ref="zones">	<offset>	<position x="-250000" y="0" z="0"      />	</offset>	<macro ref="Zone_SKY18s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY18s01z05_connection" ref="zones">	<offset>	<position x="250000"  y="0" z="0"      />	</offset>	<macro ref="Zone_SKY18s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY19 - Depths of Silence III     - -   -->
+	<macro name="Sector_SKY19s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY19s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"      />	</offset>	<macro ref="Zone_SKY19s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY19s01z02_connection" ref="zones">	<offset>	<position x="0"       y="0" z="250000" />	</offset>	<macro ref="Zone_SKY19s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY19s01z03_connection" ref="zones">	<offset>	<position x="0"       y="0" z="-250000"/>	</offset>	<macro ref="Zone_SKY19s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY19s01z04_connection" ref="zones">	<offset>	<position x="-250000" y="0" z="0"      />	</offset>	<macro ref="Zone_SKY19s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY19s01z05_connection" ref="zones">	<offset>	<position x="250000"  y="0" z="0"      />	</offset>	<macro ref="Zone_SKY19s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY20 - Shore of Infinity     - -   -->
+	<macro name="Sector_SKY20s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY20s01z01_connection" ref="zones">	<offset>	<position x="0"      y="0" z="0"      />	</offset>	<macro ref="Zone_SKY20s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY20s01z02_connection" ref="zones">	<offset>	<position x="50000"  y="0" z="75000"  />	</offset>	<macro ref="Zone_SKY20s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY20s01z03_connection" ref="zones">	<offset>	<position x="-50000" y="0" z="-75000" />	</offset>	<macro ref="Zone_SKY20s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY20s01z04_connection" ref="zones">	<offset>	<position x="-75000" y="0" z="50000"  />	</offset>	<macro ref="Zone_SKY20s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY20s01z05_connection" ref="zones">	<offset>	<position x="75000"  y="0" z="-50000" />	</offset>	<macro ref="Zone_SKY20s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY21 - Light Water     - -   -->
+	<macro name="Sector_SKY21s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY21s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"      />	</offset>	<macro ref="Zone_SKY21s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY21s01z02_connection" ref="zones">	<offset>	<position x="0"       y="0" z="250000" />	</offset>	<macro ref="Zone_SKY21s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY21s01z03_connection" ref="zones">	<offset>	<position x="0"       y="0" z="-250000"/>	</offset>	<macro ref="Zone_SKY21s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY21s01z04_connection" ref="zones">	<offset>	<position x="-250000" y="0" z="0"      />	</offset>	<macro ref="Zone_SKY21s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY21s01z05_connection" ref="zones">	<offset>	<position x="250000"  y="0" z="0"      />	</offset>	<macro ref="Zone_SKY21s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY22 - Great Trench - Sector001     - -   -->
+	<macro name="Sector_SKY22s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY22s01z01_connection" ref="zones">	<offset>	<position x="-15000"  y="0" z="-50000"  />	</offset>	<macro ref="Zone_SKY22s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY22s01z02_connection" ref="zones">	<offset>	<position x="-50000"  y="0" z="-150000" />	</offset>	<macro ref="Zone_SKY22s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY22s01z03_connection" ref="zones">	<offset>	<position x="-100000" y="0" z="-300000" />	</offset>	<macro ref="Zone_SKY22s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY22s01z04_connection" ref="zones">	<offset>	<position x="-25000"  y="0" z="90000"   />	</offset>	<macro ref="Zone_SKY22s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY22s01z05_connection" ref="zones">	<offset>	<position x="200000"  y="0" z="-50000"  />	</offset>	<macro ref="Zone_SKY22s01z05_macro" connection="sector" />	</connection>
+			<connection name="Gate_SKY22s01g06_connection" ref="zones">	<offset>	<position x="-55536"  y="0" z="200000"  />	</offset>	<macro ref="Gate_SKY22s01g06_macro" connection="sector" />	</connection>
+			<connection name="Gate_SKY22s01g10_connection" ref="zones">	<offset>	<position x="-45589"  y="0" z="200000"  />	</offset>	<macro ref="Gate_SKY22s01g10_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY22 - Great Trench - Sector002     - -   -->
+	<macro name="Sector_SKY22s02_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY22s02z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"       />	</offset>	<macro ref="Zone_SKY22s02z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY22s02z02_connection" ref="zones">	<offset>	<position x="125000"  y="0" z="50000"   />	</offset>	<macro ref="Zone_SKY22s02z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY22s02z03_connection" ref="zones">	<offset>	<position x="0"       y="0" z="-250000" />	</offset>	<macro ref="Zone_SKY22s02z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY22s02z04_connection" ref="zones">	<offset>	<position x="-250000" y="0" z="0"       />	</offset>	<macro ref="Zone_SKY22s02z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY22s02z05_connection" ref="zones">	<offset>	<position x="250000"  y="0" z="0"       />	</offset>	<macro ref="Zone_SKY22s02z05_macro" connection="sector" />	</connection>
+			<connection name="Gate_SKY22s02g05_connection" ref="zones">	<offset>	<position x="134167"  y="0" z="-200000" />	</offset>	<macro ref="Gate_SKY22s02g05_macro" connection="sector" />	</connection>
+			<connection name="Gate_SKY22s02g09_connection" ref="zones">	<offset>	<position x="143992"  y="0" z="-200000" />	</offset>	<macro ref="Gate_SKY22s02g09_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY23 - Dark Waters     - -   -->
+	<macro name="Sector_SKY23s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY23s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"      />	</offset>	<macro ref="Zone_SKY23s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY23s01z02_connection" ref="zones">	<offset>	<position x="0"       y="0" z="250000" />	</offset>	<macro ref="Zone_SKY23s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY23s01z03_connection" ref="zones">	<offset>	<position x="0"       y="0" z="-250000"/>	</offset>	<macro ref="Zone_SKY23s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY23s01z04_connection" ref="zones">	<offset>	<position x="-250000" y="0" z="0"      />	</offset>	<macro ref="Zone_SKY23s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY23s01z05_connection" ref="zones">	<offset>	<position x="250000"  y="0" z="0"      />	</offset>	<macro ref="Zone_SKY23s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY24 - #     - -   -->
+	<!--                               -->
+	
+	<!--   - -     SKY25 - Perpetual Sin     - -   -->
+	<macro name="Sector_SKY25s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY25s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"      />	</offset>	<macro ref="Zone_SKY25s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY25s01z02_connection" ref="zones">	<offset>	<position x="0"       y="0" z="125000" />	</offset>	<macro ref="Zone_SKY25s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY25s01z03_connection" ref="zones">	<offset>	<position x="0"       y="0" z="-125000"/>	</offset>	<macro ref="Zone_SKY25s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY25s01z04_connection" ref="zones">	<offset>	<position x="-125000" y="0" z="0"      />	</offset>	<macro ref="Zone_SKY25s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY25s01z05_connection" ref="zones">	<offset>	<position x="125000"  y="0" z="0"      />	</offset>	<macro ref="Zone_SKY25s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY26 - Shining Currents     - -   -->
+	<macro name="Sector_SKY26s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY26s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"      />	</offset>	<macro ref="Zone_SKY26s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY26s01z02_connection" ref="zones">	<offset>	<position x="0"       y="0" z="75000" />	</offset>	<macro ref="Zone_SKY26s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY26s01z03_connection" ref="zones">	<offset>	<position x="0"       y="0" z="-75000"/>	</offset>	<macro ref="Zone_SKY26s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY26s01z04_connection" ref="zones">	<offset>	<position x="-75000" y="0" z="0"      />	</offset>	<macro ref="Zone_SKY26s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY26s01z05_connection" ref="zones">	<offset>	<position x="75000"  y="0" z="0"      />	</offset>	<macro ref="Zone_SKY26s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>	
+	
+	<!--   - -     SKY27 - Interworlds - Sector001     - -   -->
+	<macro name="Sector_SKY27s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY27s01z01_connection" ref="zones">	<offset>	<position x="0"      y="0" z="0"       />	</offset>	<macro ref="Zone_SKY27s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY27s01z02_connection" ref="zones">	<offset>	<position x="0"      y="0" z="75000"   />	</offset>	<macro ref="Zone_SKY27s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY27s01z03_connection" ref="zones">	<offset>	<position x="0"      y="0" z="-75000"  />	</offset>	<macro ref="Zone_SKY27s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY27s01z04_connection" ref="zones">	<offset>	<position x="-75000" y="0" z="0"       />	</offset>	<macro ref="Zone_SKY27s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY27s01z05_connection" ref="zones">	<offset>	<position x="75000"  y="0" z="0"       />	</offset>	<macro ref="Zone_SKY27s01z05_macro" connection="sector" />	</connection>
+			<connection name="Gate_SKY27s01g06_connection" ref="zones">	<offset>	<position x="151324" y="0" z="-200000" />	</offset>	<macro ref="Gate_SKY27s01g06_macro" connection="sector" />	</connection>
+			<connection name="Gate_SKY27s01g10_connection" ref="zones">	<offset>	<position x="161341" y="0" z="-200000" />	</offset>	<macro ref="Gate_SKY27s01g10_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY27 - Interworlds - Sector002     - -   -->
+	<macro name="Sector_SKY27s02_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY27s02z01_connection" ref="zones">	<offset>	<position x="0"      y="0" z="0"      />	</offset>	<macro ref="Zone_SKY27s02z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY27s02z02_connection" ref="zones">	<offset>	<position x="0"      y="0" z="75000"  />	</offset>	<macro ref="Zone_SKY27s02z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY27s02z03_connection" ref="zones">	<offset>	<position x="75000"  y="0" z="-75000" />	</offset>	<macro ref="Zone_SKY27s02z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY27s02z04_connection" ref="zones">	<offset>	<position x="-75000" y="0" z="0"      />	</offset>	<macro ref="Zone_SKY27s02z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY27s02z05_connection" ref="zones">	<offset>	<position x="275000" y="0" z="150000" />	</offset>	<macro ref="Zone_SKY27s02z05_macro" connection="sector" />	</connection>
+			<connection name="Gate_SKY27s02g05_connection" ref="zones">	<offset>	<position x="-50000" y="0" z="200000" />	</offset>	<macro ref="Gate_SKY27s02g05_macro" connection="sector" />	</connection>
+			<connection name="Gate_SKY27s02g09_connection" ref="zones">	<offset>	<position x="-39984" y="0" z="200000" />	</offset>	<macro ref="Gate_SKY27s02g09_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY28 - #     - -   -->
+	<!--                               -->
+	
+	<!--   - -     SKY29 - Friar's Retreat     - -   -->
+	<macro name="Sector_SKY29s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY29s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"      />	</offset>	<macro ref="Zone_SKY29s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY29s01z02_connection" ref="zones">	<offset>	<position x="75000"   y="0" z="250000" />	</offset>	<macro ref="Zone_SKY29s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY29s01z03_connection" ref="zones">	<offset>	<position x="250000"  y="0" z="-300000"/>	</offset>	<macro ref="Zone_SKY29s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY29s01z04_connection" ref="zones">	<offset>	<position x="-100000" y="0" z="0"      />	</offset>	<macro ref="Zone_SKY29s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY29s01z05_connection" ref="zones">	<offset>	<position x="100000"  y="0" z="-25000" />	</offset>	<macro ref="Zone_SKY29s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY30 - Clarity's End     - -   -->
+	<macro name="Sector_SKY30s01_macro" class="sector">
+		<component ref="standardsector" />
+		<connections>
+			<connection name="Zone_SKY30s01z01_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"       />	</offset>	<macro ref="Zone_SKY30s01z01_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY30s01z02_connection" ref="zones">	<offset>	<position x="250000"  y="0" z="250000"  />	</offset>	<macro ref="Zone_SKY30s01z02_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY30s01z03_connection" ref="zones">	<offset>	<position x="-250000" y="0" z="-250000" />	</offset>	<macro ref="Zone_SKY30s01z03_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY30s01z04_connection" ref="zones">	<offset>	<position x="-250000" y="0" z="250000"  />	</offset>	<macro ref="Zone_SKY30s01z04_macro" connection="sector" />	</connection>
+			<connection name="Zone_SKY30s01z05_connection" ref="zones">	<offset>	<position x="250000"  y="0" z="-250000" />	</offset>	<macro ref="Zone_SKY30s01z05_macro" connection="sector" />	</connection>
+		</connections>
+	</macro>
+	
+	
+	
+</macros>

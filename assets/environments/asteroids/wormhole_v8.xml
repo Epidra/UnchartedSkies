@@ -2,7 +2,8 @@
 <components>
 	
 	
-	<!-- Hades Anomaly -->
+	
+	<!--   - -     Hades Anomaly     - -   -->
 	<component name="wormhole_v8" class="anomaly">
 		<source geometry="extensions\uncharted_skies\assets\environments\asteroids\wormhole_v8_data"/>
 		<layers>

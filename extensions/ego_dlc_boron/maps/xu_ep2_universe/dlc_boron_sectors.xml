@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <diff>
 	
 	<!-- Sector 601 - Watchful Gaze -->
@@ -38,6 +37,9 @@
 		<offset>	<position x="22972.12" y="0" z="119150.4" />	</offset>
 	</replace>
 	
+	<!-- Sector 603 - Great Reef - XPAN Sector -->
+	<remove sel="/macros/macro[@name='Cluster_603_Sector001_macro']/connections/connection[@name='ZoneXPAN_Cluster_603_Sector001_connection']"></remove>
+	
 	<!-- Sector 604 - Ocean of Fantasy -->
 	<replace sel="/macros/macro[@name='Cluster_604_Sector001_macro']/connections/connection[@name='Zone004_Cluster_604_Sector001_connection']/offset"> <!-- GATE to 803 -->
 		<offset>	<position x="-30677.88" y="0" z="-122754.3" />	</offset>
@@ -52,5 +54,22 @@
 	<replace sel="/macros/macro[@name='Cluster_604_Sector001_macro']/connections/connection[@name='Zone002_Cluster_604_Sector001_connection']/offset"> <!-- empty -->
 		<offset>	<position x="105554.4" y="0" z="-127903.8" />	</offset>
 	</replace>
+	
+	<!-- Sector 605 - # -->
+	<!--                -->
+	
+	<!-- Sector 606 - # -->
+	<!--                -->
+	
+	<!-- Sector 607 - # -->
+	<!--                -->
+	
+	<!-- Sector 608 - # -->
+	<!--                -->
+	
+	<!-- Sector 609 - # -->
+	<!--                -->
+	
+	
 	
 </diff>

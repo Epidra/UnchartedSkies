@@ -1,22 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?>
 <diff>
 	
-	<!--replace sel="//station[@id='tel_defence_cluster_02_sector001_01']/@owner">ministry</replace-->
-	<!--replace sel="//station[@id='tel_defence_cluster_02_sector001_02']/@owner">ministry</replace-->
-	
-	<replace sel="//station[@id='sca_piratestation_cluster_705']/position">
-		<position x="75000" y="-3000" z="-150000" pitch="0" yaw="35" roll="0" />
+	<!-- Data Sequencing Mainframe -->
+	<replace sel="//station[@id='xen_data_sequencing_mainframe_cluster_723_01']/position">
+		<position x="-120000" y="0" z="-1000" pitch="0" roll="0" yaw="-20" />
 	</replace>
+	
+	<!-- Tidebreak -->
+	<replace sel="//station[@id='pirate_landmark_01']">
+		<station id="pirate_landmark_01" race="argon" owner="civilian">
+			<quotas>
+				<quota galaxy="1" sector="1" />
+			</quotas>
+			<location class="sector" macro="cluster_500_sector003_macro">
+				<region allowhazardous="true"/>
+			</location>
+			<position x="-50000" y="-750" z="100000" pitch="0" roll="0" yaw="0" />
+			<station macro="landmarks_gen_piratestation_01_macro" />
+		</station>
+	</replace>
+	
+	<!-- Erlking Blueprint 1 -->
+	<replace sel="//object[@id='erlking_blueprint_1']/location">
+		<location solitary="true"/>
+	</replace>
+	
+	<!-- Erlking Blueprint 2 -->
+	<replace sel="//object[@id='erlking_blueprint_2']/location">
+		<location solitary="true"/>
+	</replace>
+	
+	<!-- Erlking Blueprint 3 -->
+	<replace sel="//object[@id='erlking_blueprint_3']/location">
+		<location solitary="true"/>
+	</replace>
+	
+	<!-- Erlking Blueprint 4 -->
+	<replace sel="//object[@id='erlking_blueprint_4']/location">
+		<location solitary="true"/>
+	</replace>
+	
+	<!-- Erlking Blueprint 5 -->
+	<replace sel="//object[@id='erlking_blueprint_5']/location">
+		<location solitary="true"/>
+	</replace>
+	
+	
+	
+	
 	
 	<!-- Special Objects -->
 	<add sel="/god/objects">
 		
-		<!-- Anomalies - - Fixed position within sector -->
+		<!-- Hades Anomalies - - Fixed position within sector -->
 		<object id="hades_anomaly_01">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="zone002_cluster_800_sector001_macro" />
+			<location class="zone" macro="Zone_SKY00s01z02_macro" />
 			<position x="0" y="0" z="0" />
 			<object macro="wormhole_v8_macro" />
 		</object>
@@ -24,7 +64,7 @@
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="zone003_cluster_800_sector001_macro" />
+			<location class="zone" macro="Zone_SKY00s01z03_macro" />
 			<position x="0" y="0" z="0" />
 			<object macro="wormhole_v8_macro" />
 		</object>
@@ -32,7 +72,7 @@
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="zone004_cluster_800_sector001_macro" />
+			<location class="zone" macro="Zone_SKY00s01z04_macro" />
 			<position x="0" y="0" z="0" />
 			<object macro="wormhole_v8_macro" />
 		</object>
@@ -40,7 +80,7 @@
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="zone005_cluster_800_sector001_macro" />
+			<location class="zone" macro="Zone_SKY00s01z05_macro" />
 			<position x="0" y="0" z="0" />
 			<object macro="wormhole_v8_macro" />
 		</object>
@@ -48,7 +88,7 @@
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="zone006_cluster_800_sector001_macro" />
+			<location class="zone" macro="Zone_SKY00s01z06_macro" />
 			<position x="0" y="0" z="0" />
 			<object macro="wormhole_v8_macro" />
 		</object>
@@ -56,62 +96,71 @@
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="zone007_cluster_800_sector001_macro" />
+			<location class="zone" macro="Zone_SKY00s01z07_macro" />
 			<position x="0" y="0" z="0" />
 			<object macro="wormhole_v8_macro" />
 		</object>
 		
-		<!-- Anomalies - - Random position within sector -->
-		<object id="ocraroke_anomaly_01">
+		<!-- Basic Anomalies - - Random position within sector -->
+		<object id="uncharted_anomaly_00">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="sector" macro="cluster_808_sector001_macro">
+			<location class="sector" macro="Sector_SKY00s01_macro">
 				<corerange min="1.2" max="1.6" />
 			</location>
 			<object macro="wormhole_v1_macro" />
 		</object>
-		<object id="elysium_anomaly_01">
+		<object id="uncharted_anomaly_02">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="sector" macro="cluster_812_sector001_macro">
+			<location class="sector" macro="Sector_SKY02s01_macro">
 				<corerange min="1.2" max="1.6" />
 			</location>
 			<object macro="wormhole_v1_macro" />
 		</object>
-		<object id="merchanthaven_anomaly_01">
+		<object id="uncharted_anomaly_19">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="sector" macro="cluster_801_sector001_macro">
+			<location class="sector" macro="Sector_SKY19s01_macro">
 				<corerange min="1.2" max="1.6" />
 			</location>
 			<object macro="wormhole_v1_macro" />
 		</object>
-		<object id="clarityend_anomaly_01">
+		<object id="uncharted_anomaly_20">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="sector" macro="cluster_814_sector001_macro">
+			<location class="sector" macro="Sector_SKY20s01_macro">
 				<corerange min="1.2" max="1.6" />
 			</location>
 			<object macro="wormhole_v1_macro" />
 		</object>
-		<object id="wastelands_anomaly_01">
+		<object id="uncharted_anomaly_23">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="sector" macro="cluster_821_sector001_macro">
+			<location class="sector" macro="Sector_SKY23s01_macro">
 				<corerange min="1.2" max="1.6" />
 			</location>
 			<object macro="wormhole_v1_macro" />
 		</object>
-		<object id="darkwaters_anomaly_01">
+		<object id="uncharted_anomaly_26">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="sector" macro="cluster_817_sector001_macro">
+			<location class="sector" macro="Sector_SKY26s01_macro">
+				<corerange min="1.2" max="1.6" />
+			</location>
+			<object macro="wormhole_v1_macro" />
+		</object>
+		<object id="uncharted_anomaly_27">
+			<quotas>
+				<quota galaxy="1" />
+			</quotas>
+			<location class="sector" macro="Sector_SKY27s01_macro">
 				<corerange min="1.2" max="1.6" />
 			</location>
 			<object macro="wormhole_v1_macro" />
@@ -124,12 +173,26 @@
 	<!-- Specific Stations -->
 	<add sel="/god/stations">
 		
-		<!-- Pirate Station - Argon - Interworlds -->
-		<station id="freeport_hatikvah_823" race="argon" owner="hatikvah" type="piratebase">
+		<!-- Pirate Station - Argon - Herron's Nebula -->
+		<station id="freeport_hatikvah_SKY01" race="argon" owner="hatikvah" type="piratebase">
 			<quotas>
 				<quota galaxy="1" sector="1" />
 			</quotas>
-			<location class="zone" macro="Zone001_Cluster_823_Sector002_macro" />
+			<location class="zone" macro="Zone_SKY01s01z05_macro" />
+			<station>
+				<select faction="hatikvah" tags="[piratebase]" />
+				<loadout>
+					<level exact="0.75" />
+				</loadout>
+			</station>
+		</station>
+		
+		<!-- Pirate Station - Argon - Interworlds -->
+		<station id="freeport_hatikvah_SKY27" race="argon" owner="hatikvah" type="piratebase">
+			<quotas>
+				<quota galaxy="1" sector="1" />
+			</quotas>
+			<location class="zone" macro="Zone_SKY27s01z01_macro" />
 			<station>
 				<select faction="hatikvah" tags="[piratebase]" />
 				<loadout>
@@ -139,11 +202,11 @@
 		</station>
 		
 		<!-- Pirate Station - Argon - Consecrated Fire -->
-		<station id="freeport_hatikvah_815" race="argon" owner="hatikvah" type="piratebase">
+		<station id="freeport_hatikvah_SKY09" race="argon" owner="hatikvah" type="piratebase">
 			<quotas>
 				<quota galaxy="1" sector="1" />
 			</quotas>
-			<location class="zone" macro="Zone001_Cluster_815_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY09s01z01_macro" />
 			<station>
 				<select faction="hatikvah" tags="[piratebase]" />
 				<loadout>
@@ -153,11 +216,11 @@
 		</station>
 		
 		<!-- Pirate Station - Argon - Great Trench -->
-		<station id="freeport_hatikvah_816" race="argon" owner="hatikvah" type="piratebase">
+		<station id="freeport_hatikvah_SKY22" race="argon" owner="hatikvah" type="piratebase">
 			<quotas>
 				<quota galaxy="1" sector="1" />
 			</quotas>
-			<location class="zone" macro="Zone001_Cluster_816_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY22s01z01_macro" />
 			<station>
 				<select faction="hatikvah" tags="[piratebase]" />
 				<loadout>
@@ -167,11 +230,11 @@
 		</station>
 		
 		<!-- Pirate Station - Teladi - Ocraroke's Storm -->
-		<station id="piratebase_scaleplate_808" race="teladi" owner="scaleplate" type="piratebase">
+		<station id="piratebase_scaleplate_SKY08" race="teladi" owner="scaleplate" type="piratebase">
 			<quotas>
 				<quota galaxy="1" sector="1" />
 			</quotas>
-			<location class="zone" macro="Zone003_Cluster_808_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY08s01z03_macro" />
 			<station>
 				<select faction="scaleplate" tags="[piratebase]" />
 				<loadout>
@@ -181,11 +244,11 @@
 		</station>
 		
 		<!-- Pirate Station - Teladi - Mines of Fortune -->
-		<station id="piratebase_scaleplate_818" race="teladi" owner="scaleplate" type="piratebase">
+		<station id="piratebase_scaleplate_SKY03" race="teladi" owner="scaleplate" type="piratebase">
 			<quotas>
 				<quota galaxy="1" sector="1" />
 			</quotas>
-			<location class="zone" macro="Zone002_Cluster_818_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY03s01z02_macro" />
 			<station>
 				<select faction="scaleplate" tags="[piratebase]" />
 				<loadout>
@@ -194,12 +257,12 @@
 			</station>
 		</station>
 		
-		<!-- Xenon Station - Mists of Elysium II -->
-		<station id="shipyard_xenon_cluster_811" race="xenon" owner="xenon" type="shipyard">
+		<!-- Xenon Station - Mists of Elysium -->
+		<station id="xen_shipyard_SKY04" race="xenon" owner="xenon" type="shipyard">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
-			<location class="zone" macro="zone001_cluster_811_sector001_macro" />
+			<location class="zone" macro="Zone_SKY04s01z01_macro" />
 			<station>
 				<select faction="xenon" tags="[shipyard]" />
 				<loadout>
@@ -208,11 +271,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="wharf_xenon_cluster_811" race="xenon" owner="xenon" type="shipyard">
+		<station id="xen_wharf_SKY04" race="xenon" owner="xenon" type="shipyard">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
-			<location class="zone" macro="zone001_cluster_811_sector001_macro" />
+			<location class="zone" macro="Zone_SKY04s01z01_macro" />
 			<station>
 				<select faction="xenon" tags="[wharf]" />
 				<loadout>
@@ -221,11 +284,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence1_cluster_811_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xen_defence_SKY04x1" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
-			<location class="zone" macro="zone002_cluster_811_sector001_macro" />
+			<location class="zone" macro="Zone_SKY04s01z02_macro" />
 			<station>
 				<select faction="xenon" tags="[defence]" />
 				<loadout>
@@ -234,11 +297,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence2_cluster_811_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xen_defence_SKY04x2" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
-			<location class="zone" macro="zone003_cluster_811_sector001_macro" />
+			<location class="zone" macro="Zone_SKY04s01z03_macro" />
 			<station>
 				<select faction="xenon" tags="[defence]" />
 				<loadout>
@@ -247,11 +310,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence3_cluster_811_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xen_defence_SKY04x3" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
-			<location class="zone" macro="zone004_cluster_811_sector001_macro" />
+			<location class="zone" macro="Zone_SKY04s01z04_macro" />
 			<station>
 				<select faction="xenon" tags="[defence]" />
 				<loadout>
@@ -262,11 +325,11 @@
 		</station>
 		
 		<!-- Xenon Station - Great Trench zone003 -->
-		<station id="xen_trench_smallstation_01" owner="xenon" race="xenon">
+		<station id="xen_smallstation_SKY22x1" owner="xenon" race="xenon">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="zone003_cluster_816_sector001_macro" />
+			<location class="zone" macro="Zone_SKY22s01z03_macro" />
 			<position x="8008" y="22611" z="-12318" yaw="-90" pitch="0" roll="0"  />
 			<station macro="xenon_small_station_01_macro">
 				<loadout>
@@ -275,11 +338,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_trench_smallstation_02" owner="xenon" race="xenon">
+		<station id="xen_smallstation_SKY22x2" owner="xenon" race="xenon">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="zone003_cluster_816_sector001_macro" />
+			<location class="zone" macro="Zone_SKY22s01z03_macro" />
 			<position x="-7378.45703125" y="20034" z="-12093.3740234375"  yaw="90"  pitch="0" roll="0"  />
 			<station macro="xenon_small_station_01_macro">
 				<loadout>
@@ -288,11 +351,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_trench_smallstation_03" owner="xenon" race="xenon">
+		<station id="xen_smallstation_SKY22x3" owner="xenon" race="xenon">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="zone003_cluster_816_sector001_macro" />
+			<location class="zone" macro="Zone_SKY22s01z03_macro" />
 			<position x="11442.45703125" y="10010" z="21695.3740234375" pitch="0" roll="0"  />
 			<station macro="xenon_small_station_01_macro">
 				<loadout>
@@ -303,11 +366,11 @@
 		</station>
 		
 		<!-- Xenon Station - Great Trench zone004 -->
-		<station id="xen_trench_smallstation_04" owner="xenon" race="xenon">
+		<station id="xen_smallstation_SKY22x4" owner="xenon" race="xenon">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="zone004_cluster_816_sector001_macro" />
+			<location class="zone" macro="Zone_SKY22s01z04_macro" />
 			<position x="8008" y="12611" z="-12318" yaw="-90" pitch="0" roll="0"  />
 			<station macro="xenon_small_station_01_macro">
 				<loadout>
@@ -316,11 +379,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_trench_smallstation_05" owner="xenon" race="xenon">
+		<station id="xen_smallstation_SKY22x5" owner="xenon" race="xenon">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="zone004_cluster_816_sector001_macro" />
+			<location class="zone" macro="Zone_SKY22s01z04_macro" />
 			<position x="-7378.45703125" y="13034" z="-12093.3740234375"  yaw="90"  pitch="0" roll="0"  />
 			<station macro="xenon_small_station_01_macro">
 				<loadout>
@@ -329,11 +392,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_trench_smallstation_06" owner="xenon" race="xenon">
+		<station id="xen_smallstation_SKY22x6" owner="xenon" race="xenon">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="zone004_cluster_816_sector001_macro" />
+			<location class="zone" macro="Zone_SKY22s01z04_macro" />
 			<position x="-11442.45703125" y="10010" z="1695.3740234375" pitch="0" roll="0"  />
 			<station macro="xenon_small_station_01_macro">
 				<loadout>
@@ -344,11 +407,11 @@
 		</station>
 		
 		<!-- Xenon Station - Matrix 79A -->
-		<station id="shipyard_xenon_cluster_819" race="xenon" owner="xenon" type="shipyard">
+		<station id="xen_shipyard_SKY10" race="xenon" owner="xenon" type="shipyard">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
-			<location class="zone" macro="zone001_cluster_819_sector001_macro" />
+			<location class="zone" macro="Zone_SKY10s01z01_macro" />
 			<station>
 				<select faction="xenon" tags="[shipyard]" />
 				<loadout>
@@ -357,11 +420,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="wharf_xenon_cluster_819" race="xenon" owner="xenon" type="shipyard">
+		<station id="xen_wharf_SKY10" race="xenon" owner="xenon" type="shipyard">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
-			<location class="zone" macro="zone001_cluster_819_sector001_macro" />
+			<location class="zone" macro="Zone_SKY10s01z01_macro" />
 			<station>
 				<select faction="xenon" tags="[wharf]" />
 				<loadout>
@@ -370,11 +433,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence1_cluster_819_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xen_defence_SKY10x1" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
-			<location class="zone" macro="zone002_cluster_819_sector001_macro" />
+			<location class="zone" macro="Zone_SKY10s01z02_macro" />
 			<station>
 				<select faction="xenon" tags="[defence]" />
 				<loadout>
@@ -383,11 +446,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_defence2_cluster_819_sector001" race="xenon" owner="xenon" type="defence">
+		<station id="xen_defence_SKY10x2" race="xenon" owner="xenon" type="defence">
 			<quotas>
 				<quota galaxy="1" zone="1" />
 			</quotas>
-			<location class="zone" macro="zone003_cluster_819_sector001_macro" />
+			<location class="zone" macro="Zone_SKY10s01z03_macro" />
 			<station>
 				<select faction="xenon" tags="[defence]" />
 				<loadout>
@@ -396,11 +459,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_79A_smallstation_01" owner="xenon" race="xenon">
+		<station id="xen_smallstation_SKY10x1" owner="xenon" race="xenon">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="zone001_cluster_819_sector001_macro" />
+			<location class="zone" macro="Zone_SKY10s01z01_macro" />
 			<position x="8008" y="-2611" z="-12318" yaw="-90" pitch="0" roll="0"  />
 			<station macro="xenon_small_station_01_macro">
 				<loadout>
@@ -409,11 +472,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_79A_smallstation_02" owner="xenon" race="xenon">
+		<station id="xen_smallstation_SKY10x2" owner="xenon" race="xenon">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="zone001_cluster_819_sector001_macro" />
+			<location class="zone" macro="Zone_SKY10s01z01_macro" />
 			<position x="-3378.45703125" y="0" z="21202.3740234375" yaw="0" pitch="0" roll="0"  />
 			<station macro="xenon_small_station_01_macro">
 				<loadout>
@@ -422,11 +485,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_79A_smallstation_03" owner="xenon" race="xenon">
+		<station id="xen_smallstation_SKY10x3" owner="xenon" race="xenon">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="zone003_cluster_819_sector001_macro" />
+			<location class="zone" macro="Zone_SKY10s01z03_macro" />
 			<position x="-7378.45703125" y="34" z="-12093.3740234375" pitch="0" roll="0"  />
 			<station macro="xenon_small_station_01_macro">
 				<loadout>
@@ -435,11 +498,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_79A_smallstation_04" owner="xenon" race="xenon">
+		<station id="xen_smallstation_SKY10x4" owner="xenon" race="xenon">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="zone003_cluster_819_sector001_macro" />
+			<location class="zone" macro="Zone_SKY10s01z03_macro" />
 			<position x="7111.45703125" y="0" z="3614.3740234375" pitch="0" roll="0"  />
 			<station macro="xenon_small_station_01_macro">
 				<loadout>
@@ -448,11 +511,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_79A_smallstation_05" owner="xenon" race="xenon">
+		<station id="xen_smallstation_SKY10x5" owner="xenon" race="xenon">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="zone002_cluster_819_sector001_macro" />
+			<location class="zone" macro="Zone_SKY10s01z02_macro" />
 			<position x="11442.45703125" y="0" z="21695.3740234375" pitch="0" roll="0"  />
 			<station macro="xenon_small_station_01_macro">
 				<loadout>
@@ -461,11 +524,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="xen_79A_smallstation_06" owner="xenon" race="xenon">
+		<station id="xen_smallstation_SKY10x6" owner="xenon" race="xenon">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="zone002_cluster_819_sector001_macro" />
+			<location class="zone" macro="Zone_SKY10s01z02_macro" />
 			<position x="-19325.45703125" y="0" z="-34250.3740234375" pitch="0" roll="0"  />
 			<station macro="xenon_small_station_01_macro">
 				<loadout>
@@ -475,12 +538,12 @@
 			</station>
 		</station>
 		
-		<!-- Khaak Stations - Fifth Cascade -->
-		<station id="kha_station_802" owner="khaak" race="khaak">
+		<!-- Khaak Stations - Herron's Nebula -->
+		<station id="kha_station_SKY01"   owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone001_Cluster_802_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY01s01z01_macro" />
 			<position x="3233" y="0" z="-7934"  pitch="0" roll="0" safepos="false"  />
 			<station macro="landmarks_kha_hive_01_macro">
 				<loadout>
@@ -489,11 +552,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_802_static_defense_01" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY01x1" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone001_Cluster_802_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY01s01z01_macro" />
 			<position x="-2028.94" y="-191.401" z="-11973.229" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -502,11 +565,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_802_static_defense_02" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY01x2" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone001_Cluster_802_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY01s01z01_macro" />
 			<position x="9621.613" y="-38.231" z="-12756.949" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -515,11 +578,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_802_static_defense_03" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY01x3" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone001_Cluster_802_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY01s01z01_macro" />
 			<position x="9336.49" y="-20.033" z="-3242.936" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -528,11 +591,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_802_static_defense_04" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY01x4" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone001_Cluster_802_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY01s01z01_macro" />
 			<position x="876.686" y="21.167" z="5.019" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -541,11 +604,90 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_802_defense_01" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY01x5" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="2" />
 			</quotas>
-			<location class="zone" macro="Zone001_Cluster_802_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY01s01z01_macro" />
+			<station macro="landmarks_kha_weaponplatform_01_macro">
+				<loadout>
+					<level exact="1.0"/>
+					<variation exact="0.0"/>
+				</loadout>
+			</station>
+		</station>
+		
+		<!-- Khaak Stations - Shareholder's Fortune -->
+		<station id="kha_station_SKY02"   owner="khaak" race="khaak">
+			<quotas>
+				<quota galaxy="1" />
+			</quotas>
+			<location class="zone" macro="Zone_SKY02s01z01_macro" />
+			<position x="3233" y="0" z="-7934"  pitch="0" roll="0" safepos="false"  />
+			<station macro="landmarks_kha_hive_01_macro">
+				<loadout>
+					<level exact="1.0"/>
+					<variation exact="0.0"/>
+				</loadout>
+			</station>
+		</station>
+		<station id="kha_defense_SKY02x1" owner="khaak" race="khaak">
+			<quotas>
+				<quota galaxy="1" />
+			</quotas>
+			<location class="zone" macro="Zone_SKY02s01z01_macro" />
+			<position x="-2028.94" y="-191.401" z="-11973.229" safepos="false"/>
+			<station macro="landmarks_kha_weaponplatform_01_macro">
+				<loadout>
+					<level exact="1.0"/>
+					<variation exact="0.0"/>
+				</loadout>
+			</station>
+		</station>
+		<station id="kha_defense_SKY02x2" owner="khaak" race="khaak">
+			<quotas>
+				<quota galaxy="1" />
+			</quotas>
+			<location class="zone" macro="Zone_SKY02s01z01_macro" />
+			<position x="9621.613" y="-38.231" z="-12756.949" safepos="false"/>
+			<station macro="landmarks_kha_weaponplatform_01_macro">
+				<loadout>
+					<level exact="1.0"/>
+					<variation exact="0.0"/>
+				</loadout>
+			</station>
+		</station>
+		<station id="kha_defense_SKY02x3" owner="khaak" race="khaak">
+			<quotas>
+				<quota galaxy="1" />
+			</quotas>
+			<location class="zone" macro="Zone_SKY02s01z01_macro" />
+			<position x="9336.49" y="-20.033" z="-3242.936" safepos="false"/>
+			<station macro="landmarks_kha_weaponplatform_01_macro">
+				<loadout>
+					<level exact="1.0"/>
+					<variation exact="0.0"/>
+				</loadout>
+			</station>
+		</station>
+		<station id="kha_defense_SKY02x4" owner="khaak" race="khaak">
+			<quotas>
+				<quota galaxy="1" />
+			</quotas>
+			<location class="zone" macro="Zone_SKY02s01z01_macro" />
+			<position x="876.686" y="21.167" z="5.019" safepos="false"/>
+			<station macro="landmarks_kha_weaponplatform_01_macro">
+				<loadout>
+					<level exact="1.0"/>
+					<variation exact="0.0"/>
+				</loadout>
+			</station>
+		</station>
+		<station id="kha_defense_SKY02x5" owner="khaak" race="khaak">
+			<quotas>
+				<quota galaxy="2" />
+			</quotas>
+			<location class="zone" macro="Zone_SKY02s01z01_macro" />
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
 					<level exact="1.0"/>
@@ -555,11 +697,11 @@
 		</station>
 		
 		<!-- Khaak Stations - Ocraroke's Storm -->
-		<station id="kha_station_808" owner="khaak" race="khaak">
+		<station id="kha_station_SKY08"   owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone004_Cluster_808_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY08s01z04_macro" />
 			<position x="3233" y="0" z="-7934"  pitch="0" roll="0" safepos="false"  />
 			<station macro="landmarks_kha_hive_01_macro">
 				<loadout>
@@ -568,11 +710,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_808_static_defense_01" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY08x1" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone004_Cluster_808_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY08s01z04_macro" />
 			<position x="-2028.94" y="-191.401" z="-11973.229" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -581,11 +723,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_808_static_defense_02" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY08x2" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone004_Cluster_808_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY08s01z04_macro" />
 			<position x="9621.613" y="-38.231" z="-12756.949" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -594,11 +736,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_808_static_defense_03" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY08x3" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone004_Cluster_808_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY08s01z04_macro" />
 			<position x="9336.49" y="-20.033" z="-3242.936" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -607,11 +749,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_808_static_defense_04" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY08x4" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone004_Cluster_808_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY08s01z04_macro" />
 			<position x="876.686" y="21.167" z="5.019" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -620,11 +762,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_808_defense_01" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY08x5" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="2" />
 			</quotas>
-			<location class="zone" macro="Zone004_Cluster_808_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY08s01z04_macro" />
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
 					<level exact="1.0"/>
@@ -634,11 +776,11 @@
 		</station>
 		
 		<!-- Khaak Stations - Inquisitor's Wrath -->
-		<station id="kha_station_813" owner="khaak" race="khaak">
+		<station id="kha_station_SKY07"   owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone003_Cluster_813_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY07s01z04_macro" />
 			<position x="3233" y="0" z="-7934"  pitch="0" roll="0" safepos="false"  />
 			<station macro="landmarks_kha_hive_01_macro">
 				<loadout>
@@ -647,11 +789,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_813_static_defense_01" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY07x1" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone003_Cluster_813_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY07s01z04_macro" />
 			<position x="-2028.94" y="-191.401" z="-11973.229" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -660,11 +802,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_813_static_defense_02" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY07x2" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone003_Cluster_813_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY07s01z04_macro" />
 			<position x="9621.613" y="-38.231" z="-12756.949" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -673,11 +815,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_813_static_defense_03" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY07x3" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone003_Cluster_813_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY07s01z04_macro" />
 			<position x="9336.49" y="-20.033" z="-3242.936" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -686,11 +828,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_813_static_defense_04" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY07x4" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone003_Cluster_813_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY07s01z04_macro" />
 			<position x="876.686" y="21.167" z="5.019" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -699,11 +841,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_813_defense_01" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY07x5" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="2" />
 			</quotas>
-			<location class="zone" macro="Zone003_Cluster_813_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY07s01z04_macro" />
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
 					<level exact="1.0"/>
@@ -713,11 +855,11 @@
 		</station>
 		
 		<!-- Khaak Stations - Wastelands V -->
-		<station id="kha_station_821" owner="khaak" race="khaak">
+		<station id="kha_station_SKY16"   owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone004_Cluster_821_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY16s01z02_macro" />
 			<position x="3233" y="0" z="-7934"  pitch="0" roll="0" safepos="false"  />
 			<station macro="landmarks_kha_hive_01_macro">
 				<loadout>
@@ -726,11 +868,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_821_static_defense_01" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY16x1" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone004_Cluster_821_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY16s01z02_macro" />
 			<position x="-2028.94" y="-191.401" z="-11973.229" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -739,11 +881,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_821_static_defense_02" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY16x2" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone004_Cluster_821_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY16s01z02_macro" />
 			<position x="9621.613" y="-38.231" z="-12756.949" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -752,11 +894,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_821_static_defense_03" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY16x3" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone004_Cluster_821_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY16s01z02_macro" />
 			<position x="9336.49" y="-20.033" z="-3242.936" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -765,11 +907,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_821_static_defense_04" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY16x4" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone004_Cluster_821_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY16s01z02_macro" />
 			<position x="876.686" y="21.167" z="5.019" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -778,11 +920,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_821_defense_01" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY16x5" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="2" />
 			</quotas>
-			<location class="zone" macro="Zone004_Cluster_821_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY16s01z02_macro" />
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
 					<level exact="1.0"/>
@@ -792,11 +934,11 @@
 		</station>
 		
 		<!-- Khaak Stations - Dark Waters -->
-		<station id="kha_station_817" owner="khaak" race="khaak">
+		<station id="kha_station_SKY23"   owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone001_Cluster_817_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY23s01z01_macro" />
 			<position x="3233" y="0" z="-7934"  pitch="0" roll="0" safepos="false"  />
 			<station macro="landmarks_kha_hive_01_macro">
 				<loadout>
@@ -805,11 +947,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_817_static_defense_01" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY23x1" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone001_Cluster_817_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY23s01z01_macro" />
 			<position x="-2028.94" y="-191.401" z="-11973.229" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -818,11 +960,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_817_static_defense_02" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY23x2" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone001_Cluster_817_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY23s01z01_macro" />
 			<position x="9621.613" y="-38.231" z="-12756.949" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -831,11 +973,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_817_static_defense_03" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY23x3" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone001_Cluster_817_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY23s01z01_macro" />
 			<position x="9336.49" y="-20.033" z="-3242.936" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -844,11 +986,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_817_static_defense_04" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY23x4" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="1" />
 			</quotas>
-			<location class="zone" macro="Zone001_Cluster_817_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY23s01z01_macro" />
 			<position x="876.686" y="21.167" z="5.019" safepos="false"/>
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
@@ -857,11 +999,11 @@
 				</loadout>
 			</station>
 		</station>
-		<station id="kha_station_817_defense_01" owner="khaak" race="khaak">
+		<station id="kha_defense_SKY23x5" owner="khaak" race="khaak">
 			<quotas>
 				<quota galaxy="2" />
 			</quotas>
-			<location class="zone" macro="Zone001_Cluster_817_Sector001_macro" />
+			<location class="zone" macro="Zone_SKY23s01z01_macro" />
 			<station macro="landmarks_kha_weaponplatform_01_macro">
 				<loadout>
 					<level exact="1.0"/>
@@ -874,20 +1016,20 @@
 	
 	<!-- Specific Products -->
 	<add sel="/god/products">
-		<product id="xen_energycells_c811" ware="energycells" owner="xenon" type="factory">
+		<product id="xen_energycells_SKY04" ware="energycells" owner="xenon" type="factory">
 			<quotas>
 				<quota galaxy="2" />
 			</quotas>
-			<location class="sector" macro="cluster_811_sector001_macro" />
+			<location class="sector" macro="Sector_SKY04s01_macro" />
 			<module>
 				<select ware="energycells" race="xenon"/>
 			</module>
 		</product>
-		<product id="xen_energycells_c819" ware="energycells" owner="xenon" type="factory">
+		<product id="xen_energycells_SKY10" ware="energycells" owner="xenon" type="factory">
 			<quotas>
 				<quota galaxy="2" />
 			</quotas>
-			<location class="sector" macro="cluster_819_sector001_macro" />
+			<location class="sector" macro="Sector_SKY10s01_macro" />
 			<module>
 				<select ware="energycells" race="xenon"/>
 			</module>

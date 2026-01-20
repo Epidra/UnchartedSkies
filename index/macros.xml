@@ -1,77 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	
-	<entry name="Cluster_800_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_801_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_802_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_803_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_804_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_805_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_806_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_807_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_808_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_809_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_810_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_811_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_812_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_813_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_814_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_815_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_816_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_817_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_818_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_819_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_820_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_821_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_822_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_823_sector*" value="maps\XU_ep2_universe\sectors" />
-	<entry name="Cluster_824_sector*" value="maps\XU_ep2_universe\sectors" />
+	<!-- register   -   Clusters -->
+	   <entry name="Cluster_SKY00" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY01" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY02" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY03" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY04" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY05" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY06" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY07" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY08" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY09" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY10" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY11" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY12" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY13" value="maps\XU_ep2_universe\clusters" />
+	<!--entry name="Cluster_SKY14" value="maps\XU_ep2_universe\clusters" /-->
+	   <entry name="Cluster_SKY15" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY16" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY17" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY18" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY19" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY20" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY21" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY22" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY23" value="maps\XU_ep2_universe\clusters" />
+	<!--entry name="Cluster_SKY24" value="maps\XU_ep2_universe\clusters" /-->
+	   <entry name="Cluster_SKY25" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY26" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY27" value="maps\XU_ep2_universe\clusters" />
+	<!--entry name="Cluster_SKY28" value="maps\XU_ep2_universe\clusters" /-->
+	   <entry name="Cluster_SKY29" value="maps\XU_ep2_universe\clusters" />
+	   <entry name="Cluster_SKY30" value="maps\XU_ep2_universe\clusters" />
 	
-	<entry name="zone*" value="maps\xu_ep2_universe\zones" />
+	<!-- register   -   Sectors -->
+	<entry name="Sector_*" value="extensions\uncharted_skies\maps\XU_ep2_universe\sky_sectors" />
 	
-	<entry name="tzonecluster_816_*" value="maps\XU_ep2_universe\zones" />
-	<entry name="tzonecluster_822_*" value="maps\XU_ep2_universe\zones" />
-	<entry name="tzonecluster_823_*" value="maps\XU_ep2_universe\zones" />
+	<!-- register   -   Zones -->
+	<entry name="Zone_*" value="extensions\uncharted_skies\maps\XU_ep2_universe\sky_zones" />
 	
-	<entry name="SuperHighway001_Cluster_822_macro" value="maps\XU_ep2_universe\sechighways" />
-	<entry name="SuperHighway002_Cluster_822_macro" value="maps\XU_ep2_universe\sechighways" />
-	<entry name="SuperHighway003_Cluster_822_macro" value="maps\XU_ep2_universe\sechighways" />
-	<entry name="SuperHighway004_Cluster_822_macro" value="maps\XU_ep2_universe\sechighways" />
-	<entry name="SuperHighway005_Cluster_822_macro" value="maps\XU_ep2_universe\sechighways" />
-	<entry name="SuperHighway006_Cluster_822_macro" value="maps\XU_ep2_universe\sechighways" />
+	<!-- register   -   t zone something -->
+	<entry name="Gate_*" value="extensions\uncharted_skies\maps\XU_ep2_universe\sky_zones" />
 	
-	<entry name="SuperHighway001_Cluster_816_macro" value="maps\XU_ep2_universe\sechighways" />
-	<entry name="SuperHighway002_Cluster_816_macro" value="maps\XU_ep2_universe\sechighways" />
+	<!-- register   -   sechigway -->
+	<entry name="SHiWay_*" value="extensions\uncharted_skies\maps\XU_ep2_universe\sky_sechighways" />
 	
-	<entry name="SuperHighway001_Cluster_823_macro" value="maps\XU_ep2_universe\sechighways" />
-	<entry name="SuperHighway002_Cluster_823_macro" value="maps\XU_ep2_universe\sechighways" />
+	<!-- register   -   zonehighways -->
+	<entry name="High_*" value="extensions\uncharted_skies\maps\XU_ep2_universe\sky_zonehighways" />
 	
-	<entry name="Cluster_800_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_801_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_802_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_803_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_804_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_805_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_806_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_807_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_808_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_809_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_810_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_811_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_812_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_813_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_814_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_815_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_816_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_817_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_818_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_819_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_820_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_821_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_822_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_823_macro" value="maps\xu_ep2_universe\clusters" />
-	<entry name="Cluster_824_macro" value="maps\xu_ep2_universe\clusters" />
-	
+	<!-- register   -   Other -->
 	<entry name="wormhole_v8_macro" value="extensions\uncharted_skies\assets\environments\asteroids\macros\wormhole_v8_macro" />
 	
 </index>

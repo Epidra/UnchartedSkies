@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<components>
+	
+	
+	
+	<!--   - -     Wastelands 1     - -   -->
+	<component name="SKY15" class="celestialbody">
+		<source geometry="extensions\uncharted_skies\assets\environments\cluster\SKY15_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="255" g="106" b="102" range="1E+11" shadowrange="1E+11" lighteffect="1" trigger="1" intensity="1.1" specularintensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="-1.257441E+08" y="1.68252E+08" z="2.446119E+08"/>
+							<quaternion qx="-0" qy="-0.9848078" qz="-0" qw="-0.1736482"/>
+						</offset>
+					</omni>
+					<ambient name="XU Ambient001" r="27" g="31" b="34" range="1E+11" intensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="5.922367E+07" y="0" z="7.721783E+07"/>
+						</offset>
+					</ambient>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="celestialbody">
+				<offset/>
+			</connection>
+			
+			<!-- Vertex Color -->
+			<connection name="Connection001" tags="part  ">
+				<offset/>
+				<parts>
+					<part name="part_c03_bg">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.p1_env_bg_vertexcolor"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="9.121773E+08" y="9.121834E+08" z="9.121773E+08"/>
+							<center x="62.5" y="0" z="62.5"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			
+			<!-- Background Stars -->
+			<connection name="Connection002" tags="part  ">
+				<offset>
+					<position x="1.226121E+07" y="0" z="8100438"/>
+					<quaternion qx="-0" qy="-6.975656E-02" qz="-0" qw="-0.9975641"/>
+				</offset>
+				<parts>
+					<part name="Background">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.backgroundstars"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="8.866654E+08" y="8.866655E+08" z="8.866655E+08"/>
+							<center x="107.4219" y="0" z="61.52344"/>
+						</size>
+						<pivot>
+							<offset>
+								<position x="0" y="-50000" z="0"/>
+							</offset>
+						</pivot>
+					</part>
+				</parts>
+			</connection>
+			
+			<!-- Background Stars -->
+			<connection name="Connection003" tags="part  ">
+				<offset>
+					<position x="1.226121E+07" y="0" z="8100438"/>
+					<quaternion qx="-0" qy="-6.975656E-02" qz="-0" qw="-0.9975641"/>
+				</offset>
+				<parts>
+					<part name="background_milkyway">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1terranenv.milkyway_dim"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="8.597167E+08" y="8.597169E+08" z="8.597169E+08"/>
+							<center x="13.67188" y="-125" z="30.27344"/>
+						</size>
+						<pivot>
+							<offset>
+								<position x="0" y="-50000" z="0"/>
+							</offset>
+						</pivot>
+					</part>
+				</parts>
+			</connection>
+			
+			<!-- Nebula -->
+			<connection name="Connection004" tags="part  ">
+				<offset/>
+				<parts>
+					<part name="nebula01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.161516E+08" y="4.302194E+08" z="4.611511E+08"/>
+							<center x="1188422" y="-2.821639E+07" z="-524156.3"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			
+			<!-- Gas Giant -->
+			<connection name="Connection005" tags="part  ">
+				<offset>
+					<position x="-3.755408E+07" y="1.919505E+07" z="-5.268985E+07"/>
+				</offset>
+				<parts>
+					<part name="planet001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.planet_cluster20_gasgiant1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="5E+07" y="5E+07" z="5E+07"/>
+							<center x="3.90625" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection006" tags="part  ">
+				<offset>
+					<position x="-3.755408E+07" y="1.919505E+07" z="-5.268985E+07"/>
+				</offset>
+				<parts>
+					<part name="Sphere001">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.atmo_cluster20_gasgiant1"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="5.123736E+07" y="5.125E+07" z="5.123736E+07"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			
+			<!-- Gas Giant - Rings -->
+			<connection name="Connection007" tags="part  ">
+				<offset>
+					<position x="-3.755408E+07" y="1.919505E+07" z="-5.268985E+07"/>
+				</offset>
+				<parts>
+					<part name="Tube01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="newplanets.rings_cluster29_gasgiant"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1.999507E+08" y="0" z="1.999726E+08"/>
+							<center x="-5488.281" y="368735.8" z="-27429.69"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			
+		</connections>
+	</component>
+	
+</components>

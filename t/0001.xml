@@ -1,132 +1,158 @@
-<?xml version="1.0" encoding="UtF-8"?>
 <diff>
-	
+
 	<!-- Adds Custom Sector Names and Descriptions -->
 	<add sel="/language">
 		
 		<page id="8000" title="Custom Systems" descr="Names and descriptions of systems" voice="yes">
 			
+			<!--   Hades   -->
+			<t id="10000">{20005, 1054}(Hades)</t>
+			<t id="20000">Text Description</t>
 			
-			<t id="1001">{20005,1054}(Hades)</t>
-			<t id="1002">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</t>
+			<!--   Herron's Nebula   -->
+			<t id="10010">{20005, 1032}(Herron's Nebula)</t>
+			<t id="20010">Text Description</t>
 			
-			<t id="1011">{20005,2010}(Light Water)</t>
-			<t id="1012">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</t>
+			<!--   Shareholder's Fortune   -->
+			<t id="10020">{20005, 6047}(Shareholder's Fortune)</t>
+			<t id="20020">Text Description</t>
 			
-			<t id="1021">{20005,9080}(Fifth Cascade)</t>
-			<t id="1022">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</t>
+			<!--   Mines of Fortune   -->
+			<t id="10030">{20005, 6042}(Mines of Fortune)</t>
+			<t id="20030">Text Description</t>
 			
-			<t id="1031">{20005,6025}(Shadow of Giants)</t>
-			<t id="1032">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</t>
+			<!--   Depths of Silence   -->
+			<t id="10040">{20005, 2005}(Depths of Silence)</t>
+			<t id="20040">Text Description</t>
 			
-			<t id="1041">{20005,2025}(Shining Currents)</t>
-			<t id="1042">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</t>
+			<!--   Preacher's Void IV + Cluster  -->
+			<t id="10050">{20005, 3043} {20402,4}(Preacher's Void IV)</t>
+			<t id="20050">Text Description</t>
+			<t id="10051">{20005, 3042} {20402,4}(Preacher's Refuge IV)</t>
+			<t id="20051">Text Description</t>
+			<t id="10058">{20005, 3043}(Preacher's Void)(CLUSTER)</t>
+			<t id="20058">Text Description</t>
+			<t id="10059">{20005, 3042}(Preacher's Refuge)(CLUSTER)</t>
+			<t id="20059">Text Description</t>
 			
-			<t id="1051">{20005,2026}(Shores of Infinity)</t>
-			<t id="1052">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</t>
+			<!--   Preacher's Void VI   -->
+			<t id="10060">{20005, 3043} {20402,6}(Preacher's Void VI)</t>
+			<t id="20060">Text Description</t>
+			<t id="10061">{20005, 3042} {20402,6}(Preacher's Refuge VI)</t>
+			<t id="20061">Text Description</t>
 			
-			<t id="2061">{20005,3043}(Preacher's Void)(CLUSTER)</t>
-			<t id="4061">{20005,3042}(Preacher's Refuge)(CLUSTER)</t>
-			<t id="2062">Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus.</t>
+			<!--   Inquisitor's Wrath   -->
+			<t id="10070">{20005, 9012}(Inquisitor's Wrath)</t>
+			<t id="20070">Text Description</t>
 			
-			<t id="1061">{20005,3043} {20402,4}(Preacher's Void IV)</t>
-			<t id="3061">{20005,3042} {20402,4}(Preacher's Refuge IV)</t>
-			<t id="1062">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</t>
+			<!--   Ocraroke's Storm   -->
+			<t id="10080">{20005, 9038}(Ocraroke's Storm)</t>
+			<t id="20080">Text Description</t>
 			
-			<t id="1071">{20005,3043} {20402,6}(Preacher's Void VI)</t>
-			<t id="3071">{20005,3042} {20402,6}(Preacher's Refuge VI)</t>
-			<t id="1072">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</t>
-			<t id="1073">{20005,3027}(Duke's Vision)(PLANET)</t>
+			<!--   Consecrated Fire   -->
+			<t id="10090">{20005, 3024}(Consecrated Fire)</t>
+			<t id="20090">Text Description</t>
 			
-			<t id="1081">{20005,9038}(Ocraroke's Storm)</t>
-			<t id="1082">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</t>
+			<!--   Thyn's Excavation   -->
+			<t id="10100">{20005, 5034}(Thyn's Excavation)</t>
+			<t id="20100">Text Description</t>
+			<t id="10108">{20005, 5005}(CLUSTER)(Thyn's Abyss)</t>
+			<t id="20108">Text Description</t>
 			
-			<t id="1091">{20005,5005}(Thyn's Abyss)</t>
-			<t id="1092">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</t>
+			<!--   Thyn's Abyss 1   -->
+			<t id="10110">{20005, 5005} {20402,3}(Thyn's Abyss III)</t>
+			<t id="20110">Text Description</t>
 			
-			<t id="2101">{20005,2015}(Mists of Elysium)(CLUSTER)</t>
-			<t id="2102">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</t>
+			<!--   Thyn's Abyss 2   -->
+			<t id="10120">{20005, 5005} {20402,5}(Thyn's Abyss V)</t>
+			<t id="20120">Text Description</t>
 			
-			<t id="1101">{20005,2015} {20402,1}(Mists of Elysium I)</t>
-			<t id="1102">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</t>
+			<!--   Thyn's Abyss 3   -->
+			<t id="10130">{20005, 5005} {20402,2}(Thyn's Abyss II)</t>
+			<t id="20130">Text Description</t>
 			
-			<t id="1111">{20005,2015} {20402,2}(Mists of Elysium II)</t>
-			<t id="1112">Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus.</t>
+			<!--   #   -->
+			<t id="10140">{20005, 4001}(#)</t>
+			<t id="20140">Text Description</t>
 			
-			<t id="1121">{20005,2015} {20402,3}(Mists of Elysium III)</t>
-			<t id="1122">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</t>
+			<!--   Wastelands 1   -->
+			<t id="10150">{20005, 1048} {20402,3}(Wastelands III)</t>
+			<t id="20150">Text Description</t>
+			<t id="10158">{20005, 1048}(CLUSTER)(Wastelands)</t>
+			<t id="20158">Text Description</t>
 			
-			<t id="1131">{20005,9012}(Inquisitor's Wrath)</t>
-			<t id="1132">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</t>
+			<!--   Wastelands 2   -->
+			<t id="10160">{20005, 1048} {20402,5}(Wastelands V)</t>
+			<t id="20160">Text Description</t>
 			
-			<t id="1141">{20005,3023}(Clarity's End)</t>
-			<t id="3141">{20005,3019}(Fierce Clarity)</t>
-			<t id="1142">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</t>
-			<t id="1143">{20005,3025}(Duke's Citadel)(PLANET)</t>
+			<!--   Mists of Elysium 1   -->
+			<t id="10170">{20005, 2015} {20402,2}(Mists of Elysium II)</t>
+			<t id="20170">Text Description</t>
+			<t id="10178">{20005, 2015}(Mists of Elysium)(CLUSTER)</t>
+			<t id="20178">Text Description</t>
 			
+			<!--   Mists of Elysium 2   -->
+			<t id="10180">{20005, 2015} {20402,1}(DMists of Elysium I)</t>
+			<t id="20180">Text Description</t>
 			
-			<t id="1151">{20005,3024}(Consecrated Fire)</t>
-			<t id="1152">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</t>
+			<!--   Mists of Elysium 3   -->
+			<t id="10190">{20005, 2015} {20402,3}(Mists of Elysium III)</t>
+			<t id="20190">Text Description</t>
 			
-			<t id="2161">{20005,2007}(Great Trench)</t>
-			<t id="2162">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</t>
-			<t id="1161">{20005,2007} {20402,2}(Great Trench II)</t>
-			<t id="1162">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</t>
-			<t id="1163">{20005,2007} {20402,3}(Great Trench III)</t>
-			<t id="1164">Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus.</t>
+			<!--   Shore of Infinity   -->
+			<t id="10200">{20005, 2026}(Shore of Infinity)</t>
+			<t id="20200">Text Description</t>
 			
-			<t id="1171">{20005,2004}(Dark Waters)</t>
-			<t id="1172">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</t>
+			<!--   Light Water   -->
+			<t id="10210">{20005, 2010}(Light Water)</t>
+			<t id="20210">Text Description</t>
 			
-			<t id="1181">{20005,6042}(Mines of Fortune)</t>
-			<t id="1182">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</t>
+			<!--   Great Trench   -->
+			<t id="10220">{20005, 2007}(Great Trench)</t>
+			<t id="20220">Text Description</t>
+			<t id="10221">{20005, 2007} {20402,1}(Great Trench 1)</t>
+			<t id="20221">Text Description</t>
+			<t id="10222">{20005, 2007} {20402,2}(Great Trench 2)</t>
+			<t id="20222">Text Description</t>
 			
-			<t id="1191">{20005,8001} {20005,8003}{20404,7}{20404,9}{20403,1}(Matrix 79A)</t>
-			<t id="1192">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</t>
+			<!--   Dark Waters   -->
+			<t id="10230">{20005, 2004}(Dark Waters)</t>
+			<t id="20230">Text Description</t>
 			
-			<t id="2201">{20005,1048}(Wastelands)</t>
-			<t id="2202">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</t>
-			<t id="1201">{20005,1048} {20402,3}(Wastelands III)</t>
-			<t id="1202">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</t>
-			<t id="1211">{20005,1048} {20402,5}(Wastelands V)</t>
-			<t id="1212">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</t>
+			<!--   #   -->
+			<t id="10240">{20005, 4001}(#)</t>
+			<t id="20240">Text Description</t>
 			
-			<t id="2221">{20005,9003}(The Shallows)</t>
-			<t id="2222">Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus.</t>
-			<t id="1221">{20005,9003} {20402,4}(The Shallows IV)</t>
-			<t id="1222">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</t>
-			<t id="1223">{20005,9003} {20402,5}(The Shallows V)</t>
-			<t id="1224">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</t>
-			<t id="1225">{20005,9003} {20402,6}(The Shallows VI)</t>
-			<t id="1226">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</t>
+			<!--   Perpetual Sin   -->
+			<t id="10250">{20005, 3038}(Perpetual Sin)</t>
+			<t id="20250">Text Description</t>
 			
-			<t id="2231">{20005,1033}(Interworlds)</t>
-			<t id="2232">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</t>
-			<t id="1231">{20005,1033} {20402,11}(Interworlds XI)</t>
-			<t id="1232">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</t>
-			<t id="1233">{20005,1033} {20402,8}(Interworlds VIII)</t>
-			<t id="1234">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</t>
+			<!--   Shining Currents   -->
+			<t id="10260">{20005, 2025}(Shining Currents)</t>
+			<t id="20260">Text Description</t>
 			
-			<t id="1241">{20005,2005}(Depths of Silence)</t>
-			<t id="1242">Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus.</t>
+			<!--   Interworlds   -->
+			<t id="10270">{20005, 1033}(Interworlds)(CLUSTER)</t>
+			<t id="20270">Text Description</t>
+			<t id="10271">{20005, 1033} {20402,3}(Interworlds 3)</t>
+			<t id="20271">Text Description</t>
+			<t id="10272">{20005, 1033} {20402,4}(Interworlds 4)</t>
+			<t id="20272">Text Description</t>
 			
-		</page>
-		
-		<page id="8100" title="Renamed Sectors" descr="Changed Names for Xenon-controlled Sectors" voice="yes">
-			<t id="1001">{20005,3028}(Emperor Mines)</t>
-			<t id="1002">{20005,3028} {20402,2}(Emperor Mines II)</t>
-			<t id="1003">{20005,3028} {20402,4}(Emperor Mines IV)</t>
+			<!--   #   -->
+			<t id="10280">{20005, 4001}(#)</t>
+			<t id="20280">Text Description</t>
 			
-			<t id="2001">{20005,5027}(Rhy's Crusade)</t>
-			<t id="2002">{20005,5027}(Rhy's Crusade)</t>
+			<!--   Friar's Retreat   -->
+			<t id="10290">{20005, 3033}(Friar's Retreat)</t>
+			<t id="20290">Text Description</t>
 			
-			<t id="3001">{20005,6043}(Ministry of Finance)</t>
+			<!--   Clarity's End   -->
+			<t id="10300">{20005, 3023}(Clarity's End)</t>
+			<t id="20300">Text Description</t>
+			<t id="10301">{20005, 3019}(Fierce Clarity)</t>
+			<t id="20301">Text Description</t>
 			
-			<t id="4001">{20005,6050}(PTNI Headquarters)</t>
-			<t id="4002">{20005,6050} {20402,9}(PTNI Headquarters IX)</t>
-			<t id="4003">{20005,6050} {20402,10}(PTNI Headquarters X)</t>
-		
-		
 		</page>
 		
 		<page id="8200" title="Paranid Computer" descr="Computer Voice for Terraforming Mission" voice="yes">
@@ -162,6 +188,7 @@
 			<!-- Clarity's End - Reward Test -->
 			<t id="2003">Reaching a fierce Clarity</t>
 		</page>
+		
 	</add>
-	
+
 </diff>

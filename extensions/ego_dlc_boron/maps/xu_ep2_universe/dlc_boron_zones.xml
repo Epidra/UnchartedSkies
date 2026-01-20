@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <diff>
 	
 	<!-- Sector 601 - Watchful Gaze -->
@@ -14,6 +13,19 @@
 			<rotation yaw="0" pitch="0" roll="0" />
 		</offset>
 	</replace>
+	<add sel="/macros/macro[@name='Zone004_Cluster_601_Sector001_macro']/connections">
+		<connection name="connection_ClusterGate601To800" ref="gates">
+			<macro ref="props_gates_anc_gate_macro" connection="space">
+				<properties>
+					<state active="false" />
+				</properties>
+			</macro>
+			<offset>
+				<position x="-45000" y="0" z="45000" />
+				<rotation yaw="90" pitch="0" roll="0" />
+			</offset>
+		</connection>
+	</add>
 	
 	<!-- Sector 602 - Barren Shores -->
 	<replace sel="/macros/macro[@name='Zone004_Cluster_602_Sector001_macro']/connections/connection[@name='connection_ClusterGate602To603']/offset"> <!-- GATE to 803 -->
@@ -83,19 +95,21 @@
 		</connection>
 	</replace>
 	
-	<!-- Sector 609 - Menelaus' Oasis -->
-	<add sel="/macros/macro[@name='Zone005_Cluster_609_Sector001_macro']/connections">
-		<connection name="connection_ClusterGate609To801" ref="gates">
-			<offset>
-				<position x="-45000" y="0" z="-45000" />
-				<rotation yaw="30" pitch="0" roll="0" />
-			</offset>
-			<macro ref="props_gates_anc_gate_macro" connection="space">
-				<properties>
-					<state active="false" />
-				</properties>
-			</macro>
-		</connection>
-	</add>
+	<!-- Sector 605 - # -->
+	<!--                -->
+	
+	<!-- Sector 606 - # -->
+	<!--                -->
+	
+	<!-- Sector 607 - # -->
+	<!--                -->
+	
+	<!-- Sector 608 - # -->
+	<!--                -->
+	
+	<!-- Sector 609 - # -->
+	<!--                -->
+	
+	
 	
 </diff>

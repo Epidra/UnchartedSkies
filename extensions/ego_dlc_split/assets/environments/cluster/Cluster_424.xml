@@ -1,9 +1,8 @@
-<?xml version="1.0"?>
 <diff>
 	
-	
-	
 	<!-- Emperor's Pride -->
+	
+	
 	
 	<!-- Moon 1 -->
 	<replace sel="/components/component[@name='Cluster_424']/connections/connection[@name='Connection05']/offset">

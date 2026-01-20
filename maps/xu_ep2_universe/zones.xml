@@ -1,1424 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?>
 <diff>
 	
-	<!-- New Zones -->
-	<add sel="/macros">
-		
-		<!-- Sector 800 - Hades -->
-		<macro name="Zone001_Cluster_800_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_800_Sector001_macro" class="zone"> <!-- GATE 1 -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone003_Cluster_800_Sector001_macro" class="zone"> <!-- GATE 2 -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone004_Cluster_800_Sector001_macro" class="zone"> <!-- GATE 3 -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone005_Cluster_800_Sector001_macro" class="zone"> <!-- GATE 4 -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone006_Cluster_800_Sector001_macro" class="zone"> <!-- GATE 5 -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone007_Cluster_800_Sector001_macro" class="zone"> <!-- GATE 6 -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		
-		<!-- Sector 801 - Light Water -->
-		<macro name="Zone001_Cluster_801_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_801_Sector001_macro" class="zone"> <!-- GATE - Atreus' Clouds -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate801To609" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="210" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space">
-						<properties>
-							<state active="false" />
-						</properties>
-					</macro>
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_801_Sector001_macro" class="zone"> <!-- GATE - Shore of Infinity -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate801To805" ref="gates">
-					<offset>
-						<position x="-25000" y="0" z="-25000" />
-						<rotation yaw="330" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space">
-						<properties>
-							<state active="false" />
-						</properties>
-					</macro>
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_801_Sector001_macro" class="zone"> <!-- MOD GATE - Artemis -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate801To300" ref="gates">
-					<offset>
-						<position x="25000" y="0" z="10000" />
-						<rotation yaw="60" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space">
-						<properties>
-							<state active="false" />
-						</properties>
-					</macro>
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone005_Cluster_801_Sector001_macro" class="zone"> <!-- MOD GATE - Unknown Sector M Alpha -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate801To301" ref="gates">
-					<offset>
-						<position x="25000" y="0" z="25000" />
-						<rotation yaw="150" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space">
-						<properties>
-							<state active="false" />
-						</properties>
-					</macro>
-				</connection>
-			</connections>
-		</macro>
-
-		<!-- Sector 802 - Fifth Cascade -->
-		<macro name="Zone001_Cluster_802_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_802_Sector001_macro" class="zone"> <!-- MOD GATE - Prometheus I -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate802To300" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="90" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space">
-						<properties>
-							<state active="true" />
-						</properties>
-					</macro>
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_802_Sector001_macro" class="zone"> <!-- MOD GATE - Desecrated Skies -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate802To301" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="240" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space">
-						<properties>
-							<state active="true" />
-						</properties>
-					</macro>
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_802_Sector001_macro" class="zone"> <!-- GATE - Ocean of Fantasy -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate802To604" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="0" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space">
-						<properties>
-							<state active="false" />
-						</properties>
-					</macro>
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone005_Cluster_802_Sector001_macro" class="zone"> <!-- GATE - Matrix #598 -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate802To415" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="300" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space">
-						<properties>
-							<state active="false" />
-						</properties>
-					</macro>
-				</connection>
-			</connections>
-		</macro>
-		
-		
-		<!-- Sector 803 - Shadow of Giants -->
-		<macro name="Zone001_Cluster_803_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_803_Sector001_macro" class="zone"> <!-- MOD GATE - CEO's Doubt -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate803To300" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="210" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_803_Sector001_macro" class="zone"> <!-- GATE - Turquoise Sea -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate803To050" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="60" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_803_Sector001_macro" class="zone"> <!-- MOD GATE - Unknown Sector Alpha 1 -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate803To301" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="270" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone005_Cluster_803_Sector001_macro" class="zone"> <!-- MOD GATE - Ikuchi -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate803To302" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="0" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 804 - Shining Currents -->
-		<macro name="Zone001_Cluster_804_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_804_Sector001_macro" class="zone"> <!-- GATE - Mists of Elysium III -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate804to812" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="90" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space">
-						<properties>
-							<state active="false" />
-						</properties>
-					</macro>
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_804_Sector001_macro" class="zone"> <!-- GATE - Sacred Relic -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate804To023" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="270" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_804_Sector001_macro" class="zone"> <!-- MOD GATE - Mysterious Facility II -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate804To300" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="0" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 805 - Shores of Infinity -->
-		<macro name="Zone001_Cluster_805_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_805_Sector001_macro" class="zone"> <!-- GATE - Interworlds -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate805To823" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="300" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_805_Sector001_macro" class="zone"> <!-- MOD GATE - Aphrodite's Storm -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate805To300" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="120" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_805_Sector001_macro" class="zone"> <!-- MOD GATE - Wasteland Colony -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate805To301" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="60" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone005_Cluster_805_Sector001_macro" class="zone"> <!-- GATE - Light Water -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate805To801" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="180" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space">
-						<properties>
-							<state active="false" />
-						</properties>
-					</macro>
-				</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 806 - Preacher's Void IV -->
-		<macro name="Zone001_Cluster_806_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone003_Cluster_806_Sector001_macro" class="zone"> <!-- GATE - Cardinal's Redress -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate806To036" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="180" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone002_Cluster_806_Sector001_macro" class="zone"> <!-- GATE - Preacher's Void VI -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate806To807" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="300" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_806_Sector001_macro" class="zone"> <!-- GATE - Freedom's Reach -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate806To714" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="0" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone005_Cluster_806_Sector001_macro" class="zone"> <!-- MOD GATE - Seyllin -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate806To300" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="60" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 807 - Preacher's Void VI -->
-		<macro name="Zone001_Cluster_807_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone003_Cluster_807_Sector001_macro" class="zone"> <!-- GATE - Preacher's Void IV -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate807To806" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="120" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone002_Cluster_807_Sector001_macro" class="zone"> <!-- GATE - Ocraroke's Storm -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate807To808" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="210" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_807_Sector001_macro" class="zone"> <!-- GATE - Consecrated Fire -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate807To815" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="0" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 808 - Ocraroke's Storm -->
-		<macro name="Zone001_Cluster_808_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_808_Sector001_macro" class="zone"> <!-- GATE - Preacher's Void VI -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate808To807" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="60" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_808_Sector001_macro" class="zone"> <!-- GATE - Nopileos' Fortune -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate808To004" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="240" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_808_Sector001_macro" class="zone"> <!-- KHAAK -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone005_Cluster_808_Sector001_macro" class="zone"> <!-- PIRATE BASE -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		
-		<!-- Sector 809 - Thyn's Abyss -->
-		<macro name="Zone001_Cluster_809_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_809_Sector001_macro" class="zone"> <!-- GATE - Consecrated Fire -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate809To815" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="240" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_809_Sector001_macro" class="zone"> <!-- GATE - Atiya's Misfortune -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate809To026" ref="gates">
-					<offset>
-						<position x="-5000" y="0" z="5000" />
-						<rotation yaw="150" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_809_Sector001_macro" class="zone"> <!-- MOD GATE - Treasure Chest -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate809To300" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="330" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone005_Cluster_809_Sector001_macro" class="zone"> <!-- GATE - Mists of Artemis -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate809To715" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="60" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 810 - Mists of Elysium I -->
-		<macro name="Zone001_Cluster_810_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_810_Sector001_macro" class="zone"> <!-- GATE - CEO's Doubt -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate810To713" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="180" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space">
-						<properties>
-							<state active="false" />
-						</properties>
-					</macro>
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_810_Sector001_macro" class="zone"> <!-- GATE - Mists of Elysium II -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate810To811" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="30" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_810_Sector001_macro" class="zone"> <!-- GATE - Mists of Elysium III -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate810To812" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="0" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 811 - Mists of Elysium II -->
-		<macro name="Zone001_Cluster_811_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="env_debris_xenon_xxl_01_macro" ref="anything">
-					<offset>
-						<position x="-5904.296875" y="99" z="-980.46875" />
-						<rotation yaw="0" pitch="0" roll="0" />
-					</offset>
-					<macro ref="env_debris_xenon_xxl_01_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone002_Cluster_811_Sector001_macro" class="zone"> <!-- GATE - Nopileos's Fortune -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate811To004" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="120" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_811_Sector001_macro" class="zone"> <!-- GATE - Mists of Elysium I -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate811To810" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="240" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_811_Sector001_macro" class="zone"> <!-- GATE - Mists of Elysium III -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate811to812" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="300" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 812 - Mists of Elysium III -->
-		<macro name="Zone001_Cluster_812_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="env_debris_xenon_xxl_02_macro" ref="anything">
-					<offset>
-						<position x="-5705.001953125" y="1272.9990234375" z="0" />
-						<rotation yaw="0" pitch="0" roll="0" />
-					</offset>
-					<macro ref="env_debris_xenon_xxl_02_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone002_Cluster_812_Sector001_macro" class="zone"> <!-- GATE - Shining Currents -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate812To804" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="330" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space">
-						<properties>
-							<state active="false" />
-						</properties>
-					</macro>
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_812_Sector001_macro" class="zone"> <!-- GATE - Mists of Elysium I -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate812To810" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="180" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_812_Sector001_macro" class="zone"> <!-- GATE - Mists of Elysium II -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate812To811" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="120" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 813 - Inquisitor's Wrath -->
-		<macro name="Zone001_Cluster_813_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_813_Sector001_macro" class="zone"> <!-- GATE - Pious Mists II -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate813To022" ref="gates">
-					<offset>
-						<position x="45000" y="0" z="-25000" />
-						<rotation yaw="150" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space">
-						<properties>
-							<state active="false" />
-						</properties>
-					</macro>
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_813_Sector001_macro" class="zone"> <!-- GATE - Clarity's End -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate813To814" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="0" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_813_Sector001_macro" class="zone"> <!-- GATE - Sacred Relic -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate813To023" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="270" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 814 - Clarity's End -->
-		<macro name="Zone001_Cluster_814_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_814_Sector001_macro" class="zone"> <!-- GATE - Consecrated Fire -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate814To815" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="120" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_814_Sector001_macro" class="zone"> <!-- GATE - Depths of Silence -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate814To824" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="300" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_814_Sector001_macro" class="zone"> <!-- GATE - Inquisitor's Wrath -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate814To813" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="210" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone005_Cluster_814_Sector001_macro" class="zone"> <!-- DEAD GATE -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate814To300" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="0" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 815 - Consecrated Fire -->
-		<macro name="Zone001_Cluster_815_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_815_Sector001_macro" class="zone"> <!-- GATE - Preacher's Void VI -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate815To807" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="150" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_815_Sector001_macro" class="zone"> <!-- GATE - Thyn's Abyss -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate815To809" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="60" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_815_Sector001_macro" class="zone"> <!-- GATE - Clarity's End -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate815To814" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="240" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone005_Cluster_815_Sector001_macro" class="zone"> <!-- MOD GATE - Tempting Fumes -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate815To300" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="330" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 816 - Great Trench 001 -->
-		<macro name="Zone001_Cluster_816_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_816_Sector001_macro" class="zone"> <!-- GATE - Getsu Fune -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate816To048" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="0" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_816_Sector001_macro" class="zone"> <!-- Asteroid Field 1 -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone004_Cluster_816_Sector001_macro" class="zone"> <!-- Asteroid Field 2 -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		
-		<!-- Sector 816 - Great Trench 002 -->
-		<macro name="Zone001_Cluster_816_Sector002_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_816_Sector002_macro" class="zone"> <!-- GATE - Dark Waters -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate816To817" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="180" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 816 - Great Trench SH -->
-		<macro name="tzoneCluster_816_Sector001SHCon6_GateZone_macro" class="zone">
-			<component ref="standardzone" />
-			<connections>
-				<connection ref="SHCon6_gate" />
-			</connections>
-		</macro>
-		<macro name="tzoneCluster_816_Sector001SHCon10_GateZone_macro" class="zone">
-			<component ref="standardzone" />
-			<connections>
-				<connection ref="SHCon10_gate" />
-			</connections>
-		</macro>
-		<macro name="tzoneCluster_816_Sector002SHCon5_GateZone_macro" class="zone">
-			<component ref="standardzone" />
-			<connections>
-				<connection ref="SHCon5_gate" />
-			</connections>
-		</macro>
-		<macro name="tzoneCluster_816_Sector002SHCon9_GateZone_macro" class="zone">
-			<component ref="standardzone" />
-			<connections>
-				<connection ref="SHCon9_gate" />
-			</connections>
-		</macro>
-		
-		<!-- Sector 817 - Dark Waters -->
-		<macro name="Zone001_Cluster_817_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_817_Sector001_macro" class="zone"> <!-- GATE - Great Trench -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate817To816" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="330" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_817_Sector001_macro" class="zone"> <!-- GATE - Mines of Fortune -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate817To818" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="270" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_817_Sector001_macro" class="zone"> <!-- GATE - The Shallows -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate817To822" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="120" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 818 - Mines of Fortune -->
-		<macro name="Zone001_Cluster_818_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_818_Sector001_macro" class="zone"> <!-- GATE - Dark Waters -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate818To817" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="90" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_818_Sector001_macro" class="zone"> <!-- GATE - Matrix 79A -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate818To819" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="270" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_818_Sector001_macro" class="zone"> <!-- EMPTY -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		
-		<!-- Sector 819 - Matrix 79A -->
-		<macro name="Zone001_Cluster_819_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_819_Sector001_macro" class="zone"> <!-- GATE - Mines of Fortune -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate819To818" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="60" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_819_Sector001_macro" class="zone"> <!-- GATE - Wastelands III -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate819To820" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="120" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_819_Sector001_macro" class="zone"> <!-- EMPTY -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone005_Cluster_819_Sector001_macro" class="zone"> <!-- GATE - Matrix 79B -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate819To033" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="0" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_orb_accelerator_01_macro" connection="space">
-						<properties>
-							<state active="false" />
-						</properties>
-					</macro>
-				</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 820 - Wastelands III -->
-		<macro name="Zone001_Cluster_820_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_820_Sector001_macro" class="zone"> <!-- GATE - Wastelands V -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate820To821" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="120" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_820_Sector001_macro" class="zone"> <!-- GATE - Heretic's End -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate820To031" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="180" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_820_Sector001_macro" class="zone"> <!-- GATE - Matrix 79A -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate820To819" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="300" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone005_Cluster_820_Sector001_macro" class="zone"> <!-- PIRATE BASE -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		
-		<!-- Sector 821 - Wastelands V -->
-		<macro name="Zone001_Cluster_821_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_821_Sector001_macro" class="zone"> <!-- GATE - Wastelands III -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate821To820" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="300" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_821_Sector001_macro" class="zone"> <!-- GATE - The Shallows -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate821To822" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="60" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_821_Sector001_macro" class="zone"> <!-- KHAAK -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		
-		<!-- Sector 822 - The Shallows 001 -->
-		<macro name="Zone001_Cluster_822_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_822_Sector001_macro" class="zone"> <!-- GATE - Dark Waters -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate822To817" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="330" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 822 - The Shallows 002 -->
-		<macro name="Zone001_Cluster_822_Sector002_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_822_Sector002_macro" class="zone"> <!-- GATE - Interworlds -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate822To823" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="90" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 822 - The Shallows 003 -->
-		<macro name="Zone001_Cluster_822_Sector003_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_822_Sector003_macro" class="zone"> <!-- GATE - Wastelands V -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate822To821" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="180" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 822 - The Shallows SH -->
-		<macro name="tzoneCluster_822_Sector001SHCon5_GateZone_macro" class="zone">
-			<component ref="standardzone" />
-			<connections>
-				<connection ref="SHCon5_gate" />
-			</connections>
-		</macro>
-		<macro name="tzoneCluster_822_Sector001SHCon7_GateZone_macro" class="zone">
-			<component ref="standardzone" />
-			<connections>
-				<connection ref="SHCon7_gate" />
-			</connections>
-		</macro>
-		<macro name="tzoneCluster_822_Sector001SHCon8_GateZone_macro" class="zone">
-			<component ref="standardzone" />
-			<connections>
-				<connection ref="SHCon8_gate" />
-			</connections>
-		</macro>
-		<macro name="tzoneCluster_822_Sector001SHCon9_GateZone_macro" class="zone">
-			<component ref="standardzone" />
-			<connections>
-				<connection ref="SHCon9_gate" />
-			</connections>
-		</macro>
-		<macro name="tzoneCluster_822_Sector002SHCon5_GateZone_macro" class="zone">
-			<component ref="standardzone" />
-			<connections>
-				<connection ref="SHCon5_gate" />
-			</connections>
-		</macro>
-		<macro name="tzoneCluster_822_Sector002SHCon9_GateZone_macro" class="zone">
-			<component ref="standardzone" />
-			<connections>
-				<connection ref="SHCon9_gate" />
-			</connections>
-		</macro>
-		<macro name="tzoneCluster_822_Sector002SHCon11_GateZone_macro" class="zone">
-			<component ref="standardzone" />
-			<connections>
-				<connection ref="SHCon11_gate" />
-			</connections>
-		</macro>
-		<macro name="tzoneCluster_822_Sector002SHCon12_GateZone_macro" class="zone">
-			<component ref="standardzone" />
-			<connections>
-				<connection ref="SHCon12_gate" />
-			</connections>
-		</macro>
-		<macro name="tzoneCluster_822_Sector003SHCon4_GateZone_macro" class="zone">
-			<component ref="standardzone" />
-			<connections>
-				<connection ref="SHCon4_gate" />
-			</connections>
-		</macro>
-		<macro name="tzoneCluster_822_Sector003SHCon6_GateZone_macro" class="zone">
-			<component ref="standardzone" />
-			<connections>
-				<connection ref="SHCon6_gate" />
-			</connections>
-		</macro>
-		<macro name="tzoneCluster_822_Sector003SHCon10_GateZone_macro" class="zone">
-			<component ref="standardzone" />
-			<connections>
-				<connection ref="SHCon10_gate" />
-			</connections>
-		</macro>
-		<macro name="tzoneCluster_822_Sector003SHCon12_GateZone_macro" class="zone">
-			<component ref="standardzone" />
-			<connections>
-				<connection ref="SHCon12_gate" />
-			</connections>
-		</macro>
-		
-		<!-- Sector 823 - Interworlds 001 -->
-		<macro name="Zone001_Cluster_823_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_823_Sector001_macro" class="zone"> <!-- GATE - Litany of Fury -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate823To423" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="180" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_823_Sector001_macro" class="zone"> <!-- GATE - Shores of Infinity -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate823To805" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="90" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 823 - Interworlds 002 -->
-		<macro name="Zone001_Cluster_823_Sector002_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_823_Sector002_macro" class="zone"> <!-- GATE - The Shallows -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate823To822" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="330" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 823 - Interworlds SH -->
-		<macro name="tzoneCluster_823_Sector001SHCon6_GateZone_macro" class="zone">
-			<component ref="standardzone" />
-			<connections>
-				<connection ref="SHCon6_gate" />
-			</connections>
-		</macro>
-		<macro name="tzoneCluster_823_Sector001SHCon10_GateZone_macro" class="zone">
-			<component ref="standardzone" />
-			<connections>
-				<connection ref="SHCon10_gate" />
-			</connections>
-		</macro>
-		<macro name="tzoneCluster_823_Sector002SHCon5_GateZone_macro" class="zone">
-			<component ref="standardzone" />
-			<connections>
-				<connection ref="SHCon5_gate" />
-			</connections>
-		</macro>
-		<macro name="tzoneCluster_823_Sector002SHCon9_GateZone_macro" class="zone">
-			<component ref="standardzone" />
-			<connections>
-				<connection ref="SHCon9_gate" />
-			</connections>
-		</macro>
-
-		<!-- Sector 824 - Depths of Silence -->
-		<macro name="Zone001_Cluster_824_Sector001_macro" class="zone"> <!-- CENTER -->
-			<component ref="standardzone" />
-			<connections/>
-		</macro>
-		<macro name="Zone002_Cluster_824_Sector001_macro" class="zone"> <!-- MOD GATE - Mysterious Facility II -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate824To300" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="150" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone003_Cluster_824_Sector001_macro" class="zone"> <!-- GATE - Scale Plate Green -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate824To021" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="210" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone004_Cluster_824_Sector001_macro" class="zone"> <!-- MOD GATE - Perimeter -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate824To301" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="270" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone005_Cluster_824_Sector001_macro" class="zone"> <!-- MOD GATE - Onga -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate824To302" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="330" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone006_Cluster_824_Sector001_macro" class="zone"> <!-- MOD GATE - Mies -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate824To303" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="60" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone007_Cluster_824_Sector001_macro" class="zone"> <!-- GATE - Clarity's End -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate824To814" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="120" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		<macro name="Zone008_Cluster_824_Sector001_macro" class="zone"> <!-- MOD GATE - Matrix #24 -->
-			<component ref="standardzone" />
-			<connections>
-				<connection name="connection_ClusterGate824To304" ref="gates">
-					<offset>
-						<position x="0" y="0" z="0" />
-						<rotation yaw="90" pitch="0" roll="0" />
-					</offset>
-					<macro ref="props_gates_anc_gate_macro" connection="space" />
-				</connection>
-			</connections>
-		</macro>
-		
-	</add>
-	
-	
-	
-	
-	
-	<!-- Reposition Jump Gates -->
+	<!-- Sector 001 - Grand Exchange -->
+	<replace sel="/macros/macro[@name='Zone004_Cluster_01_Sector002_macro']/connections/connection[@name='connection_ClusterGate001To006']/offset">
+		<offset>
+			<position x="-21427.734375" y="0" z="35250.9765625" />
+			<rotation yaw="90" pitch="0" roll="0" />
+		</offset>
+	</replace>
 	
 	<!-- Sector 002 - Eighteen Billion -->
-	<replace sel="/macros/macro[@name='Zone002_Cluster_02_Sector001_macro']/connections/connection[@name='connection_ClusterGate002To003']/offset">
+	<replace sel="/macros/macro[@name='Zone001_Cluster_02_Sector001_macro']/connections/connection[@name='connection_ClusterGate002To001']/offset"> <!-- exchange -->
+		<offset>
+			<position x="-39586.10546875" y="0" z="-31740.6923828125" />
+			<rotation yaw="60" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone002_Cluster_02_Sector001_macro']/connections/connection[@name='connection_ClusterGate002To003']/offset"> <!-- memory -->
 		<offset>
 			<position x="5853.0122070312" y="0" z="-27338.103515625" />
-			<rotation yaw="250" pitch="0" roll="0" />
+			<rotation yaw="270" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone003_Cluster_02_Sector001_macro']/connections/connection[@name='connection_ClusterGate002To008']/offset"> <!-- shareholder -->
+		<offset>
+			<position x="26480.30078125" y="0" z="-15959.1904296875" />
+			<rotation yaw="330" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone004_Cluster_02_Sector001_macro']/connections/connection[@name='connection_ClusterGate002To501']/offset"> <!-- windfall -->
+		<offset>
+			<position x="32480.30078125" y="0" z="-15959.1904296875" />
+			<rotation yaw="150" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	
 	<!-- Sector 003 - Memory of Profit IX -->
 	<add sel="/macros/macro[@name='Zone002_Cluster_03_Sector001_macro']/connections">
-		<connection name="connection_ClusterGate003To802" ref="gates">
+		<connection name="connection_ClusterGate003To300" ref="gates">
 			<offset>
-				<position x="-5541.83984375" y="0" z="-47390.9921875" />
-				<rotation yaw="30" pitch="0" roll="0" />
+				<position x="-15541.83984375" y="0" z="-9390.9921875" />
+			<rotation yaw="120" pitch="0" roll="0" />
 			</offset>
-			<macro ref="props_gates_anc_gate_macro" connection="space" />
+			<macro ref="props_gates_anc_gate_macro" connection="space">
+				<properties>
+					<state active="false" />
+				</properties>
+			</macro>
 		</connection>
 	</add>
+	<replace sel="/macros/macro[@name='Zone002_Cluster_03_Sector001_macro']/connections/connection[@name='connection_ClusterGate003To002']/offset">
+		<offset>
+			<position x="-23541.83984375" y="0" z="-49390.9921875" />
+			<rotation yaw="90" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone001_Cluster_03_Sector001_macro']/connections/connection[@name='connection_ClusterGate003To039']/offset">
+		<offset>
+			<position x="-13041.83984375" y="0" z="25390.9921875" />
+			<rotation yaw="0" pitch="0" roll="0" />
+		</offset>
+	</replace>
 	
 	<!-- Sector 004 - Nopileos' Fortune -->
 	<add sel="/macros/macro[@name='Zone020_Cluster_04_Sector001_macro']/connections">
@@ -1445,59 +86,405 @@
 	</replace>
 	
 	<!-- Sector 005 - Path to Profit -->
-	<add sel="/macros/macro[@name='Zone003_Cluster_05_Sector001_macro']">
-		<connections>
-			<connection name="connection_ClusterGate005To035" ref="gates">
-				<offset>
-					<position x="1242.138671875" y="0" z="6470.4609375" />
-					<rotation yaw="0" pitch="0" roll="0" />
-				</offset>
-				<macro ref="props_gates_anc_gate_macro" connection="space" />
-			</connection>
-		</connections>
-	</add>
-	
-	<!-- Sector 008 - Silent Witness I -->
-	<remove sel="/macros/macro[@name='Zone003_Cluster_08_Sector001_macro']/connections/connection[@name='connection_ClusterGate008To002']" />
-	<add sel="/macros/macro[@name='Zone006_Cluster_08_Sector001_macro']/connections">
-		<connection name="connection_ClusterGate008To705" ref="gates">
-			<offset>
-				<position x="-45242.138671875" y="0" z="647.4609375" />
-				<rotation yaw="30" pitch="0" roll="0" />
-			</offset>
-			<macro ref="props_gates_anc_gate_macro" connection="space" />
-		</connection>
-	</add>
-	<replace sel="/macros/macro[@name='Zone006_Cluster_08_Sector001_macro']/connections/connection[@name='connection_ClusterGate008To501']/offset">
-        <offset>
-          <position x="41242.138671875" y="0" z="-45647.4609375" />
-          <rotation yaw="0" pitch="0" roll="0" />
-        </offset>
+	<replace sel="/macros/macro[@name='Zone004_Cluster_05_Sector001_macro']/connections/connection[@name='connection_ClusterGate005To725']/offset">
+		<offset>
+			<position x="45410.5687255859" y="0" z="40947.1357421875" />
+			<rotation yaw="300" pitch="0" roll="0" />
+		</offset>
 	</replace>
 	
-	<!-- Sector 009 - Bright Promise -->
-	<replace sel="/macros/macro[@name='Zone004_Cluster_09_Sector001_macro']/connections/connection[@name='connection_ClusterGate009to015']/offset">
+	<!-- Sector 006 - Black Hole Sun -->
+	<replace sel="/macros/macro[@name='Zone004_Cluster_06_Sector002_macro']/connections/connection[@name='connection_ClusterGate006To001']/offset">
 		<offset>
-			<position x="23184.0515136719" y="0" z="1693.9086914062" />
+			<position x="2500" y="0" z="-2500" />
 			<rotation yaw="270" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	
+	<!-- Sector 007 - The Reach -->
+	<replace sel="/macros/macro[@name='Zone003_Cluster_07_Sector001_macro']/connections/connection[@name='connection_ClusterGate007To014']/offset">
+		<offset>
+			<position x="37640" y="0" z="-22841" />
+			<rotation yaw="300" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 008 - Silent Witness I -->
+	<replace sel="/macros/macro[@name='Zone001_Cluster_08_Sector001_macro']">
+		<macro name="Zone001_Cluster_08_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate008To044" ref="gates">
+					<offset>
+						<position x="47842.228515625" y="0" z="32147.4921875" />
+						<rotation yaw="240" pitch="0" roll="0" />
+					</offset>
+					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				</connection>
+				<connection name="connection_ClusterGate008To300" ref="gates">
+					<offset>
+						<position x="29181.572265625" y="0" z="49319.65625" />
+						<rotation yaw="210" pitch="0" roll="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone002_Cluster_08_Sector001_macro']">
+		<macro name="Zone002_Cluster_08_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="Highway02Connection01_gate">
+					<offset>
+						<position x="-7868.6865234375" y="0" z="4176.994140625" />
+					</offset>
+				</connection>
+				<connection ref="Highway01Connection02_gate">
+					<offset>
+						<position x="-7049.5336914062" y="0" z="4750.572265625" />
+					</offset>
+				</connection>
+				<connection name="connection_ClusterGate008To720" ref="gates">
+					<offset>
+						<position x="-25757.255859375" y="500" z="-6610.0771484375" />
+						<rotation yaw="300" pitch="0" roll="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone003_Cluster_08_Sector001_macro']">
+		<macro name="Zone003_Cluster_08_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate008To704" ref="gates">
+					<offset>
+						<position x="41242.138671875" y="0" z="44647.4609375" />
+						<rotation yaw="60" pitch="0" roll="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone004_Cluster_08_Sector001_macro']">
+		<macro name="Zone004_Cluster_08_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="Highway01Connection01_gate">
+					<offset>
+						<position x="-25470.474609375" y="0" z="-6200.5004882812" />
+					</offset>
+				</connection>
+				<connection ref="Highway02Connection02_gate">
+					<offset>
+						<position x="-26044.052734375" y="0" z="-7019.6533203125" />
+					</offset>
+				</connection>
+				<connection name="connection_ClusterGate008To029" ref="gates">
+					<offset>
+						<position x="-7459.1103515625" y="500" z="4463.783203125" />
+						<rotation yaw="150" pitch="0" roll="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone005_Cluster_08_Sector001_macro']">
+		<macro name="Zone005_Cluster_08_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone006_Cluster_08_Sector001_macro']">
+		<macro name="Zone006_Cluster_08_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate008To501" ref="gates">
+					<offset>
+						<position x="51242.138671875" y="0" z="-10647.4609375" />
+						<rotation yaw="0" pitch="0" roll="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	
+	<!-- Sector 009 - Bright Promise -->
+	<replace sel="/macros/macro[@name='Zone001_Cluster_09_Sector001_macro']">
+	<macro name="Zone001_Cluster_09_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="Highway01Connection01_gate">
+					<offset>
+						<position x="10157.53125" y="0" z="29902.3828125" />
+					</offset>
+				</connection>
+				<connection ref="Highway02Connection02_gate">
+					<offset>
+						<position x="10499.5419921875" y="0" z="30842.076171875" />
+					</offset>
+				</connection>
+				<connection name="connection_ClusterGate009To034" ref="gates">
+					<offset>
+						<position x="10328.537109375" y="500" z="30372.228515625" />
+						<quaternion qx="0" qy="0.8191520572" qz="0" qw="0.5735764503" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+		
+	</replace>
+	<replace sel="/macros/macro[@name='Zone002_Cluster_09_Sector001_macro']">
+		<macro name="Zone002_Cluster_09_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone003_Cluster_09_Sector001_macro']">
+		<macro name="Zone003_Cluster_09_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate009To003" ref="gates">
+					<offset>
+						<position x="-41498.787109375" y="500" z="18158.05078125" />
+						<rotation yaw="60" pitch="0" roll="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone004_Cluster_09_Sector001_macro']">
+		<macro name="Zone004_Cluster_09_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate009To300" ref="gates">
+					<offset>
+						<position x="11498.787109375" y="500" z="38158.05078125" />
+						<rotation yaw="180" pitch="0" roll="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone005_Cluster_09_Sector001_macro']">
+		<macro name="Zone005_Cluster_09_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="Highway02Connection01_gate">
+					<offset>
+						<position x="-11883.2705078125" y="0" z="17224.43359375" />
+					</offset>
+				</connection>
+				<connection ref="Highway01Connection02_gate">
+					<offset>
+						<position x="-12225.28125" y="0" z="16284.736328125" />
+					</offset>
+				</connection>
+				<connection name="connection_ClusterGate009To713" ref="gates">
+					<offset>
+						<position x="-12054.275390625" y="500" z="16754.5859375" />
+						<quaternion qx="0" qy="-0.57357651" qz="0" qw="0.8191519976" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone006_Cluster_09_Sector001_macro']">
+		<macro name="Zone006_Cluster_09_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+	</replace>
+	
+	<!-- Sector 010 - Unholy Retribution -->
+	<replace sel="/macros/macro[@name='Zone001_Cluster_10_Sector001_macro']">
+		<macro name="Zone001_Cluster_10_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone002_Cluster_10_Sector001_macro']">
+		<macro name="Zone002_Cluster_10_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="Highway02Connection02_gate">
+					<offset>
+						<position x="23091.765625" y="0" z="35673.91015625" />
+					</offset>
+				</connection>
+				<connection ref="Highway01Connection01_gate">
+					<offset>
+						<position x="22591.765625" y="0" z="36539.93359375" />
+					</offset>
+				</connection>
+				<connection name="connection_ClusterGate010To018" ref="gates">
+					<offset>
+						<position x="22841.765625" y="500" z="36106.91796875" />
+						<quaternion qx="0" qy="-0.8660253882" qz="0" qw="0.5" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone003_Cluster_10_Sector001_macro']">
+		<macro name="Zone003_Cluster_10_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone004_Cluster_10_Sector001_macro']">
+		<macro name="Zone004_Cluster_10_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="Highway02Connection01_gate">
+					<offset>
+						<position x="-30328.125" y="0" z="-23515.392578125" />
+					</offset>
+				</connection>
+				<connection ref="Highway01Connection02_gate">
+					<offset>
+						<position x="-30670.134765625" y="0" z="-22575.69921875" />
+					</offset>
+				</connection>
+				<connection name="connection_ClusterGate010To022" ref="gates">
+					<offset>
+						<position x="-30499.130859375" y="500" z="-23045.54296875" />
+						<quaternion qx="0" qy="0.5735763907" qz="0" qw="0.8191520572" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	
+	<!-- Sector 011 - Pontifex' Claim -->
+	<replace sel="/macros/macro[@name='Zone001_Cluster_11_Sector001_macro']">
+		<macro name="Zone001_Cluster_11_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="Highway02Connection01_gate">
+					<offset>
+						<position x="-11883.2705078125" y="0" z="17224.43359375" />
+					</offset>
+				</connection>
+				<connection ref="Highway01Connection02_gate">
+					<offset>
+						<position x="-12225.28125" y="0" z="16284.736328125" />
+					</offset>
+				</connection>
+				<connection name="connection_ClusterGate011To022" ref="gates">
+					<offset>
+						<position x="-12054.275390625" y="500" z="16754.5859375" />
+						<quaternion qx="0" qy="-0.57357651" qz="0" qw="0.8191519976" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone002_Cluster_11_Sector001_macro']">
+		<macro name="Zone002_Cluster_11_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="Highway01Connection01_gate">
+					<offset>
+						<position x="10157.53125" y="0" z="29902.3828125" />
+					</offset>
+				</connection>
+				<connection ref="Highway02Connection02_gate">
+					<offset>
+						<position x="10499.5419921875" y="0" z="30842.076171875" />
+					</offset>
+				</connection>
+				<connection name="connection_ClusterGate011To024" ref="gates">
+					<offset>
+						<position x="10328.537109375" y="500" z="30372.228515625" />
+						<quaternion qx="0" qy="0.8191520572" qz="0" qw="0.5735764503" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone003_Cluster_11_Sector001_macro']">
+		<macro name="Zone003_Cluster_11_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate011to300" ref="gates">
+					<offset>
+						<position x="-11498.787109375" y="500" z="-38158.05078125" />
+						<rotation yaw="0" pitch="0" roll="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	
+	<!-- Sector 012 - # -->
+	<!--                -->
+	
+	<!-- Sector 013 - # -->
+	<!--                -->
+	
 	<!-- Sector 014 - Argon Prime -->
+	<replace sel="/macros/macro[@name='Zone002_Cluster_14_Sector001_macro']/connections/connection[@name='connection_ClusterGate014To007']/offset">
+		<offset>
+			<position x="-45000" y="0" z="35000" />
+			<rotation yaw="120" pitch="0" roll="0" />
+		</offset>
+	</replace>
 	<replace sel="/macros/macro[@name='Zone002_Cluster_14_Sector001_macro']/connections/connection[@name='connection_ClusterGate014To706']/offset">
 		<offset>
-			<position x="-17914.6171875" y="0" z="45058.72265625" />
-			<rotation yaw="180" pitch="0" roll="0" />
+			<position x="15000" y="0" z="45000" />
+			<rotation yaw="210" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 014 - Argon Prime - The Deep -->
+	<replace sel="/macros/macro[@name='thedeep_zone_vanc014vans001thedeepz001_macro']/connections/connection[@name='thedeep_gate_vanc014vans001thedeepz001_thedeepc001thedeeps001thedeepz001_connection']/offset">
+		<offset>
+			<position x="0" y="0" z="0" />
+			<rotation yaw="90" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	
 	<!-- Sector 015 - Ianamus Zura -->
+	<replace sel="/macros/macro[@name='Zone004_Cluster_15_Sector001_macro']/connections/connection[@name='connection_ClusterGate015To009']/offset">
+		<offset>
+			<position x="27715.5302734375" y="0" z="24352.9052734375" />
+			<rotation yaw="150" pitch="0" roll="0" />
+		</offset>
+	</replace>
 	<replace sel="/macros/macro[@name='Zone001_Cluster_15_Sector002_macro']/connections/connection[@name='connection_ClusterGate015To408']/offset">
 		<offset>
 			<position x="31532.564453125" y="0" z="37157.8129882812" />
 			<rotation yaw="210" pitch="0" roll="0" />
 		</offset>
 	</replace>
+	<remove sel="/macros/macro[@name='Zone001_Cluster_15_Sector001_macro']/connections/connection[@name='connection_ClusterGate015To701']" />
+	<add sel="/macros/macro[@name='Zone003_Cluster_15_Sector001_macro']/connections">
+		<connection name="connection_ClusterGate015To701" ref="gates">
+			<offset>
+				<position x="15000" y="0" z="15000" />
+				<rotation yaw="330" pitch="0" roll="0" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
+	</add>
+	
+	<!-- Sector 016 - # -->
+	<!--                -->
 	
 	<!-- Sector 017 - Matrix #9 -->
 	<add sel="/macros/macro[@name='Zone003_Cluster_17_Sector001_macro']">
@@ -1512,28 +499,277 @@
 		</connections>
 	</add>
 	
-	<!-- Sector 021 - Scale Plate Green -->
-	<add sel="/macros/macro[@name='Zone003_Cluster_21_Sector001_macro']/connections">
-		<connection name="connection_ClusterGate021To824" ref="gates">
+	<!-- Sector 018 - Trinity Sanctum III -->
+	<replace sel="/macros/macro[@name='Zone001_Cluster_18_Sector001_macro']">
+		<macro name="Zone001_Cluster_18_Sector001_macro" class="zone"> <!-- center -->
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="Highway03Connection01_gate">
+					<offset>
+						<position x="0" y="0" z="0" />
+					</offset>
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone002_Cluster_18_Sector001_macro']">
+		<macro name="Zone002_Cluster_18_Sector001_macro" class="zone"> <!-- south end -->
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="Highway02Connection01_gate">
+					<offset>
+						<position x="14669.11328125" y="0" z="17405.974609375" />
+					</offset>
+				</connection>
+				<connection ref="Highway01Connection02_gate">
+					<offset>
+						<position x="14669.12890625" y="0" z="16405.990234375" />
+					</offset>
+				</connection>
+				<connection name="connection_ClusterGate018To010" ref="gates">
+					<offset>
+						<position x="-14669.11328125" y="500" z="-16905.974609375" />
+						<rotation yaw="90" pitch="0" roll="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone003_Cluster_18_Sector001_macro']">
+		<macro name="Zone003_Cluster_18_Sector001_macro" class="zone"> <!-- north end -->
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="Highway01Connection01_gate">
+					<offset>
+						<position x="-9223.3662109375" y="0" z="-13045.0361328125" />
+					</offset>
+				</connection>
+				<connection ref="Highway02Connection02_gate">
+					<offset>
+						<position x="-10089.4013671875" y="0" z="-12545.06640625" />
+					</offset>
+				</connection>
+				<connection name="connection_ClusterGate018To713" ref="gates">
+					<offset>
+						<position x="9656.3720703125" y="500" z="12795.0517578125" />
+						<rotation yaw="210" pitch="0" roll="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone004_Cluster_18_Sector001_macro']">
+		<macro name="Zone004_Cluster_18_Sector001_macro" class="zone"> <!-- dead end -->
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="Highway03Connection02_gate">
+					<offset>
+						<position x="0" y="0" z="0" />
+					</offset>
+				</connection>
+				<connection name="connection_ClusterGate018To300" ref="gates">
+					<offset>
+						<position x="49999" y="0" z="-45000" />
+						<rotation yaw="270" pitch="0" roll="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone005_Cluster_18_Sector001_macro']">
+		<macro name="Zone005_Cluster_18_Sector001_macro" class="zone"> <!-- accelerator -->
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate018To047" ref="gates">
+					<offset>
+						<position x="-40000" y="500" z="10000" />
+						<quaternion qx="0" qy="-0.9396926165" qz="0" qw="-0.3420200944" />
+					</offset>
+					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone006_Cluster_18_Sector001_macro']">
+		<macro name="Zone006_Cluster_18_Sector001_macro" class="zone"> <!-- empty space -->
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+	</replace>
+	
+	<!-- Sector 019 - # -->
+	<!--                -->
+	
+	<!-- Sector 020 - Company Regard -->
+	<replace sel="/macros/macro[@name='Zone003_Cluster_20_Sector001_macro']/connections/connection[@name='connection_ClusterGate020To019']/offset">
+		<offset>
+			<position x="5000" y="0" z="0" />
+			<rotation yaw="180" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	<add sel="/macros/macro[@name='Zone003_Cluster_20_Sector001_macro']/connections">
+		<connection name="connection_ClusterGate020To300" ref="gates">
 			<offset>
-				<position x="0" y="0" z="0" />
-				<rotation yaw="30" pitch="0" roll="0" />
+				<position x="19000" y="0" z="-12000" />
+				<rotation yaw="270" pitch="0" roll="0" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
+	</add>
+	<remove sel="/macros/macro[@name='Zone004_Cluster_20_Sector001_macro']/connections/connection[@name='connection_ClusterGate020To021']" />
+	<add sel="/macros/macro[@name='Zone001_Cluster_20_Sector001_macro']/connections">
+		<connection name="connection_ClusterGate020To021" ref="gates">
+			<offset>
+				<position x="42000" y="0" z="25000" />
+				<rotation yaw="300" pitch="0" roll="0" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
+	</add>
+	<remove sel="/macros/macro[@name='Zone002_Cluster_20_Sector001_macro']/connections/connection[@name='connection_ClusterGate020To050']" />
+	<add sel="/macros/macro[@name='Zone001_Cluster_20_Sector001_macro']/connections">
+		<connection name="connection_ClusterGate020To050" ref="gates">
+			<offset>
+				<position x="42000" y="0" z="40000" />
+				<rotation yaw="240" pitch="0" roll="0" />
 			</offset>
 			<macro ref="props_gates_anc_gate_macro" connection="space" />
 		</connection>
 	</add>
 	
+	<!-- Sector 021 - Scale Plate Green -->
+	<add sel="/macros/macro[@name='Zone003_Cluster_21_Sector001_macro']/connections">
+		<connection name="connection_ClusterGate021To824" ref="gates">
+			<offset>
+				<position x="0" y="0" z="0" />
+				<rotation yaw="0" pitch="0" roll="0" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
+	</add>
+	
+	<!-- Sector 022 - Pious Mists II -->
+	<replace sel="/macros/macro[@name='Zone001_Cluster_22_Sector001_macro']">
+		<macro name="Zone001_Cluster_22_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="Highway02Connection02_gate">
+					<offset>
+						<position x="5720.8862304688" y="0" z="3531.1945800781" />
+					</offset>
+				</connection>
+				<connection ref="Highway01Connection01_gate">
+					<offset>
+						<position x="6220.8862304688" y="0" z="2665.1677246094" />
+					</offset>
+				</connection>
+				<connection ref="Highway03Connection01_gate">
+					<offset>
+						<position x="10303.771484375" y="0" z="-7993.9267578125" />
+					</offset>
+				</connection>
+				<connection name="connection_ClusterGate022To011" ref="gates">
+					<offset>
+						<position x="5970.8862304688" y="500" z="3098.181640625" />
+						<quaternion qx="0" qy="0.5000000596" qz="0" qw="0.8660253882" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+				<connection name="connection_ClusterGate022To038" ref="gates">
+					<offset>
+						<position x="17209.46484375" y="0" z="-44534.7578125" />
+						<quaternion qx="0" qy="-1.788e-07" qz="0" qw="1" />
+					</offset>
+					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone002_Cluster_22_Sector001_macro']">
+		<macro name="Zone002_Cluster_22_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="Highway03Connection02_gate">
+					<offset>
+						<position x="-3894.5007324219" y="0" z="-14087.0205078125" />
+					</offset>
+				</connection>
+				<connection ref="Highway02Connection01_gate">
+					<offset>
+						<position x="-16608.4296875" y="0" z="-8595.146484375" />
+					</offset>
+				</connection>
+				<connection ref="Highway01Connection02_gate">
+					<offset>
+						<position x="-15608.4365234375" y="0" z="-8595.146484375" />
+					</offset>
+				</connection>
+				<connection name="connection_ClusterGate022To010" ref="gates">
+					<offset>
+						<position x="-16108.4365234375" y="500" z="-8595.146484375" />
+						<quaternion qx="0" qy="-1" qz="0" qw="-4.37e-08" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+				<connection name="connection_ClusterGate022To037" ref="gates">
+					<offset>
+						<position x="32564.560546875" y="500" z="-38029.353515625" />
+						<quaternion qx="0" qy="-0.57357651" qz="0" qw="0.8191519976" />
+					</offset>
+					<macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone003_Cluster_22_Sector001_macro']">
+		<macro name="Zone003_Cluster_22_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate022To004" ref="gates">
+					<offset>
+						<position x="-19143.62890625" y="0" z="36198.39453125" />
+						<rotation yaw="120" pitch="0" roll="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone004_Cluster_22_Sector001_macro']">
+		<macro name="Zone004_Cluster_22_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate022To023" ref="gates">
+					<offset>
+						<position x="21595.87890625" y="0" z="-46534.7578125" />
+						<rotation yaw="330" pitch="0" roll="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone005_Cluster_22_Sector001_macro']">
+		<macro name="Zone005_Cluster_22_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+	</replace>
+	
 	<!-- Sector 023 - Sacred Relic -->
 	<replace sel="/macros/macro[@name='Zone002_Cluster_23_Sector001_macro']/connections/connection[@name='connection_ClusterGate023To022']/offset">
 		<offset>
 			<position x="20000" y="0" z="37000" />
-			<rotation yaw="60" pitch="0" roll="0" />
+			<rotation yaw="150" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	<replace sel="/macros/macro[@name='Zone004_Cluster_23_Sector001_macro']/connections/connection[@name='connection_ClusterGate023To709']/offset">
 		<offset>
-			<position x="-2000" y="0" z="-24000" />
-			<rotation yaw="180" pitch="0" roll="0" />
+			<position x="25000" y="0" z="10000" />
+			<rotation yaw="240" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	<add sel="/macros/macro[@name='Zone001_Cluster_23_Sector001_macro']">
@@ -1541,7 +777,7 @@
 			<connection name="connection_ClusterGate023To804" ref="gates">
 				<offset>
 					<position x="-41242.138671875" y="0" z="-16470.4609375" />
-					<rotation yaw="120" pitch="0" roll="0" />
+					<rotation yaw="60" pitch="0" roll="0" />
 				</offset>
 				<macro ref="props_gates_anc_gate_macro" connection="space" />
 			</connection>
@@ -1551,7 +787,7 @@
 	<!-- Sector 024 - Holy Vision -->
 	<replace sel="/macros/macro[@name='Zone004_Cluster_24_Sector001_macro']/connections/connection[@name='connection_ClusterGate024To036']/offset">
 		<offset>
-			<position x="-29041.86328125" y="0" z="41541.625" />
+			<position x="-23041.86328125" y="0" z="46541.625" />
 			<rotation yaw="240" pitch="0" roll="0" />
 		</offset>
 	</replace>
@@ -1559,8 +795,8 @@
 	<!-- Sector 025 - Faulty Logic -->
 	<replace sel="/macros/macro[@name='Zone003_Cluster_25_Sector002_macro']/connections/connection[@name='connection_ClusterGate025To026']/offset">
 		<offset>
-			<position x="-27498.87109375" y="0" z="20218.75" />
-			<rotation yaw="30" pitch="0" roll="0" />
+			<position x="3498.87109375" y="0" z="-10218.75" />
+			<rotation yaw="60" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	
@@ -1592,16 +828,16 @@
 	</replace>
 	<replace sel="/macros/macro[@name='Zone001_Cluster_27_Sector001_macro']/connections/connection[@name='connection_ClusterGate027To013']/offset">
 		<offset>
-			<position x="12398.4375" y="0" z="7507.8125" />
-			<rotation yaw="240" pitch="0" roll="0" />
+			<position x="-12398.4375" y="0" z="-7507.8125" />
+			<rotation yaw="270" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	
 	<!-- Sector 028 - Antigone Memorial -->
 	<replace sel="/macros/macro[@name='Zone004_Cluster_28_Sector001_macro']/connections/connection[@name='connection_ClusterGate028To113']/offset">
 		<offset>
-			<position x="-13114.908203125" y="0" z="-40702.740234375" />
-			<rotation yaw="30" pitch="0" roll="0" />
+			<position x="-10000" y="0" z="-45000" />
+			<rotation yaw="60" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	
@@ -1612,8 +848,8 @@
 		<connections>
 			<connection name="connection_ClusterGate029To030" ref="gates">
 				<offset>
-					<position x="-61414.802734375" y="0" z="-67491.9140625" />
-					<rotation yaw="30" pitch="0" roll="0" />
+					<position x="-31414.802734375" y="0" z="-7491.9140625" />
+					<rotation yaw="90" pitch="0" roll="0" />
 				</offset>
 				<macro ref="props_gates_anc_gate_macro" connection="space" />
 			</connection>
@@ -1624,12 +860,20 @@
 			<connection name="connection_ClusterGate029To032" ref="gates">
 				<offset>
 					<position x="29410.802734375" y="0" z="53451.9140625" />
-					<rotation yaw="120" pitch="0" roll="0" />
+					<rotation yaw="150" pitch="0" roll="0" />
 				</offset>
 				<macro ref="props_gates_anc_gate_macro" connection="space" />
 			</connection>
 		</connections>
 	</add>
+	
+	<!-- Sector 030 - Morning Star III -->
+	<replace sel="/macros/macro[@name='Zone001_Cluster_30_Sector001_macro']/connections/connection[@name='connection_ClusterGate030To029']/offset">
+		<offset>
+			<position x="16473.7700195312" y="0" z="39275.88671875" />
+			<rotation yaw="240" pitch="0" roll="0" />
+		</offset>
+	</replace>
 	
 	<!-- Sector 031 - Heretic's End -->
 	<add sel="/macros/macro[@name='Zone003_Cluster_31_Sector001_macro']">
@@ -1651,15 +895,42 @@
 	</replace>
 	
 	<!-- Sector 032 - Tharka's Cascade -->
+	<replace sel="/macros/macro[@name='Zone003_Cluster_32_Sector001_macro']/connections/connection[@name='connection_ClusterGate032To401']/offset">
+		<offset>
+			<position x="2000" y="0" z="20000" />
+			<rotation yaw="240" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	<remove sel="/macros/macro[@name='Zone003_Cluster_32_Sector001_macro']/connections/connection[@name='connection_ClusterGate032To708']" />
+	<add sel="/macros/macro[@name='Zone004_Cluster_32_Sector001_macro']/connections">
+		<connection name="connection_ClusterGate032To708" ref="gates">
+			<offset>
+				<position x="5000" y="0" z="15000" />
+				<rotation yaw="270" pitch="0" roll="0" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
+	</add>
 	<remove sel="/macros/macro[@name='Zone003_Cluster_32_Sector002_macro']/connections/connection[@name='connection_ClusterGate032To033']" />
 	<add sel="/macros/macro[@name='Zone001_Cluster_32_Sector002_macro']/connections">
 		<connection name="connection_ClusterGate032To033" ref="gates">
 			<offset>
-				<position x="-10534.26953125" y="0" z="-32082.03125" />
+				<position x="-12500" y="0" z="-47500" />
 				<rotation yaw="0" pitch="0" roll="0" />
 			</offset>
 			<macro ref="props_gates_anc_gate_macro" connection="space" />
 		</connection>
+	</add>
+	<add sel="/macros/macro[@name='Zone002_Cluster_32_Sector001_macro']">
+		<connections>
+			<connection name="connection_ClusterGate032To300" ref="gates">
+				<offset>
+					<position x="-25000" y="0" z="45000" />
+					<rotation yaw="120" pitch="0" roll="0" />
+				</offset>
+				<macro ref="props_gates_anc_gate_macro" connection="space" />
+			</connection>
+		</connections>
 	</add>
 	
 	<!-- Sector 033 - Matrix 79B -->
@@ -1669,14 +940,33 @@
 			<rotation yaw="240" pitch="0" roll="0" />
 		</offset>
 	</replace>
+	<replace sel="/macros/macro[@name='Zone003_Cluster_33_Sector001_macro']/connections/connection[@name='connection_ClusterGate033To112']/offset">
+		<offset>
+			<position x="32158.814453125" y="0" z="-40863.951171875" />
+			<rotation yaw="30" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	<add sel="/macros/macro[@name='Zone003_Cluster_33_Sector001_macro']/connections">
+		<connection name="connection_ClusterGate033To815" ref="gates">
+			<offset>
+				<position x="-32158.814453125" y="0" z="40863.951171875" />
+				<rotation yaw="90" pitch="0" roll="0" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space">
+				<properties>
+					<state active="false" />
+				</properties>
+			</macro>
+		</connection>
+	</add>
 	<add sel="/macros/macro[@name='Zone004_Cluster_33_Sector001_macro']">
 		<connections>
-			<connection name="connection_ClusterGate033To819" ref="gates">
+			<connection name="connection_ClusterGate033To825" ref="gates">
 				<offset>
 					<position x="1242.138671875" y="0" z="16470.4609375" />
 					<rotation yaw="180" pitch="0" roll="0" />
 				</offset>
-				<macro ref="props_gates_orb_accelerator_01_macro" connection="space">
+				<macro ref="props_gates_anc_gate_macro" connection="space">
 					<properties>
 						<state active="false" />
 					</properties>
@@ -1685,21 +975,15 @@
 		</connections>
 	</add>
 	
-	<!-- Sector 034 - Profit Center Alpha -->
-	<replace sel="/macros/macro[@name='Zone004_Cluster_34_Sector001_macro']/connections/connection[@name='connection_ClusterGate034to420']/offset">
-		<offset>
-			<position x="11498.787109375" y="500" z="38158.05078125" />
-			<rotation yaw="180" pitch="0" roll="0" />
-		</offset>
-	</replace>
+	<!-- Sector 034 - # -->
 	
 	<!-- Sector 035 - Lasting Vengeance -->
-	<add sel="/macros/macro[@name='Zone003_Cluster_35_Sector001_macro']">
+	<add sel="/macros/macro[@name='Zone005_Cluster_35_Sector001_macro']">
 		<connections>
-			<connection name="connection_ClusterGate035To003" ref="gates">
+			<connection name="connection_ClusterGate035To800" ref="gates">
 				<offset>
 					<position x="1242.138671875" y="0" z="16470.4609375" />
-					<rotation yaw="180" pitch="0" roll="0" />
+					<rotation yaw="240" pitch="0" roll="0" />
 				</offset>
 				<macro ref="props_gates_anc_gate_macro" connection="space" />
 			</connection>
@@ -1709,21 +993,57 @@
 	<!-- Sector 036 - Cardinal's Redress -->
 	<replace sel="/macros/macro[@name='Zone002_Cluster_36_Sector001_macro']/connections/connection[@name='connection_ClusterGate036To024']/offset">
 		<offset>
-			<position x="10392.5361328125" y="0" z="27418.662109375" />
-			<rotation yaw="0" pitch="0" roll="0" />
+			<position x="-40392.5361328125" y="0" z="-27418.662109375" />
+			<rotation yaw="60" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone005_Cluster_36_Sector001_macro']/connections/connection[@name='connection_ClusterGate036To714']/offset">
+		<offset>
+			<position x="-48993.94921875" y="0" z="-4520.3706054688" />
+			<rotation yaw="30" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	
+	<!-- Sector 037 - # -->
+	<!--                -->
+	
+	<!-- Sector 038 - # -->
+	<!--                -->
+	
+	<!-- Sector 039 - # -->
+	<!--                -->
+	
+	<!-- Sector 040 - # -->
+	<!--                -->
+	
+	<!-- Sector 041 - # -->
+	<!--                -->
+	
+	<!-- Sector 042 - # -->
+	<!--                -->
+	
+	<!-- Sector 043 - # -->
+	<!--                -->
+	
+	<!-- Sector 044 - # -->
+	<!--                -->
+	
+	<!-- Sector 045 - # -->
+	<!--                -->
+	
+	<!-- Sector 046 - # -->
+	<!--                -->
+	
+	<!-- Sector 047 - # -->
+	<!--                -->
+	
 	<!-- Sector 048 - Getsu Fune -->
-	<add sel="/macros/macro[@name='Zone002_Cluster_48_Sector001_macro']/connections">
-		<connection name="connection_ClusterGate048To816" ref="gates">
-			<offset>
-				<position x="0" y="0" z="0" />
-				<rotation yaw="150" pitch="0" roll="0" />
-			</offset>
-			<macro ref="props_gates_anc_gate_macro" connection="space" />
-		</connection>
-	</add>
+	<replace sel="/macros/macro[@name='Zone006_Cluster_48_Sector001_macro']/connections/connection[@name='connection_ClusterGate048To604']/offset">
+		<offset>
+			<position x="-41224.856640625" y="0" z="41969.126953125" />
+			<rotation yaw="150" pitch="0" roll="0" />
+		</offset>
+	</replace>
 	
 	<!-- Sector 049 - Frontier Edge -->
 	<replace sel="/macros/macro[@name='Zone003_Cluster_49_Sector001_macro']/connections/connection[@name='connection_ClusterGate049To027']/offset">
@@ -1750,40 +1070,28 @@
 		</connection>
 	</add>
 	
+	
+	
+	
+	
 	<!-- Sector 709 - Cardinal's Domain -->
-	<replace sel="/macros/macro[@name='Zone001_Cluster_709_Sector001_macro']/connections/connection[@name='connection_ClusterGate709To023']/offset">
+	<replace sel="/macros/macro[@name='Zone001_Cluster_709_Sector001_macro']/connections/connection[@name='connection_ClusterGate709To023']/offset"> <!-- sacred -->
 		<offset>
-			<position x="-4600" y="0" z="-35000" />
-			<rotation yaw="0" pitch="0" roll="0" />
+			<position x="-24600" y="0" z="-45000" />
+			<rotation yaw="30" pitch="0" roll="0" />
 		</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='Zone002_Cluster_709_Sector001_macro']/connections/connection[@name='connection_ClusterGate709To710']/offset">
+	<replace sel="/macros/macro[@name='Zone002_Cluster_709_Sector001_macro']/connections/connection[@name='connection_ClusterGate709To710']/offset"> <!-- empty -->
         <offset>
-          <position x="32564.6" y="500" z="-18029.4" />
+          <position x="32564.6" y="500" z="48029.4" />
           <rotation yaw="150" pitch="0" roll="0" />
         </offset>
 	</replace>
-	
-	<!-- Sector 712 - Loomanckstrat's Legacy -->
-	<replace sel="/macros/macro[@name='Zone004_Cluster_712_Sector001_macro']/connections/connection[@name='connection_ClusterGate712To713']/offset">
-        <offset>
-          <position x="29261.7" y="500" z="34270.1" />
-          <rotation yaw="180" pitch="0" roll="0" />
-        </offset>
-	</replace>
-	
-	<!-- Sector 713 - CEO's Doubt -->
-	<replace sel="/macros/macro[@name='Zone003_Cluster_713_Sector001_macro']/connections/connection[@name='connection_ClusterGate713To712']/offset">
-		<offset>
-			<position x="-29000" y="0" z="-39000" />
-			<rotation yaw="270" pitch="0" roll="0" />
-		</offset>
-	</replace>
-	<add sel="/macros/macro[@name='Zone002_Cluster_713_Sector001_macro']/connections">
-		<connection name="connection_ClusterGate713To810" ref="gates">
+	<replace sel="/macros/macro[@name='Zone003_Cluster_709_Sector001_macro']/connections/connection[@name='connection_ClusterGate709To']"> <!-- depths -->
+		<connection name="connection_ClusterGate709To" ref="gates">
 			<offset>
-				<position x="0" y="0" z="0" />
-				<rotation yaw="0" pitch="0" roll="0" />
+				<position x="-32564.6" y="500" z="48029.4" />
+				<rotation yaw="120" pitch="0" roll="0" />
 			</offset>
 			<macro ref="props_gates_anc_gate_macro" connection="space">
 				<properties>
@@ -1791,14 +1099,345 @@
 				</properties>
 			</macro>
 		</connection>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone004_Cluster_709_Sector001_macro']/connections/connection[@name='connection_ClusterGate709To723']/offset"> <!-- sanctum -->
+		<offset>
+			<position x="4613.14" y="500" z="35623.3125" />
+			<rotation yaw="240" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 710 - Moo-Kye's Revenge -->
+	<replace sel="/macros/macro[@name='Zone001_Cluster_710_Sector001_macro']/connections/connection[@name='connection_ClusterGate710To711']/offset"> <!-- mi-ton -->
+		<offset>
+			<position x="25857.2" y="500" z="38223.3" />
+			<rotation yaw="240" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone002_Cluster_710_Sector001_macro']/connections/connection[@name='connection_ClusterGate710To']/offset"> <!-- sanctum -->
+		<offset>
+			<position x="40070.4" y="500" z="-38414.9" />
+			<rotation yaw="300" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 711 - Mi-Ton's Refuge -->
+	<add sel="/macros/macro[@name='Zone002_Cluster_711_Sector001_macro']/connections"> <!-- ROR - Theia -->
+		<connection name="connection_ClusterGate711ToROR" ref="gates">
+			<offset>
+				<position x="0" y="0" z="0" />
+				<rotation yaw="270" pitch="0" roll="0" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
+	</add>
+	
+	<!-- Sector 712 - Loomanckstrat's Legacy -->
+	<replace sel="/macros/macro[@name='Zone004_Cluster_712_Sector001_macro']/connections/connection[@name='connection_ClusterGate712To713']/offset">
+		<offset>
+			<position x="29261.7" y="500" z="34270.1" />
+			<rotation yaw="180" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	<add sel="/macros/macro[@name='Zone005_Cluster_712_Sector001_macro']/connections">
+		<connection name="connection_ClusterGate712To700" ref="gates">
+			<offset>
+				<position x="0" y="0" z="0" />
+				<rotation yaw="90" pitch="0" roll="0" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
+	</add>
+	
+	<!-- Sector 713 - CEO's Doubt -->
+	<replace sel="/macros/macro[@name='Zone001_Cluster_713_Sector001_macro']">
+		<macro name="Zone001_Cluster_713_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="Highway02Connection01_gate">
+					<offset>
+						<position x="-20023.41015625" y="0" z="-32222.79296875" />
+					</offset>
+				</connection>
+				<connection ref="Highway01Connection02_gate">
+					<offset>
+						<position x="-19023.41015625" y="0" z="-32222.79296875" />
+					</offset>
+				</connection>
+				<connection name="connection_ClusterGate713To009" ref="gates">
+					<offset>
+						<position x="-19523.41015625" y="500" z="-32222.79296875" />
+						<quaternion qx="0" qy="-1" qz="0" qw="7.55e-08" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone002_Cluster_713_Sector001_macro']">
+		<macro name="Zone002_Cluster_713_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="Highway02Connection02_gate">
+					<offset>
+						<position x="-29393.9140625" y="0" z="36674.546875" />
+					</offset>
+				</connection>
+				<connection ref="Highway01Connection01_gate">
+					<offset>
+						<position x="-28393.9140625" y="0" z="36674.546875" />
+					</offset>
+				</connection>
+				<connection ref="Highway03Connection01_gate">
+					<offset>
+						<position x="-44486.43359375" y="0" z="12270.6142578125" />
+					</offset>
+				</connection>
+				<connection ref="Highway03Connection02_gate">
+					<offset>
+						<position x="-5750.1298828125" y="0" z="26643.5859375" />
+					</offset>
+				</connection>
+				<connection name="connection_ClusterGate713To018" ref="gates">
+					<offset>
+						<position x="-28893.9140625" y="500" z="36674.546875" />
+						<quaternion qx="0" qy="0" qz="0" qw="1" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone003_Cluster_713_Sector001_macro']">
+		<macro name="Zone003_Cluster_713_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate713To712" ref="gates">
+					<offset>
+						<position x="11458.1298828125" y="0" z="-6089.7978515625" />
+						<rotation yaw="300" pitch="0" roll="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone004_Cluster_713_Sector001_macro']">
+		<macro name="Zone004_Cluster_713_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate713to015" ref="gates">
+					<offset>
+						<position x="23184.0515136719" y="0" z="21693.9086914062" />
+						<rotation yaw="240" pitch="0" roll="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone005_Cluster_713_Sector001_macro']">
+		<macro name="Zone005_Cluster_713_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+	</replace>
+	
+	<!-- Sector 714 - Freedom's Reach -->
+	<replace sel="/macros/macro[@name='Zone001_Cluster_714_Sector001_macro']/connections/connection[@name='connection_ClusterGate714To036']/offset"> <!-- fire -->
+		<offset>
+			<position x="0" y="500" z="-35000" />
+			<rotation yaw="0" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	<add sel="/macros/macro[@name='Zone004_Cluster_714_Sector001_macro']/connections"> <!-- hatikvah -->
+		<connection name="connection_ClusterGate714To725" ref="gates">
+			<offset>
+				<position x="25000" y="0" z="-25000" />
+				<rotation yaw="120" pitch="0" roll="0" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
+	</add>
+	<add sel="/macros/macro[@name='Zone003_Cluster_714_Sector001_macro']/connections"> <!-- preacher -->
+		<connection name="connection_ClusterGate714To049" ref="gates">
+			<offset>
+				<position x="15000" y="0" z="45000" />
+				<rotation yaw="300" pitch="0" roll="0" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
 	</add>
 	
 	<!-- Sector 715 - Mists of Artemis -->
+	<add sel="/macros/macro[@name='Zone004_Cluster_715_Sector001_macro']/connections">
+		<connection name="connection_ClusterGate715To300" ref="gates">
+			<offset>
+				<position x="-15000" y="0" z="-25000" />
+				<rotation yaw="120" pitch="0" roll="0" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
+	</add>
 	<replace sel="/macros/macro[@name='Zone001_Cluster_715_Sector001_macro']/connections/connection[@name='connection_ClusterGate715To026']/offset">
         <offset>
           <position x="40435.5" y="500" z="-37094.9" />
-          <rotation yaw="240" pitch="0" roll="0" />
+          <rotation yaw="300" pitch="0" roll="0" />
         </offset>
 	</replace>
+	
+	<!-- Sector 720 - Ore Belt -->
+	<replace sel="/macros/macro[@name='Zone001_Cluster_720_Sector001_macro']">
+		<macro name="Zone001_Cluster_720_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone002_Cluster_720_Sector001_macro']">
+		<macro name="Zone002_Cluster_720_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="Highway02Connection02_gate">
+					<offset>
+						<position x="-17472.892578125" y="0" z="-12745.86328125" />
+					</offset>
+				</connection>
+				<connection ref="Highway01Connection01_gate">
+					<offset>
+						<position x="-16972.892578125" y="0" z="-11879.8369140625" />
+					</offset>
+				</connection>
+				<connection name="connection_ClusterGate720To008" ref="gates">
+					<offset>
+						<position x="17222.888671875" y="500" z="12312.8515625" />
+						<rotation yaw="120" pitch="0" roll="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone003_Cluster_720_Sector001_macro']">
+		<macro name="Zone003_Cluster_720_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection name="connection_ClusterGate720To300" ref="gates">
+					<offset>
+						<position x="38364.75" y="0" z="-10007.1103515625" />
+						<rotation yaw="30" pitch="0" roll="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone004_Cluster_720_Sector001_macro']">
+		<macro name="Zone004_Cluster_720_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections>
+				<connection ref="Highway02Connection01_gate">
+					<offset>
+						<position x="-13966.5986328125" y="0" z="-3947.8759765625" />
+					</offset>
+				</connection>
+				<connection ref="Highway01Connection02_gate">
+					<offset>
+						<position x="-14466.5986328125" y="0" z="-3081.8481445312" />
+					</offset>
+				</connection>
+				<connection name="connection_ClusterGate720To034" ref="gates">
+					<offset>
+						<position x="14216.5986328125" y="500" z="3514.8620605469" />
+						<rotation yaw="240" pitch="0" roll="0" />
+					</offset>
+					<macro ref="props_gates_anc_gate_macro" connection="space" />
+				</connection>
+			</connections>
+		</macro>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone005_Cluster_720_Sector001_macro']">
+		<macro name="Zone005_Cluster_720_Sector001_macro" class="zone">
+			<component ref="standardzone" />
+			<connections/>
+		</macro>
+	</replace>
+	
+	<!-- Sector 721 - Adventure's Promise -->
+	<replace sel="/macros/macro[@name='Zone003_Cluster_721_Sector001_macro']/connections/connection[@name='connection_ClusterGate721To720']/offset"> <!-- frontier -->
+		<offset>
+			<position x="40435.5" y="500" z="37094.9" />
+			<rotation yaw="270" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone005_Cluster_721_Sector001_macro']/connections/connection[@name='connection_ClusterGate721To']/offset"> <!-- void -->
+		<offset>
+			<position x="-29026.8" y="500" z="43048.1" />
+			<rotation yaw="60" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 722 - Sanctum Verge -->
+	<replace sel="/macros/macro[@name='Zone001_Cluster_722_Sector001_macro']/connections/connection[@name='connection_ClusterGate722To720']/offset"> <!-- hewa -->
+		<offset>
+			<position x="40435.5" y="500" z="-37094.9" />
+			<rotation yaw="300" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone003_Cluster_722_Sector001_macro']/connections/connection[@name='connection_ClusterGate722To723']/offset"> <!-- thyn -->
+		<offset>
+			<position x="40435.5" y="500" z="-37094.9" />
+			<rotation yaw="0" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone004_Cluster_722_Sector001_macro']/connections/connection[@name='connection_ClusterGate722To724']/offset"> <!-- tempting -->
+		<offset>
+			<position x="-40435.5" y="500" z="-37094.9" />
+			<rotation yaw="180" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone005_Cluster_722_Sector001_macro']/connections/connection[@name='connection_ClusterGate722To806']/offset"> <!-- cardinal -->
+		<offset>
+			<position x="435.5" y="500" z="-37094.9" />
+			<rotation yaw="0" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 723 - Tempting Fumes -->
+	<replace sel="/macros/macro[@name='Zone002_Cluster_723_Sector001_macro']/connections/connection[@name='connection_ClusterGate723To709']/offset"> <!-- moo-kye -->
+		<offset>
+			<position x="-40435.5" y="500" z="37094.9" />
+			<rotation yaw="180" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone003_Cluster_723_Sector001_macro']/connections/connection[@name='connection_ClusterGate723To']/offset"> <!-- redemption -->
+		<offset>
+			<position x="0" y="1000" z="0" />
+			<rotation yaw="30" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone004_Cluster_723_Sector001_macro']/connections/connection[@name='connection_ClusterGate723To722']/offset"> <!-- sanctum -->
+		<offset>
+			<position x="40435.5" y="500" z="-37094.9" />
+			<rotation yaw="0" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 724 - Circle of Deceit -->
+	<replace sel="/macros/macro[@name='Zone005_Cluster_724_Sector001_macro']/connections/connection[@name='connection_ClusterGate724To']/offset"> <!-- hewa -->
+		<offset>
+			<position x="-26081.8" y="500" z="-31284.1" />
+			<rotation yaw="60" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 725 - Void of Opportunity -->
+	<replace sel="/macros/macro[@name='Zone001_Cluster_725_Sector001_macro']/connections/connection[@name='connection_ClusterGate725To006']/offset">
+		<offset>
+			<position x="40435" y="500" z="37094" />
+			<rotation yaw="180" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	
+	
 	
 </diff>

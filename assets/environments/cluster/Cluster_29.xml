@@ -1,10 +1,9 @@
-<?xml version="1.0"?>
 <diff>
-	
-	
 	
 	<!-- Hatikvah's Choice -->
 	<!-- Everything is mirrored along the x/z-diagonal axis -->
+	
+	
 	
 	<!-- Main Star -->
 	<replace sel="/components/component[@name='Cluster_29']/layers/layer/lights/omni[@name='XU Omni02']/offset">

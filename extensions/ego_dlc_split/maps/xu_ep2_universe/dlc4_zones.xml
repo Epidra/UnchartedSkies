@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <diff>
 	
 	<!-- Sector 400 - Wretched Skies IV -->
@@ -9,26 +8,60 @@
 		</offset>
 	</replace>
 	
+	<!-- Sector 401 - # -->
+	<!--                -->
+	
 	<!-- Sector 402 - Family Kritt -->
-	<add sel="/macros/macro[@name='Zone001_Cluster_402_Sector001_macro']/connections">
-		<connection name="connection_ClusterGate402To602" ref="gates">
-			<offset>
-				<position x="34821" y="0" z="-41278" />
-				<rotation yaw="60" pitch="0" roll="0" />
-			</offset>
-			<macro ref="props_gates_anc_gate_macro" connection="space">
-          <properties>
-            <state active="false" />
-          </properties>
-        </macro>
-		</connection>
-	</add>
+	<replace sel="/macros/macro[@name='Zone002_Cluster_402_Sector001_macro']/connections/connection[@name='connection_ClusterGate402To414']/offset">
+		<offset>
+			<position x="-15000" y="0" z="-5000" />
+			<rotation yaw="180" pitch="0" roll="0" />
+		</offset>
+	</replace>
 	
 	<!-- Sector 403 - Wretched Skies V -->
 	<replace sel="/macros/macro[@name='Zone005_Cluster_403_Sector001_macro']/connections/connection[@name='connection_ClusterGate403To031']/offset">
 		<offset>
 			<position x="12164.7646484375" y="0" z="-31455.93359375" />
 			<rotation yaw="330" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 404 - # -->
+	<!--                -->
+	
+	<!-- Sector 405 - # -->
+	<!--                -->
+	
+	<!-- Sector 406 - # -->
+	<!--                -->
+	
+	<!-- Sector 407 - # -->
+	<!--                -->
+	
+	<!-- Sector 408 - # -->
+	<!--                -->
+	
+	<!-- Sector 409 - # -->
+	<!--                -->
+	
+	<!-- Sector 410 - Tharka's Ravine XVI -->
+	<replace sel="/macros/macro[@name='Zone003_Cluster_410_Sector001_macro']/connections/connection[@name='connection_ClusterGate410To409']/offset">
+		<offset>
+			<position x="-20000" y="0" z="10000" />
+			<rotation yaw="60" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone002_Cluster_410_Sector001_macro']/connections/connection[@name='connection_ClusterGate410To411']/offset">
+		<offset>
+			<position x="21949.03515625" y="0" z="38887.6875" />
+			<rotation yaw="180" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone005_Cluster_410_Sector001_macro']/connections/connection[@name='connection_ClusterGate410To412']/offset">
+		<offset>
+			<position x="48969.0234375" y="0" z="10352.7373046875" />
+			<rotation yaw="300" pitch="0" roll="0" />
 		</offset>
 	</replace>
 	
@@ -42,6 +75,12 @@
 			<macro ref="props_gates_anc_gate_macro" connection="space" />
 		</connection>
 	</add>
+	
+	<!-- Sector 412 - # -->
+	<!--                -->
+	
+	<!-- Sector 413 - # -->
+	<!--                -->
 	
 	<!-- Sector 414 - Rhy's Defiance -->
 	<replace sel="/macros/macro[@name='Zone005_Cluster_414_Sector001_macro']/connections/connection[@name='connection_ClusterGate414To402']/offset">
@@ -109,6 +148,9 @@
 		</offset>
 	</replace>
 	
+	<!-- Sector 418 - # -->
+	<!--                -->
+	
 	<!-- Sector 419 - Open Market -->
 	<replace sel="/macros/macro[@name='Zone002_Cluster_419_Sector001_macro']/connections/connection[@name='connection_ClusterGate419To405']/offset">
 		<offset>
@@ -117,7 +159,36 @@
 		</offset>
 	</replace>
 	
+	<!-- Sector 420 - Two Grand -->
+	<replace sel="/macros/macro[@name='Zone005_Cluster_420_Sector001_macro']/connections/connection[@name='connection_ClusterGate420To034']/offset">
+		<offset>
+			<position x="-35707.03125" y="0" z="-23143.279296875" />
+			<rotation yaw="30" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Zone004_Cluster_420_Sector001_macro']/connections/connection[@name='connection_ClusterGate420To421']/offset">
+		<offset>
+			<position x="34648.65234375" y="0" z="-36611.10546875" />
+			<rotation yaw="300" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 421 - # -->
+	<!--                -->
+	
+	<!-- Sector 422 - # -->
+	<!--                -->
+	
 	<!-- Sector 423 - Litany of Fury -->
+	<add sel="/macros/macro[@name='Zone002_Cluster_423_Sector002_macro']/connections">
+		<connection name="connection_ClusterGate423To400" ref="gates">
+			<offset>
+				<position x="-14821" y="0" z="-41278" />
+				<rotation yaw="240" pitch="0" roll="0" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
+	</add>
 	<add sel="/macros/macro[@name='Zone005_Cluster_423_Sector002_macro']/connections">
 		<connection name="connection_ClusterGate423To800" ref="gates">
 			<offset>
@@ -143,9 +214,23 @@
 	<!-- Sector 424 - Emperor's Pride -->
 	<replace sel="/macros/macro[@name='Zone005_Cluster_424_Sector001_macro']/connections/connection[@name='connection_ClusterGate424To423']/offset">
 		<offset>
-			<position x="-63229.4619140625" y="0" z="7996.5209960938" />
-			<rotation yaw="0" pitch="0" roll="0" />
+			<position x="43229.4619140625" y="0" z="7996.5209960938" />
+			<rotation yaw="330" pitch="0" roll="0" />
 		</offset>
 	</replace>
+	<add sel="/macros/macro[@name='Zone004_Cluster_424_Sector001_macro']/connections">
+		<connection name="connection_ClusterGate424To300" ref="gates">
+			<offset>
+				<position x="-25000" y="0" z="25000" />
+				<rotation yaw="90" pitch="0" roll="0" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
+	</add>
+	
+	<!-- Sector 425 - # -->
+	<!--                -->
+	
+	
 	
 </diff>

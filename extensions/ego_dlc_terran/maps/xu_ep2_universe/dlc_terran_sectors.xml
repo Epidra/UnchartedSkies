@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
 <diff>
+	
+	<!-- Sector 100 - # -->
+	<!--                -->
 	
 	<!-- Sector 101 - Mars -->
 	<replace sel="/macros/macro[@name='Cluster_101_Sector001_macro']/connections/connection[@name='Zone005_Cluster_101_Sector001_connection']/offset">
@@ -23,6 +25,9 @@
 		<offset><position x="77155.703125" y="0" z="-90514.46875" /></offset>
 	</replace>
 	
+	<!-- Sector 103 - # -->
+	<!--                -->
+	
 	<!-- Sector 104 - Earth / Moon -->
 	<replace sel="/macros/macro[@name='Cluster_104_Sector002_macro']/connections/connection[@name='Zone005_Cluster_104_Sector002_connection']/offset">
 		<offset><position x="92491.0078125" y="0" z="121375" /></offset>
@@ -39,6 +44,9 @@
 	<replace sel="/macros/macro[@name='Cluster_104_Sector002_macro']/connections/connection[@name='Zone004_Cluster_104_Sector002_connection']/offset">
 		<offset><position x="-18336.318359375" y="0" z="75625" /></offset>
 	</replace>
+	
+	<!-- Sector 105 - # -->
+	<!--                -->
 	
 	<!-- Sector 106 - Mercury -->
 	<replace sel="/macros/macro[@name='Cluster_106_Sector001_macro']/connections/connection[@name='Zone001_Cluster_106_Sector001_connection']/offset">
@@ -95,12 +103,28 @@
 		<offset><position x="-109002.078125" y="0" z="-85623.265625" /></offset>
 	</replace>
 	
-	<!-- Sector 111 - Pluto -->
-		<!-- unchanged -->
+	<!-- Sector 111 - # -->
+	<!--                -->
+	
+	<!-- Sector 112 - Savage Spur -->
+	<replace sel="/macros/macro[@name='Cluster_112_Sector002_macro']/connections/connection[@name='Zone001_Cluster_112_Sector002_connection']/offset">
+		<offset><position x="-110153.03125" y="0" z="150765.625" /></offset>
+	</replace>
+	
+	<!-- Sector 113 - Segaris -->
+	<replace sel="/macros/macro[@name='Cluster_113_Sector001_macro']/connections/connection[@name='Zone004_Cluster_113_Sector001_connection']/offset">
+		<offset><position x="31565.6280517578" y="0" z="-35000" /></offset>
+	</replace>
 	
 	<!-- Sector 113 - Segaris - XPAN Sector -->
-	<replace sel="/macros/macro[@name='Cluster_113_Sector001_macro']/connections/connection[@name='ZoneXPAN1_Cluster_113_Sector001_connection']/offset">
-		<offset><position x="275000" y="0" z="-275000" /></offset>
+	<remove sel="/macros/macro[@name='Cluster_113_Sector001_macro']/connections/connection[@name='ZoneXPAN1_Cluster_113_Sector001_connection']"></remove>
+	
+	<!-- Sector 114 - # -->
+	<!--                -->
+	
+	<!-- Sector 115 - Brennan's Triumph -->
+	<replace sel="/macros/macro[@name='Cluster_116_Sector001_macro']/connections/connection[@name='Zone002_Cluster_116_Sector001_connection']/offset">
+		<offset><position x="121893.0390625" y="0" z="-70436.6328125" /></offset>
 	</replace>
 	
 	<!-- Sector 116 - Oort Cloud -->
@@ -119,5 +143,7 @@
 	<replace sel="/macros/macro[@name='Cluster_116_Sector001_macro']/connections/connection[@name='Zone005_Cluster_116_Sector001_connection']/offset">
 		<offset><position x="-75408.1328125" y="0" z="-126087.234375" /></offset>
 	</replace>
+	
+	
 	
 </diff>

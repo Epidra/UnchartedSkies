@@ -1,380 +1,506 @@
-<?xml version="1.0" encoding="utf-8"?>
 <diff>
 	
-	<!-- New Sectors -->
-	<add sel="/macros">
-		
-		<!-- Sector 800 - Hades -->
-		<macro name="Cluster_800_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_800_Sector001_connection" ref="zones">	<offset>	<position x="0"      y="4000" z="0"       />	</offset>	<macro ref="Zone001_Cluster_800_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_800_Sector001_connection" ref="zones">	<offset>	<position x="0"      y="5000" z="120000"  />	</offset>	<macro ref="Zone002_Cluster_800_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_800_Sector001_connection" ref="zones">	<offset>	<position x="75000"  y="5000" z="75000"   />	</offset>	<macro ref="Zone003_Cluster_800_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_800_Sector001_connection" ref="zones">	<offset>	<position x="75000"  y="5000" z="-75000"  />	</offset>	<macro ref="Zone004_Cluster_800_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone005_Cluster_800_Sector001_connection" ref="zones">	<offset>	<position x="0"      y="5000" z="-120000" />	</offset>	<macro ref="Zone005_Cluster_800_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone006_Cluster_800_Sector001_connection" ref="zones">	<offset>	<position x="-75000" y="5000" z="-75000"  />	</offset>	<macro ref="Zone006_Cluster_800_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone007_Cluster_800_Sector001_connection" ref="zones">	<offset>	<position x="-75000" y="5000" z="75000"   />	</offset>	<macro ref="Zone007_Cluster_800_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 801 - Light Water -->
-		<macro name="Cluster_801_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_801_Sector001_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"       />	</offset>	<macro ref="Zone001_Cluster_801_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_801_Sector001_connection" ref="zones">	<offset>	<position x="150000"  y="0" z="150000"  />	</offset>	<macro ref="Zone002_Cluster_801_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_801_Sector001_connection" ref="zones">	<offset>	<position x="50000"   y="0" z="-250000" />	</offset>	<macro ref="Zone003_Cluster_801_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_801_Sector001_connection" ref="zones">	<offset>	<position x="-175000" y="0" z="-75000"  />	</offset>	<macro ref="Zone004_Cluster_801_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone005_Cluster_801_Sector001_connection" ref="zones">	<offset>	<position x="-150000" y="0" z="150000"  />	</offset>	<macro ref="Zone005_Cluster_801_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 802 - Fifth Cascade -->
-		<macro name="Cluster_802_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_802_Sector001_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"       />	</offset>	<macro ref="Zone001_Cluster_802_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_802_Sector001_connection" ref="zones">	<offset>	<position x="-200000" y="0" z="50000"   />	</offset>	<macro ref="Zone002_Cluster_802_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_802_Sector001_connection" ref="zones">	<offset>	<position x="150000"  y="0" z="50000"   />	</offset>	<macro ref="Zone003_Cluster_802_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_802_Sector001_connection" ref="zones">	<offset>	<position x="-50000"  y="0" z="-150000" />	</offset>	<macro ref="Zone004_Cluster_802_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone005_Cluster_802_Sector001_connection" ref="zones">	<offset>	<position x="175000"  y="0" z="-175000" />	</offset>	<macro ref="Zone005_Cluster_802_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 803 - Shadow of Giants -->
-		<macro name="Cluster_803_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_803_Sector001_connection" ref="zones">	<offset>	<position x="0"      y="0" z="0"       />	</offset>	<macro ref="Zone001_Cluster_803_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_803_Sector001_connection" ref="zones">	<offset>	<position x="125000" y="0" z="25000"   />	</offset>	<macro ref="Zone002_Cluster_803_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_803_Sector001_connection" ref="zones">	<offset>	<position x="-75000" y="0" z="-75000"  />	</offset>	<macro ref="Zone003_Cluster_803_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_803_Sector001_connection" ref="zones">	<offset>	<position x="175000" y="0" z="-175000" />	</offset>	<macro ref="Zone004_Cluster_803_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone005_Cluster_803_Sector001_connection" ref="zones">	<offset>	<position x="0"      y="0" z="-375000" />	</offset>	<macro ref="Zone005_Cluster_803_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 804 - Shining Currents -->
-		<macro name="Cluster_804_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_804_Sector001_connection" ref="zones">	<offset>	<position x="0"      y="0" z="0"       />	</offset>	<macro ref="Zone001_Cluster_804_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_804_Sector001_connection" ref="zones">	<offset>	<position x="-78000" y="0" z="12000"   />	</offset>	<macro ref="Zone002_Cluster_804_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_804_Sector001_connection" ref="zones">	<offset>	<position x="155000" y="0" z="-50000"  />	</offset>	<macro ref="Zone003_Cluster_804_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_804_Sector001_connection" ref="zones">	<offset>	<position x="-9800"  y="0" z="-300000" />	</offset>	<macro ref="Zone004_Cluster_804_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 805 - Shores of Infinity -->
-		<macro name="Cluster_805_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_805_Sector001_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"       />	</offset>	<macro ref="Zone001_Cluster_805_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_805_Sector001_connection" ref="zones">	<offset>	<position x="100000"  y="0" z="-100000" />	</offset>	<macro ref="Zone002_Cluster_805_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_805_Sector001_connection" ref="zones">	<offset>	<position x="-150000" y="0" z="150000"  />	</offset>	<macro ref="Zone003_Cluster_805_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_805_Sector001_connection" ref="zones">	<offset>	<position x="-100000" y="0" z="-150000" />	</offset>	<macro ref="Zone004_Cluster_805_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone005_Cluster_805_Sector001_connection" ref="zones">	<offset>	<position x="25000"  y="0" z="200000"  />	</offset>	<macro ref="Zone005_Cluster_805_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 806 - Preacher's Void IV -->
-		<macro name="Cluster_806_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_806_Sector001_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"       />	</offset>	<macro ref="Zone001_Cluster_806_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_806_Sector001_connection" ref="zones">	<offset>	<position x="0"       y="0" z="200000"  />	</offset>	<macro ref="Zone003_Cluster_806_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_806_Sector001_connection" ref="zones">	<offset>	<position x="200000"  y="0" z="-175000"  />	</offset>	<macro ref="Zone002_Cluster_806_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_806_Sector001_connection" ref="zones">	<offset>	<position x="0"       y="0" z="-300000" />	</offset>	<macro ref="Zone004_Cluster_806_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone005_Cluster_806_Sector001_connection" ref="zones">	<offset>	<position x="-250000" y="0" z="-175000"  />	</offset>	<macro ref="Zone005_Cluster_806_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 807 - Preacher's Void VI -->
-		<macro name="Cluster_807_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_807_Sector001_connection" ref="zones">	<offset>	<position x="0"      y="0" z="0"      />	</offset>	<macro ref="Zone001_Cluster_807_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_807_Sector001_connection" ref="zones">	<offset>	<position x="-175000" y="0" z="125000"  />	</offset>	<macro ref="Zone003_Cluster_807_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_807_Sector001_connection" ref="zones">	<offset>	<position x="175000"  y="0" z="175000"  />	</offset>	<macro ref="Zone002_Cluster_807_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_807_Sector001_connection" ref="zones">	<offset>	<position x="0"      y="0" z="-175000" />	</offset>	<macro ref="Zone004_Cluster_807_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 808 - Ocraroke's Storm -->
-		<macro name="Cluster_808_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_808_Sector001_connection" ref="zones">	<offset>	<position x="0"      y="0"     z="0"      />	</offset>	<macro ref="Zone001_Cluster_808_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_808_Sector001_connection" ref="zones">	<offset>	<position x="-75000" y="0"     z="-75000" />	</offset>	<macro ref="Zone002_Cluster_808_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_808_Sector001_connection" ref="zones">	<offset>	<position x="75000"  y="0"     z="0"      />	</offset>	<macro ref="Zone003_Cluster_808_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_808_Sector001_connection" ref="zones">	<offset>	<position x="-75000" y="-2000" z="75000"  />	</offset>	<macro ref="Zone004_Cluster_808_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone005_Cluster_808_Sector001_connection" ref="zones">	<offset>	<position x="25000"  y="-1000" z="75000"  />	</offset>	<macro ref="Zone005_Cluster_808_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 809 - Thyn's Abyss -->
-		<macro name="Cluster_809_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_809_Sector001_connection" ref="zones">	<offset>	<position x="0"      y="0" z="0"       />	</offset>	<macro ref="Zone001_Cluster_809_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_809_Sector001_connection" ref="zones">	<offset>	<position x="250000"  y="0" z="175000"   />	</offset>	<macro ref="Zone002_Cluster_809_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_809_Sector001_connection" ref="zones">	<offset>	<position x="-175000" y="0" z="0"       />	</offset>	<macro ref="Zone003_Cluster_809_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_809_Sector001_connection" ref="zones">	<offset>	<position x="175000"  y="0" z="-175000"  />	</offset>	<macro ref="Zone004_Cluster_809_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone005_Cluster_809_Sector001_connection" ref="zones">	<offset>	<position x="-175000" y="0" z="-250000" />	</offset>	<macro ref="Zone005_Cluster_809_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 810 - Mists of Elysium I -->
-		<macro name="Cluster_810_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_810_Sector001_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"       />	</offset>	<macro ref="Zone001_Cluster_810_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_810_Sector001_connection" ref="zones">	<offset>	<position x="0"       y="0" z="100000"  />	</offset>	<macro ref="Zone002_Cluster_810_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_810_Sector001_connection" ref="zones">	<offset>	<position x="-100000" y="0" z="-50000"  />	</offset>	<macro ref="Zone003_Cluster_810_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_810_Sector001_connection" ref="zones">	<offset>	<position x="50000"   y="0" z="-100000" />	</offset>	<macro ref="Zone004_Cluster_810_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 811 - Mists of Elysium II -->
-		<macro name="Cluster_811_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_811_Sector001_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"      />	</offset>	<macro ref="Zone001_Cluster_811_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_811_Sector001_connection" ref="zones">	<offset>	<position x="-100000" y="0" z="150000" />	</offset>	<macro ref="Zone002_Cluster_811_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_811_Sector001_connection" ref="zones">	<offset>	<position x="100000"  y="0" z="50000"  />	</offset>	<macro ref="Zone003_Cluster_811_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_811_Sector001_connection" ref="zones">	<offset>	<position x="100000"  y="0" z="-50000" />	</offset>	<macro ref="Zone004_Cluster_811_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 812 - Mists of Elysium III -->
-		<macro name="Cluster_812_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_812_Sector001_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"      />	</offset>	<macro ref="Zone001_Cluster_812_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_812_Sector001_connection" ref="zones">	<offset>	<position x="100000"  y="0" z="-75000" />	</offset>	<macro ref="Zone002_Cluster_812_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_812_Sector001_connection" ref="zones">	<offset>	<position x="50000"   y="0" z="100000" />	</offset>	<macro ref="Zone003_Cluster_812_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_812_Sector001_connection" ref="zones">	<offset>	<position x="-100000" y="0" z="50000"  />	</offset>	<macro ref="Zone004_Cluster_812_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 813 - Inquisitor's Wrath -->
-		<macro name="Cluster_813_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_813_Sector001_connection" ref="zones">	<offset>	<position x="0"      y="0" z="0"       />	</offset>	<macro ref="Zone001_Cluster_813_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_813_Sector001_connection" ref="zones">	<offset>	<position x="-150000" y="0" z="175000"   />	</offset>	<macro ref="Zone002_Cluster_813_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_813_Sector001_connection" ref="zones">	<offset>	<position x="5000"   y="0" z="-225000" />	</offset>	<macro ref="Zone003_Cluster_813_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_813_Sector001_connection" ref="zones">	<offset>	<position x="275000" y="0" z="-125000"  />	</offset>	<macro ref="Zone004_Cluster_813_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 814 - Clarity's End -->
-		<macro name="Cluster_814_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_814_Sector001_connection" ref="zones">	<offset>	<position x="0"      y="0" z="0"      />	</offset>	<macro ref="Zone001_Cluster_814_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_814_Sector001_connection" ref="zones">	<offset>	<position x="-250000" y="0" z="275000"  />	</offset>	<macro ref="Zone002_Cluster_814_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_814_Sector001_connection" ref="zones">	<offset>	<position x="200000" y="0" z="-215000" />	</offset>	<macro ref="Zone003_Cluster_814_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_814_Sector001_connection" ref="zones">	<offset>	<position x="225000"  y="0" z="275000"  />	</offset>	<macro ref="Zone004_Cluster_814_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone005_Cluster_814_Sector001_connection" ref="zones">	<offset>	<position x="-225000" y="0" z="-275000" />	</offset>	<macro ref="Zone005_Cluster_814_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 815 - Consecrated Fire -->
-		<macro name="Cluster_815_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_815_Sector001_connection" ref="zones">	<offset>	<position x="0"      y="0" z="0"       />	</offset>	<macro ref="Zone001_Cluster_815_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_815_Sector001_connection" ref="zones">	<offset>	<position x="-25000" y="0" z="75000"   />	</offset>	<macro ref="Zone002_Cluster_815_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_815_Sector001_connection" ref="zones">	<offset>	<position x="-75000" y="0" z="-25000"  />	</offset>	<macro ref="Zone003_Cluster_815_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_815_Sector001_connection" ref="zones">	<offset>	<position x="75000"  y="0" z="-5000"   />	</offset>	<macro ref="Zone004_Cluster_815_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone005_Cluster_815_Sector001_connection" ref="zones">	<offset>	<position x="0"      y="0" z="-150000" />	</offset>	<macro ref="Zone005_Cluster_815_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 816 - Great Trench - s001 -->
-		<macro name="Cluster_816_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_816_Sector001_connection"              ref="zones">	<offset>	<position x="-15000"          y="0" z="-50000"   />	</offset>	<macro ref="Zone001_Cluster_816_Sector001_macro"              connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_816_Sector001_connection"              ref="zones">	<offset>	<position x="-50000"          y="0" z="-150000" />	</offset>	<macro ref="Zone002_Cluster_816_Sector001_macro"              connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_816_Sector001_connection"              ref="zones">	<offset>	<position x="-100000"         y="0" z="-300000" />	</offset>	<macro ref="Zone003_Cluster_816_Sector001_macro"              connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_816_Sector001_connection"              ref="zones">	<offset>	<position x="-25000"          y="0" z="90000" />	</offset>	<macro ref="Zone004_Cluster_816_Sector001_macro"              connection="sector" />	</connection>
-				<connection name="tzoneCluster_816_Sector001SHCon6_GateZone_connection"  ref="zones">	<offset>	<position x="-55535.78125"    y="0" z="200000"  />	</offset>	<macro ref="tzoneCluster_816_Sector001SHCon6_GateZone_macro"  connection="sector" />	</connection>
-				<connection name="tzoneCluster_816_Sector001SHCon10_GateZone_connection" ref="zones">	<offset>	<position x="-45588.63671875" y="0" z="200000"  />	</offset>	<macro ref="tzoneCluster_816_Sector001SHCon10_GateZone_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 816 - Great Trench - s002 -->
-		<macro name="Cluster_816_Sector002_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_816_Sector002_connection"             ref="zones">	<offset>	<position x="0"            y="0" z="0"       />	</offset>	<macro ref="Zone001_Cluster_816_Sector002_macro"             connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_816_Sector002_connection"             ref="zones">	<offset>	<position x="125000"       y="0" z="50000"   />	</offset>	<macro ref="Zone002_Cluster_816_Sector002_macro"             connection="sector" />	</connection>
-				<connection name="tzoneCluster_816_Sector002SHCon5_GateZone_connection" ref="zones">	<offset>	<position x="134166.84375" y="0" z="-200000" />	</offset>	<macro ref="tzoneCluster_816_Sector002SHCon5_GateZone_macro" connection="sector" />	</connection>
-				<connection name="tzoneCluster_816_Sector002SHCon9_GateZone_connection" ref="zones">	<offset>	<position x="143991.96875" y="0" z="-200000" />	</offset>	<macro ref="tzoneCluster_816_Sector002SHCon9_GateZone_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 817 - Dark Waters -->
-		<macro name="Cluster_817_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_817_Sector001_connection" ref="zones">	<offset>	<position x="0"      y="0" z="0"       />	</offset>	<macro ref="Zone001_Cluster_817_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_817_Sector001_connection" ref="zones">	<offset>	<position x="75000"  y="0" z="-150000" />	</offset>	<macro ref="Zone002_Cluster_817_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_817_Sector001_connection" ref="zones">	<offset>	<position x="225000" y="0" z="-25000"  />	</offset>	<macro ref="Zone003_Cluster_817_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_817_Sector001_connection" ref="zones">	<offset>	<position x="-75000" y="0" z="75000"   />	</offset>	<macro ref="Zone004_Cluster_817_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 818 - Mines of Fortune -->
-		<macro name="Cluster_818_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_818_Sector001_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"      />	</offset>	<macro ref="Zone001_Cluster_818_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_818_Sector001_connection" ref="zones">	<offset>	<position x="-125000" y="0" z="50000"  />	</offset>	<macro ref="Zone002_Cluster_818_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_818_Sector001_connection" ref="zones">	<offset>	<position x="125000"  y="0" z="50000"  />	</offset>	<macro ref="Zone003_Cluster_818_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_818_Sector001_connection" ref="zones">	<offset>	<position x="25000"   y="0" z="-75000" />	</offset>	<macro ref="Zone004_Cluster_818_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 819 - Matrix 79A -->
-		<macro name="Cluster_819_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_819_Sector001_connection" ref="zones">	<offset>	<position x="0"      y="0" z="0"       />	</offset>	<macro ref="Zone001_Cluster_819_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_819_Sector001_connection" ref="zones">	<offset>	<position x="-75000" y="0" z="-100000" />	</offset>	<macro ref="Zone002_Cluster_819_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_819_Sector001_connection" ref="zones">	<offset>	<position x="-50000" y="0" z="75000"   />	</offset>	<macro ref="Zone003_Cluster_819_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_819_Sector001_connection" ref="zones">	<offset>	<position x="250000" y="0" z="75000"   />	</offset>	<macro ref="Zone004_Cluster_819_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone005_Cluster_819_Sector001_connection" ref="zones">	<offset>	<position x="75000"  y="0" z="-150000" />	</offset>	<macro ref="Zone005_Cluster_819_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 820 - Wastelands III -->
-		<macro name="Cluster_820_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_820_Sector001_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"      />	</offset>	<macro ref="Zone001_Cluster_820_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_820_Sector001_connection" ref="zones">	<offset>	<position x="-150000" y="0" z="100000" />	</offset>	<macro ref="Zone002_Cluster_820_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_820_Sector001_connection" ref="zones">	<offset>	<position x="-125000" y="0" z="150000" />	</offset>	<macro ref="Zone003_Cluster_820_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_820_Sector001_connection" ref="zones">	<offset>	<position x="50000"   y="0" z="-75000" />	</offset>	<macro ref="Zone004_Cluster_820_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone005_Cluster_820_Sector001_connection" ref="zones">	<offset>	<position x="25000"   y="0" z="50000"  />	</offset>	<macro ref="Zone005_Cluster_820_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 821 - Wastelands V -->
-		<macro name="Cluster_821_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_821_Sector001_connection" ref="zones">	<offset>	<position x="0"      y="0" z="0"       />	</offset>	<macro ref="Zone001_Cluster_821_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_821_Sector001_connection" ref="zones">	<offset>	<position x="150000" y="0" z="-75000"  />	</offset>	<macro ref="Zone002_Cluster_821_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_821_Sector001_connection" ref="zones">	<offset>	<position x="-75000" y="0" z="-150000" />	</offset>	<macro ref="Zone003_Cluster_821_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_821_Sector001_connection" ref="zones">	<offset>	<position x="75000"  y="0" z="75000"   />	</offset>	<macro ref="Zone004_Cluster_821_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 822 - The Shallows - s001 -->
-		<macro name="Cluster_822_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_822_Sector001_connection"             ref="zones">	<offset>	<position x="0"              y="0" z="0"           />	</offset>	<macro ref="Zone001_Cluster_822_Sector001_macro"             connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_822_Sector001_connection"             ref="zones">	<offset>	<position x="75000"          y="0" z="-75000"      />	</offset>	<macro ref="Zone002_Cluster_822_Sector001_macro"             connection="sector" />	</connection>
-				<connection name="tzoneCluster_822_Sector001SHCon5_GateZone_connection" ref="zones">	<offset>	<position x="39898.99609375" y="0" z="200000"      />	</offset>	<macro ref="tzoneCluster_822_Sector001SHCon5_GateZone_macro" connection="sector" />	</connection>
-				<connection name="tzoneCluster_822_Sector001SHCon7_GateZone_connection" ref="zones">	<offset>	<position x="-200000"        y="0" z="50000"       />	</offset>	<macro ref="tzoneCluster_822_Sector001SHCon7_GateZone_macro" connection="sector" />	</connection>
-				<connection name="tzoneCluster_822_Sector001SHCon8_GateZone_connection" ref="zones">	<offset>	<position x="-200000"        y="0" z="39999.71875" />	</offset>	<macro ref="tzoneCluster_822_Sector001SHCon8_GateZone_macro" connection="sector" />	</connection>
-				<connection name="tzoneCluster_822_Sector001SHCon9_GateZone_connection" ref="zones">	<offset>	<position x="50000"          y="0" z="200000"      />	</offset>	<macro ref="tzoneCluster_822_Sector001SHCon9_GateZone_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 822 - The Shallows - s002 -->
-		<macro name="Cluster_822_Sector002_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_822_Sector002_connection"              ref="zones">	<offset>	<position x="0"        y="0" z="0"              />	</offset>	<macro ref="Zone001_Cluster_822_Sector002_macro"              connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_822_Sector002_connection"              ref="zones">	<offset>	<position x="-75000"   y="0" z="15000"          />	</offset>	<macro ref="Zone002_Cluster_822_Sector002_macro"              connection="sector" />	</connection>
-				<connection name="tzoneCluster_822_Sector002SHCon5_GateZone_connection"  ref="zones">	<offset>	<position x="40468.75" y="0" z="200000"         />	</offset>	<macro ref="tzoneCluster_822_Sector002SHCon5_GateZone_macro"  connection="sector" />	</connection>
-				<connection name="tzoneCluster_822_Sector002SHCon9_GateZone_connection"  ref="zones">	<offset>	<position x="50000"    y="0" z="200000"         />	</offset>	<macro ref="tzoneCluster_822_Sector002SHCon9_GateZone_macro"  connection="sector" />	</connection>
-				<connection name="tzoneCluster_822_Sector002SHCon11_GateZone_connection" ref="zones">	<offset>	<position x="200000"   y="0" z="-40047.8515625" />	</offset>	<macro ref="tzoneCluster_822_Sector002SHCon11_GateZone_macro" connection="sector" />	</connection>
-				<connection name="tzoneCluster_822_Sector002SHCon12_GateZone_connection" ref="zones">	<offset>	<position x="200000"   y="0" z="-50000"         />	</offset>	<macro ref="tzoneCluster_822_Sector002SHCon12_GateZone_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 822 - The Shallows - s003 -->
-		<macro name="Cluster_822_Sector003_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_822_Sector003_connection"              ref="zones">	<offset>	<position x="0"           y="0" z="0"             />	</offset>	<macro ref="Zone001_Cluster_822_Sector003_macro"              connection="sector" />	</connection>	
-				<connection name="Zone002_Cluster_822_Sector003_connection"              ref="zones">	<offset>	<position x="25000"       y="0" z="75000"         />	</offset>	<macro ref="Zone002_Cluster_822_Sector003_macro"              connection="sector" />	</connection>
-				<connection name="tzoneCluster_822_Sector003SHCon4_GateZone_connection"  ref="zones">	<offset>	<position x="160195.3125" y="0" z="-200000"       />	</offset>	<macro ref="tzoneCluster_822_Sector003SHCon4_GateZone_macro"  connection="sector" />	</connection>
-				<connection name="tzoneCluster_822_Sector003SHCon6_GateZone_connection"  ref="zones">	<offset>	<position x="-50000"      y="0" z="-200000"       />	</offset>	<macro ref="tzoneCluster_822_Sector003SHCon6_GateZone_macro"  connection="sector" />	</connection>
-				<connection name="tzoneCluster_822_Sector003SHCon10_GateZone_connection" ref="zones">	<offset>	<position x="-39492.1875" y="0" z="-200000"       />	</offset>	<macro ref="tzoneCluster_822_Sector003SHCon10_GateZone_macro" connection="sector" />	</connection>
-				<connection name="tzoneCluster_822_Sector003SHCon12_GateZone_connection" ref="zones">	<offset>	<position x="170218.75"   y="0" z="-200035.15625" />	</offset>	<macro ref="tzoneCluster_822_Sector003SHCon12_GateZone_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 823 - Interworlds - s001 -->
-		<macro name="Cluster_823_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_823_Sector001_connection"              ref="zones">	<offset>	<position x="0"             y="0" z="0"       />	</offset>	<macro ref="Zone001_Cluster_823_Sector001_macro"              connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_823_Sector001_connection"              ref="zones">	<offset>	<position x="0"             y="0" z="75000"   />	</offset>	<macro ref="Zone002_Cluster_823_Sector001_macro"              connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_823_Sector001_connection"              ref="zones">	<offset>	<position x="-75000"        y="0" z="0"       />	</offset>	<macro ref="Zone003_Cluster_823_Sector001_macro"              connection="sector" />	</connection>
-				<connection name="tzoneCluster_823_Sector001SHCon6_GateZone_connection"  ref="zones">	<offset>	<position x="151323.765625" y="0" z="-200000" />	</offset>	<macro ref="tzoneCluster_823_Sector001SHCon6_GateZone_macro"  connection="sector" />	</connection>
-				<connection name="tzoneCluster_823_Sector001SHCon10_GateZone_connection" ref="zones">	<offset>	<position x="161340.546875" y="0" z="-200000" />	</offset>	<macro ref="tzoneCluster_823_Sector001SHCon10_GateZone_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
-		<!-- Sector 823 - Interworlds - s002 -->
-		<macro name="Cluster_823_Sector002_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_823_Sector002_connection"             ref="zones">	<offset>	<position x="0"          y="0" z="0"      />	</offset>	<macro ref="Zone001_Cluster_823_Sector002_macro"             connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_823_Sector002_connection"             ref="zones">	<offset>	<position x="75000"      y="0" z="0"      />	</offset>	<macro ref="Zone002_Cluster_823_Sector002_macro"             connection="sector" />	</connection>
-				<connection name="tzoneCluster_823_Sector002SHCon5_GateZone_connection" ref="zones">	<offset>	<position x="-50000"     y="0" z="200000" />	</offset>	<macro ref="tzoneCluster_823_Sector002SHCon5_GateZone_macro" connection="sector" />	</connection>
-				<connection name="tzoneCluster_823_Sector002SHCon9_GateZone_connection" ref="zones">	<offset>	<position x="-39984.375" y="0" z="200000" />	</offset>	<macro ref="tzoneCluster_823_Sector002SHCon9_GateZone_macro" connection="sector" />	</connection>	
-			</connections>
-		</macro>
-		
-		<!-- Sector 824 - Depths of Silence -->
-		<macro name="Cluster_824_Sector001_macro" class="sector">
-			<component ref="standardsector" />
-			<connections>
-				<connection name="Zone001_Cluster_824_Sector001_connection" ref="zones">	<offset>	<position x="0"       y="0" z="0"       />	</offset>	<macro ref="Zone001_Cluster_824_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone002_Cluster_824_Sector001_connection" ref="zones">	<offset>	<position x="0"       y="0" z="500000"  />	</offset>	<macro ref="Zone002_Cluster_824_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone003_Cluster_824_Sector001_connection" ref="zones">	<offset>	<position x="350000"  y="0" z="300000"  />	</offset>	<macro ref="Zone003_Cluster_824_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone004_Cluster_824_Sector001_connection" ref="zones">	<offset>	<position x="300000"  y="0" z="-350000" />	</offset>	<macro ref="Zone004_Cluster_824_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone005_Cluster_824_Sector001_connection" ref="zones">	<offset>	<position x="0"       y="0" z="-500000" />	</offset>	<macro ref="Zone005_Cluster_824_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone006_Cluster_824_Sector001_connection" ref="zones">	<offset>	<position x="-350000" y="0" z="-300000" />	</offset>	<macro ref="Zone006_Cluster_824_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone007_Cluster_824_Sector001_connection" ref="zones">	<offset>	<position x="-300000" y="0" z="350000"  />	</offset>	<macro ref="Zone007_Cluster_824_Sector001_macro" connection="sector" />	</connection>
-				<connection name="Zone008_Cluster_824_Sector001_connection" ref="zones">	<offset>	<position x="-600000" y="0" z="0"       />	</offset>	<macro ref="Zone008_Cluster_824_Sector001_macro" connection="sector" />	</connection>
-			</connections>
-		</macro>
-		
+	<!-- Sector 001 - Grand Exchange -->
+	<add sel="/macros/macro[@name='Cluster_01_Sector001_macro']/connections">
+		<connection name="Highway01_Cluster_01_Sector001_connection" ref="zonehighways">
+			<offset>
+				<position x="39553.19921875" y="0" z="61465.28515625" />
+			</offset>
+			<macro ref="Highway01_Cluster_01_Sector001_macro" connection="sector">
+				<connections>
+					<connection ref="exitpoint">
+						<macro path="../../Zone001_Cluster_01_Sector001_connection" connection="Highway01Connection02_gate" />
+					</connection>
+					<connection ref="entrypoint">
+						<macro path="../../Zone001_Cluster_01_Sector001_connection" connection="Highway01Connection01_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+	</add>
+	<add sel="/macros/macro[@name='Cluster_01_Sector002_macro']/connections">
+		<connection name="Highway01_Cluster_01_Sector002_connection" ref="zonehighways">
+			<offset>
+				<position x="108968.75" y="0" z="75221.6796875" />
+			</offset>
+			<macro ref="Highway01_Cluster_01_Sector002_macro" connection="sector">
+				<connections>
+					<connection ref="exitpoint">
+						<macro path="../../Zone002_Cluster_01_Sector002_connection" connection="Highway01Connection02_gate" />
+					</connection>
+					<connection ref="entrypoint">
+						<macro path="../../Zone001_Cluster_01_Sector002_connection" connection="Highway01Connection01_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+		<connection name="Highway02_Cluster_01_Sector002_connection" ref="zonehighways">
+			<offset>
+				<position x="82417.96875" y="0" z="60288.0859375" />
+			</offset>
+			<macro ref="Highway02_Cluster_01_Sector002_macro" connection="sector">
+				<connections>
+					<connection ref="entrypoint">
+						<macro path="../../Zone002_Cluster_01_Sector002_connection" connection="Highway02Connection01_gate" />
+					</connection>
+					<connection ref="exitpoint">
+						<macro path="../../Zone001_Cluster_01_Sector002_connection" connection="Highway02Connection02_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+		<connection name="Highway03_Cluster_01_Sector002_connection" ref="zonehighways">
+			<offset>
+				<position x="-16574.21875" y="0" z="87916.9921875" />
+			</offset>
+			<macro ref="Highway03_Cluster_01_Sector002_macro" connection="sector">
+				<connections>
+					<connection ref="exitpoint">
+						<macro path="../../Zone002_Cluster_01_Sector002_connection" connection="Highway03Connection02_gate" />
+					</connection>
+					<connection ref="entrypoint">
+						<macro path="../../Zone001_Cluster_01_Sector002_connection" connection="Highway03Connection01_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+	</add>
+	<add sel="/macros/macro[@name='Cluster_01_Sector003_macro']/connections">
+		<connection name="Highway01_Cluster_01_Sector003_connection" ref="zonehighways">
+			<offset>
+				<position x="53617.1875" y="0" z="-44070.3125" />
+			</offset>
+			<macro ref="Highway01_Cluster_01_Sector003_macro" connection="sector">
+				<connections>
+					<connection ref="exitpoint">
+						<macro path="../../Zone003_Cluster_01_Sector003_connection" connection="Highway01Connection02_gate" />
+					</connection>
+					<connection ref="entrypoint">
+						<macro path="../../Zone003_Cluster_01_Sector003_connection" connection="Highway01Connection01_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
 	</add>
 	
+	<!-- Sector 002 - Eighteen Billions -->
+	<replace sel="/macros/macro[@name='Cluster_02_Sector001_macro']/connections/connection[@name='Zone001_Cluster_02_Sector001_connection']/offset"> <!-- grand exchange -->
+		<offset>	<position x="-104310.4140625" y="0" z="-64096.015625" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_02_Sector001_macro']/connections/connection[@name='Zone002_Cluster_02_Sector001_connection']/offset"> <!-- memory of profit -->
+		<offset>	<position x="130416.3203125" y="0" z="-3192.765625" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_02_Sector001_macro']/connections/connection[@name='Zone003_Cluster_02_Sector001_connection']/offset"> <!-- shareholder fortune -->
+		<offset>	<position x="-17085.0625" y="0" z="-159801.140625" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_02_Sector001_macro']/connections/connection[@name='Zone004_Cluster_02_Sector001_connection']/offset"> <!-- windfall -->
+		<offset>	<position x="-79336.4140625" y="0" z="96889.015625" />	</offset>
+	</replace>
 	
+	<!-- Sector 003 - Memory of Profit IX -->
+	<add sel="/macros/macro[@name='Cluster_03_Sector001_macro']/connections">
+		<connection name="Highway01_Cluster_03_Sector001_connection" ref="zonehighways">
+			<offset>
+				<position x="-42156.31640625" y="0" z="8174.9267578125" />
+			</offset>
+			<macro ref="Highway01_Cluster_03_Sector001_macro" connection="sector">
+				<connections>
+					<connection ref="exitpoint">
+						<macro path="../../Zone001_Cluster_03_Sector001_connection" connection="Highway01Connection02_gate" />
+					</connection>
+					<connection ref="entrypoint">
+						<macro path="../../Zone001_Cluster_03_Sector001_connection" connection="Highway01Connection01_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+	</add>
 	
+	<!-- Sector 004 - # -->
+	<!--                -->
 	
+	<!-- Sector 005 - Path to Profit -->
+	<replace sel="/macros/macro[@name='Cluster_05_Sector001_macro']/connections/connection[@name='Zone004_Cluster_05_Sector001_connection']/offset">
+		<offset>	<position x="52811.34765625" y="0" z="-95246.0859375" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_05_Sector001_macro']/connections/connection[@name='Zone003_Cluster_05_Sector001_connection']/offset">
+		<offset>	<position x="-118114.5546875" y="0" z="-103206.5078125" />	</offset>
+	</replace>
 	
-	<!-- Reposition Zones -->
+	<!-- Sector 006 - Black Hole Sun -->
+	<add sel="/macros/macro[@name='Cluster_06_Sector001_macro']/connections">
+		<connection name="Highway01_Cluster_06_Sector001_connection" ref="zonehighways">
+			<offset>
+				<position x="9289.23046875" y="0" z="59166.3125" />
+			</offset>
+			<macro ref="Highway01_Cluster_06_Sector001_macro" connection="sector">
+				<connections>
+					<connection ref="exitpoint">
+						<macro path="../../Zone003_Cluster_06_Sector001_connection" connection="Highway01Connection02_gate" />
+					</connection>
+					<connection ref="entrypoint">
+						<macro path="../../Zone003_Cluster_06_Sector001_connection" connection="Highway01Connection01_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+	</add>
+	
+	<!-- Sector 007 - # -->
+	<!--                -->
+	
+	<!-- Sector 008 - Silent Witness -->
+	<replace sel="/macros/macro[@name='Cluster_08_Sector001_macro']/connections/connection[@name='Zone001_Cluster_08_Sector001_connection']/offset"> <!-- accelerator -->
+		<offset>	<position x="0" y="0" z="0" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_08_Sector001_macro']/connections/connection[@name='Zone002_Cluster_08_Sector001_connection']/offset"> <!-- ring ore -->
+		<offset>	<position x="141050.78125" y="0" z="-142354.203125" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_08_Sector001_macro']/connections/connection[@name='Zone003_Cluster_08_Sector001_connection']/offset"> <!-- president -->
+		<offset>	<position x="-209790.375" y="0" z="-145237.421875" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_08_Sector001_macro']/connections/connection[@name='Zone004_Cluster_08_Sector001_connection']/offset"> <!-- ring hatikvah -->
+		<offset>	<position x="-21851.80859375" y="0" z="53705.55859375" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_08_Sector001_macro']/connections/connection[@name='Zone005_Cluster_08_Sector001_connection']/offset"> <!-- empty -->
+		<offset>	 <position x="-138320.16015625" y="0" z="-40058.015625" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_08_Sector001_macro']/connections/connection[@name='Zone006_Cluster_08_Sector001_connection']/offset"> <!-- windfall -->
+		<offset>	<position x="-30000" y="0" z="-190000" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_08_Sector001_macro']/connections/connection[@name='Highway01_Cluster_08_Sector001_connection']">
+		<connection name="Highway01_Cluster_08_Sector001_connection" ref="zonehighways">
+			<offset>
+				<position x="37938.04296875" y="0" z="-29133.66015625" />
+			</offset>
+			<macro ref="Highway01_Cluster_08_Sector001_macro" connection="sector">
+				<connections>
+					<connection ref="exitpoint">
+						<macro path="../../Zone002_Cluster_08_Sector001_connection" connection="Highway01Connection02_gate" />
+					</connection>
+					<connection ref="entrypoint">
+						<macro path="../../Zone004_Cluster_08_Sector001_connection" connection="Highway01Connection01_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_08_Sector001_macro']/connections/connection[@name='Highway02_Cluster_08_Sector001_connection']">
+		<connection name="Highway02_Cluster_08_Sector001_connection" ref="zonehighways">
+			<offset>
+				<position x="21068.732421875" y="0" z="-30594.787109375" />
+			</offset>
+			<macro ref="Highway02_Cluster_08_Sector001_macro" connection="sector">
+				<connections>
+					<connection ref="entrypoint">
+						<macro path="../../Zone002_Cluster_08_Sector001_connection" connection="Highway02Connection01_gate" />
+					</connection>
+					<connection ref="exitpoint">
+						<macro path="../../Zone004_Cluster_08_Sector001_connection" connection="Highway02Connection02_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+	</replace>
 	
 	<!-- Sector 009 - Bright Promise -->
-	<replace sel="/macros/macro[@name='Cluster_09_Sector001_macro']/connections/connection[@name='Zone004_Cluster_09_Sector001_connection']/offset">
-		<offset>	<position x="152042.625" y="0" z="31248.265625" />	</offset>
+	<replace sel="/macros/macro[@name='Cluster_09_Sector001_macro']/connections/connection[@name='Zone001_Cluster_09_Sector001_connection']/offset"> <!-- highway - profit -->
+		<offset>	<position x="-149183.125" y="0" z="-4328.8134765625" />	</offset>
 	</replace>
+	<replace sel="/macros/macro[@name='Cluster_09_Sector001_macro']/connections/connection[@name='Zone002_Cluster_09_Sector001_connection']/offset"> <!-- empty -->
+		<offset>	<position x="-111396.7265625" y="0" z="98322.984375" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_09_Sector001_macro']/connections/connection[@name='Zone003_Cluster_09_Sector001_connection']/offset"> <!-- memory -->
+		<offset>	<position x="-51480.67578125" y="0" z="-149413.3203125" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_09_Sector001_macro']/connections/connection[@name='Zone004_Cluster_09_Sector001_connection']/offset"> <!-- inactive -->
+		<offset>	<position x="111542.984375" y="0" z="83540.9609375" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_09_Sector001_macro']/connections/connection[@name='Zone005_Cluster_09_Sector001_connection']/offset"> <!-- highway - doubt -->
+		<offset>	<position x="152552.3125" y="0" z="-91995.1875" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_09_Sector001_macro']/connections/connection[@name='Zone006_Cluster_09_Sector001_connection']/offset"> <!-- empty -->
+		<offset>	<position x="0" y="0" z="0" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_09_Sector001_macro']/connections/connection[@name='Highway01_Cluster_09_Sector001_connection']">
+		<connection name="Highway01_Cluster_09_Sector001_connection" ref="zonehighways">
+			<offset>
+				<position x="-18859.49609375" y="0" z="-15869.720703125" />
+			</offset>
+			<macro ref="Highway01_Cluster_09_Sector001_macro" connection="sector">
+				<connections>
+					<connection ref="exitpoint">
+						<macro path="../../Zone005_Cluster_09_Sector001_connection" connection="Highway01Connection02_gate" />
+					</connection>
+					<connection ref="entrypoint">
+						<macro path="../../Zone001_Cluster_09_Sector001_connection" connection="Highway01Connection01_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_09_Sector001_macro']/connections/connection[@name='Highway02_Cluster_09_Sector001_connection']">
+		<connection name="Highway02_Cluster_09_Sector001_connection" ref="zonehighways">
+			<offset>
+				<position x="14082.2216796875" y="0" z="-33668.875" />
+			</offset>
+			<macro ref="Highway02_Cluster_09_Sector001_macro" connection="sector">
+				<connections>
+					<connection ref="entrypoint">
+						<macro path="../../Zone005_Cluster_09_Sector001_connection" connection="Highway02Connection01_gate" />
+					</connection>
+					<connection ref="exitpoint">
+						<macro path="../../Zone001_Cluster_09_Sector001_connection" connection="Highway02Connection02_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+	</replace>
+	
+	<!-- Sector 010 - Unholy Retribution -->
+	<replace sel="/macros/macro[@name='Cluster_10_Sector001_macro']/connections/connection[@name='Zone001_Cluster_10_Sector001_connection']/offset">
+		<offset>	<position x="85.5541229248" y="0" z="115545.40625" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_10_Sector001_macro']/connections/connection[@name='Zone002_Cluster_10_Sector001_connection']/offset">
+		<offset>	<position x="103750.5" y="0" z="20340.15234375" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_10_Sector001_macro']/connections/connection[@name='Zone003_Cluster_10_Sector001_connection']/offset">
+		<offset>	<position x="-427.3376464844" y="0" z="-75385.25" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_10_Sector001_macro']/connections/connection[@name='Zone004_Cluster_10_Sector001_connection']/offset">
+		<offset>	<position x="-127621.703125" y="0" z="-33782.69921875" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_10_Sector001_macro']/connections/connection[@name='Highway01_Cluster_10_Sector001_connection']/offset">
+		<offset>	<position x="-33729.5703125" y="0" z="-2912.80078125" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_10_Sector001_macro']/connections/connection[@name='Highway02_Cluster_10_Sector001_connection']/offset">
+		<offset>	<position x="30514.888671875" y="0" z="-7045.4858398438" />	</offset>
+	</replace>
+	
+	<!-- Sector 011 - Pontifex' Claim -->
+	<replace sel="/macros/macro[@name='Cluster_11_Sector001_macro']/connections/connection[@name='Zone001_Cluster_11_Sector001_connection']/offset">
+		<offset>	<position x="152552.3125" y="0" z="-91995.1875" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_11_Sector001_macro']/connections/connection[@name='Zone003_Cluster_11_Sector001_connection']/offset">
+		<offset>	<position x="-51542.984375" y="0" z="-253540.9609375" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_11_Sector001_macro']/connections/connection[@name='Zone002_Cluster_11_Sector001_connection']/offset">
+		<offset>	<position x="-149183.125" y="0" z="-4328.8134765625" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_11_Sector001_macro']/connections/connection[@name='Highway03_Cluster_11_Sector001_connection']/offset">
+		<offset>	<position x="-18859.49609375" y="0" z="-15869.720703125" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_11_Sector001_macro']/connections/connection[@name='Highway02_Cluster_11_Sector001_connection']/offset">
+		<offset>	<position x="14082.2216796875" y="0" z="-33668.875" />	</offset>
+	</replace>
+	
+	<!-- Sector 012 - # -->
+	<!--                -->
+	
+	<!-- Sector 013 - # -->
+	<!--                -->
+	
+	<!-- Sector 014 - # -->
+	<!--                -->
+	
+	<!-- Sector 015 - # -->
+	<!--                -->
+	
+	<!-- Sector 016 - # -->
+	<!--                -->
+	
+	<!-- Sector 017 - # -->
+	<!--                -->
+	
+	<!-- Sector 018 - Trinity Sanctum III -->
+	<replace sel="/macros/macro[@name='Cluster_18_Sector001_macro']/connections/connection[@name='Zone001_Cluster_18_Sector001_connection']/offset">
+		<offset>	<position x="-40056,859375" y="0" z="31307,6953125" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_18_Sector001_macro']/connections/connection[@name='Zone002_Cluster_18_Sector001_connection']/offset">
+		<offset>	<position x="-174058.4375" y="0" z="-160956.125" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_18_Sector001_macro']/connections/connection[@name='Zone003_Cluster_18_Sector001_connection']/offset">
+		<offset>	<position x="95523.7265625" y="0" z="115834.1171875" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_18_Sector001_macro']/connections/connection[@name='Zone004_Cluster_18_Sector001_connection']/offset">
+		<offset>	<position x="108823.6083984375" y="0" z="196336.1328125" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_18_Sector001_macro']/connections/connection[@name='Zone005_Cluster_18_Sector001_connection']/offset">
+		<offset>	<position x="-131458.6171875" y="0" z="152953.5546875" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_18_Sector001_macro']/connections/connection[@name='Zone006_Cluster_18_Sector001_connection']/offset">
+		<offset>	<position x="60428.28515625" y="0" z="-42453.796875" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_18_Sector001_macro']/connections/connection[@name='Highway01_Cluster_18_Sector001_connection']/offset">
+		<offset>	<position x="-73836.0625" y="0" z="-106601.1328125" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_18_Sector001_macro']/connections/connection[@name='Highway02_Cluster_18_Sector001_connection']/offset">
+		<offset>	<position x="-97843.890625" y="0" z="-109681.9609375" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_18_Sector001_macro']/connections/connection[@name='Highway03_Cluster_18_Sector001_connection']">
+		<connection name="Highway03_Cluster_18_Sector001_connection" ref="zonehighways">
+			<offset>
+				<position x="45000" y="0" z="-45000" />
+			</offset>
+			<macro ref="Highway03_Cluster_18_Sector001_macro" connection="sector">
+				<connections>
+					<connection ref="exitpoint">
+						<macro path="../../Zone004_Cluster_18_Sector001_connection" connection="Highway03Connection02_gate" />
+					</connection>
+					<connection ref="entrypoint">
+						<macro path="../../Zone001_Cluster_18_Sector001_connection" connection="Highway03Connection01_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+	</replace>
+	
+	<!-- Sector 019 - # -->
+	<!--                -->
+	
+	<!-- Sector 020 - Company Regard -->
+	<add sel="/macros/macro[@name='Cluster_20_Sector001_macro']/connections">
+		<connection name="Highway03_Cluster_20_Sector001_connection" ref="zonehighways">
+			<offset>
+				<position x="-35424.08203125" y="0" z="58333.21484375" />
+			</offset>
+			<macro ref="Highway03_Cluster_20_Sector001_macro" connection="sector">
+				<connections>
+					<connection ref="entrypoint">
+						<macro path="../../Zone003_Cluster_20_Sector001_connection" connection="Highway03Connection01_gate" />
+					</connection>
+					<connection ref="exitpoint">
+						<macro path="../../Zone001_Cluster_20_Sector001_connection" connection="Highway03Connection02_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+		<connection name="Highway01_Cluster_20_Sector001_connection" ref="zonehighways">
+			<offset>
+				<position x="-29817.515625" y="0" z="-6397.1938476562" />
+			</offset>
+			<macro ref="Highway01_Cluster_20_Sector001_macro" connection="sector">
+				<connections>
+					<connection ref="exitpoint">
+						<macro path="../../Zone003_Cluster_20_Sector001_connection" connection="Highway01Connection02_gate" />
+					</connection>
+					<connection ref="entrypoint">
+						<macro path="../../Zone001_Cluster_20_Sector001_connection" connection="Highway01Connection01_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+	</add>
+	
+	<!-- Sector 021 - Scale Plate Green -->
+	<add sel="/macros/macro[@name='Cluster_21_Sector001_macro']/connections">
+		<connection name="Highway01_Cluster_21_Sector001_connection" ref="zonehighways">
+			<offset>
+				<position x="39859.0546875" y="0" z="2877.361328125" />
+			</offset>
+			<macro ref="Highway01_Cluster_21_Sector001_macro" connection="sector">
+				<connections>
+					<connection ref="entrypoint">
+						<macro path="../../Zone003_Cluster_21_Sector001_connection" connection="Highway01Connection01_gate" />
+					</connection>
+					<connection ref="exitpoint">
+						<macro path="../../Zone001_Cluster_21_Sector001_connection" connection="Highway01Connection02_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+		<connection name="Highway02_Cluster_21_Sector001_connection" ref="zonehighways">
+			<offset>
+				<position x="75027.5390625" y="0" z="2367.671875" />
+			</offset>
+			<macro ref="Highway02_Cluster_21_Sector001_macro" connection="sector">
+				<connections>
+					<connection ref="exitpoint">
+						<macro path="../../Zone003_Cluster_21_Sector001_connection" connection="Highway02Connection02_gate" />
+					</connection>
+					<connection ref="entrypoint">
+						<macro path="../../Zone001_Cluster_21_Sector001_connection" connection="Highway02Connection01_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+	</add>
 	
 	<!-- Sector 022 - Pious Mists II -->
 	<replace sel="/macros/macro[@name='Cluster_22_Sector001_macro']/connections/connection[@name='Zone001_Cluster_22_Sector001_connection']/offset">
-		<offset>	<position x="-145545.40625" y="0" z="111285.5541229248" />	</offset>
+		<offset>	<position x="-79242.234375" y="0" z="5013.5" />	</offset>
 	</replace>
+	<replace sel="/macros/macro[@name='Cluster_22_Sector001_macro']/connections/connection[@name='Zone002_Cluster_22_Sector001_connection']/offset">
+		<offset>	<position x="90039.9140625" y="0" z="105351.0703125" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_22_Sector001_macro']/connections/connection[@name='Zone003_Cluster_22_Sector001_connection']/offset">
+		<offset>	<position x="-80190.84375" y="0" z="99632.9453125" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_22_Sector001_macro']/connections/connection[@name='Zone004_Cluster_22_Sector001_connection']/offset">
+		<offset>	<position x="48767.76171875" y="0" z="-43283.76171875" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_22_Sector001_macro']/connections/connection[@name='Zone005_Cluster_22_Sector001_connection']/offset">
+		<offset>	<position x="100000" y="0" z="100000" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_22_Sector001_macro']/connections/connection[@name='Highway01_Cluster_22_Sector001_connection']/offset">
+		<offset>	<position x="7475.232421875" y="0" z="49608.69140625" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_22_Sector001_macro']/connections/connection[@name='Highway02_Cluster_22_Sector001_connection']/offset">
+		<offset>	<position x="44285.6171875" y="0" z="40409.47265625" />	</offset>
+	</replace>
+	<add sel="/macros/macro[@name='Cluster_22_Sector001_macro']/connections">
+		<connection name="Highway03_Cluster_22_Sector001_connection" ref="zonehighways">
+			<offset>
+				<position x="61000.2421875" y="0" z="-16689.73828125" />
+			</offset>
+			<macro ref="Highway03_Cluster_22_Sector001_macro" connection="sector">
+				<connections>
+					<connection ref="entrypoint">
+						<macro path="../../Zone001_Cluster_22_Sector001_connection" connection="Highway03Connection01_gate" />
+					</connection>
+					<connection ref="exitpoint">
+						<macro path="../../Zone002_Cluster_22_Sector001_connection" connection="Highway03Connection02_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+	</add>
 	
 	<!-- Sector 023 - Sacred Relic -->
-	<replace sel="/macros/macro[@name='Cluster_23_Sector001_macro']/connections/connection[@name='Zone002_Cluster_23_Sector001_connection']/offset">
+	<replace sel="/macros/macro[@name='Cluster_23_Sector001_macro']/connections/connection[@name='Zone001_Cluster_23_Sector001_connection']/offset">
 		<offset>	<position x="-95614.76953125" y="0" z="-92201.28125" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_23_Sector001_macro']/connections/connection[@name='Zone002_Cluster_23_Sector001_connection']/offset">
+		<offset>	<position x="-114153.03125" y="0" z="116118.703125" />	</offset>
 	</replace>
 	<replace sel="/macros/macro[@name='Cluster_23_Sector001_macro']/connections/connection[@name='Zone004_Cluster_23_Sector001_connection']/offset">
 		<offset>	<position x="-21916.24609375" y="0" z="108944.6796875" />	</offset>
 	</replace>
+	
+	<!-- Sector 024 - # -->
+	<!--                -->
+	
+	<!-- Sector 025 - Faulty Logic -->
+	<add sel="/macros/macro[@name='Cluster_25_Sector002_macro']/connections">
+		<connection name="Highway01_Cluster_25_Sector002_connection" ref="zonehighways">
+			<offset>
+				<position x="67131.7421875" y="0" z="50507.8125" />
+			</offset>
+			<macro ref="Highway01_Cluster_25_Sector002_macro" connection="sector">
+				<connections>
+					<connection ref="exitpoint">
+						<macro path="../../Zone001_Cluster_25_Sector002_connection" connection="Highway01Connection02_gate" />
+					</connection>
+					<connection ref="entrypoint">
+						<macro path="../../Zone001_Cluster_25_Sector002_connection" connection="Highway01Connection01_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+	</add>
+	
+	<!-- Sector 026 - # -->
+	<!--                -->
 	
 	<!-- Sector 027 - The Void -->
 	<replace sel="/macros/macro[@name='Cluster_27_Sector001_macro']/connections/connection[@name='Zone003_Cluster_27_Sector001_connection']/offset">
@@ -386,8 +512,25 @@
 	
 	<!-- Sector 028 - Antigone Memorial -->
 	<replace sel="/macros/macro[@name='Cluster_28_Sector001_macro']/connections/connection[@name='Zone004_Cluster_28_Sector001_connection']/offset">
-		<offset>	<position x="-103633.58984375" y="0" z="-32121.34375" />	</offset>
+		<offset>	<position x="-103633.58984375" y="0" z="-62121.34375" />	</offset>
 	</replace>
+	<add sel="/macros/macro[@name='Cluster_28_Sector001_macro']/connections">
+		<connection name="Highway03_Cluster_28_Sector001_connection" ref="zonehighways">
+			<offset>
+				<position x="21978.84375" y="0" z="97143.484375" />
+			</offset>
+			<macro ref="Highway03_Cluster_28_Sector001_macro" connection="sector">
+				<connections>
+					<connection ref="exitpoint">
+						<macro path="../../Zone005_Cluster_28_Sector001_connection" connection="Highway03Connection02_gate" />
+					</connection>
+					<connection ref="entrypoint">
+						<macro path="../../Zone001_Cluster_28_Sector001_connection" connection="Highway03Connection01_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+	</add>
 	
 	<!-- Sector 029 - Hatikvah's Choice - Sector 01 -->
 	<replace sel="/macros/macro[@name='Cluster_29_Sector001_macro']/connections/connection[@name='tzoneCluster_29_Sector001SHCon11_GateZone_connection']/offset">
@@ -408,6 +551,11 @@
 		<offset>	<position x="-156171.875" y="0" z="77625"        />	</offset>
 	</replace>
 	
+	<!-- Sector 030 - Morning Star III -->
+	<replace sel="/macros/macro[@name='Cluster_30_Sector001_macro']/connections/connection[@name='Zone001_Cluster_30_Sector001_connection']/offset">
+		<offset>	<position x="114342.0859375" y="0" z="1699.796875" />	</offset>
+	</replace>
+	
 	<!-- Sector 031 - Heretic's End -->
 	<replace sel="/macros/macro[@name='Cluster_31_Sector001_macro']/connections/connection[@name='Zone003_Cluster_31_Sector001_connection']/offset">
 		<offset>	<position x="-115042.0625" y="0" z="-148972.234375" />	</offset>
@@ -417,19 +565,74 @@
 	</replace>
 	
 	<!-- Sector 032 - Tharka's Cascade - Sector 01 -->
+	<add sel="/macros/macro[@name='Cluster_32_Sector001_macro']/connections">
+		<connection name="Highway01_Cluster_32_Sector001_connection" ref="zonehighways">
+			<offset>
+				<position x="-83824.6171875" y="0" z="-5337.404296875" />
+			</offset>
+			<macro ref="Highway01_Cluster_32_Sector001_macro" connection="sector">
+				<connections>
+					<connection ref="entrypoint">
+						<macro path="../../Zone001_Cluster_32_Sector001_connection" connection="Highway01Connection01_gate" />
+					</connection>
+					<connection ref="exitpoint">
+						<macro path="../../Zone004_Cluster_32_Sector001_connection" connection="Highway01Connection02_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+	</add>
 	<replace sel="/macros/macro[@name='Cluster_32_Sector001_macro']/connections/connection[@name='tzoneCluster_32_Sector001SHCon5_GateZone_connection']/offset">
-		<offset>	<position x="-140511.421875"  y="0" z="-200000" />	</offset>
+		<offset>	<position x="-140511.421875"  y="0" z="-100000" />	</offset>
 	</replace>
 	<replace sel="/macros/macro[@name='Cluster_32_Sector001_macro']/connections/connection[@name='tzoneCluster_32_Sector001SHCon9_GateZone_connection']/offset">
-		<offset>	<position x="-130500.8828125" y="0" z="-200000" />	</offset>
+		<offset>	<position x="-130500.8828125" y="0" z="-100000" />	</offset>
 	</replace>
 	
 	<!-- Sector 032 - Tharka's Cascade - Sector 02 -->
+	<replace sel="/macros/macro[@name='Cluster_32_Sector002_macro']/connections/connection[@name='Zone001_Cluster_32_Sector002_connection']/offset">
+		<offset>	<position x="-11000" y="0" z="-168226" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_32_Sector002_macro']/connections/connection[@name='Zone002_Cluster_32_Sector002_connection']/offset">
+		<offset>	<position x="2000" y="0" z="58960" />	</offset>
+	</replace>
+	<add sel="/macros/macro[@name='Cluster_32_Sector002_macro']/connections">
+		<connection name="Highway01_Cluster_32_Sector002_connection" ref="zonehighways">
+			<offset>
+				<position x="50350.5078125" y="0" z="-78960.9375" />
+			</offset>
+			<macro ref="Highway01_Cluster_32_Sector002_macro" connection="sector">
+				<connections>
+					<connection ref="entrypoint">
+						<macro path="../../Zone001_Cluster_32_Sector002_connection" connection="Highway01Connection01_gate" />
+					</connection>
+					<connection ref="exitpoint">
+						<macro path="../../Zone002_Cluster_32_Sector002_connection" connection="Highway01Connection02_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+		<connection name="Highway02_Cluster_32_Sector002_connection" ref="zonehighways">
+			<offset>
+				<position x="77662.4921875" y="0" z="-79632.8125" />
+			</offset>
+			<macro ref="Highway02_Cluster_32_Sector002_macro" connection="sector">
+				<connections>
+					<connection ref="exitpoint">
+						<macro path="../../Zone001_Cluster_32_Sector002_connection" connection="Highway02Connection02_gate" />
+					</connection>
+					<connection ref="entrypoint">
+						<macro path="../../Zone002_Cluster_32_Sector002_connection" connection="Highway02Connection01_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+	</add>
 	<replace sel="/macros/macro[@name='Cluster_32_Sector002_macro']/connections/connection[@name='tzoneCluster_32_Sector002SHCon6_GateZone_connection']/offset">
-		<offset>	<position x="40115.28125" y="0" z="200000" />	</offset>
+		<offset>	<position x="40115.28125" y="0" z="100000" />	</offset>
 	</replace>
 	<replace sel="/macros/macro[@name='Cluster_32_Sector002_macro']/connections/connection[@name='tzoneCluster_32_Sector002SHCon10_GateZone_connection']/offset">
-		<offset>	<position x="50000"       y="0" z="200000" />	</offset>
+		<offset>	<position x="50000"       y="0" z="100000" />	</offset>
 	</replace>
 	
 	<!-- Sector 033 - Matrix 79B -->
@@ -440,10 +643,21 @@
 		<offset>	<position x="56338.65234375" y="0" z="-57824.859375" />	</offset>
 	</replace>
 	
+	<!-- Sector 034 - # -->
+	
+	<!-- Sector 035 - # -->
+	<!--                -->
+	
 	<!-- Sector 036 - Cardinal's Redress -->
 	<replace sel="/macros/macro[@name='Cluster_36_Sector001_macro']/connections/connection[@name='Zone002_Cluster_36_Sector001_connection']/offset">
 		<offset>	<position x="0" y="0" z="0" />	</offset>
 	</replace>
+	
+	<!-- Sector 037 - # -->
+	<!--                -->
+	
+	<!-- Sector 038 - # -->
+	<!--                -->
 	
 	<!-- Sector 039 - Memory of Profi X -->
 	<replace sel="/macros/macro[@name='Cluster_39_Sector001_macro']/connections/connection[@name='Zone002_Cluster_39_Sector001_connection']/offset">
@@ -453,6 +667,48 @@
 		<offset>	<position x="106787.1953125" y="0" z="86813.5234375" />	</offset>
 	</replace>
 	
+	<!-- Sector 040 - # -->
+	<!--                -->
+	
+	<!-- Sector 041 - # -->
+	<!--                -->
+	
+	<!-- Sector 042 - # -->
+	<!--                -->
+	
+	<!-- Sector 043 - # -->
+	<!--                -->
+	
+	<!-- Sector 044 - # -->
+	<!--                -->
+	
+	<!-- Sector 045 - # -->
+	<!--                -->
+	
+	<!-- Sector 046 - # -->
+	<!--                -->
+	
+	<!-- Sector 047 - # -->
+	<!--                -->
+	
+	<!-- Sector 048 - Getsu Fune -->
+	<replace sel="/macros/macro[@name='Cluster_48_Sector001_macro']/connections/connection[@name='Zone006_Cluster_48_Sector001_connection']/offset">
+		 <offset>	<position x="-106998.9140625" y="0" z="286408.4296875" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_48_Sector001_macro']/connections/connection[@name='Zone003_Cluster_48_Sector001_connection']/offset">
+		 <offset>	<position x="49561.94140625" y="0" z="-104808.9375" />	</offset>
+	</replace>
+	
+	<!-- Sector 049 - # -->
+	<!--                -->
+	
+	<!-- Sector 050 - # -->
+	<!--                -->
+	
+	
+	
+	
+	
 	<!-- Sector 709 - Cardinal's Domain -->
 	<replace sel="/macros/macro[@name='Cluster_709_Sector001_macro']/connections/connection[@name='Zone001_Cluster_709_Sector001_connection']/offset">
 		<offset>	<position x="0" y="0" z="0" />	</offset>
@@ -460,30 +716,212 @@
 	<replace sel="/macros/macro[@name='Cluster_709_Sector001_macro']/connections/connection[@name='Zone002_Cluster_709_Sector001_connection']/offset">
 		<offset>	<position x="-134255.37" y="0" z="177517.8" />	</offset>
 	</replace>
+	<replace sel="/macros/macro[@name='Cluster_709_Sector001_macro']/connections/connection[@name='Zone003_Cluster_709_Sector001_connection']/offset">
+		<offset>	<position x="-295554.4" y="0" z="7903.8" />	</offset>
+	</replace>
 	<replace sel="/macros/macro[@name='Cluster_709_Sector001_macro']/connections/connection[@name='Zone004_Cluster_709_Sector001_connection']/offset">
 		<offset>	<position x="137328.5" y="0" z="138576.5" />	</offset>
 	</replace>
 	
-	<!-- Sector 712 - Loomanckstrat's Legacy -->
-	<replace sel="/macros/macro[@name='Cluster_712_Sector001_macro']/connections/connection[@name='Zone004_Cluster_712_Sector001_connection']/offset">
+	<!-- Sector 710 - Moo-Kye's Revenge -->
+	<replace sel="/macros/macro[@name='Cluster_710_Sector001_macro']/connections/connection[@name='Zone001_Cluster_710_Sector001_connection']/offset"> <!-- mi-ton -->
+		<offset>	<position x="137328.5" y="0" z="138576.5" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_710_Sector001_macro']/connections/connection[@name='Zone002_Cluster_710_Sector001_connection']/offset"> <!-- sanctum -->
+		<offset>	<position x="105554.4" y="0" z="-127903.8" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_710_Sector001_macro']/connections/connection[@name='Zone003_Cluster_710_Sector001_connection']/offset"> <!--   empty   -->
 		<offset>	<position x="85.55412" y="0" z="115545.4" />	</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='Cluster_712_Sector001_macro']/connections/connection[@name='Zone001_Cluster_712_Sector001_connection']/offset">
+	
+	<!-- Sector 711 - Mi-Ton's Refuge -->
+	<replace sel="/macros/macro[@name='Cluster_711_Sector001_macro']/connections/connection[@name='Zone002_Cluster_711_Sector001_connection']/offset"> <!-- theia -->
+		<offset>	<position x="137328.5" y="0" z="108576.5" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_711_Sector001_macro']/connections/connection[@name='Zone004_Cluster_711_Sector001_connection']/offset"> <!-- legacy -->
+		<offset>	<position x="-157517.8" y="0" z="255.37" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_711_Sector001_macro']/connections/connection[@name='Zone005_Cluster_711_Sector001_connection']/offset"> <!-- moo-kye -->
+		<offset>	<position x="29500.2" y="0" z="-126969.5" />	</offset>
+	</replace>
+	
+	<!-- Sector 712 - Loomanckstrat's Legacy -->
+	<replace sel="/macros/macro[@name='Cluster_712_Sector001_macro']/connections/connection[@name='Zone004_Cluster_712_Sector001_connection']/offset"> <!-- doubt -->
+		<offset>	<position x="85.55412" y="0" z="115545.4" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_712_Sector001_macro']/connections/connection[@name='Zone001_Cluster_712_Sector001_connection']/offset"> <!-- shareholder -->
 		<offset>	<position x="-127517.8" y="0" z="34255.37" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_712_Sector001_macro']/connections/connection[@name='Zone003_Cluster_712_Sector001_connection']/offset"> <!-- mi-ton -->
+		<offset>	<position x="125554.4" y="0" z="-7903.8" />	</offset>
 	</replace>
 	
 	<!-- Sector 713 - CEO's Doubt -->
-	<replace sel="/macros/macro[@name='Cluster_713_Sector001_macro']/connections/connection[@name='Zone002_Cluster_713_Sector001_connection']/offset">
-		<offset>	<position x="-29500.2" y="0" z="-126969.5" />	</offset>
+	<replace sel="/macros/macro[@name='Cluster_713_Sector001_macro']/connections/connection[@name='Zone001_Cluster_713_Sector001_connection']/offset">
+		<offset>	<position x="-476.5892028809" y="0" z="82222.796875" />	</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='Cluster_713_Sector001_macro']/connections/connection[@name='Zone005_Cluster_713_Sector001_connection']/offset">
-		<offset>	<position x="137328.5" y="0" z="138576.5" />	</offset>
+	<replace sel="/macros/macro[@name='Cluster_713_Sector001_macro']/connections/connection[@name='Zone002_Cluster_713_Sector001_connection']/offset">
+		<offset>	<position x="8893.9130859375" y="0" z="-111674.546875" />	</offset>
 	</replace>
 	<replace sel="/macros/macro[@name='Cluster_713_Sector001_macro']/connections/connection[@name='Zone003_Cluster_713_Sector001_connection']/offset">
-		<offset>	<position x="205554.4" y="0" z="-27903.8" />	</offset>
+		<offset>	<position x="152552.3125" y="0" z="-91995.1875" />	</offset>
 	</replace>
 	<replace sel="/macros/macro[@name='Cluster_713_Sector001_macro']/connections/connection[@name='Zone004_Cluster_713_Sector001_connection']/offset">
-		<offset>	<position x="-127517.8" y="0" z="-14255.37" />	</offset>
+		<offset>	<position x="152042.625" y="0" z="131248.265625" />	</offset>
 	</replace>
+	<replace sel="/macros/macro[@name='Cluster_713_Sector001_macro']/connections/connection[@name='Zone005_Cluster_713_Sector001_connection']/offset">
+		<offset>	<position x="-149183.125" y="0" z="-4328.8134765625" />	</offset>
+	</replace>
+	<add sel="/macros/macro[@name='Cluster_713_Sector001_macro']/connections">
+		<connection name="Highway01_Cluster_713_Sector001_connection" ref="zonehighways">
+			<offset>
+				<position x="-25789.576171875" y="0" z="-11482.2421875" />
+			</offset>
+			<macro ref="Highway01_Cluster_713_Sector001_macro" connection="sector">
+				<connections>
+					<connection ref="exitpoint">
+						<macro path="../../Zone001_Cluster_713_Sector001_connection" connection="Highway01Connection02_gate" />
+					</connection>
+					<connection ref="entrypoint">
+						<macro path="../../Zone002_Cluster_713_Sector001_connection" connection="Highway01Connection01_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+		<connection name="Highway02_Cluster_713_Sector001_connection" ref="zonehighways">
+			<offset>
+				<position x="-24961.654296875" y="0" z="-10463.470703125" />
+			</offset>
+			<macro ref="Highway02_Cluster_713_Sector001_macro" connection="sector">
+				<connections>
+					<connection ref="entrypoint">
+						<macro path="../../Zone001_Cluster_713_Sector001_connection" connection="Highway02Connection01_gate" />
+					</connection>
+					<connection ref="exitpoint">
+						<macro path="../../Zone002_Cluster_713_Sector001_connection" connection="Highway02Connection02_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+		<connection name="Highway03_Cluster_713_Sector001_connection" ref="zonehighways">
+			<offset>
+				<position x="74570.0078125" y="0" z="-49181.37890625" />
+			</offset>
+			<macro ref="Highway03_Cluster_713_Sector001_macro" connection="sector">
+				<connections>
+					<connection ref="entrypoint">
+						<macro path="../../Zone002_Cluster_713_Sector001_connection" connection="Highway03Connection01_gate" />
+					</connection>
+					<connection ref="exitpoint">
+						<macro path="../../Zone002_Cluster_713_Sector001_connection" connection="Highway03Connection02_gate" />
+					</connection>
+				</connections>
+			</macro>
+		</connection>
+	</add>
+	
+	<!-- Sector 714 - Freedom's Reach -->
+	<replace sel="/macros/macro[@name='Cluster_714_Sector001_macro']/connections/connection[@name='Zone001_Cluster_714_Sector001_connection']/offset">
+		<offset>	<position x="100" y="0" z="-150000" />	</offset>
+	</replace>
+	
+	<!-- Sector 715 - # -->
+	<!--                -->
+	
+	<!-- Sector 720 - Ore Belt -->
+	<replace sel="/macros/macro[@name='Cluster_720_Sector001_macro']/connections/connection[@name='Zone001_Cluster_720_Sector001_connection']/offset"> <!-- center -->
+		<offset>	<position x="0" y="0" z="0" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_720_Sector001_macro']/connections/connection[@name='Zone002_Cluster_720_Sector001_connection']/offset"> <!-- highway - silent -->
+		<offset>	<position x="-76826.984375" y="0" z="3111.8012695312" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_720_Sector001_macro']/connections/connection[@name='Zone003_Cluster_720_Sector001_connection']/offset"> <!-- inactive gate -->
+		<offset>	<position x="26130.646484375" y="0" z="172359.53125" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_720_Sector001_macro']/connections/connection[@name='Zone004_Cluster_720_Sector001_connection']/offset"> <!-- highway - profit -->
+		<offset>	<position x="147944.453125" y="0" z="67755.9140625" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_720_Sector001_macro']/connections/connection[@name='Zone005_Cluster_720_Sector001_connection']/offset"> <!-- near pirate haven -->
+		<offset>	<position x="150000" y="0" z="-175000" />	</offset>
+	</replace>
+	<add sel="/macros/macro[@name='Cluster_720_Sector001_macro']/connections">
+		<connection name="Highway01_Cluster_720_Sector001_connection" ref="zonehighways">
+        <offset>
+          <position x="65662.4765625" y="0" z="47287.3359375" />
+        </offset>
+        <macro ref="Highway01_Cluster_720_Sector001_macro" connection="sector">
+          <connections>
+            <connection ref="entrypoint">
+              <macro path="../../Zone002_Cluster_720_Sector001_connection" connection="Highway01Connection01_gate" />
+            </connection>
+            <connection ref="exitpoint">
+              <macro path="../../Zone004_Cluster_720_Sector001_connection" connection="Highway01Connection02_gate" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+		<connection name="Highway02_Cluster_720_Sector001_connection" ref="zonehighways">
+        <offset>
+          <position x="26965.521484375" y="0" z="46535.9375" />
+        </offset>
+        <macro ref="Highway02_Cluster_720_Sector001_macro" connection="sector">
+          <connections>
+            <connection ref="exitpoint">
+              <macro path="../../Zone002_Cluster_720_Sector001_connection" connection="Highway02Connection02_gate" />
+            </connection>
+            <connection ref="entrypoint">
+              <macro path="../../Zone004_Cluster_720_Sector001_connection" connection="Highway02Connection01_gate" />
+            </connection>
+          </connections>
+        </macro>
+      </connection>
+	</add>
+	
+	<!-- Sector 721 - Adventure's Promise -->
+	<replace sel="/macros/macro[@name='Cluster_721_Sector001_macro']/connections/connection[@name='Zone001_Cluster_721_Sector001_connection']/offset"> <!-- inactive -->
+		<offset>	<position x="-100" y="0" z="200000" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_721_Sector001_macro']/connections/connection[@name='Zone003_Cluster_721_Sector001_connection']/offset"> <!-- frontier -->
+		<offset>	<position x="137328.5" y="0" z="138576.5" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_721_Sector001_macro']/connections/connection[@name='Zone002_Cluster_721_Sector001_connection']/offset"> <!-- empty -->
+		<offset>	<position x="105554.4" y="0" z="-127903.8" />	</offset>
+	</replace>
+	
+	<!-- Sector 722 - Sanctum Verge -->
+	<replace sel="/macros/macro[@name='Cluster_722_Sector001_macro']/connections/connection[@name='Zone001_Cluster_722_Sector001_connection']/offset"> <!-- hewa -->
+		<offset>	<position x="175000" y="0" z="-75000" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_722_Sector001_macro']/connections/connection[@name='Zone002_Cluster_722_Sector001_connection']/offset"> <!--   empty   -->
+		<offset>	<position x="0" y="0" z="0" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_722_Sector001_macro']/connections/connection[@name='Zone003_Cluster_722_Sector001_connection']/offset"> <!-- thyn -->
+		<offset>	<position x="25000" y="0" z="-275000" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_722_Sector001_macro']/connections/connection[@name='Zone004_Cluster_722_Sector001_connection']/offset"> <!-- mmo-kye -->
+		<offset>	<position x="-75000" y="0" z="75000" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_722_Sector001_macro']/connections/connection[@name='Zone005_Cluster_722_Sector001_connection']/offset"> <!-- cardinal -->
+		<offset>	<position x="-100000" y="0" z="-100000" />	</offset>
+	</replace>
+	
+	<!-- Sector 723 - Tempting Fumes -->
+	<replace sel="/macros/macro[@name='Cluster_723_Sector001_macro']/connections/connection[@name='Zone003_Cluster_723_Sector001_connection']/offset"> <!-- redemption -->
+		<offset>	<position x="-175000" y="0" z="-10000" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_723_Sector001_macro']/connections/connection[@name='Zone004_Cluster_723_Sector001_connection']/offset"> <!--   sanctum   -->
+		<offset>	<position x="105554.4" y="0" z="-127903.8" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='Cluster_723_Sector001_macro']/connections/connection[@name='Zone002_Cluster_723_Sector001_connection']/offset"> <!--   moo-kye   -->
+		<offset>	<position x="117328.5" y="0" z="138576.5" />	</offset>
+	</replace>
+	
+	<!-- Sector 724 - # -->
+	<!--                -->
+	
+	<!-- Sector 725 - # -->
+	<!--                -->
+	
+
 	
 </diff>

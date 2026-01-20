@@ -1,225 +1,310 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
 <diff>
-
+	
+	<!-- Sector xpan01 - # -->
+	<!--                   -->
+	
 	<!-- Sector xpan02 - Desecrated Skies -->
-	<replace sel="/macros/macro[@name='xpan_zone002_clusterXPAN02_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN02_cXPAN01_connection']">
-		<connection name="xpan_gate_cXPAN02_cXPAN01_connection" ref="gates">
-			<offset>
-				<position x="0" y="500" z="0"/>
-				<rotation yaw="360" pitch="0" roll="0"/>
-			</offset>
-			<macro ref="props_gates_anc_gate_macro" connection="space">
-				<properties>
-					<state active="false" />
-				</properties>
-			</macro>
-		</connection>
+	<replace sel="/macros/macro[@name='xpan_zone001_clusterXPAN02_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN02s001z001_cXPAN415z003s001_connection']/offset"> <!-- west -->
+		<offset>
+			<position x="0" y="500" z="-45000"/>
+			<rotation yaw="60" pitch="0" roll="0"/>
+		</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='xpan_zone005_clusterXPAN02_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN02s001z005_cXPAN24s002z001_connection']">
-		<connection name="xpan_gate_cXPAN02s001z005_cXPAN24s002z001_connection" ref="gates">
-			<offset>
-				<position x="0" y="500" z="0"/>
-				<rotation yaw="-90" pitch="0" roll="0"/>
-			</offset>
-			<macro ref="props_gates_anc_gate_macro" connection="space">
-				<properties>
-					<state active="false" />
-				</properties>
-			</macro>
-		</connection>
+	<replace sel="/macros/macro[@name='xpan_zone002_clusterXPAN02_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN02_cXPAN01_connection']/offset"> <!-- south -->
+		<offset>
+			<position x="45000" y="500" z="0"/>
+			<rotation yaw="330" pitch="0" roll="0"/>
+		</offset>
 	</replace>
-
-	<!-- Sector xpan03 - Prometheus IV -->
-	<replace sel="/macros/macro[@name='xpan_zone002_clusterXPAN03_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN03s001z002_cXPAN02s001z003_connection']/offset">
-		 <offset>
-              <position x="0" y="500" z="0"/>
-		      <rotation yaw="270" pitch="0" roll="0"/>
-            </offset>
+	<replace sel="/macros/macro[@name='xpan_zone003_clusterXPAN02_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN02s001z003_cXPAN03s001z002_connection']/offset"> <!-- north -->
+		<offset>
+			<position x="-45000" y="500" z="0"/>
+			<rotation yaw="150" pitch="0" roll="0"/>
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='xpan_zone005_clusterXPAN02_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN02s001z005_cXPAN24s002z001_connection']/offset"> <!-- east -->
+		<offset>
+			<position x="0" y="500" z="45000"/>
+			<rotation yaw="240" pitch="0" roll="0"/>
+		</offset>
 	</replace>
 	
-	<!-- Sector xpan06 - Prometheus I -->
-	<add sel="/macros/macro[@name='xpan_zone004_clusterXPAN06_sector001_macro']">
-		<connections>
-			<connection name="connection_ClusterGateX06To802" ref="gates">
-				<offset>
-					<position x="0" y="0" z="0" />
-					<rotation yaw="270" pitch="0" roll="0" />
-				</offset>
-				<macro ref="props_gates_anc_gate_macro" connection="space">
-				<properties>
-					<state active="false" />
-				</properties>
-			</macro>
-			</connection>
-		</connections>
-	</add>
+	<!-- Sector xpan03 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan04 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan05 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan06 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan07 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan08 - Gunne's Crusade -->
+	<replace sel="/macros/macro[@name='xpan_zone002_clusterXPAN08_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN08s001z002_cXPAN07s001z004_connection']/offset"> <!-- fire -->
+		<offset>
+			<position x="0" y="500" z="0"/>
+			<rotation yaw="270" pitch="0" roll="0"/>
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='xpan_zone004_clusterXPAN08_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN08s001z004_cXPAN09s001z002_connection']/offset"> <!-- skies -->
+		<offset>
+			<position x="0" y="500" z="0"/>
+			<rotation yaw="90" pitch="0" roll="0"/>
+		</offset>
+	</replace>
+	
+	<!-- Sector xpan09 - # -->
+	<!--                   -->
 	
 	<!-- Sector xpan10 - Aphrodite's Storm -->
-	<replace sel="/macros/macro[@name='xpan_Zone001_clusterXPAN10_Sector002_macro']/connections/connection[@name='xpan_gate_cXPAN10s002z001_cXPAN423z003s002_connection']/offset">
-        <offset> 
-          <position x="0" y="0" z="0"/>
-		<rotation yaw="120" pitch="0" roll="0"/>
-        </offset>
+	<replace sel="/macros/macro[@name='xpan_Zone001_clusterXPAN10_Sector002_macro']/connections/connection[@name='xpan_gate_cXPAN10s002z001_cXPAN423z003s002_connection']/offset"> <!-- nishala -->
+		<offset>
+			<position x="45000" y="500" z="-45000"/>
+			<rotation yaw="90" pitch="0" roll="0"/>
+		</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='xpan_Zone004_clusterXPAN10_Sector002_macro']/connections/connection[@name='xpan_gate_cXPAN10s002z001_cXPAN42s001z001_connection']/offset">
-        <offset> 
-          <position x="0" y="0" z="0"/>
-		<rotation yaw="240" pitch="0" roll="0"/>
-        </offset>
+	<replace sel="/macros/macro[@name='xpan_Zone004_clusterXPAN10_Sector002_macro']/connections/connection[@name='xpan_gate_cXPAN10s002z001_cXPAN42s001z001_connection']/offset"> <!-- pavana -->
+		<offset>
+			<position x="-45000" y="500" z="45000"/>
+			<rotation yaw="180" pitch="0" roll="0"/>
+		</offset>
 	</replace>
-	<add sel="/macros/macro[@name='xpan_Zone002_clusterXPAN10_Sector002_macro']">
-		<connections>
-			<connection name="connection_ClusterGateX06To900" ref="gates">
-				<offset>
-					<position x="0" y="0" z="0" />
-					<rotation yaw="60" pitch="0" roll="0" />
-				</offset>
-				<macro ref="props_gates_anc_gate_macro" connection="space">
-				<properties>
-					<state active="true" />
-				</properties>
-			</macro>
-			</connection>
-		</connections>
-	</add>
 	
-	<!-- Sector xpan11 - Treasure Chest -->
-	<replace sel="/macros/macro[@name='xpan_zone004_clusterXPAN11_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN11s001z004_cL04s001z0013_connection']/offset">
-        <offset> 
-          <position x="0" y="0" z="0"/>
-		<rotation yaw="60" pitch="0" roll="0"/>
-        </offset>
+	<!-- Sector xpan11 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan12 - Armada's Rage -->
+	<replace sel="/macros/macro[@name='xpan_zone002_clusterXPAN12_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN12s001z002_cXPAN13s001z003_connection']/offset"> <!-- eternity -->
+		<offset>
+			<position x="0" y="500" z="2000"/>
+			<rotation yaw="180" pitch="0" roll="0"/>
+		</offset>
 	</replace>
+	<replace sel="/macros/macro[@name='xpan_zone004_clusterXPAN12_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN12s001z004_cXPAN39s001z004_connection']/offset"> <!-- empty -->
+		<offset>
+			<position x="0" y="500" z="-2000"/>
+			<rotation yaw="0" pitch="0" roll="0"/>
+		</offset>
+	</replace>
+	
+	<!-- Sector xpan13 - Untainted Eternity IV -->
+	<replace sel="/macros/macro[@name='xpan_zone003_clusterXPAN13_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN13s001z003_cXPAN12s001z002_connection']/offset"> <!-- eternity -->
+		<offset>
+			<position x="0" y="0" z="0"/>
+			<rotation yaw="0" pitch="0" roll="0"/>
+		</offset>
+	</replace>
+	
+	<!-- Sector xpan14 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan15 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan16 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan17 - # -->
+	<!--                   -->
 	
 	<!-- Sector xpan18 - Ash -->
-	<replace sel="/macros/macro[@name='xpan_zone002_clusterXPAN18_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN18s001z002_cXPAN17s001z004_connection']/offset">
-        <offset> 
-          <position x="0" y="0" z="0"/>
-		<rotation yaw="270" pitch="0" roll="0"/>
-        </offset>
+	<replace sel="/macros/macro[@name='xpan_zone002_clusterXPAN18_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN18s001z002_cXPAN17s001z004_connection']/offset"> <!-- ridge -->
+		<offset>
+			<position x="0" y="500" z="2000"/>
+			<rotation yaw="300" pitch="0" roll="0"/>
+		</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='xpan_zone004_clusterXPAN18_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN18s001z004_cXPAN20s001z002_connection']/offset">
-        <offset> 
-          <position x="0" y="0" z="0"/>
-		<rotation yaw="150" pitch="0" roll="0"/>
-        </offset>
+	<replace sel="/macros/macro[@name='xpan_zone004_clusterXPAN18_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN18s001z004_cXPAN20s001z002_connection']/offset"> <!-- danna -->
+		<offset>
+			<position x="0" y="500" z="-40000"/>
+			<rotation yaw="60" pitch="0" roll="0"/>
+		</offset>
 	</replace>
 	
 	<!-- Sector xpan19 - Julian's Burden -->
-	<replace sel="/macros/macro[@name='xpan_zone002_clusterXPAN19_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN19s001z002_cXPAN23s001z001_connection']/offset">
-        <offset> 
-          <position x="0" y="0" z="0"/>
-		<rotation yaw="180" pitch="0" roll="0"/>
-        </offset>
+	<replace sel="/macros/macro[@name='xpan_zone002_clusterXPAN19_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN19s001z002_cXPAN23s001z001_connection']/offset"> <!-- ket -->
+		<offset>
+			<position x="0" y="0" z="0"/>
+			<rotation yaw="180" pitch="0" roll="0"/>
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='xpan_zone003_clusterXPAN19_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN19s001z003_cXPAN21s001z003_connection']/offset"> <!-- shadow -->
+		<offset>
+			<position x="0" y="0" z="0"/>
+			<rotation yaw="300" pitch="0" roll="0"/>
+		</offset>
 	</replace>
 	
 	<!-- Sector xpan20 - Danna's Chance -->
-	<replace sel="/macros/macro[@name='xpan_Zone002_clusterXPAN20_Sector001_macro']/connections/connection[@name='xpan_gate_cXPAN20s001z002_cXPAN18s001z004_connection']/offset">
-        <offset> 
-          <position x="0" y="0" z="0"/>
-		<rotation yaw="330" pitch="0" roll="0"/>
-        </offset>
+	<replace sel="/macros/macro[@name='xpan_Zone002_clusterXPAN20_Sector001_macro']/connections/connection[@name='xpan_gate_cXPAN20s001z002_cXPAN18s001z004_connection']/offset"> <!-- ash -->
+		<offset>
+			<position x="0" y="0" z="0"/>
+			<rotation yaw="210" pitch="0" roll="0"/>
+		</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='xpan_Zone004_clusterXPAN20_Sector001_macro']/connections/connection[@name='xpan_gate_cXPAN20s001z004_cXPAN22s001z003_connection']/offset">
-        <offset> 
-          <position x="0" y="0" z="0"/>
-		<rotation yaw="120" pitch="0" roll="0"/>
-        </offset>
+	<replace sel="/macros/macro[@name='xpan_Zone004_clusterXPAN20_Sector001_macro']/connections/connection[@name='xpan_gate_cXPAN20s001z004_cXPAN22s001z003_connection']/offset"> <!-- shadow -->
+		<offset>
+			<position x="0" y="0" z="0"/>
+			<rotation yaw="300" pitch="0" roll="0"/>
+		</offset>
 	</replace>
+	
+	<!-- Sector xpan21 - # -->
+	<!--                   -->
 	
 	<!-- Sector xpan22 - Blue Horizon -->
-	<replace sel="/macros/macro[@name='xpan_Zone003_clusterXPAN22_Sector001_macro']/connections/connection[@name='xpan_gate_cXPAN22s001z003_cXPAN20s001z004_connection']/offset">
-        <offset> 
-          <position x="0" y="0" z="0"/>
-		<rotation yaw="300" pitch="0" roll="0"/>
-        </offset>
+	<replace sel="/macros/macro[@name='xpan_Zone003_clusterXPAN22_Sector001_macro']/connections/connection[@name='xpan_gate_cXPAN22s001z003_cXPAN20s001z004_connection']/offset"> <!-- julian -->
+		<offset>
+			<position x="0" y="0" z="0"/>
+			<rotation yaw="60" pitch="0" roll="0"/>
+		</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='xpan_Zone004_clusterXPAN22_Sector001_macro']/connections/connection[@name='xpan_gate_cXPAN22s001z004_cXPAN23s001z004_connection']/offset">
-        <offset> 
-          <position x="0" y="0" z="0"/>
-		<rotation yaw="90" pitch="0" roll="0"/>
-        </offset>
+	<replace sel="/macros/macro[@name='xpan_Zone004_clusterXPAN22_Sector001_macro']/connections/connection[@name='xpan_gate_cXPAN22s001z004_cXPAN23s001z004_connection']/offset"> <!-- shadow -->
+		<offset>
+			<position x="0" y="0" z="0"/>
+			<rotation yaw="270" pitch="0" roll="0"/>
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='xpan_Zone005_clusterXPAN22_Sector001_macro']/connections/connection[@name='connection_ClusterGateXPAN22To921']/offset"> <!-- thor -->
+		<offset>
+			<position x="-35000" y="0" z="-45000"/>
+			<rotation yaw="90" pitch="0" roll="0"/>
+		</offset>
 	</replace>
 	
+	<!-- Sector xpan23 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan24 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan25 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan26 - # -->
+	<!--                   -->
+	
 	<!-- Sector xpan27 - Shadow's End -->
-	<replace sel="/macros/macro[@name='xpan_zone004_clusterXPAN27_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN27s001z004_cXPAN28s001z001_connection']/offset">
-        <offset> 
-          <position x="0" y="0" z="0"/>
-		<rotation yaw="240" pitch="0" roll="0"/>
-        </offset>
+	<replace sel="/macros/macro[@name='xpan_zone001_clusterXPAN27_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN27s001z001_cXPAN21s001z001_connection']/offset"> <!-- horizon -->
+		<offset>
+			<position x="0" y="500" z="0"/>
+			<rotation yaw="90" pitch="0" roll="0"/>
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='xpan_zone002_clusterXPAN27_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN27s001z002_cL107s001_connection']/offset"> <!-- danna -->
+		<offset>
+			<position x="0" y="500" z="0"/>
+			<rotation yaw="120" pitch="0" roll="0"/>
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='xpan_zone004_clusterXPAN27_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN27s001z004_cXPAN28s001z001_connection']/offset"> <!-- treasure -->
+		<offset>
+			<position x="0" y="500" z="0"/>
+			<rotation yaw="240" pitch="0" roll="0"/>
+		</offset>
 	</replace>
 	
 	<!-- Sector xpan28 - Ket's Reckoning -->
-	<replace sel="/macros/macro[@name='xpan_Zone001_clusterXPAN28_Sector001_macro']/connections/connection[@name='xpan_gate_cXPAN28s001z001_cXPAN27s001z004_connection']/offset">
-        <offset> 
-          <position x="0" y="0" z="0"/>
-		<rotation yaw="0" pitch="0" roll="0"/>
-        </offset>
+	<replace sel="/macros/macro[@name='xpan_Zone001_clusterXPAN28_Sector001_macro']/connections/connection[@name='xpan_gate_cXPAN28s001z001_cXPAN27s001z004_connection']/offset"> <!-- South Gate -->
+		<offset>
+			<position x="0" y="0" z="0"/>
+			<rotation yaw="0" pitch="0" roll="0"/>  
+		</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='xpan_Zone005_clusterXPAN28_Sector002_macro']/connections/connection[@name='xpan_gate_cXPAN28s002z005_cXPAN424s001_connection']/offset">
-        <offset> 
-          <position x="0" y="0" z="0"/>
-		<rotation yaw="90" pitch="0" roll="0"/>
-        </offset>
+	<replace sel="/macros/macro[@name='xpan_Zone005_clusterXPAN28_Sector002_macro']/connections/connection[@name='xpan_gate_cXPAN28s002z005_cXPAN40s001_connection']/offset"> <!-- West Gate -->
+		<offset>
+			<position x="0" y="0" z="0"/>
+			<rotation yaw="90" pitch="0" roll="0"/>  
+		</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='xpan_Zone003_clusterXPAN28_Sector003_macro']/connections/connection[@name='xpan_gate_cXPAN28s003z003_cL28s001z003_connection']/offset">
-        <offset> 
-          <position x="0" y="0" z="0"/>
-		<rotation yaw="180" pitch="0" roll="0"/>
-        </offset>
-	</replace>
-	
-	<!-- Sector xpan34 - Zhin's Resurgence -->
-	<replace sel="/macros/macro[@name='xpan_zone002_clusterXPAN34_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN34s001z002_cXPAN35s001z004_connection']/offset">
-            <offset>
-              <position x="10000" y="500" z="0"/>
-		      <rotation yaw="120" pitch="0" roll="0"/>
-            </offset>
+	<replace sel="/macros/macro[@name='xpan_Zone003_clusterXPAN28_Sector003_macro']/connections/connection[@name='xpan_gate_cXPAN28s003z003_cL28s001z003_connection']/offset"> <!-- South Gate -->
+		<offset>
+			<position x="0" y="0" z="0"/>
+			<rotation yaw="180" pitch="0" roll="0"/>  
+		</offset>
 	</replace>
 	
-	<!-- Sector xpan39 - Tempting Fumes -->
-	<replace sel="/macros/macro[@name='xpan_zone005_clusterXPAN39_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN39s001z005_cXPAN11s001z003_connection']/offset">
-        <offset> 
-          <position x="0" y="0" z="0"/>
-		<rotation yaw="120" pitch="0" roll="0"/>
-        </offset>
+	<!-- Sector xpan29 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan30 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan31 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan32 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan33 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan34 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan35 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan36 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan37 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan38 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan39 - The Shallows -->
+	<replace sel="/macros/macro[@name='xpan_zone004_clusterXPAN39_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN39s001z004_cXPAN12s001z004_connection']/offset"> <!-- eternity -->
+		<offset>
+			<position x="0" y="500" z="2000"/>
+			<rotation yaw="90" pitch="0" roll="0"/>
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='xpan_zone005_clusterXPAN39_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN39s001z005_cXPAN11s001z003_connection']/offset"> <!-- xaar -->
+		<offset>
+			<position x="0" y="500" z="-40000"/>
+			<rotation yaw="270" pitch="0" roll="0"/>
+		</offset>
 	</replace>
 	
-	<!-- Sector xpan40 - Nishala -->
-	<replace sel="/macros/macro[@name='xpan_zone005_clusterXPAN40_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN40s001z005_cXPAN41s001z002_connection']/offset">
-        <offset> 
-          <position x="0" y="0" z="0"/>
-		<rotation yaw="60" pitch="0" roll="0"/>
-        </offset>
-	</replace>
+	<!-- Sector xpan40 - # -->
+	<!--                   -->
 	
-	<!-- Sector xpan41 - Yanva -->
-	<replace sel="/macros/macro[@name='xpan_zone002_clusterXPAN41_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN41s001z002_cXPAN40s001z005_connection']/offset">
-        <offset> 
-          <position x="0" y="0" z="0"/>
-		<rotation yaw="270" pitch="0" roll="0"/>
-        </offset>
-	</replace>
-	<replace sel="/macros/macro[@name='xpan_zone005_clusterXPAN41_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN41s001z005_cXPAN42s001z005_connection']/offset">
-        <offset> 
-          <position x="0" y="0" z="0"/>
-		<rotation yaw="90" pitch="0" roll="0"/>
-        </offset>
-	</replace>
+	<!-- Sector xpan41 - # -->
+	<!--                   -->
 	
 	<!-- Sector xpan42 - Pavana -->
-	<replace sel="/macros/macro[@name='xpan_zone001_clusterXPAN42_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN42s001z001_cXPAN10s002z001_connection']/offset">
-        <offset> 
-          <position x="0" y="0" z="0"/>
-		<rotation yaw="60" pitch="0" roll="0"/>
-        </offset>
-	</replace>
-	<replace sel="/macros/macro[@name='xpan_zone005_clusterXPAN42_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN42s001z005_cXPAN41s001z005_connection']/offset">
-        <offset> 
-          <position x="0" y="0" z="0"/>
-		<rotation yaw="240" pitch="0" roll="0"/>
-        </offset>
+	<replace sel="/macros/macro[@name='xpan_zone001_clusterXPAN42_sector001_macro']/connections/connection[@name='xpan_gate_cXPAN42s001z001_cXPAN10s002z001_connection']/offset"> <!-- aphrodite -->
+		<offset>
+			<position x="0" y="500" z="-45000"/>
+			<rotation yaw="0" pitch="0" roll="0"/>
+		</offset>
 	</replace>
 	
-
+	<!-- Sector xpan43 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan44 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan45 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan46 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan47 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan48 - # -->
+	<!--                   -->
+	
+	
+	
 </diff>

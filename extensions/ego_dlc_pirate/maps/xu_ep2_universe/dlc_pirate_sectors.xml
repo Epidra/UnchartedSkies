@@ -1,0 +1,24 @@
+<diff>
+	
+	<!-- Sector 500 - Avarice -->
+	<replace sel="/macros/macro[@name='Cluster_500_Sector001_macro']/connections/connection[@name='Zone001_Cluster_500_Sector001_connection']/offset">
+		<offset>	<position x="27062.5" y="0" z="-133718.8" />	</offset>
+	</replace>
+	
+	<!-- Sector 501 - Windfall I -->
+	<replace sel="/macros/macro[@name='Cluster_501_Sector001_macro']/connections/connection[@name='Zone002_Cluster_501_Sector001_connection']/offset">
+		<offset>	<position x="110960.94" y="0" z="112070.3" />	</offset>
+	</replace>
+	
+	<!-- Sector 502 - # -->
+	<!--                -->
+	
+	<!-- Sector 503 - # -->
+	<!--                -->
+	
+	<!-- Sector 504 - # -->
+	<!--                -->
+	
+	
+	
+</diff>

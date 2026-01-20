@@ -1,118 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?>
-<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<diff>
 	<add sel="//defaults">
 		
-		
-		
-		<!-- System 800 - Hades -->
-		<dataset macro="Cluster_800_macro">
+		<!--   - -     SKY00 - Hades     - -   -->
+		<dataset macro="Cluster_SKY00_macro">
 			<properties>
-				<identification name="{8000,1001}" description="{8000,1002}" image="enc_cluster800"/>
+				<identification name="{8000,10000}" description="{8000,20000}" image="enc_Cluster_SKY00"/>
 				<sounds>
 					<music ref="music_menu_main_music" />
 				</sounds>
-				<area sunlight="0.01" economy="0.5" security="0.5"  factionlogic="false" />
-				<system>
-					<space environment="{1042,12041}(Asteroids)"/>
-					<suns>
-						<sun class="{1042,13041}(White Dwarf)"/>
-					</suns>
-				</system>
+				<area sunlight="0.01" economy="0" security="0"  factionlogic="false" />
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY00s01_macro">
+			<properties>
+				<identification name="{8000,10000}" description="{8000,20000}" />
 			</properties>
 		</dataset>
 		
-		<dataset macro="Cluster_800_Sector001_macro">
+		<!--   - -     SKY01 - Herron's Nebula     - -   -->
+		<dataset macro="Cluster_SKY01_macro">
 			<properties>
-				<identification name="{8000,1001}" description="{8000,1002}" />
-			</properties>
-		</dataset>
-		
-		
-		
-		
-		
-		<!-- System 801 - Light Water -->
-		<dataset macro="Cluster_801_macro">
-			<properties>
-				<identification name="{8000,1011}" description="{8000,1012}" image="enc_cluster801"/>
-				<sounds>
-					<music ref="music_soundtrack_teladi" />
-				</sounds>
-				<area sunlight="0.5" economy="0.75" security="0.75" />
-				<system>
-					<space environment="{1042,12011}(Clear Space)"/>
-					<suns>
-						<sun class="{1042,13041}(White Dwarf)"/>
-					</suns>
-					<planets>
-						<planet name="{8000,1011} {20403,103}(c)" class="{1042,14031}(Terrestrial)" geology="{1042,15011}(Tunda)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,10021}" maxpopulation="10000000000" settlements="{1042,16041}(Multiple Cities)" part="planet001">
-							<moons>
-								<moon name="{8000,1011} {20403,103}(c) {20402,1}(I)" geology="{1042,14051}(Moon)" atmosphere="{1042,15071}(Rocks)" population="{1042,10021}" maxpopulation="1363850000" settlements="{1042,16011}(Uninhabited)" part="Sphere002"/>
-								<moon name="{8000,1011} {20403,103}(c) {20402,2}(I)" geology="{1042,14051}(Moon)" atmosphere="{1042,15101}(Barren)" population="{1042,10021}" maxpopulation="1363850000" settlements="{1042,16011}(Uninhabited)" part="Sphere003"/>
-							</moons>
-						</planet>
-					</planets>
-				</system>
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_801_Sector001_macro">
-			<properties>
-				<identification name="{8000,1011}" description="{8000,1012}" />
-				<worlds>
-					<world part="planet001"/>
-					<world part="Sphere002"/>
-					<world part="Sphere003"/>
-				</worlds>
-			</properties>
-		</dataset>
-		
-		
-		
-		
-		
-		<!-- System 802 - Fifth Cascade -->
-		<dataset macro="Cluster_802_macro">
-			<properties>
-				<identification name="{8000,1021}" description="{8000,1022}" image="enc_cluster802"/>
-				<sounds>
-					<music ref="music_soundtrack_teladi" />
-				</sounds>
-				<area sunlight="0.85" economy="0.75" security="0.75" />
-				<system>
-					<space environment="{1042,12031}(Nebula)"/>
-					<suns>
-						<sun class="{1042,13041}(White Dwarf)"/>
-					</suns>
-					<planets>
-						<planet name="{8000,1021} {20403,103}(c)" class="{1042,14101}(Earth Analog)" geology="{1042,15131}(Forest)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,10021}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="planet001c">
-							<moons>
-								<moon name="{8000,1021} {20403,103}(c) {20402,1}(I)" geology="{1042,14051}(Moon)" atmosphere="{1042,15121}(Swamp)" population="{1042,10021}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="Sphere003"/>
-							</moons>
-						</planet>
-					</planets>
-				</system>
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_802_Sector001_macro">
-			<properties>
-				<identification name="{8000,1021}" description="{8000,1022}" />
-				<worlds>
-					<world part="planet001c"/>
-					<world part="Sphere003"/>
-				</worlds>
-			</properties>
-		</dataset>
-		
-		
-		
-		
-		
-		<!-- System 803 - Shadow of Giants -->
-		<dataset macro="Cluster_803_macro">
-			<properties>
-				<identification name="{8000,1031}" description="{8000,1032}" image="enc_cluster803"/>
+				<identification name="{8000,10010}" description="{8000,20010}" image="enc_Cluster_SKY01"/>
 				<sounds>
 					<music ref="music_soundtrack_argon" />
 				</sounds>
@@ -133,10 +41,9 @@
 				</system>
 			</properties>
 		</dataset>
-		
-		<dataset macro="Cluster_803_Sector001_macro">
+		<dataset macro="Sector_SKY01s01_macro">
 			<properties>
-				<identification name="{8000,1031}" description="{8000,1032}" />
+				<identification name="{8000,10010}" description="{8000,20010}" />
 				<worlds>
 					<world part="planet001"/>
 					<world part="Sphere002"/>
@@ -145,85 +52,87 @@
 			</properties>
 		</dataset>
 		
-		
-		
-		
-		
-		<!-- System 804 - Shining Currents -->
-		<dataset macro="Cluster_804_macro">
+		<!--   - -     SKY02 - Shareholder's Fortune     - -   -->
+		<dataset macro="Cluster_SKY02_macro">
 			<properties>
-				<identification name="{8000,1041}" description="{8000,1042}" image="enc_cluster804"/>
+				<identification name="{8000,10020}" description="{8000,20020}" image="enc_Cluster_SKY02"/>
 				<sounds>
-					<music ref="music_soundtrack_argon" />
+					<music ref="music_soundtrack_teladi" />
 				</sounds>
-				<area sunlight="0.25" economy="0.75" security="0.75" />
+				<area sunlight="0.85" economy="0.75" security="0.75" />
 				<system>
-					<space environment="{1042,12021}(Thin Nebula)"/>
+					<space environment="{1042,12031}(Nebula)"/>
 					<suns>
 						<sun class="{1042,13041}(White Dwarf)"/>
 					</suns>
 					<planets>
-						<planet name="{8000,1041} {20403,103}(c)" class="{1042,14101}(Earth Analog)" geology="{1042,15141}(Ocean)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,16021}" maxpopulation="1818450" settlements="{1042,16041}(Research Outpost)" part="planet001c"/>
-					</planets>
-				</system>
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_804_Sector001_macro">
-			<properties>
-				<identification name="{8000,1041}" description="{8000,1042}" />
-				<worlds>
-					<world part="planet001c"/>
-				</worlds>
-			</properties>
-		</dataset>
-		
-		
-		
-		
-		
-		<!-- System 805 - Shores of Infinity -->
-		<dataset macro="Cluster_805_macro">
-			<properties>
-				<identification name="{8000,1051}" description="{8000,1052}" image="enc_cluster805"/>
-				<sounds>
-					<music ref="legacy_music_pool" />
-				</sounds>
-				<area sunlight="1" economy="0.75" security="0.75" />
-				<system>
-					<space environment="{1042,12011}(Clear Space)"/>
-					<suns>
-						<sun class="{1042,13051}(Blue Dwarf)"/>
-					</suns>
-					<planets>
-						<planet name="{8000,1051} {20403,103}(c)" class="{1042,14101}(Earth Analog)" geology="{1042,15141}(Ocean)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,10021}" maxpopulation="10000000000" settlements="{1042,16041}(Multiple Cities)" part="Planet">
+						<planet name="{8000,1021} {20403,103}(c)" class="{1042,14101}(Earth Analog)" geology="{1042,15131}(Forest)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,10021}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="planet001c">
 							<moons>
-								<moon name="{8000,1051} {20403,103}(c) {20402,1}(I)" geology="{1042,14051}(Moon)" atmosphere="{1042,15101}(Barren)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="Sphere003"/>
+								<moon name="{8000,1021} {20403,103}(c) {20402,1}(I)" geology="{1042,14051}(Moon)" atmosphere="{1042,15121}(Swamp)" population="{1042,10021}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="Sphere003"/>
 							</moons>
 						</planet>
 					</planets>
 				</system>
 			</properties>
 		</dataset>
-		
-		<dataset macro="Cluster_805_Sector001_macro">
+		<dataset macro="Sector_SKY02s01_macro">
 			<properties>
-				<identification name="{8000,1051}" description="{8000,1052}" />
+				<identification name="{8000,10020}" description="{8000,20020}" />
 				<worlds>
-					<world part="Planet"/>
+					<world part="planet001c"/>
 					<world part="Sphere003"/>
 				</worlds>
 			</properties>
 		</dataset>
 		
-		
-		
-		
-		
-		<!-- System 806 - Preacher's Void IV -->
-		<dataset macro="Cluster_806_macro">
+		<!--   - -     SKY03 - Mines of Fortune     - -   -->
+		<dataset macro="Cluster_SKY03_macro">
 			<properties>
-				<identification name="{8000,2061}" description="{8000,2062}" system="806" image="enc_cluster806"/>
+				<identification name="{8000,10030}" description="{8000,20030}" image="enc_Cluster_SKY03"/>
+				<sounds>
+					<music ref="music_dlc_terran_soundtrack_yaki" />
+				</sounds>
+				<area sunlight="0.85" economy="0.25" security="0.25" />
+				<system>
+					<space environment="{1042,12041}(Asteroids)"/>
+					<suns>
+						<sun class="{1042,13051}(Blue Dwarf)"/>
+					</suns>
+					<planets>
+						<planet name="{8000,1181} {20403,103}(c)" class="{1042,14061}(Planet)" geology="{1042,15021}(Mountains)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,10021}" maxpopulation="1818400" settlements="{1042,16031}(Mining Colonies)" part="Sphere001"/>
+					</planets>
+				</system>
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY03s01_macro">
+			<properties>
+				<identification name="{8000,10030}" description="{8000,20030}" />
+				<worlds>
+					<world part="Sphere001"/>
+				</worlds>
+			</properties>
+		</dataset>
+		
+		<!--   - -     SKY04 - Depths of Silence     - -   -->
+		<dataset macro="Cluster_SKY04_macro">
+			<properties>
+				<identification name="{8000,10040}" description="{8000,20040}" image="enc_Cluster_SKY04"/>
+				<sounds>
+					<music ref="music_soundtrack_xenon" />
+				</sounds>
+				<area sunlight="1.2" economy="0.25" security="0.25" />
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY04s01_macro">
+			<properties>
+				<identification name="{8000,10040}" description="{8000,20040}" />
+			</properties>
+		</dataset>
+		
+		<!--   - -     SKY05 - Preacher's Void IV     - -   -->
+		<dataset macro="Cluster_SKY05_macro">
+			<properties>
+				<identification name="{8000,10058}" description="{8000,20058}" system="7705" image="enc_Cluster_SKY05"/>
 				<sounds>
 					<music ref="music_soundtrack_paranid" />
 				</sounds>
@@ -252,47 +161,66 @@
 				</system>
 			</properties>
 		</dataset>
-		
-		<dataset macro="Cluster_806_Sector001_macro">
+		<dataset macro="Sector_SKY05s01_macro">
 			<properties>
-				<identification name="{8000,1061}" description="{8000,1062}" />
+				<identification name="{8000,10050}" description="{8000,20050}" />
 				<worlds>
 					<world part="planet001"/>
 				</worlds>
 			</properties>
 		</dataset>
 		
-		
-		
-		
-		
-		<!-- System 807 - Preacher's Void VI -->
-		<dataset macro="Cluster_807_macro">
+		<!--   - -     SKY06 - Preacher's Void VI     - -   -->
+		<dataset macro="Cluster_SKY06_macro">
 			<properties>
-				<identification name="{8000,2061}" description="{8000,2062}" system="806" image="enc_cluster807"/>
+				<identification name="{8000,10058}" description="{8000,20058}" system="7705" image="enc_Cluster_SKY06"/>
 				<sounds>
 					<music ref="music_soundtrack_paranid" />
 				</sounds>
 				<area sunlight="0.25" economy="0.25" security="0.25" />
 			</properties>
 		</dataset>
-		<dataset macro="Cluster_807_Sector001_macro">
+		<dataset macro="Sector_SKY06s01_macro">
 			<properties>
-				<identification name="{8000,1071}" description="{8000,1072}" />
+				<identification name="{8000,10050}" description="{8000,20050}" />
 				<worlds>
 					<world part="planet"/>
 				</worlds>
 			</properties>
 		</dataset>
 		
-		
-		
-		
-		
-		<!-- System 808 - Ocraroke's Storm -->
-		<dataset macro="Cluster_808_macro">
+		<!--   - -     SKY07 - Inquisitor's Wrath     - -   -->
+		<dataset macro="Cluster_SKY07_macro">
 			<properties>
-				<identification name="{8000,1081}" description="{8000,1082}" image="enc_cluster808"/>
+				<identification name="{8000,10070}" description="{8000,20070}" image="enc_Cluster_SKY07"/>
+				<sounds>
+					<music ref="music_cluster_turquoise_sea" />
+				</sounds>
+				<area sunlight="1" economy="0.25" security="0.25" />
+				<system>
+					<space environment="{1042,12041}(Asteroids)"/>
+					<suns>
+						<sun class="{1042,13051}(Blue Dwarf)"/>
+					</suns>
+					<planets>
+						<planet name="{8000,1131} {20403,103}(c)" class="{1042,14061}(Planet)" geology="{1042,15051}(Rock and Ice)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="moon2b"/>
+					</planets>
+				</system>
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY07s01_macro">
+			<properties>
+				<identification name="{8000,10070}" description="{8000,20070}" />
+				<worlds>
+					<world part="moon2b"/>
+				</worlds>
+			</properties>
+		</dataset>
+		
+		<!--   - -     SKY08 - Ocraroke's Storm     - -   -->
+		<dataset macro="Cluster_SKY08_macro">
+			<properties>
+				<identification name="{8000,10080}" description="{8000,20080}" image="enc_Cluster_SKY08"/>
 				<sounds>
 					<music ref="music_dlc_pirate_soundtrack_windfall" />
 				</sounds>
@@ -308,26 +236,507 @@
 				</system>
 			</properties>
 		</dataset>
-		
-		<dataset macro="Cluster_808_Sector001_macro">
+		<dataset macro="Sector_SKY08s01_macro">
 			<properties>
-				<identification name="{8000,1081}" description="{8000,1082}" />
+				<identification name="{8000,10080}" description="{8000,20080}" />
 				<worlds>
 					<world part="Sphere003"/>
 				</worlds>
 			</properties>
 		</dataset>
 		
-		
-		
-		
-		
-		<!-- System 809 - Thyn's Abyss -->
-		<dataset macro="Cluster_809_macro">
+		<!--   - -     SKY09 - Consecrated Fire     - -   -->
+		<dataset macro="Cluster_SKY09_macro">
 			<properties>
-				<identification name="{8000,1091}" description="{8000,1092}" image="enc_cluster809"/>
+				<identification name="{8000,10090}" description="{8000,20090}" image="enc_Cluster_SKY09"/>
+				<sounds>
+					<music ref="music_dlc_pirate_soundtrack_leap_of_faith" />
+				</sounds>
+				<area sunlight="7.45" economy="0.25" security="0.25" />
+				<system>
+					<space environment="{1042,12041}(Asteroids)"/>
+					<suns>
+						<sun class="{1042,13091}(Yellow Giant)"/>
+					</suns>
+					<planets>
+						<planet name="{8000,1151} {20403,103}(c)" class="{1042,14061}(Planet)" geology="{1042,15031}(Volcanic)" atmosphere="{1042,11041}(Nitrogen)" population="{1042,10011}(None)" settlements="{1042,10011}(None)" part="moon001" atmopart="atmosphereb"/>
+						<planet name="{8000,1151} {20403,104}(c)" class="{1042,14061}(Planet)" geology="{1042,15101}(Barren)"   atmosphere="{1042,11041}(Nitrogen)" population="{1042,10011}(None)" settlements="{1042,10011}(None)" part="moon002" />
+					</planets>
+				</system>
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY09s01_macro">
+			<properties>
+				<identification name="{8000,10090}" description="{8000,20090}" />
+				<worlds>
+					<world part="moon001"/>
+					<world part="moon002"/>
+				</worlds>
+			</properties>
+		</dataset>
+		
+		<!--   - -     SKY10 - Thyn's Excavation     - -   -->
+		<dataset macro="Cluster_SKY10_macro">
+			<properties>
+				<identification name="{8000,10108}" description="{8000,20108}" system="7710" image="enc_Cluster_SKY10"/>
+				<sounds>
+					<music ref="legacy_music_pool" />
+				</sounds>
+				<area sunlight="0.5" economy="0.1" security="0.1"  factionlogic="true" />
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY10s01_macro">
+			<properties>
+				<identification name="{8000,10100}" description="{8000,20100}" />
+			</properties>
+		</dataset>
+		
+		<!--   - -     SKY11 - Thyn's Abyss 1     - -   -->
+		<dataset macro="Cluster_SKY11_macro">
+			<properties>
+				<identification name="{8000,10108}" description="{8000,20108}" system="7710" image="enc_Cluster_SKY11"/>
+				<sounds>
+					<music ref="legacy_music_pool" />
+				</sounds>
+				<area sunlight="0.2" economy="0.2" security="0.3"  factionlogic="true" />
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY11s01_macro">
+			<properties>
+				<identification name="{8000,10110}" description="{8000,20110}" />
+			</properties>
+		</dataset>
+		
+		<!--   - -     SKY12 - Thyn's Abyss 2     - -   -->
+		<dataset macro="Cluster_SKY12_macro">
+			<properties>
+				<identification name="{8000,10108}" description="{8000,20108}" system="7710" image="enc_Cluster_SKY12"/>
+				<sounds>
+					<music ref="legacy_music_pool" />
+				</sounds>
+				<area sunlight="0.3" economy="0.4" security="0.2"  factionlogic="true" />
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY12s01_macro">
+			<properties>
+				<identification name="{8000,10120}" description="{8000,20120}" />
+			</properties>
+		</dataset>
+		
+		<!--   - -     SKY13 - Thyn's Abyss 3     - -   -->
+		<dataset macro="Cluster_SKY13_macro">
+			<properties>
+				<identification name="{8000,10108}" description="{8000,20108}" system="7710" image="enc_Cluster_SKY13"/>
+				<sounds>
+					<music ref="legacy_music_pool" />
+				</sounds>
+				<area sunlight="0.1" economy="0.2" security="0.4"  factionlogic="true" />
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY13s01_macro">
+			<properties>
+				<identification name="{8000,10130}" description="{8000,20130}" />
+			</properties>
+		</dataset>
+		
+		<!--   - -     SKY14 - #     - -   -->
+		<!--                               -->
+		
+		<!--   - -     SKY15 - Wastelands III     - -   -->
+		<dataset macro="Cluster_SKY15_macro">
+			<properties>
+				<identification name="{8000,10158}" description="{8000,20158}" system="7715" image="enc_Cluster_SKY15"/>
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+				<area sunlight="0.35" economy="0.25" security="0.25" />
+				<system>
+					<space environment="{1042,12061}(Heavy Radiation)"/>
+					<suns>
+						<sun class="{1042,13011}(Red Dwarf)"/>
+					</suns>
+					<planets>
+						<planet name="{8000,2201} {20403,103}(c)" class="{1042,14091}(Ringed Gas Giant)" geology="{1042,15081}(Ice)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="planet001"/>
+						<planet name="{8000,2201} {20403,104}(c)" class="{1042,14061}(Planet)" geology="{1042,15031}(Volcanic)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="planet001b">
+							<moons>
+								<moon name="{8000,2201} {20403,104}(c) {20402,1}(I)" geology="{1042,14051}(Moon)" atmosphere="{1042,15041}(Xenon Structures)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="Sphere002"/>
+							</moons>
+						</planet>
+					</planets>
+				</system>
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY15s01_macro">
+			<properties>
+				<identification name="{8000,10150}" description="{8000,20150}" />
+				<worlds>
+					<world part="planet001"/>
+				</worlds>
+			</properties>
+		</dataset>
+		
+		<!--   - -     SKY16 - Wastelands V     - -   -->
+		<dataset macro="Cluster_SKY16_macro">
+			<properties>
+				<identification name="{8000,10158}" description="{8000,20158}" system="7715" image="enc_Cluster_SKY16"/>
+				<sounds>
+					<music ref="music_dlc_split_soundtrack_periphery" />
+				</sounds>
+				<area sunlight="0.3" economy="0.25" security="0.25" />
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY16s01_macro">
+			<properties>
+				<identification name="{8000,10160}" description="{8000,20160}" />
+				<worlds>
+					<world part="planet001b"/>
+					<world part="Sphere002"/>
+				</worlds>
+			</properties>
+		</dataset>
+		
+		<!--   - -     SKY17 - Mists of Elysium I     - -   -->
+		<dataset macro="Cluster_SKY17_macro">
+			<properties>
+				<identification name="{8000,10178}" description="{8000,20178}" system="7717" image="enc_Cluster_SKY17"/>
+				<sounds>
+					<music ref="legacy_music_pool" />
+				</sounds>
+				<area sunlight="1.3" economy="0.5" security="0.5" />
+				<system>
+					<space environment="{1042,12021}(Thin Nebula)"/>
+					<suns>
+						<sun class="{1042,13021}(Yellow Dwarf)"/>
+					</suns>
+					<planets>
+						<planet name="{8000,2101} {20403,103}(c)" class="{1042,14081}(Gas Giant)" geology="{1042,15091}(Ice)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="planet001b"/>
+					</planets>
+				</system>
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY17s01_macro">
+			<properties>
+				<identification name="{8000,10170}" description="{8000,20170}" />
+				<worlds>
+					<world part="planet001b"/>
+				</worlds>
+			</properties>
+		</dataset>
+		
+		<!--   - -     SKY18 - Mists of Elysium II     - -   -->
+		<dataset macro="Cluster_SKY18_macro">
+			<properties>
+				<identification name="{8000,10178}" description="{8000,20178}" system="7717" image="enc_Cluster_SKY18"/>
+				<sounds>
+					<music ref="legacy_music_pool" />
+				</sounds>
+				<area sunlight="1.25" economy="0.5" security="0.5" />
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY18s01_macro">
+			<properties>
+				<identification name="{8000,10180}" description="{8000,20180}" />
+				<worlds>
+					<world part="planet001b"/>
+				</worlds>
+			</properties>
+		</dataset>
+		
+		<!--   - -     SKY19 - Mists of Elysium III     - -   -->
+		<dataset macro="Cluster_SKY19_macro">
+			<properties>
+				<identification name="{8000,10178}" description="{8000,20178}" system="7717" image="enc_Cluster_SKY19"/>
+				<sounds>
+					<music ref="legacy_music_pool" />
+				</sounds>
+				<area sunlight="1.2" economy="0.5" security="0.5" />
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY19s01_macro">
+			<properties>
+				<identification name="{8000,10190}" description="{8000,20190}" />
+				<worlds>
+					<world part="planet001b"/>
+				</worlds>
+			</properties>
+		</dataset>
+		
+		<!--   - -     SKY20 - Shore of Infinity     - -   -->
+		<dataset macro="Cluster_SKY20_macro">
+			<properties>
+				<identification name="{8000,10200}" description="{8000,20200}" image="enc_Cluster_SKY20"/>
+				<sounds>
+					<music ref="legacy_music_pool" />
+				</sounds>
+				<area sunlight="1" economy="0.75" security="0.75" />
+				<system>
+					<space environment="{1042,12011}(Clear Space)"/>
+					<suns>
+						<sun class="{1042,13051}(Blue Dwarf)"/>
+					</suns>
+					<planets>
+						<planet name="{8000,1051} {20403,103}(c)" class="{1042,14101}(Earth Analog)" geology="{1042,15141}(Ocean)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,10021}" maxpopulation="10000000000" settlements="{1042,16041}(Multiple Cities)" part="Planet">
+							<moons>
+								<moon name="{8000,1051} {20403,103}(c) {20402,1}(I)" geology="{1042,14051}(Moon)" atmosphere="{1042,15101}(Barren)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="Sphere003"/>
+							</moons>
+						</planet>
+					</planets>
+				</system>
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY20s01_macro">
+			<properties>
+				<identification name="{8000,10200}" description="{8000,20200}" />
+				<worlds>
+					<world part="Planet"/>
+					<world part="Sphere003"/>
+				</worlds>
+			</properties>
+		</dataset>
+		
+		<!--   - -     SKY21 - Light Water     - -   -->
+		<dataset macro="Cluster_SKY21_macro">
+			<properties>
+				<identification name="{8000,10210}" description="{8000,20210}" image="enc_Cluster_SKY21"/>
+				<sounds>
+					<music ref="music_soundtrack_teladi" />
+				</sounds>
+				<area sunlight="0.5" economy="0.75" security="0.75" />
+				<system>
+					<space environment="{1042,12011}(Clear Space)"/>
+					<suns>
+						<sun class="{1042,13041}(White Dwarf)"/>
+					</suns>
+					<planets>
+						<planet name="{8000,1011} {20403,103}(c)" class="{1042,14031}(Terrestrial)" geology="{1042,15011}(Tunda)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,10021}" maxpopulation="10000000000" settlements="{1042,16041}(Multiple Cities)" part="planet001">
+							<moons>
+								<moon name="{8000,1011} {20403,103}(c) {20402,1}(I)" geology="{1042,14051}(Moon)" atmosphere="{1042,15071}(Rocks)" population="{1042,10021}" maxpopulation="1363850000" settlements="{1042,16011}(Uninhabited)" part="Sphere002"/>
+								<moon name="{8000,1011} {20403,103}(c) {20402,2}(I)" geology="{1042,14051}(Moon)" atmosphere="{1042,15101}(Barren)" population="{1042,10021}" maxpopulation="1363850000" settlements="{1042,16011}(Uninhabited)" part="Sphere003"/>
+							</moons>
+						</planet>
+					</planets>
+				</system>
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY21s01_macro">
+			<properties>
+				<identification name="{8000,10210}" description="{8000,20210}" />
+				<worlds>
+					<world part="planet001"/>
+					<world part="Sphere002"/>
+					<world part="Sphere003"/>
+				</worlds>
+			</properties>
+		</dataset>
+		
+		<!--   - -     SKY22 - Great Trench     - -   -->
+		<dataset macro="Cluster_SKY22_macro">
+			<properties>
+				<identification name="{8000,10220}" description="{8000,20220}" image="enc_Cluster_SKY22"/>
+				<sounds>
+					<music ref="music_dlc_terran_soundtrack_pioneers" />
+				</sounds>
+				<area sunlight="0.75" economy="0.25" security="0.25" />
+				<system>
+					<space environment="{1042,12011}(Clear Space)"/>
+					<suns>
+						<sun class="{1042,13041}(White Dwarf)"/>
+					</suns>
+					<planets>
+						<planet name="{8000,2161} {20403,103}(c)" class="{1042,14101}(Earth Analog)" geology="{1042,15131}(Forest)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,10021}" maxpopulation="10000000000" settlements="{1042,16041}(Multiple Cities)" part="planet001c">
+							<moons>
+								<moon name="{8000,2161} {20403,103}(c) {20402,1}(I)" geology="{1042,14031}(Terestrial)" atmosphere="{1042,15141}(Ocean)" population="{1042,10021}" maxpopulation="1363850" settlements="{1042,16031}(Research Outpost)" part="Sphere002"/>
+							</moons>
+						</planet>
+					</planets>
+				</system>
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY22s01_macro">
+			<properties>
+				<identification name="{8000,10221}" description="{8000,20221}" />
+				<worlds>
+					<world part="planet001c"/>
+					<world part="Sphere002"/>
+				</worlds>
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY22s02_macro">
+			<properties>
+				<identification name="{8000,10222}" description="{8000,20222}" />
+				<worlds>
+					<world part="planet001c"/>
+					<world part="Sphere002"/>
+				</worlds>
+			</properties>
+		</dataset>
+		
+		<!--   - -     SKY23 - Dark Waters     - -   -->
+		<dataset macro="Cluster_SKY23_macro">
+			<properties>
+				<identification name="{8000,10230}" description="{8000,20230}" image="enc_Cluster_SKY23"/>
+				<sounds>
+					<music ref="music_dlc_terran_soundtrack_oort_cloud" />
+				</sounds>
+				<area sunlight="0.25" economy="0.25" security="0.25" />
+				<system>
+					<space environment="{1042,12011}(Asteroids)"/>
+					<suns>
+						<sun class="{1042,13051}(Blue Dwarf)"/>
+					</suns>
+					<planets>
+						<planet name="{8000,1171} {20403,103}(c)" class="{1042,14031}(Terrestrial)" geology="{1042,15141}(Ocean)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,10021}" maxpopulation="1810000" settlements="{1042,16031}(Research Outpost)" part="planet001c">
+							<moons>
+								<moon name="{8000,1051} {20403,103}(c) {20402,1}(I)" geology="{1042,14051}(Moon)" atmosphere="{1042,15101}(Barren)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="Sphere002"/>
+							</moons>
+						</planet>
+					</planets>
+				</system>
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY23s01_macro">
+			<properties>
+				<identification name="{8000,10230}" description="{8000,20230}" />
+				<worlds>
+					<world part="planet001c"/>
+					<world part="Sphere002"/>
+				</worlds>
+			</properties>
+		</dataset>
+		
+		<!--   - -     SKY24 - #     - -   -->
+		<!--                               -->
+		
+		<!--   - -     SKY25 - Perpetual Sin     - -   -->
+		<dataset macro="Cluster_SKY25_macro">
+			<properties>
+				<identification name="{8000,10250}" description="{8000,20250}" image="enc_Cluster_SKY25"/>
 				<sounds>
 					<music ref="music_soundtrack_xenon" />
+				</sounds>
+				<area sunlight="1.45" economy="0.5" security="0.5"  factionlogic="true" />
+				<system>
+					<space environment="{1042,12031}(Nebula)" />
+					<suns>
+						<sun class="{1042,13021}(Yellow Dwarf)"/>
+					</suns>
+					<planets>
+						<planet name="{20005,3045}(}(Unholy Descent)" class="{1042,14101}(Earth Analog)" geology="{1042,15021}(Mountains)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,10011}(None)" settlements="{1042,16011}(Uninhabited)" part="planet001c" atmopart="atmosphere001">
+							<moons>
+								<moon name="{20005,1059}(Ralston)" geology="{1042,15061}(Canyons)" atmosphere="{1042,11021}(Hydrogen)" population="{1042,10011}(None)" settlements="{1042,16011}(Uninhabited)"/>
+							</moons>
+							<shaderparams>
+								<!--Note: materials are planet_cluster49_planet1 / atmo_cluster49_planet1-->
+								<shaderparam name="polarscale" stat="temperature">
+									<!--Initial value: 3-->
+									<param position="0" value="0" />
+									<param position="3" value="0.15" />
+									<param position="6" value="1.0" />
+								</shaderparam>
+								<shaderparam name="citylevel" stat="population">
+									<!--Initial value: 0-->
+									<param position="0" value="0" />
+									<param position="10000000000" value="1" />
+								</shaderparam>
+							</shaderparams>
+						</planet>
+					</planets>
+				</system>
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY25s01_macro">
+			<properties>
+				<identification name="{8000,10250}" description="{8000,20250}" />
+				<worlds>
+					<world part="planet001c"/>
+				</worlds>
+			</properties>
+		</dataset>
+		
+		<!--   - -     SKY26 - Shining Currents     - -   -->
+		<dataset macro="Cluster_SKY26_macro">
+			<properties>
+				<identification name="{8000,10260}" description="{8000,20260}" image="enc_Cluster_SKY26"/>
+				<sounds>
+					<music ref="music_cluster_antigone_memorial" />
+				</sounds>
+				<area sunlight="1.15" economy="0.5" security="0.5"  factionlogic="true" />
+				<system>
+					<space environment="{1042,12031}(Nebula)"/>
+					<suns>
+						<sun class="{1042,13121}(Blue Giant)"/>
+					</suns>
+					<planets>
+						<planet name="{20005,2028}(Undulating Surface)" class="{1042,14031}(Terrestrial)" geology="{1042,15101}(Barren)" atmosphere="{1042,11061}(Methane/Hydrogen)" population="{1042,10021}" maxpopulation="5682750000" settlements="{1042,16041}(Multiple Cities)" part="planet">
+							<moons>
+								<moon name="{20005,1049} {20402,1}(I)" geology="{1042,15091}(Craters)" atmosphere="{1042,10011}(None)" population="{1042,16011}(Uninhabited)" settlements="{1042,10011}(None)"/>
+								<moon name="{20005,1049} {20402,2}(II)" geology="{1042,15111}(Desert)" atmosphere="{1042,11061}(Methane/Hydrogen)" population="{1042,16011}(Uninhabited)" settlements="{1042,10011}(None)"/>
+							</moons>
+						</planet>
+					</planets>
+				</system>
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY26s01_macro">
+			<properties>
+				<identification name="{8000,10260}" description="{8000,20260}" />
+				<worlds>
+					<world part="planet"/>
+				</worlds>
+			</properties>
+		</dataset>
+		
+		<!--   - -     SKY27 - Interworlds     - -   -->
+		<dataset macro="Cluster_SKY27_macro">
+			<properties>
+				<identification name="{8000,10270}" description="{8000,20270}" image="enc_Cluster_SKY27"/>
+				<sounds>
+					<music ref="music_soundtrack_teladi" />
+				</sounds>
+				<area sunlight="0.85" economy="0.25" security="0.25" />
+				<system>
+					<space environment="{1042,12041}(Asteroids)"/>
+					<suns>
+						<sun class="{1042,13041}(White Dwarf)"/>
+					</suns>
+					<planets>
+						<planet name="{8000,2231} {20403,103}(c)" class="{1042,14011}(Super Earth)" geology="{1042,15131}(Forest)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,10021}" maxpopulation="1818450000" settlements="{1042,16041}(Multiple Cities)" part="planet">
+							<moons>
+								<moon name="{8000,2231} {20403,103}(c) {20402,1}(I)" geology="{1042,14101}(Earth Analog)" atmosphere="{1042,15121}(Swamp)" population="{1042,10021}" maxpopulation="1363850000" settlements="{1042,16041}(Multiple Cities)" part="planet001"/>
+							</moons>
+						</planet>
+					</planets>
+				</system>
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY27s01_macro">
+			<properties>
+				<identification name="{8000,10271}" description="{8000,20271}" />
+				<worlds>
+					<world part="planet"/>
+					<world part="planet001"/>
+				</worlds>
+			</properties>
+		</dataset>
+		<dataset macro="Sector_SKY27s02_macro">
+			<properties>
+				<identification name="{8000,10272}" description="{8000,20272}" />
+				<worlds>
+					<world part="planet"/>
+					<world part="planet001"/>
+				</worlds>
+			</properties>
+		</dataset>
+		
+		<!--   - -     SKY28 - #     - -   -->
+		<!--                               -->
+		
+		<!--   - -     SKY29 - Friar's Retreat     - -   -->
+		<dataset macro="Cluster_SKY29_macro">
+			<properties>
+				<identification name="{8000,10290}" description="{8000,20290}" image="enc_Cluster_SKY29"/>
+				<sounds>
+					<music ref="music_soundtrack_paranid" />
 				</sounds>
 				<area sunlight="0.45" economy="0.25" security="0.25" />
 				<system>
@@ -345,10 +754,9 @@
 				</system>
 			</properties>
 		</dataset>
-		
-		<dataset macro="Cluster_809_Sector001_macro">
+		<dataset macro="Sector_SKY29s01_macro">
 			<properties>
-				<identification name="{8000,1091}" description="{8000,1092}" />
+				<identification name="{8000,10290}" description="{8000,20290}" />
 				<worlds>
 					<world part="planet001c"/>
 					<world part="Sphere002"/>
@@ -356,128 +764,10 @@
 			</properties>
 		</dataset>
 		
-		
-		
-		
-		
-		<!-- System 810 - Mists of Elysium I -->
-		<dataset macro="Cluster_810_macro">
+		<!--   - -     SKY30 - Clarity's End     - -   -->
+		<dataset macro="Cluster_SKY30_macro">
 			<properties>
-				<identification name="{8000,2101}" description="{8000,2102}" system="810" image="enc_cluster810"/>
-				<sounds>
-					<music ref="legacy_music_pool" />
-				</sounds>
-				<area sunlight="1.3" economy="0.5" security="0.5" />
-				<system>
-					<space environment="{1042,12021}(Thin Nebula)"/>
-					<suns>
-						<sun class="{1042,13021}(Yellow Dwarf)"/>
-					</suns>
-					<planets>
-						<planet name="{8000,2101} {20403,103}(c)" class="{1042,14081}(Gas Giant)" geology="{1042,15091}(Ice)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="planet001b"/>
-					</planets>
-				</system>
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_810_Sector001_macro">
-			<properties>
-				<identification name="{8000,1101}" description="{8000,1102}" />
-				<worlds>
-					<world part="planet001b"/>
-				</worlds>
-			</properties>
-		</dataset>
-		
-		
-		
-		
-		
-		<!-- System 811 - Mists of Elysium II -->
-		<dataset macro="Cluster_811_macro">
-			<properties>
-				<identification name="{8000,2101}" description="{8000,2102}" system="810" image="enc_cluster811"/>
-				<sounds>
-					<music ref="legacy_music_pool" />
-				</sounds>
-				<area sunlight="1.25" economy="0.5" security="0.5" />
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_811_Sector001_macro">
-			<properties>
-				<identification name="{8000,1111}" description="{8000,1112}" />
-				<worlds>
-					<world part="planet001b"/>
-				</worlds>
-			</properties>
-		</dataset>
-		
-		
-		
-		
-		
-		<!-- System 812 - Mists of Elysium III -->
-		<dataset macro="Cluster_812_macro">
-			<properties>
-				<identification name="{8000,2101}" description="{8000,2102}" system="810" image="enc_cluster812"/>
-				<sounds>
-					<music ref="legacy_music_pool" />
-				</sounds>
-				<area sunlight="1.2" economy="0.5" security="0.5" />
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_812_Sector001_macro">
-			<properties>
-				<identification name="{8000,1121}" description="{8000,1122}" />
-				<worlds>
-					<world part="planet001b"/>
-				</worlds>
-			</properties>
-		</dataset>
-		
-		
-		
-		
-		
-		<!-- System 813 - Inquisitor's Wrath -->
-		<dataset macro="Cluster_813_macro">
-			<properties>
-				<identification name="{8000,1131}" description="{8000,1132}" image="enc_cluster813"/>
-				<sounds>
-					<music ref="music_cluster_turquoise_sea" />
-				</sounds>
-				<area sunlight="1" economy="0.25" security="0.25" />
-				<system>
-					<space environment="{1042,12041}(Asteroids)"/>
-					<suns>
-						<sun class="{1042,13051}(Blue Dwarf)"/>
-					</suns>
-					<planets>
-						<planet name="{8000,1131} {20403,103}(c)" class="{1042,14061}(Planet)" geology="{1042,15051}(Rock and Ice)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="moon2b"/>
-					</planets>
-				</system>
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_813_Sector001_macro">
-			<properties>
-				<identification name="{8000,1131}" description="{8000,1132}" />
-				<worlds>
-					<world part="moon2b"/>
-				</worlds>
-			</properties>
-		</dataset>
-		
-		
-		
-		
-		
-		<!-- System 814 - Clarity's End -->
-		<dataset macro="Cluster_814_macro">
-			<properties>
-				<identification name="{8000,1141}" description="{8000,1142}" image="enc_cluster814"/>
+				<identification name="{8000,10300}" description="{8000,20300}" image="enc_Cluster_SKY30"/>
 				<sounds>
 					<music ref="music_soundtrack_xenon" />
 				</sounds>
@@ -509,417 +799,15 @@
 				</system>
 			</properties>
 		</dataset>
-		
-		<dataset macro="Cluster_814_Sector001_macro">
+		<dataset macro="Sector_SKY30s01_macro">
 			<properties>
-				<identification name="{8000,1141}" description="{8000,1142}" />
+				<identification name="{8000,10300}" description="{8000,20300}" />
 				<worlds>
 					<world part="planet001b"/>
-				</worlds>
-			</properties>
-		</dataset>
-		
-		
-		
-		
-		
-		<!-- System 815 - Consecrated Fire -->
-		<dataset macro="Cluster_815_macro">
-			<properties>
-				<identification name="{8000,1151}" description="{8000,1152}" image="enc_cluster815"/>
-				<sounds>
-					<music ref="music_dlc_pirate_soundtrack_leap_of_faith" />
-				</sounds>
-				<area sunlight="7.45" economy="0.25" security="0.25" />
-				<system>
-					<space environment="{1042,12041}(Asteroids)"/>
-					<suns>
-						<sun class="{1042,13091}(Yellow Giant)"/>
-					</suns>
-					<planets>
-						<planet name="{8000,1151} {20403,103}(c)" class="{1042,14061}(Planet)" geology="{1042,15031}(Volcanic)" atmosphere="{1042,11041}(Nitrogen)" population="{1042,10011}(None)" settlements="{1042,10011}(None)" part="moon001" atmopart="atmosphereb"/>
-						<planet name="{8000,1151} {20403,104}(c)" class="{1042,14061}(Planet)" geology="{1042,15101}(Barren)"   atmosphere="{1042,11041}(Nitrogen)" population="{1042,10011}(None)" settlements="{1042,10011}(None)" part="moon002" />
-					</planets>
-				</system>
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_815_Sector001_macro">
-			<properties>
-				<identification name="{8000,1151}" description="{8000,1152}" />
-				<worlds>
-					<world part="moon001"/>
-					<world part="moon002"/>
-				</worlds>
-			</properties>
-		</dataset>
-		
-		
-		
-		
-		
-		<!-- System 816 - Great Trench -->
-		<dataset macro="Cluster_816_macro">
-			<properties>
-				<identification name="{8000,2161}" description="{8000,2162}" image="enc_cluster816"/>
-				<sounds>
-					<music ref="music_dlc_terran_soundtrack_pioneers" />
-				</sounds>
-				<area sunlight="0.75" economy="0.25" security="0.25" />
-				<system>
-					<space environment="{1042,12011}(Clear Space)"/>
-					<suns>
-						<sun class="{1042,13041}(White Dwarf)"/>
-					</suns>
-					<planets>
-						<planet name="{8000,2161} {20403,103}(c)" class="{1042,14101}(Earth Analog)" geology="{1042,15131}(Forest)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,10021}" maxpopulation="10000000000" settlements="{1042,16041}(Multiple Cities)" part="planet001c">
-							<moons>
-								<moon name="{8000,2161} {20403,103}(c) {20402,1}(I)" geology="{1042,14031}(Terestrial)" atmosphere="{1042,15141}(Ocean)" population="{1042,10021}" maxpopulation="1363850" settlements="{1042,16031}(Research Outpost)" part="Sphere002"/>
-							</moons>
-						</planet>
-					</planets>
-				</system>
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_816_Sector001_macro">
-			<properties>
-				<identification name="{8000,1161}" description="{8000,1162}" />
-				<worlds>
-					<world part="planet001c"/>
-					<world part="Sphere002"/>
-				</worlds>
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_816_Sector002_macro">
-			<properties>
-				<identification name="{8000,1163}" description="{8000,1164}" />
-				<worlds>
-					<world part="planet001c"/>
-					<world part="Sphere002"/>
-				</worlds>
-			</properties>
-		</dataset>
-		
-		
-		
-		
-		
-		<!-- System 817 - Dark Waters -->
-		<dataset macro="Cluster_817_macro">
-			<properties>
-				<identification name="{8000,1171}" description="{8000,1172}" image="enc_cluster817"/>
-				<sounds>
-					<music ref="music_dlc_terran_soundtrack_oort_cloud" />
-				</sounds>
-				<area sunlight="0.25" economy="0.25" security="0.25" />
-				<system>
-					<space environment="{1042,12011}(Asteroids)"/>
-					<suns>
-						<sun class="{1042,13051}(Blue Dwarf)"/>
-					</suns>
-					<planets>
-						<planet name="{8000,1171} {20403,103}(c)" class="{1042,14031}(Terrestrial)" geology="{1042,15141}(Ocean)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,10021}" maxpopulation="1810000" settlements="{1042,16031}(Research Outpost)" part="planet001c">
-							<moons>
-								<moon name="{8000,1051} {20403,103}(c) {20402,1}(I)" geology="{1042,14051}(Moon)" atmosphere="{1042,15101}(Barren)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="Sphere002"/>
-							</moons>
-						</planet>
-					</planets>
-				</system>
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_817_Sector001_macro">
-			<properties>
-				<identification name="{8000,1171}" description="{8000,1172}" />
-				<worlds>
-					<world part="planet001c"/>
-					<world part="Sphere002"/>
-				</worlds>
-			</properties>
-		</dataset>
-		
-		
-		
-		
-		
-		<!-- System 818 - Mines of Fortune -->
-		<dataset macro="Cluster_818_macro">
-			<properties>
-				<identification name="{8000,1181}" description="{8000,1182}" image="enc_cluster818"/>
-				<sounds>
-					<music ref="music_dlc_terran_soundtrack_yaki" />
-				</sounds>
-				<area sunlight="0.85" economy="0.25" security="0.25" />
-				<system>
-					<space environment="{1042,12041}(Asteroids)"/>
-					<suns>
-						<sun class="{1042,13051}(Blue Dwarf)"/>
-					</suns>
-					<planets>
-						<planet name="{8000,1181} {20403,103}(c)" class="{1042,14061}(Planet)" geology="{1042,15021}(Mountains)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,10021}" maxpopulation="1818400" settlements="{1042,16031}(Mining Colonies)" part="Sphere001"/>
-					</planets>
-				</system>
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_818_Sector001_macro">
-			<properties>
-				<identification name="{8000,1181}" description="{8000,1182}" />
-				<worlds>
-					<world part="Sphere001"/>
-				</worlds>
-			</properties>
-		</dataset>
-		
-		
-		
-		
-		
-		<!-- System 819 - Matrix 79A -->
-		<dataset macro="Cluster_819_macro">
-			<properties>
-				<identification name="{8000,1191}" description="{8000,1192}" system="819" image="enc_cluster819"/>
-				<sounds>
-					<music ref="music_soundtrack_xenon" />
-				</sounds>
-				<area sunlight="1.2" economy="0.25" security="0.25" />
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_819_Sector001_macro">
-			<properties>
-				<identification name="{8000,1191}" description="{8000,1192}" />
-			</properties>
-		</dataset>
-		
-		
-		
-		
-		
-		<!-- System 820 - Wastelands III -->
-		<dataset macro="Cluster_820_macro">
-			<properties>
-				<identification name="{8000,2201}" description="{8000,2202}" system="820" image="enc_cluster820"/>
-				<sounds>
-					<music ref="music_dlc_split_soundtrack_periphery" />
-				</sounds>
-				<area sunlight="0.35" economy="0.25" security="0.25" />
-				<system>
-					<space environment="{1042,12061}(Heavy Radiation)"/>
-					<suns>
-						<sun class="{1042,13011}(Red Dwarf)"/>
-					</suns>
-					<planets>
-						<planet name="{8000,2201} {20403,103}(c)" class="{1042,14091}(Ringed Gas Giant)" geology="{1042,15081}(Ice)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="planet001"/>
-						<planet name="{8000,2201} {20403,104}(c)" class="{1042,14061}(Planet)" geology="{1042,15031}(Volcanic)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="planet001b">
-							<moons>
-								<moon name="{8000,2201} {20403,104}(c) {20402,1}(I)" geology="{1042,14051}(Moon)" atmosphere="{1042,15041}(Xenon Structures)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="Sphere002"/>
-							</moons>
-						</planet>
-					</planets>
-				</system>
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_820_Sector001_macro">
-			<properties>
-				<identification name="{8000,1201}" description="{8000,1202}" />
-				<worlds>
-					<world part="planet001"/>
-				</worlds>
-			</properties>
-		</dataset>
-		
-		
-		
-		
-		
-		<!-- System 821 - Wastelands V -->
-		<dataset macro="Cluster_821_macro">
-			<properties>
-				<identification name="{8000,2201}" description="{8000,2202}" system="820" image="enc_cluster821"/>
-				<sounds>
-					<music ref="music_dlc_split_soundtrack_periphery" />
-				</sounds>
-				<area sunlight="0.3" economy="0.25" security="0.25" />
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_821_Sector001_macro">
-			<properties>
-				<identification name="{8000,1211}" description="{8000,1212}" />
-				<worlds>
-					<world part="planet001b"/>
-					<world part="Sphere002"/>
-				</worlds>
-			</properties>
-		</dataset>
-		
-		
-		
-		
-		
-		<!-- System 822 - The Shallows -->
-		<dataset macro="Cluster_822_macro">
-			<properties>
-				<identification name="{8000,2221}" description="{8000,2222}" image="enc_cluster822"/>
-				<sounds>
-					<music ref="music_dlc_split_soundtrack_xenon" />
-				</sounds>
-				<area sunlight="0.05" economy="0.25" security="0.25" />
-				<system>
-					<space environment="{1042,12011}(Clear Space)"/>
-					<suns>
-						<sun class="{1042,13021}(Yellow Dwarf)"/>
-					</suns>
-					<planets>
-						<planet name="{8000,2221} {20403,103}(c)" class="{1042,14081}(Gas Giant)" geology="{1042,15081}(Ice)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="planet001c">
-							<moons>
-								<moon name="{8000,2221} {20403,103}(c) {20402,1}(I)" geology="{1042,14051}(Moon)" atmosphere="{1042,15051}(Rocks and Ice)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="Sphere003"/>
-								<moon name="{8000,2221} {20403,103}(c) {20402,2}(I)" geology="{1042,14051}(Moon)" atmosphere="{1042,15091}(Craters)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="moon1"/>
-								<moon name="{8000,2221} {20403,103}(c) {20402,3}(I)" geology="{1042,14051}(Moon)" atmosphere="{1042,15101}(Barren)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="moon3"/>
-							</moons>
-						</planet>
-					</planets>
-				</system>
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_822_Sector001_macro">
-			<properties>
-				<identification name="{8000,1221}" description="{8000,1222}" />
-				<worlds>
-					<world part="planet001c"/>
-					<world part="Sphere003"/>
-					<world part="moon1"/>
-					<world part="moon3"/>
-				</worlds>
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_822_Sector002_macro">
-			<properties>
-				<identification name="{8000,1223}" description="{8000,1224}" />
-				<worlds>
-					<world part="planet001c"/>
-					<world part="Sphere003"/>
-					<world part="moon1"/>
-					<world part="moon3"/>
-				</worlds>
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_822_Sector003_macro">
-			<properties>
-				<identification name="{8000,1225}" description="{8000,1226}" />
-				<worlds>
-					<world part="planet001c"/>
-					<world part="Sphere003"/>
-					<world part="moon1"/>
-					<world part="moon3"/>
-				</worlds>
-			</properties>
-		</dataset>
-		
-		
-		
-		
-		
-		<!-- System 823 - Interworlds -->
-		<dataset macro="Cluster_823_macro">
-			<properties>
-				<identification name="{8000,2231}" description="{8000,2232}" image="enc_cluster823"/>
-				<sounds>
-					<music ref="music_cluster_antigone_memorial" />
-				</sounds>
-				<area sunlight="0.85" economy="0.25" security="0.25" />
-				<system>
-					<space environment="{1042,12041}(Asteroids)"/>
-					<suns>
-						<sun class="{1042,13041}(White Dwarf)"/>
-					</suns>
-					<planets>
-						<planet name="{8000,2231} {20403,103}(c)" class="{1042,14011}(Super Earth)" geology="{1042,15131}(Forest)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,10021}" maxpopulation="1818450000" settlements="{1042,16041}(Multiple Cities)" part="planet">
-							<moons>
-								<moon name="{8000,2231} {20403,103}(c) {20402,1}(I)" geology="{1042,14101}(Earth Analog)" atmosphere="{1042,15121}(Swamp)" population="{1042,10021}" maxpopulation="1363850000" settlements="{1042,16041}(Multiple Cities)" part="planet001"/>
-							</moons>
-						</planet>
-					</planets>
-				</system>
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_823_Sector001_macro">
-			<properties>
-				<identification name="{8000,1231}" description="{8000,1232}" />
-				<worlds>
-					<world part="planet"/>
-					<world part="planet001"/>
-				</worlds>
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_823_Sector002_macro">
-			<properties>
-				<identification name="{8000,1233}" description="{8000,1234}" />
-				<worlds>
-					<world part="planet"/>
-					<world part="planet001"/>
-				</worlds>
-			</properties>
-		</dataset>
-		
-		
-		
-		
-		
-		<!-- System 824 - Depths of Silence -->
-		<dataset macro="Cluster_824_macro">
-			<properties>
-				<identification name="{8000,1241}" description="{8000,1242}" image="enc_cluster824"/>
-				<sounds>
-					<music ref="music_dlc_split_soundtrack_xenon" />
-				</sounds>
-				<area sunlight="0.05" economy="0.25" security="0.25" />
-				<system>
-					<space environment="{1042,12011}(Clear Space)"/>
-					<suns>
-						<sun class="{1042,13021}(Yellow Dwarf)"/>
-					</suns>
-					<planets>
-						<planet name="{8000,2221} {20403,103}(c)" class="{1042,14081}(Gas Giant)" geology="{1042,15081}(Ice)" atmosphere="{1042,11071}(Nitrogen/Oxygen)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="planet001c">
-							<moons>
-								<moon name="{8000,2221} {20403,103}(c) {20402,1}(I)" geology="{1042,14051}(Moon)" atmosphere="{1042,15051}(Rocks and Ice)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="Sphere003"/>
-								<moon name="{8000,2221} {20403,103}(c) {20402,2}(I)" geology="{1042,14051}(Moon)" atmosphere="{1042,15091}(Craters)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="moon1"/>
-								<moon name="{8000,2221} {20403,103}(c) {20402,3}(I)" geology="{1042,14051}(Moon)" atmosphere="{1042,15101}(Barren)" population="{1042,16011}" maxpopulation="0" settlements="{1042,16011}(Uninhabited)" part="moon3"/>
-							</moons>
-						</planet>
-					</planets>
-				</system>
-			</properties>
-		</dataset>
-		
-		<dataset macro="Cluster_824_Sector001_macro">
-			<properties>
-				<identification name="{8000,1241}" description="{8000,1242}" />
-				<worlds>
-					<world part="planet001c"/>
-					<world part="Sphere003"/>
-					<world part="moon1"/>
-					<world part="moon3"/>
 				</worlds>
 			</properties>
 		</dataset>
 		
 	</add>
-	
-	
-	
-	<!-- System 33 - Matrix 79B -->
-	<replace sel="//dataset[@macro='Cluster_33_macro']/properties/identification">
-		<identification name="{20003,330001}" description="{20003,330002}" system="819" image="enc_cluster33"/>
-	</replace>
 	
 </diff>

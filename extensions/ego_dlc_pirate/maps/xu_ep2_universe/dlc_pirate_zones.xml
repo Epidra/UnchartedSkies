@@ -1,0 +1,37 @@
+<diff>
+	
+	<!-- Sector 500 - Avarice -->
+	<add sel="/macros/macro[@name='Zone001_Cluster_500_Sector001_macro']/connections">
+		<connection name="connection_ClusterGate500To002" ref="gates">
+			<offset>
+				<position x="49999" y="0" z="49999" />
+				<rotation yaw="270" pitch="0" roll="0" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space">
+				<properties>
+					<state active="false" />
+				</properties>
+			</macro>
+		</connection>
+	</add>
+	
+	<!-- Sector 501 - Windfall I -->
+	<replace sel="/macros/macro[@name='Zone002_Cluster_501_Sector001_macro']/connections/connection[@name='connection_ClusterGate501To008']/offset">
+		<offset>
+			<position x="10392.54" y="0" z="27418.67" />
+			<rotation yaw="180" pitch="0" roll="0" />
+		</offset>
+	</replace>
+	
+	<!-- Sector 502 - # -->
+	<!--                -->
+	
+	<!-- Sector 503 - # -->
+	<!--                -->
+	
+	<!-- Sector 504 - # -->
+	<!--                -->
+	
+	
+	
+</diff>

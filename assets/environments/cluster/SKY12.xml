@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<components>
+	
+	
+	
+	<!--   - -     Thyn's Abyss 2     - -   -->
+	<component name="SKY12" class="celestialbody">
+		<source geometry="extensions\uncharted_skies\assets\environments\cluster\SKY12_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="175" g="175" b="200" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_ol" trigger="1" intensity="1.35" specularintensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="1.78755E+08" y="8.066152E+07" z="1.330967E+08"/>
+						</offset>
+					</omni>
+					<ambient name="XU Ambient001" r="27" g="31" b="34" range="1E+11" intensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="5.922367E+07" y="0" z="7.721783E+07"/>
+						</offset>
+					</ambient>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="celestialbody">
+				<offset/>
+			</connection>
+			
+			<!-- Vertex Color -->
+			<connection name="Connection001" tags="part  ">
+				<offset/>
+				<parts>
+					<part name="part_c03_bg">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.p1_env_bg_vertexcolor"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.52497E+08" y="4.525E+08" z="4.52497E+08"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			
+			<!-- Background Stars -->
+			<connection name="Connection002" tags="part  ">
+				<offset>
+					<position x="1.226121E+07" y="0" z="8100438"/>
+					<quaternion qx="-0" qy="-6.975656E-02" qz="-0" qw="-0.9975641"/>
+				</offset>
+				<parts>
+					<part name="Background">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.backgroundstars"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.255449E+08" y="4.25545E+08" z="4.25545E+08"/>
+							<center x="76.17188" y="31.25" z="-0.9765625"/>
+						</size>
+						<pivot>
+							<offset>
+								<position x="0" y="-50000" z="0"/>
+							</offset>
+						</pivot>
+					</part>
+				</parts>
+			</connection>
+			
+			<!-- Background Stars -->
+			<connection name="Connection003" tags="part  ">
+				<offset>
+					<position x="4.912288E+07" y="-1.271145E+07" z="-2.001734E+07"/>
+					<quaternion qx="0.7571207" qy="0.1257874" qz="0.152983" qw="-0.6225287"/>
+				</offset>
+				<parts>
+					<part name="bigstar01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.312578E+08" y="3.222457E+08" z="2.881483E+08"/>
+							<center x="0" y="-15.625" z="-29.29688"/>
+						</size>
+						<pivot>
+							<offset>
+								<position x="-3.514617E+07" y="2.978128E+08" z="4893020"/>
+							</offset>
+						</pivot>
+					</part>
+				</parts>
+			</connection>
+			
+			<!-- Background Stars -->
+			<connection name="Connection004" tags="part  ">
+				<offset>
+					<position x="3.987494E+07" y="-2.34599E+07" z="-1.504404E+07"/>
+				</offset>
+				<parts>
+					<part name="mediumstar01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.674412E+08" y="2.866971E+08" z="3.541825E+08"/>
+							<center x="1.54087E+07" y="-2879537" z="1.340626E+07"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			
+			<!-- Background Stars -->
+			<connection name="Connection005" tags="part  ">
+				<offset>
+					<position x="5.151931E+07" y="2645738" z="1278959"/>
+				</offset>
+				<parts>
+					<part name="smallstar01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3.43122E+08" y="3.022528E+08" z="3.336167E+08"/>
+							<center x="-1.19612E+07" y="-2.369683E+07" z="9813260"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			
+			<!-- Nebula -->
+			<connection name="Connection006" tags="part  ">
+				<offset>
+					<position x="1.073779E+08" y="-2.609578E+07" z="-2.440634E+07"/>
+				</offset>
+				<parts>
+					<part name="nebula01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="p1.staratlas_additive"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="4.577626E+08" y="4.473628E+08" z="5.271565E+08"/>
+							<center x="-5080235" y="-7.873326E+07" z="5494235"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			
+			<!-- Asteroid Highway -->
+			<connection name="Connection042" tags="part  ">
+				<offset>
+					<position x="-2075141" y="-3570477" z="-1.084217E+07"/>
+				</offset>
+				<parts>
+					<part name="part_highway_aster_02">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.env_asteroid_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="3793454" y="1931903" z="3033941"/>
+							<center x="-4997206" y="486743.9" z="3537609"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			
+			<!-- Asteroid Brocken -->
+			<connection name="Connection028" tags="part  ">
+				<offset>
+					<position x="-1.269167E+07" y="-615273.4" z="1.158214E+07"/>
+				</offset>
+				<parts>
+					<part name="part_brokenmoon_brocken_01">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.env_asteroid_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="9254736" y="1.048031E+07" z="1.379629E+07"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			
+			<!-- Asteroid Mini -->
+			<connection name="Connection034" tags="part  ">
+				<offset>
+					<position x="-1.233151E+07" y="-4700167" z="6627808"/>
+				</offset>
+				<parts>
+					<part name="part_asteroids_mini02">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.env_asteroid_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="1643075" y="1446563" z="1265469"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			
+		</connections>
+	</component>
+	
+</components>

@@ -1,0 +1,1590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+
+	<!--   - -     SKY00 - Hades     - -   -->
+	<macro name="Zone_SKY00s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY00s01z02_macro" class="zone"> <!-- GATE 1 -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY00s01z03_macro" class="zone"> <!-- GATE 2 -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY00s01z04_macro" class="zone"> <!-- GATE 3 -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY00s01z05_macro" class="zone"> <!-- GATE 4 -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY00s01z06_macro" class="zone"> <!-- GATE 5 -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY00s01z07_macro" class="zone"> <!-- GATE 6 -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	
+	<!--   - -     SKY01 - Herron's Nebula     - -   -->
+	<macro name="Zone_SKY01s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY01s01z02_macro" class="zone"> <!-- GATE - Argon Prime -->
+		<component ref="standardzone" />
+		<connections>
+			<connection ref="Highway01Connection01_gate">
+				<offset>
+					<position x="3928.0090332031" y="0" z="11863.6171875" />
+				</offset>
+			</connection>
+			<connection ref="Highway02Connection02_gate">
+				<offset>
+					<position x="4928.0087890625" y="0" z="11855.560546875" />
+				</offset>
+			</connection>
+			<connection name="connection_gate_SKY01_north" ref="gates">
+				<offset>
+					<position x="4428.0126953125" y="500" z="11862.2890625" />
+					<quaternion qx="0" qy="-1" qz="0" qw="0" />
+				</offset>
+				<macro ref="props_gates_anc_gate_macro" connection="space" />
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY01s01z03_macro" class="zone"> <!-- GATE - Second Contact II -->
+		<component ref="standardzone" />
+		<connections>
+			<connection ref="Highway02Connection01_gate">
+				<offset>
+					<position x="-39482.4921875" y="0" z="-9901.8330078125" />
+				</offset>
+			</connection>
+			<connection ref="Highway01Connection02_gate">
+				<offset>
+					<position x="-40482.4921875" y="0" z="-9901.8330078125" />
+				</offset>
+			</connection>
+			<connection name="connection_gate_SKY01_south" ref="gates">
+				<offset>
+					<position x="-39982.49609375" y="500" z="-9901.8251953125" />
+					<quaternion qx="0" qy="0" qz="0" qw="1" />
+				</offset>
+				<macro ref="props_gates_anc_gate_macro" connection="space" />
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY01s01z04_macro" class="zone"> <!-- GATE - inactive -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY01_west" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="120" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY01s01z05_macro" class="zone"> <!-- GATE - inactive -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY07_east" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="60" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY02 - Shareholder's Fortune     - -   -->
+	<macro name="Zone_SKY02s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY02s01z02_macro" class="zone"> <!-- GATE - inactive -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY02_north" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="180" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY02s01z03_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY02s01z04_macro" class="zone"> <!-- GATE - Avarice -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY02_west" ref="gates">
+				<macro ref="props_gates_anc_gate_macro" connection="space">
+					<properties>
+						<state active="false" />
+					</properties>
+				</macro>
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="90" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY02s01z05_macro" class="zone"> <!-- GATE - Memory of Profit X -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY02_east" ref="gates">
+				<macro ref="props_gates_anc_gate_macro" connection="space">
+					<properties>
+						<state active="false" />
+					</properties>
+				</macro>
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="300" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY03 - Mines of Fortune     - -   -->
+	<macro name="Zone_SKY03s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY03s01z02_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY03s01z03_macro" class="zone"> <!-- GATE - Depths of Silence -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY03_south" ref="gates">
+				<macro ref="props_gates_anc_gate_macro" connection="space">
+					<properties>
+						<state active="false" />
+					</properties>
+				</macro>
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="0" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY03s01z04_macro" class="zone"> <!-- GATE - Memory of Profit X -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY03_west" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="90" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY03s01z05_macro" class="zone"> <!-- GATE - Loomanckstrat's Legacy -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY03_east" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="300" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY04 - Depths of Silence     - -   -->
+	<macro name="Zone_SKY04s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY04s01z02_macro" class="zone"> <!-- GATE - Shareholder's Fortune -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY04_north" ref="gates">
+				<macro ref="props_gates_anc_gate_macro" connection="space">
+					<properties>
+						<state active="false" />
+					</properties>
+				</macro>
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="180" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY04s01z03_macro" class="zone"> <!-- GATE - Cardinal's Domain -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY04_south" ref="gates">
+				<macro ref="props_gates_anc_gate_macro" connection="space">
+					<properties>
+						<state active="false" />
+					</properties>
+				</macro>
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="0" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY04s01z04_macro" class="zone"> <!-- GATE - Nopileos' Fortune -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY04_west" ref="gates">
+				<macro ref="props_gates_anc_gate_macro" connection="space">
+					<properties>
+						<state active="false" />
+					</properties>
+				</macro>
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="90" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY04s01z05_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	
+	<!--   - -     SKY05 - Preacher's Void IV     - -   -->
+	<macro name="Zone_SKY05s01z01_macro" class="zone"> <!-- CENTER - other gates -->
+		<component ref="standardzone" />
+		<connections>
+			<connection ref="Highway01Connection02_gate">
+				<offset>
+					<position x="-6932.5102539062" y="-2000" z="-21567.962890625" />
+				</offset>
+			</connection>
+			<connection ref="Highway01Connection01_gate">
+				<offset>
+					<position x="-15582.19921875" y="-2000" z="-21542.572265625" />
+				</offset>
+			</connection>
+			<connection ref="Highway02Connection01_gate">
+				<offset>
+					<position x="-46362.16796875" y="0" z="5003.1967773438" />
+				</offset>
+			</connection>
+			<connection ref="Highway03Connection02_gate">
+				<offset>
+					<position x="-45862.1640625" y="0" z="5869.224609375" />
+				</offset>
+			</connection>
+			<connection ref="Highway02Connection02_gate">
+				<offset>
+					<position x="45228.94921875" y="0" z="5232.666015625" />
+				</offset>
+			</connection>
+			<connection ref="Highway03Connection01_gate">
+				<offset>
+					<position x="44728.953125" y="0" z="6098.6938476562" />
+				</offset>
+			</connection>
+			<connection name="connection_gate_SKY05_west" ref="gates">
+				<offset>
+					<position x="-46112.1640625" y="500" z="5436.2104492188" />
+					<quaternion qx="0" qy="0.8660253286" qz="0" qw="0.5000000596" />
+				</offset>
+				<macro ref="props_gates_anc_gate_macro" connection="space" />
+			</connection>
+			<connection name="connection_gate_SKY05_east" ref="gates">
+				<offset>
+					<position x="44978.953125" y="500" z="5665.6796875" />
+					<quaternion qx="0" qy="-0.8660253882" qz="0" qw="0.5" />
+				</offset>
+				<macro ref="props_gates_anc_gate_macro" connection="space" />
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY05s01z02_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY05s01z03_macro" class="zone"> <!-- GATE - Preacher's Void VI -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY05_south" ref="gates">
+				<macro   ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				<offset>
+					<position x="0" y="100" z="10" />
+					<rotation yaw="0" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY05s01z04_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY05s01z05_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	
+	<!--   - -     SKY06 - Preacher's Void VI     - -   -->
+	<macro name="Zone_SKY06s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY06s01z02_macro" class="zone"> <!-- GATE - Preacher's Void IV -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY06_north" ref="gates">
+				<macro   ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="180" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY06s01z03_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY06s01z04_macro" class="zone"> <!-- GATE - Nopileos' Memorial -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY06_west" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="90" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY06s01z05_macro" class="zone"> <!-- GATE - Friar's Retreat -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY06_east" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="270" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY07 - Inquisitor's Wrath     - -   -->
+	<macro name="Zone_SKY07s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY07s01z02_macro" class="zone"> <!-- GATE - Second Contact II -->
+		<component ref="standardzone" />
+		<connections>
+			<connection ref="Highway01Connection01_gate">
+				<offset>
+					<position x="-26472.740234375" y="0" z="31849.74609375" />
+				</offset>
+			</connection>
+			<connection ref="Highway02Connection02_gate">
+				<offset>
+					<position x="-25472.740234375" y="0" z="31849.74609375" />
+				</offset>
+			</connection>
+			<connection name="connection_gate_SKY07_north" ref="gates">
+				<offset>
+					<position x="-25972.73828125" y="500" z="31849.74609375" />
+					<quaternion qx="0" qy="-1" qz="0" qw="7.55e-08" />
+				</offset>
+				<macro ref="props_gates_anc_gate_macro" connection="space" />
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY07s01z03_macro" class="zone"> <!-- GATE - True Sight -->
+		<component ref="standardzone" />
+		<connections>
+			<connection ref="Highway02Connection01_gate">
+				<offset>
+					<position x="20631.36328125" y="0" z="15944.15234375" />
+				</offset>
+			</connection>
+			<connection ref="Highway01Connection02_gate">
+				<offset>
+					<position x="19631.36328125" y="0" z="15944.15234375" />
+				</offset>
+			</connection>
+			<connection name="connection_gate_SKY07_south" ref="gates">
+				<offset>
+					<position x="20131.36328125" y="500" z="15944.15234375" />
+					<quaternion qx="0" qy="2.98e-08" qz="0" qw="1" />
+				</offset>
+				<macro ref="props_gates_anc_gate_macro" connection="space" />
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY07s01z04_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY07_west" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="90" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY07s01z05_macro" class="zone"> <!-- GATE - Freedom's Reach -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY07_east" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="300" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY08 - Ocraroke's Storm     - -   -->
+	<macro name="Zone_SKY08s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY08s01z02_macro" class="zone"> <!-- GATE - Path to Profit -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY08_north" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="120" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY08s01z03_macro" class="zone"> <!-- GATE - Lasting Vengeance -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY08_south" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="30" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY08s01z04_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY08s01z05_macro" class="zone"> <!-- GATE - Ocraroke's Storm -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY08_east" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="270" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY09 - Consecrated Fire     - -   -->
+	<macro name="Zone_SKY09s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY09s01z02_macro" class="zone"> <!-- GATE - Nopileos' Memorial -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY09_north" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="180" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY09s01z03_macro" class="zone"> <!-- GATE - modded -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY09_south" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="0" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY09s01z04_macro" class="zone"> <!-- GATE - Mists of Artemis -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY09_west" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="90" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY09s01z05_macro" class="zone"> <!-- GATE - Clarity's End -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY09_east" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="270" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY10 - Thyn's Excavation     - -   -->
+	<macro name="Zone_SKY10s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY10s01z02_macro" class="zone"> <!-- GATE - Thyn's Abyss NORTH -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY10_north" ref="gates">
+				<macro   ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="180" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY10s01z03_macro" class="zone"> <!-- GATE - Thyn's Abyss EAST -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY10_east" ref="gates">
+				<macro   ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="270" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY10s01z04_macro" class="zone"> <!-- GATE - Thyn's Abyss WEST -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY10_west" ref="gates">
+				<macro   ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="60" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY11 - Thyn's Abyss II     - -   -->
+	<macro name="Zone_SKY11s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY11s01z02_macro" class="zone"> <!-- GATE - Thyn's Excavation -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY11_south" ref="gates">
+				<macro   ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="0" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY11s01z03_macro" class="zone"> <!-- GATE - middle -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY11_alpha" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="180" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY11s01z04_macro" class="zone"> <!-- GATE - left -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY11_beta" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="150" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY11s01z05_macro" class="zone"> <!-- Gate - right -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY11_gamma" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="210" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY12 - Thyn's Abyss III     - -   -->
+	<macro name="Zone_SKY12s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY12s01z02_macro" class="zone"> <!-- GATE - Thyn's Excavation -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY12_west" ref="gates">
+				<macro   ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="120" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY12s01z03_macro" class="zone"> <!-- GATE - middle -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY12_alpha" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="270" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY12s01z04_macro" class="zone"> <!-- GATE - top -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY12_beta" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="240" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY12s01z05_macro" class="zone"> <!-- GATE - bottom -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY12_gamma" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="300" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY13 - Thyn's Abyss V     - -   -->
+	<macro name="Zone_SKY13s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY13s01z02_macro" class="zone"> <!-- GATE - Thyn's Excavation -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY13_east" ref="gates">
+				<macro   ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="240" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY13s01z03_macro" class="zone"> <!-- GATE - middle -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY13_alpha" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="90" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY13s01z04_macro" class="zone"> <!-- GATE - bottom -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY13_beta" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="60" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY13s01z05_macro" class="zone"> <!-- GATE - top -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY13_gamma" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="120" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY14 - #     - -   -->
+	<!--                               -->
+	
+	<!--   - -     SKY15 - Wastelands III     - -   -->
+	<macro name="Zone_SKY15s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY15s01z02_macro" class="zone"> <!-- GATE - Heretic's End -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY15_north" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="180" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY15s01z03_macro" class="zone"> <!-- GATE - Savage Spur -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY15_south" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="0" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY15s01z04_macro" class="zone"> <!-- GATE - Wastelands V -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY15_west" ref="gates">
+				<macro   ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="90" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY15s01z05_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	
+	<!--   - -     SKY16 - Wastelands V     - -   -->
+	<macro name="Zone_SKY16s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY16s01z02_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY16s01z03_macro" class="zone"> <!-- GATE - Shining Currents -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY16_south" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="0" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY16s01z04_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY16s01z05_macro" class="zone"> <!-- GATE - Wastelands III -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY16_east" ref="gates">
+				<macro   ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="270" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY17 - Depths of Silence I     - -   -->
+	<macro name="Zone_SKY17s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY17s01z02_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY17s01z03_macro" class="zone"> <!-- GATE - Depths of Silence II -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY17_south" ref="gates">
+				<macro   ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="0" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY17s01z04_macro" class="zone"> <!-- GATE - modded -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY17_west" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="90" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY17s01z05_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	
+	<!--   - -     SKY18 - Depths of Silence II     - -   -->
+	<macro name="Zone_SKY18s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY18s01z02_macro" class="zone"> <!-- GATE - Depths of Silence I -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY18_north" ref="gates">
+				<macro   ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="180" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY18s01z03_macro" class="zone"> <!-- GATE - Depth of Silence III -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY18_south" ref="gates">
+				<macro   ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="0" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY18s01z04_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY18s01z05_macro" class="zone"> <!-- GATE - Shore of Infinity -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY18_east" ref="gates">
+				<macro ref="props_gates_anc_gate_macro" connection="space">
+					<properties>
+						<state active="false" />
+					</properties>
+				</macro>
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="270" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY19 - Depths of Silence III     - -   -->
+	<macro name="Zone_SKY19s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY19s01z02_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY19s01z03_macro" class="zone"> <!-- GATE - Litany of Fury -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY19_south" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="0" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY19s01z04_macro" class="zone"> <!-- GATE - Depths of Silence II -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY19_west" ref="gates">
+				<macro   ref="props_gates_orb_accelerator_01_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="60" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY19s01z05_macro" class="zone"> <!-- GATE - Watchful Gaze -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY19_east" ref="gates">
+				<macro ref="props_gates_anc_gate_macro" connection="space">
+				<properties>
+					<state active="false" />
+				</properties>
+			</macro>
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="270" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY20 - Shore of Infinity     - -   -->
+	<macro name="Zone_SKY20s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY20s01z02_macro" class="zone"> <!-- GATE - Atreus' Clouds -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY20_north" ref="gates">
+				<macro ref="props_gates_anc_gate_macro" connection="space">
+					<properties>
+						<state active="false" />
+					</properties>
+				</macro>
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="210" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY20s01z03_macro" class="zone"> <!-- GATE - Depths of Silence II -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY20_south" ref="gates">
+				<macro ref="props_gates_anc_gate_macro" connection="space">
+					<properties>
+						<state active="false" />
+					</properties>
+				</macro>
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="30" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY20s01z04_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY20s01z05_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	
+	<!--   - -     SKY21 - Light Water     - -   -->
+	<macro name="Zone_SKY21s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY21s01z02_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY21s01z03_macro" class="zone"> <!-- GATE - Interworlds -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY21_south" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="0" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY21s01z04_macro" class="zone"> <!-- GATE - Barren Shores -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY21_west" ref="gates">
+				<macro ref="props_gates_anc_gate_macro" connection="space">
+					<properties>
+						<state active="false" />
+					</properties>
+				</macro>
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="90" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY21s01z05_macro" class="zone"> <!-- GATE - Great Trench -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY21_east" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="270" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY22 - Great Trench - Sector001     - -   -->
+	<macro name="Zone_SKY22s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY22s01z02_macro" class="zone"> <!-- GATE - Light Water -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY22_south" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="0" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY22s01z03_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY22s01z04_macro" class="zone"> <!-- GATE - inactive -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY22_west" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="90" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY22s01z05_macro" class="zone"> <!-- GATE - Family Zhin -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY22_east" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="-25000" y="0" z="0" />
+					<rotation yaw="270" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Gate_SKY22s01g06_macro" class="zone">
+		<component ref="standardzone" />
+		<connections>
+			<connection ref="SHCon6_gate" />
+		</connections>
+	</macro>
+	<macro name="Gate_SKY22s01g10_macro" class="zone">
+		<component ref="standardzone" />
+		<connections>
+			<connection ref="SHCon10_gate" />
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY22 - Great Trench - Sector002     - -   -->
+	<macro name="Zone_SKY22s02z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY22s02z02_macro" class="zone"> <!-- GATE - Dark Waters -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY22_north" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="180" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY22s02z03_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY22s02z04_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY22s02z05_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Gate_SKY22s02g05_macro" class="zone">
+		<component ref="standardzone" />
+		<connections>
+			<connection ref="SHCon5_gate" />
+		</connections>
+	</macro>
+	<macro name="Gate_SKY22s02g09_macro" class="zone">
+		<component ref="standardzone" />
+		<connections>
+			<connection ref="SHCon9_gate" />
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY23 - Dark Waters     - -   -->
+	<macro name="Zone_SKY23s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY23s01z02_macro" class="zone"> <!-- GATE - modded -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY23_north" ref="gates">
+				<macro ref="props_gates_anc_gate_macro" connection="space">
+					<properties>
+						<state active="false" />
+					</properties>
+				</macro>
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="180" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY23s01z03_macro" class="zone"> <!-- GATE - Great Trench -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY23_south" ref="gates">
+				<macro ref="props_gates_anc_gate_macro" connection="space">
+					<properties>
+						<state active="false" />
+					</properties>
+				</macro>
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="0" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY23s01z04_macro" class="zone"> <!-- GATE - Ocean of Fantasy -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY23_west" ref="gates">
+				<macro ref="props_gates_anc_gate_macro" connection="space">
+					<properties>
+						<state active="false" />
+					</properties>
+				</macro>
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="90" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY23s01z05_macro" class="zone"> <!-- GATE - Matrix 598 -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY23_east" ref="gates">
+				<macro ref="props_gates_anc_gate_macro" connection="space">
+					<properties>
+						<state active="false" />
+					</properties>
+				</macro>
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="270" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY24 - #     - -   -->
+	<!--                               -->
+	
+	<!--   - -     SKY25 - Perpetual Sin     - -   -->
+	<macro name="Zone_SKY25s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="asteroid_special_lm_01_macro2" ref="asteroids">
+				<offset>
+					<position x="9462.158203125" y="-301.4678955078" z="8560.0888671875" />
+					<quaternion qx="0" qy="0.8433912992" qz="0" qw="0.5372997522" />
+				</offset>
+				<macro ref="asteroid_special_lm_01_macro" connection="space" />
+			</connection>
+			<connection name="asteroid_special_lm_01_macro3" ref="asteroids">
+				<offset>
+					<position x="-14157.1044921875" y="-301.4678955078" z="2793.4875488281" />
+					<quaternion qx="-0.7859630585" qy="-0.3906999528" qz="-0.4094664454" qw="-0.2489033341" />
+				</offset>
+				<macro ref="asteroid_special_lm_01_macro" connection="space" />
+			</connection>
+			<connection name="asteroid_special_lm_01_macro" ref="asteroids">
+				<offset>
+					<position x="4238.6474609375" y="-301.4678955078" z="-12349.5791015625" />
+					<quaternion qx="0" qy="0" qz="0" qw="1" />
+				</offset>
+				<macro ref="asteroid_special_lm_01_macro" connection="space" />
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY25s01z02_macro" class="zone"> <!-- inactive -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY25_north" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="4500" z="0" />
+					<rotation yaw="180" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY25s01z03_macro" class="zone"> <!-- GATE - Matrix 79b -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY25_south" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="3500" z="0" />
+					<rotation yaw="0" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY25s01z04_macro" class="zone"> <!-- GATE - Interworlds -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY25_west" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="5500" z="0" />
+					<rotation yaw="90" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY25s01z05_macro" class="zone"> <!-- inactive -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY25_east" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="2500" z="0" />
+					<rotation yaw="270" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY26 - Shining Currents     - -   -->
+	<macro name="Zone_SKY26s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY26s01z02_macro" class="zone"> <!-- GATE - inactive -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY26s01z03_macro" class="zone"> <!-- GATE - Getsu Fune -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY26_south" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="5000" y="0" z="0" />
+					<rotation yaw="0" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY26s01z04_macro" class="zone"> <!-- GATE - Litany of Fury -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY26_west" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="15000" />
+					<rotation yaw="120" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY26s01z05_macro" class="zone"> <!-- GATE - Wastelands V -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY26_east" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="1000" />
+					<rotation yaw="240" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY27 - Interworlds - Sector001     - -   -->
+	<macro name="Zone_SKY27s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY27s01z02_macro" class="zone"> <!-- GATE - Light Water -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY27_north" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="180" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY27s01z03_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY27s01z04_macro" class="zone"> <!-- GATE - inactive -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY27_west" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="90" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY27s01z05_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Gate_SKY27s01g06_macro" class="zone">
+		<component ref="standardzone" />
+		<connections>
+			<connection ref="SHCon6_gate" />
+		</connections>
+	</macro>
+	<macro name="Gate_SKY27s01g10_macro" class="zone">
+		<component ref="standardzone" />
+		<connections>
+			<connection ref="SHCon10_gate" />
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY27 - Interworlds - Sector002     - -   -->
+	<macro name="Zone_SKY27s02z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY27s02z02_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY27s02z03_macro" class="zone"> <!-- GATE - Wretched Skies IV -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY27_south" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="25000" y="-1000" z="-10000" />
+					<rotation yaw="330" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY27s02z04_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY27s02z05_macro" class="zone"> <!-- GATE - Perpetual Sin -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY27_east" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="270" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Gate_SKY27s02g05_macro" class="zone">
+		<component ref="standardzone" />
+		<connections>
+			<connection ref="SHCon5_gate" />
+		</connections>
+	</macro>
+	<macro name="Gate_SKY27s02g09_macro" class="zone">
+		<component ref="standardzone" />
+		<connections>
+			<connection ref="SHCon9_gate" />
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY28 - #     - -   -->
+	<!--                               -->
+	
+	<!--   - -     SKY29 - Friar's Retreat     - -   -->
+	<macro name="Zone_SKY29s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY29s01z02_macro" class="zone"> <!-- empty -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY29s01z03_macro" class="zone"> <!-- GATE - Clarity's End -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY29_south" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="-15000" y="0" z="0" />
+					<rotation yaw="0" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY29s01z04_macro" class="zone"> <!-- GATE - Preacher's Void VI -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY29_west" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="-45000" />
+					<rotation yaw="90" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY29s01z05_macro" class="zone"> <!-- GATE - Sacred Relic -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY29_east" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="45000" y="0" z="0" />
+					<rotation yaw="270" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	
+	<!--   - -     SKY30 - Clarity's End     - -   -->
+	<macro name="Zone_SKY30s01z01_macro" class="zone"> <!-- CENTER -->
+		<component ref="standardzone" />
+		<connections/>
+	</macro>
+	<macro name="Zone_SKY30s01z02_macro" class="zone"> <!-- GATE - Friar's Retreat -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY30_north" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="210" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY30s01z03_macro" class="zone"> <!-- GATE - modded -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY30_south" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="30" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY30s01z04_macro" class="zone"> <!-- GATE - Consecrated Fire -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY30_west" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="120" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	<macro name="Zone_SKY30s01z05_macro" class="zone"> <!-- GATE - Thyn's Abyss -->
+		<component ref="standardzone" />
+		<connections>
+			<connection name="connection_gate_SKY30_east" ref="gates">
+				<macro   ref="props_gates_anc_gate_macro" connection="space" />
+				<offset>
+					<position x="0" y="0" z="0" />
+					<rotation yaw="300" pitch="0" roll="0" />
+				</offset>
+			</connection>
+		</connections>
+	</macro>
+	
+	
+	
+</macros>

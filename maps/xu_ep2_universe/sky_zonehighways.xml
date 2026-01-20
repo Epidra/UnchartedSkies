@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+	
+	<!--   Sector SKY01 - Herron's Nebula - HW 101   -->
+	<macro name="High_SKY01s01h01_macro" class="highway">
+		<component ref="standardzonehighway" />
+		<connections>
+			<connection ref="entrypoint">
+				<offset>
+					<position x="-5765.8310546875" y="0" z="126268.90625" />
+				</offset>
+			</connection>
+			<connection ref="exitpoint">
+				<offset>
+					<position x="-5765.8310546875" y="0" z="-103732.421875" />
+				</offset>
+			</connection>
+		</connections>
+		<properties>
+			<boundaries>
+				<boundary class="splinetube">
+					<splineposition x="-5765.8310546875"  y="0" z="126268.90625"   tx="3.19049991048814e-06"  ty="0" tz="-1" weight="0" inlength="0"               outlength="7216.5400390625" />
+					<splineposition x="-5765.72412109375" y="0" z="107119.28125"   tx="1.18335001388914e-05"  ty="0" tz="-1" weight="1" inlength="4716.5400390625" outlength="27418.400390625" />
+					<splineposition x="-5765.712890625"   y="0" z="24864.08984375" tx="1.50999994730228e-07"  ty="0" tz="-1" weight="1" inlength="27418.400390625" outlength="35119.1015625" />
+					<splineposition x="-5765.697265625"   y="0" z="-80493.1953125" tx="1.1047000043618e-06"   ty="0" tz="-1" weight="1" inlength="35119.1015625"   outlength="6080.39990234375" />
+					<splineposition x="-5765.8310546875"  y="0" z="-103732.421875" tx="-7.85239990364062e-06" ty="0" tz="-1" weight="0" inlength="8579.41015625"   outlength="0" />
+					<size r="200" />
+				</boundary>
+			</boundaries>
+			<controls>
+				<linear>
+					<time />
+				</linear>
+				<angular>
+					<roll />
+				</angular>
+			</controls>
+			<configuration ref="ringlocalhighwayconfiguration" ring="1" />
+		</properties>
+	</macro>
+	
+	<!--   Sector SKY01 - Herron's Nebula - HW 102   -->
+	<macro name="High_SKY01s01h02_macro" class="highway">
+		<component ref="standardzonehighway" />
+		<connections>
+			<connection ref="entrypoint">
+				<offset>
+					<position x="-12353.7021484375" y="0" z="-102809.1015625" />
+				</offset>
+			</connection>
+			<connection ref="exitpoint">
+				<offset>
+					<position x="-12353.7021484375" y="0" z="127184.1640625" />
+				</offset>
+			</connection>
+		</connections>
+		<properties>
+			<boundaries>
+				<boundary class="splinetube">
+					<splineposition x="-12353.6416015625" y="0" z="-102809.109375" tx="-7.48399997974047e-07" ty="0" tz="1" weight="0" inlength="0"                outlength="6385.490234375" />
+					<splineposition x="-12353.6533203125" y="0" z="-78650.375"     tx="3.25799987876962e-07"  ty="0" tz="1" weight="1" inlength="6385.47998046875" outlength="35119.1015625" />
+					<splineposition x="-12353.671875"     y="0" z="26706.91015625" tx="8.02700014901347e-07"  ty="0" tz="1" weight="1" inlength="35119.1015625"    outlength="27418.400390625" />
+					<splineposition x="-12353.68359375"   y="0" z="108962.09375"   tx="2.7099999897473e-06"   ty="0" tz="1" weight="1" inlength="27418.400390625"  outlength="4407.35986328125" />
+					<splineposition x="-12353.85546875"   y="0" z="127190.8984375" tx="-1.27011999211391e-05" ty="0" tz="1" weight="0" inlength="4407.35986328125" outlength="0" />
+					<size r="200" />
+				</boundary>
+			</boundaries>
+			<controls>
+				<linear>
+					<time />
+				</linear>
+				<angular>
+					<roll />
+				</angular>
+			</controls>
+			<configuration ref="ringlocalhighwayconfiguration" ring="1" />
+		</properties>
+	</macro>
+	
+	<!--   Sector SKY05 - Preacher's Void IV - HW 101   -->
+	<macro name="High_SKY05s01h01_macro" class="highway">
+		<component ref="standardzonehighway" />
+		<connections>
+			<connection ref="entrypoint">
+				<offset>
+					<position x="10014.328125" y="-2000" z="88843.109375" />
+				</offset>
+			</connection>
+			<connection ref="exitpoint">
+				<offset>
+					<position x="18664.017578125" y="-2000" z="88817.71875" />
+				</offset>
+			</connection>
+		</connections>
+		<properties>
+			<boundaries>
+				<boundary class="splinetube">
+					<splineposition x="10014.328125"     y="0" z="88843.1171875"   tx="-0.99996417760849"  ty="0" tz="-0.00846517365425825" weight="0" inlength="0"                outlength="6221.4599609375" />
+					<splineposition x="-8649.3720703125" y="0" z="88685.1171875"   tx="-0.999842405319214" ty="0" tz="-0.0177543703466654"  weight="1" inlength="6221.4599609375"  outlength="48928.6015625" />
+					<splineposition x="-57498.54296875"  y="0" z="-49733.81640625" tx="0.182707816362381"  ty="0" tz="-0.983167231082916"   weight="1" inlength="48107.8984375"    outlength="3242.21997070313" />
+					<splineposition x="-54647.54296875"  y="0" z="-59206.65625"    tx="0.444495469331741"  ty="0" tz="-0.895781099796295"   weight="1" inlength="3341.169921875"   outlength="7846.43994140625" />
+					<splineposition x="-39932.71484375"  y="0" z="-77184.140625"   tx="0.798867881298065"  ty="0" tz="-0.601506531238556"   weight="0" inlength="7602.0400390625"  outlength="3408.26000976563" />
+					<splineposition x="-30643.455078125" y="0" z="-81895.2890625"  tx="0.964438855648041"  ty="0" tz="-0.264306008815765"   weight="1" inlength="3500.28002929688" outlength="45581.1015625" />
+					<splineposition x="104715.8359375"   y="0" z="-73276.4921875"  tx="0.922544121742249"  ty="0" tz="0.385891616344452"    weight="1" inlength="46256.30078125"   outlength="3860.89990234375" />
+					<splineposition x="114949.8359375"   y="0" z="-68436.015625"   tx="0.842930912971497"  ty="0" tz="0.538021802902222"    weight="1" inlength="3547.40991210938" outlength="8593.080078125" />
+					<splineposition x="134694.96875"     y="0" z="-49405.09765625" tx="0.496669620275497"  ty="0" tz="0.867939651012421"    weight="1" inlength="9437.4697265625"  outlength="3032.39990234375" />
+					<splineposition x="137501.4375"      y="0" z="-41052.421875"   tx="0.228987872600555"  ty="0" tz="0.973429262638092"    weight="1" inlength="2928.34008789063" outlength="53385.69921875" />
+					<splineposition x="43969.60546875"   y="0" z="88962.21875"     tx="-0.999990463256836" ty="0" tz="0.0043642302043736"   weight="1" inlength="39283.6015625"    outlength="6188.5" />
+					<splineposition x="18664.017578125"  y="0" z="88817.7265625"   tx="-0.999971926212311" ty="0" tz="-0.00749695394188166" weight="1" inlength="8435.4296875"     outlength="0" />
+					<size r="200" />
+				</boundary>
+			</boundaries>
+			<controls>
+				<linear>
+					<time />
+				</linear>
+				<angular>
+					<roll />
+				</angular>
+			</controls>
+			<configuration ring="0" />
+		</properties>
+	</macro>
+	
+	<!--   Sector SKY05 - Preacher's Void IV - HW 102   -->
+	<macro name="High_SKY05s01h02_macro" class="highway">
+		<component ref="standardzonehighway" />
+		<connections>
+			<connection ref="entrypoint">
+				<offset>
+					<position x="-44067.3671875" y="0" z="-5595.53515625" />
+				</offset>
+			</connection>
+			<connection ref="exitpoint">
+				<offset>
+					<position x="47523.75" y="0" z="-5366.0659179688" />
+				</offset>
+			</connection>
+		</connections>
+		<properties>
+			<boundaries>
+				<boundary class="splinetube">
+					<splineposition x="-44067.3671875"   y="0" z="-5595.53515625"    tx="0.871428966522217" ty="0" tz="-0.490521669387817" weight="0" inlength="3814.330078125"   outlength="5993.5" />
+					<splineposition x="-25298.427734375" y="0" z="-16165.435546875"  tx="0.89557021856308"  ty="0" tz="-0.444920241832733" weight="1" inlength="6663.77001953125" outlength="6663.77978515625" />
+					<splineposition x="1462.13122558594" y="0" z="-24121.865234375"  tx="0.999715805053711" ty="0" tz="0.0238404367119074" weight="1" inlength="9165.8603515625"  outlength="9165.8603515625" />
+					<splineposition x="29887.65234375"   y="0" z="-14611"            tx="0.886818289756775" ty="0" tz="0.462118327617645"  weight="1" inlength="5677.2001953125"  outlength="5677.2001953125" />
+					<splineposition x="47523.75"         y="0" z="-5366.06591796875" tx="0.871274650096893" ty="0" tz="0.490795761346817"  weight="0" inlength="8345.849609375"   outlength="6019.35986328125" />
+					<size r="200" />
+				</boundary>
+			</boundaries>
+			<controls>
+				<linear>
+					<time />
+				</linear>
+				<angular>
+					<roll />
+				</angular>
+			</controls>
+			<configuration ref="ringlocalhighwayconfiguration" ring="1" />
+		</properties>
+	</macro>
+	
+	<!--   Sector SKY05 - Preacher's Void IV - HW 103   -->
+	<macro name="High_SKY05s01h03_macro" class="highway">
+		<component ref="standardzonehighway" />
+		<connections>
+			<connection ref="entrypoint">
+				<offset>
+					<position x="23645.759765625" y="0" z="-6823.7685546875" />
+				</offset>
+			</connection>
+			<connection ref="exitpoint">
+				<offset>
+					<position x="-66945.359375" y="0" z="-7053.2377929688" />
+				</offset>
+			</connection>
+		</connections>
+		<properties>
+			<boundaries>
+				<boundary class="splinetube">
+					<splineposition x="23645.759765625"  y="0" z="-6823.7685546875"  tx="-0.884836316108704" ty="0" tz="-0.465901970863342"  weight="0" inlength="2904.51000976563" outlength="2980.15991210938" />
+					<splineposition x="8061.6513671875"  y="0" z="-15228.3857421875" tx="-0.889411509037018" ty="0" tz="-0.457107365131378"  weight="1" inlength="6846.830078125"   outlength="6846.830078125" />
+					<splineposition x="-21730.244140625" y="0" z="-24447.25"         tx="-0.99954628944397"  ty="0" tz="-0.0301194097846746" weight="1" inlength="9315.1396484375"  outlength="9315.1396484375" />
+					<splineposition x="-49784.4609375"   y="0" z="-16581.359375"     tx="-0.895048499107361" ty="0" tz="0.445968806743622"   weight="1" inlength="7122.7998046875"  outlength="7122.7998046875" />
+					<splineposition x="-66945.359375"    y="0" z="-7053.23779296875" tx="-0.833667457103729" ty="0" tz="0.552266716957092"   weight="0" inlength="5834.580078125"   outlength="2532.61010742188" />
+					<size r="200" />
+				</boundary>
+			</boundaries>
+			<controls>
+				<linear>
+					<time />
+				</linear>
+				<angular>
+					<roll />
+				</angular>
+			</controls>
+			<configuration ref="ringlocalhighwayconfiguration" ring="1" />
+		</properties>
+	</macro>
+	
+	<!--   Sector SKY07 - Inquisitor's Wrath - HW 101   -->
+	<macro name="High_SKY07s01h01_macro" class="highway">
+		<component ref="standardzonehighway" />
+		<connections>
+			<connection ref="entrypoint">
+				<offset>
+					<position x="-51734.296875" y="0" z="161723.859375" />
+				</offset>
+			</connection>
+			<connection ref="exitpoint">
+				<offset>
+					<position x="-51734.296875" y="0" z="-48276.1328125" />
+				</offset>
+			</connection>
+		</connections>
+		<properties>
+			<boundaries>
+				<boundary class="splinetube">
+					<splineposition x="-51734.296875"   y="0" z="161723.859375"    tx="-4.64850018033758e-06" ty="0" tz="-1" weight="0" inlength="0"                outlength="8206.3798828125" />
+					<splineposition x="-51734.41015625" y="0" z="137104.734375"    tx="0"                     ty="0" tz="-1" weight="1" inlength="8206.3896484375"  outlength="27921.80078125" />
+					<splineposition x="-51734.10546875" y="0" z="53339.41796875"   tx="-3.81469999410911e-06" ty="0" tz="-1" weight="1" inlength="27921.80078125"   outlength="22635.5" />
+					<splineposition x="-51734.28515625" y="0" z="-14567.119140625" tx="-5.72199996895506e-06" ty="0" tz="-1" weight="1" inlength="22635.5"          outlength="11236.2998046875" />
+					<splineposition x="-51734.296875"   y="0" z="-48276.1328125"   tx="-3.39499990786862e-07" ty="0" tz="-1" weight="0" inlength="11236.2998046875" outlength="0" />
+					<size r="200" />
+				</boundary>
+			</boundaries>
+			<controls>
+				<linear>
+					<time />
+				</linear>
+				<angular>
+					<roll />
+				</angular>
+			</controls>
+			<configuration ref="ringlocalhighwayconfiguration" ring="1" />
+		</properties>
+	</macro>
+	
+	<!--   Sector SKY07 - Inquisitor's Wrath - HW 102   -->
+	<macro name="High_SKY07s01h02_macro" class="highway">
+		<component ref="standardzonehighway" />
+		<connections>
+			<connection ref="entrypoint">
+				<offset>
+					<position x="-66616.703125" y="0" z="-46158.89453125" />
+				</offset>
+			</connection>
+			<connection ref="exitpoint">
+				<offset>
+					<position x="-66616.703125" y="0" z="163841.109375" />
+				</offset>
+			</connection>
+		</connections>
+		<properties>
+			<boundaries>
+				<boundary class="splinetube">
+					<splineposition x="-66616.703125"  y="0" z="-46158.89453125"   tx="-1.3602999615614e-06"  ty="0" tz="1" weight="0" inlength="0"               outlength="11216.900390625" />
+					<splineposition x="-66616.7421875" y="0" z="-12508.3310546875" tx="1.14440999823273e-05"  ty="0" tz="1" weight="1" inlength="11216.900390625" outlength="22654.099609375" />
+					<splineposition x="-66616.765625"  y="0" z="55454.109375"      tx="3.81469999410911e-06"  ty="0" tz="1" weight="1" inlength="22654.099609375" outlength="27863.900390625" />
+					<splineposition x="-66616.65625"   y="0" z="139045.875"        tx="1.90735008800402e-05"  ty="0" tz="1" weight="1" inlength="27863.900390625" outlength="8265.08984375" />
+					<splineposition x="-66616.703125"  y="0" z="163841.109375"     tx="-1.84620000709401e-06" ty="0" tz="1" weight="0" inlength="8265.080078125"  outlength="0" />
+					<size r="200" />
+				</boundary>
+			</boundaries>
+			<controls>
+				<linear>
+					<time />
+				</linear>
+				<angular>
+					<roll />
+				</angular>
+			</controls>
+			<configuration ref="ringlocalhighwayconfiguration" ring="1" />
+		</properties>
+	</macro>
+	
+	
+	
+</macros>

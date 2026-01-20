@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="ws_2888557861" name="Uncharted Skies" description="Repositions all sectors on the map to give a nicer, more cohesive look" author="Epidra2077" version="421" save="1" enabled="1" sync="false">
+<content id="ws_2888557861" name="Uncharted Skies" description="Repositions all sectors on the map to give a nicer, more cohesive look" author="Epidra2077" version="500" save="1" enabled="1" sync="false">
 
-  <dependency id="ego_dlc_terran" optional="true" name="Cradle of Humanity"/>
-  <dependency id="ego_dlc_split" optional="true" name="Split Vendetta"/>
-  <dependency id="ego_dlc_pirate" optional="true" name="Tides of Avarice"/>
-  <dependency id="ego_dlc_boron" optional="true" name="Kingdom End"/>
+  <dependency id="ego_dlc_terran" optional="true" name="Cradle of Humanity"></dependency>
+  <dependency id="ego_dlc_split" optional="true" name="Split Vendetta"></dependency>
+  <dependency id="ego_dlc_pirate" optional="true" name="Tides of Avarice"></dependency>
+  <dependency id="ego_dlc_boron" optional="true" name="Kingdom End"></dependency>
   
-  <dependency id="ws_3241988068" optional="true" name="Add More Sectors"/>
-  <dependency id="DeadAirFactionAmarr" optional="true" name="DeadAir Faction Amarr"/>
-  <dependency id="DeadAirFactionDaldari" optional="true" name="DeadAir Faction Caldari"/>
-  <dependency id="DeadAirFactionGaldente" optional="true" name="DeadAir Faction Gallente"/>
-  <dependency id="DeadAirFactionMindatar" optional="true" name="DeadAir Faction Minmatar"/>
-  <dependency id="jupiter_dlc_presidents_end" optional="true" name="Sector: President's End"/>
-  <dependency id="ws_2971583324" optional="true" name="Farnham's Legend Revision"/>
-  <dependency id="New_Horizons" optional="true" name="New Horizons/Old Lands"/>
-  <dependency id="ws_2956067199" optional="true" name="Ring Space"/>
-  <dependency id="ws_1705279348" optional="true" name="Rise of the Ossian Raider"/>
-  <dependency id="jupiter_ancients" optional="true" name="The Ancients"/>
-  <dependency id="TeleportationWars" optional="true" name="The Teleportation Wars"/>
-  <dependency id="ws_2975648845" optional="true" name="Sector: The Deep"/>
-  <dependency id="ws_1780035703" optional="true" name="X Universe + / as of 8.0"/>
-  <dependency id="ws_2975343282" optional="true" name="X-Universum-light / ab 8.0"/>
-  <dependency id="xpan" optional="true" name="xpan"/>
+  <dependency id="DeadAirFactionAmarr" optional="true" name="DeadAir Faction Amarr"></dependency>
+  <dependency id="DeadAirFactionDaldari" optional="true" name="DeadAir Faction Caldari"></dependency>
+  <dependency id="DeadAirFactionGaldente" optional="true" name="DeadAir Faction Gallente"></dependency>
+  <dependency id="DeadAirFactionMindatar" optional="true" name="DeadAir Faction Minmatar"></dependency>
+  <dependency id="jupiter_dlc_presidents_end" optional="true" name="Sector: President's End"></dependency>
+  <dependency id="ws_2971583324" optional="true" name="Farnham's Legend Revision"></dependency>
+  <dependency id="ws_2956067199" optional="true" name="Ring Space"></dependency>
+  <dependency id="ws_1705279348" optional="true" name="Rise of the Ossian Raider"></dependency>
+  <dependency id="jupiter_ancients" optional="true" name="The Ancients"></dependency>
+  <dependency id="ws_2975648845" optional="true" name="Sector: The Deep"></dependency>
+  <dependency id="ws_2975343282" optional="true" name="X-Universum-light / ab 8.0"></dependency>
+  <dependency id="xpan" optional="true" name="xpan"></dependency>
   
 </content>

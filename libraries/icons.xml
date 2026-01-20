@@ -1,32 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <diff>
 	<add sel="/icons">
 	
-		<icon name="enc_cluster800" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_800_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster801" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_801_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster802" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_802_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster803" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_803_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster804" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_804_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster805" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_805_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster806" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_806_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster807" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_807_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster808" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_808_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster809" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_809_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster810" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_810_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster811" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_811_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster812" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_812_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster813" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_813_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster814" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_814_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster815" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_815_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster816" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_816_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster817" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_817_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster818" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_818_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster819" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_819_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster820" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_820_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster821" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_821_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster822" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_822_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster823" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_823_diff.tga" width="960" height="600" ></icon>
-		<icon name="enc_cluster824" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_824_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY00" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY00_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY01" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY01_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY02" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY02_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY03" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY03_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY04" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY04_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY05" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY05_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY06" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY06_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY07" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY07_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY08" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY08_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY09" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY09_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY10" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY10_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY11" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY11_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY12" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY12_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY13" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY13_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY14" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY14_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY15" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY15_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY16" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY16_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY17" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY17_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY18" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY18_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY19" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY19_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY20" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY20_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY21" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY21_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY22" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY22_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY23" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY23_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY24" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY24_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY25" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY25_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY26" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY26_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY27" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY27_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY28" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY28_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY29" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY29_diff.tga" width="960" height="600" ></icon>
+		<icon name="enc_cluster_SKY30" texture="extensions\uncharted_skies\assets\fx\gui\textures\encyclopedia\systems\cluster_SKY30_diff.tga" width="960" height="600" ></icon>
 		
 	</add>
 </diff>

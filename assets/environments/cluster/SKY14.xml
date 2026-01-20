@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<components>
+	
+	
+	
+	<!--   - -     #     - -   -->
+	<component name="SKY14" class="celestialbody">
+		<source geometry="extensions\uncharted_skies\assets\environments\cluster\SKY14_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="255" g="255" b="221" range="1E+11" shadowrange="1E+11" lighteffect="1" lenseffect="sun_ol" trigger="1" intensity="1" specularintensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="3.780271E+08" y="0" z="-1.826085E+08"/>
+						</offset>
+					</omni>
+					<ambient name="XU Ambient001" r="25" g="25" b="25" range="1E+11" intensity="1">
+						<lightanimations/>
+						<offset>
+							<position x="-4.931075E+07" y="0" z="7.892364E+07"/>
+						</offset>
+					</ambient>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="celestialbody">
+				<offset/>
+			</connection>
+			
+		</connections>
+	</component>
+	
+</components>

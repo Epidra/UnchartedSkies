@@ -1,116 +1,220 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <diff>
-
-	<!-- Sector xpan03 - Prometheus IV -->
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN03_sector001_macro']/connections/connection[@name='xpan_zone002_clusterXPAN03_sector001_connection']/offset">
-		<offset>	<position x="150000" y="0" z="0" />	</offset>
+	
+	<!-- Sector xpan01 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan02 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan03 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan04 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan05 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan06 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan07 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan08 - Gunne's Crusade -->
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN08_sector001_macro']/connections/connection[@name='xpan_zone002_clusterXPAN08_sector001_connection']/offset"> <!-- fire -->
+		<offset>	<position x="150000" y="0" z="-150000" />	</offset>
 	</replace>
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN08_sector001_macro']/connections/connection[@name='xpan_zone004_clusterXPAN08_sector001_connection']/offset"> <!-- skies -->
+		<offset>	<position x="-150000" y="0" z="-15000" />	</offset>
+	</replace>
+	
+	<!-- Sector xpan09 - # -->
+	<!--                   -->
 	
 	<!-- Sector xpan10 - Aphrodite's Storm -->
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN10_sector002_macro']/connections/connection[@name='xpan_Zone002_clusterXPAN10_Sector002_connection']/offset">
-		 <offset>	<position x="36000" y="0" z="-119000" />	</offset>
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN10_sector002_macro']/connections/connection[@name='xpan_Zone001_clusterXPAN10_Sector002_connection']/offset"> <!-- nishala -->
+		<offset>	<position x="-36609.375" y="0" z="-119380.859375" />	</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN10_sector002_macro']/connections/connection[@name='xpan_Zone001_clusterXPAN10_Sector002_connection']/offset">
-		<offset>	<position x="38000" y="0" z="173000" />	</offset>
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN10_sector002_macro']/connections/connection[@name='xpan_Zone004_clusterXPAN10_Sector002_connection']/offset"> <!-- pavana -->
+		<offset>	<position x="-106542.96875" y="0" z="84961.9140625" />	</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN10_sector002_macro']/connections/connection[@name='xpan_Zone004_clusterXPAN10_Sector002_connection']/offset">
-		<offset>	<position x="206542.96875" y="0" z="44961.9140625" />	</offset>
+	<replace sel="/macros/macro[@name='xpan_Zone001_clusterXPAN10_Sector002_macro']/connections/connection[@name='xpan_gate_cXPAN10s002z001_cXPAN423z003s002_connection']/offset"> <!-- nishala -->
+		<offset>
+			<position x="-45000" y="500" z="45000"/>
+			<rotation yaw="90" pitch="0" roll="0"/>
+		</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='xpan_Zone004_clusterXPAN10_Sector002_macro']/connections/connection[@name='xpan_gate_cXPAN10s002z001_cXPAN42s001z001_connection']/offset"> <!-- pavana -->
+		<offset>
+			<position x="45000" y="500" z="-45000"/>
+			<rotation yaw="180" pitch="0" roll="0"/>
+		</offset>
 	</replace>
 	
-	<!-- Sector xpan11 - Treasure Chest -->
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN11_sector001_macro']/connections/connection[@name='xpan_zone004_clusterXPAN11_sector001_connection']/offset">
-		 <offset>	<position x="-100000" y="0" z="-100000" />	</offset>
+	<!-- Sector xpan11 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan12 - Armada's Rage -->
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN12_sector001_macro']/connections/connection[@name='xpan_zone002_clusterXPAN12_sector001_connection']/offset"> <!-- eternity -->
+		<offset>	<position x="-100000" y="0" z="300000" />	</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN11_sector001_macro']/connections/connection[@name='xpan_zone001_clusterXPAN11_sector001_connection']/offset">
-		<offset>	<position x="150000" y="0" z="250000" />	</offset>
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN12_sector001_macro']/connections/connection[@name='xpan_zone004_clusterXPAN12_sector001_connection']/offset"> <!-- empty -->
+		<offset>	<position x="250000" y="0" z="-100000" />	</offset>
 	</replace>
 	
-	<!-- Sector xpan18 - Ash -->
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN18_sector001_macro']/connections/connection[@name='xpan_zone002_clusterXPAN18_sector001_connection']/offset">
-		  <offset>	<position x="100000" y="0" z="100000" />	</offset>
+	<!-- Sector xpan13 - Untainted Eternity IV -->
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN13_sector001_macro']/connections/connection[@name='xpan_zone002_clusterXPAN13_sector001_connection']/offset"> <!-- empty -->
+		<offset>	<position x="-150000" y="0" z="100000" />	</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN18_sector001_macro']/connections/connection[@name='xpan_zone006_clusterXPAN18_sector001_connection']/offset">
-		<offset>	<position x="200000" y="0" z="-100000" />	</offset>
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN13_sector001_macro']/connections/connection[@name='xpan_zone003_clusterXPAN13_sector001_connection']/offset"> <!-- armada -->
+		<offset>	<position x="0" y="0" z="-100000" />	</offset>
+	</replace>
+	
+	<!-- Sector xpan14 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan15 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan16 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan17 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan18 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan19 - Julian's Burden -->
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN19_sector001_macro']/connections/connection[@name='xpan_zone002_clusterXPAN19_sector001_connection']/offset"> <!-- ket -->
+		<offset>	<position x="-53107.421875" y="0" z="119173.203125" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN19_sector001_macro']/connections/connection[@name='xpan_zone003_clusterXPAN19_sector001_connection']/offset"> <!-- shadow -->
+		<offset>	<position x="118718.8046875" y="0" z="-124939.6640625" />	</offset>
 	</replace>
 	
 	<!-- Sector xpan20 - Danna's Chance -->
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN20_sector001_macro']/connections/connection[@name='xpan_Zone002_clusterXPAN20_Sector001_connection']/offset">
-		  <offset>	<position x="281000" y="0" z="-182000" />	</offset>
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN20_sector001_macro']/connections/connection[@name='xpan_Zone002_clusterXPAN20_Sector001_connection']/offset"> <!-- ash -->
+		<offset>	<position x="181375.484375" y="0" z="182668.13671875" />	</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN20_sector001_macro']/connections/connection[@name='xpan_Zone004_clusterXPAN20_Sector001_connection']/offset">
-		<offset>	<position x="45000" y="0" z="164000" />	</offset>
-	</replace>
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN20_sector001_macro']/connections/connection[@name='xpan_Zone003_clusterXPAN20_Sector001_connection']/offset">
-		<offset>	<position x="40000" y="0" z="200000" />	</offset>
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN20_sector001_macro']/connections/connection[@name='xpan_Zone004_clusterXPAN20_Sector001_connection']/offset"> <!-- shadow -->
+		<offset>	<position x="40000" y="0" z="-200000" />	</offset>
 	</replace>
 	
-	<!-- Sector xpan21 - Ashley's Paradise -->
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN21_sector001_macro']/connections/connection[@name='xpan_zone001_clusterXPAN21_sector001_connection']/offset">
-		<offset>	<position x="50218" y="0" z="95554" />	</offset>
-	</replace>
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN21_sector001_macro']/connections/connection[@name='xpan_zone002_clusterXPAN21_Sector001_connection']/offset">
-		<offset>	<position x="-149187" y="0" z="51168" />	</offset>
-	</replace>
+	<!-- Sector xpan21 - # -->
+	<!--                   -->
 	
 	<!-- Sector xpan22 - Blue Horizon -->
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN22_sector001_macro']/connections/connection[@name='xpan_Zone001_clusterXPAN22_Sector001_connection']/offset">
-		<offset>	<position x="-36609" y="0" z="-169380" />	</offset>
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN22_sector001_macro']/connections/connection[@name='xpan_Zone003_clusterXPAN22_Sector001_connection']/offset"> <!-- julian -->
+		<offset>	<position x="-236609" y="0" z="6400" />	</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN22_sector001_macro']/connections/connection[@name='xpan_Zone003_clusterXPAN22_Sector001_connection']/offset">
-		<offset>	<position x="163730" y="0" z="-46467" />	</offset>
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN22_sector001_macro']/connections/connection[@name='xpan_Zone004_clusterXPAN22_Sector001_connection']/offset"> <!-- shadow -->
+		<offset>	<position x="106542" y="0" z="111961" />	</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN22_sector001_macro']/connections/connection[@name='xpan_Zone004_clusterXPAN22_Sector001_connection']/offset">
-		<offset>	<position x="-85421" y="0" z="37069" />	</offset>
-	</replace>
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN22_sector001_macro']/connections/connection[@name='xpan_Zone005_clusterXPAN22_Sector001_connection']/offset">
-		<offset>	<position x="-106542" y="0" z="91961" />	</offset>
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN22_sector001_macro']/connections/connection[@name='xpan_Zone005_clusterXPAN22_Sector001_connection']/offset"> <!-- thor -->
+		<offset>	<position x="-185421" y="0" z="-237069" />	</offset>
 	</replace>
 	
-	<!-- Sector xpan31 - Spaceweed Grove -->
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN31_sector001_macro']/connections/connection[@name='xpan_zone003_clusterXPAN31_sector001_connection']/offset">
-		<offset>	<position x="-105000" y="0" z="52000" />	</offset>
+	<!-- Sector xpan23 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan24 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan25 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan26 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan27 - Shadow's End -->
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN27_sector001_macro']/connections/connection[@name='xpan_zone001_clusterXPAN27_sector001_connection']/offset"> <!-- horizon -->
+		<offset>	<position x="-100000" y="0" z="-300000" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN27_sector001_macro']/connections/connection[@name='xpan_zone002_clusterXPAN27_sector001_connection']/offset"> <!-- danna -->
+		<offset>	<position x="-300000" y="0" z="30000" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN27_sector001_macro']/connections/connection[@name='xpan_zone004_clusterXPAN27_sector001_connection']/offset"> <!-- treasure -->
+		<offset>	<position x="240000" y="0" z="0" />	</offset>
 	</replace>
 	
-	<!-- Sector xpan33 - Nopileos' Legacy -->
-	<!--replace sel="/macros/macro[@name='xpan_clusterXPAN33_sector001_macro']/connections/connection[@name='xpan_zone002_clusterXPAN33_sector001_connection']/offset">
-		<offset>	<position x="-140000" y="0" z="210000" />	</offset>
-	</replace-->
+	<!-- Sector xpan28 - # -->
+	<!--                   -->
 	
-	<!-- Sector xpan34 - Zhin's Resurgence -->
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN34_sector001_macro']/connections/connection[@name='xpan_zone001_clusterXPAN34_sector001_connection']/offset">
-		<offset>	<position x="150000" y="0" z="150000" />	</offset>
+	<!-- Sector xpan29 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan30 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan31 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan32 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan33 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan34 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan35 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan36 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan37 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan38 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan39 - The Shallows -->
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN39_sector001_macro']/connections/connection[@name='xpan_zone002_clusterXPAN39_sector001_connection']/offset"> <!-- empty -->
+		<offset>	<position x="0" y="0" z="250000" />	</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN34_sector001_macro']/connections/connection[@name='xpan_zone002_clusterXPAN34_sector001_connection']/offset">
-		<offset>	<position x="-150000" y="0" z="150000" />	</offset>
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN39_sector001_macro']/connections/connection[@name='xpan_zone003_clusterXPAN39_sector001_connection']/offset"> <!-- empty -->
+		<offset>	<position x="75000" y="0" z="-250000" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN39_sector001_macro']/connections/connection[@name='xpan_zone004_clusterXPAN39_sector001_connection']/offset"> <!-- armada -->
+		<offset>	<position x="-200000" y="0" z="-250000" />	</offset>
+	</replace>
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN39_sector001_macro']/connections/connection[@name='xpan_zone005_clusterXPAN39_sector001_connection']/offset"> <!-- xaar -->
+		<offset>	<position x="250000" y="0" z="0" />	</offset>
 	</replace>
 	
-	<!-- Sector xpan36 - The Boneyard -->
-	<!--replace sel="/macros/macro[@name='xpan_clusterXPAN36_Sector002_macro']/connections/connection[@name='xpan_Zone005_ClusterXPAN36_Sector002_connection']/offset">
-		<offset>	<position x="-94498.046875" y="0" z="-120429.6875" />	</offset>
-	</replace>
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN36_Sector002_macro']/connections/connection[@name='xpan_Zone002_ClusterXPAN36_Sector002_connection']/offset">
-		<offset>	<position x="-16613.28125" y="0" z="160593.75" />	</offset>
-	</replace-->
+	<!-- Sector xpan40 - # -->
+	<!--                   -->
 	
-	<!-- Sector xpan40 - Nishala -->
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN40_sector001_macro']/connections/connection[@name='xpan_zone005_clusterXPAN40_sector001_connection']/offset">
-		<offset>	<position x="-200000" y="0" z="-200000" />	</offset>
-	</replace>
-	
-	<!-- Sector xpan41 - Yanva -->
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN41_sector001_macro']/connections/connection[@name='xpan_zone005_clusterXPAN41_sector001_connection']/offset">
-		<offset>	<position x="0" y="0" z="-200000" />	</offset>
-	</replace>
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN41_sector001_macro']/connections/connection[@name='xpan_zone002_clusterXPAN41_sector001_connection']/offset">
-		<offset>	<position x="200000" y="0" z="200000" />	</offset>
-	</replace>
+	<!-- Sector xpan41 - # -->
+	<!--                   -->
 	
 	<!-- Sector xpan42 - Pavana -->
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN42_sector001_macro']/connections/connection[@name='xpan_zone001_clusterXPAN42_sector001_connection']/offset">
-		<offset>	<position x="-200000" y="0" z="-200000" />	</offset>
+	<replace sel="/macros/macro[@name='xpan_clusterXPAN42_sector001_macro']/connections/connection[@name='xpan_zone001_clusterXPAN42_sector001_connection']/offset"> <!-- fire -->
+		<offset>	<position x="200000" y="0" z="-200000" />	</offset>
 	</replace>
-	<replace sel="/macros/macro[@name='xpan_clusterXPAN42_sector001_macro']/connections/connection[@name='xpan_zone005_clusterXPAN42_sector001_connection']/offset">
-		<offset>	<position x="200000" y="0" z="200000" />	</offset>
-	</replace>
-
+	
+	<!-- Sector xpan43 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan44 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan45 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan46 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan47 - # -->
+	<!--                   -->
+	
+	<!-- Sector xpan48 - # -->
+	<!--                   -->
+	
+	
+	
 </diff>

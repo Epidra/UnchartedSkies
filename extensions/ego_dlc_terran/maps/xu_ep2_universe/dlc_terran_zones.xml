@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
 <diff>
+	
+	<!-- Sector 100 - # -->
+	<!--                -->
 	
 	<!-- Sector 101 - Mars -->
 	<replace sel="/macros/macro[@name='Zone005_Cluster_101_Sector001_macro']/connections/connection[@name='connection_ClusterGate101To100']/offset">
@@ -23,6 +25,9 @@
 		</offset>
 	</replace>
 	
+	<!-- Sector 103 - # -->
+	<!--                -->
+	
 	<!-- Sector 104 - Earth / Moon -->
 	<replace sel="/macros/macro[@name='Zone005_Cluster_104_Sector002_macro']/connections/connection[@name='connection_ClusterGate104To102']/offset">
 		<offset>
@@ -30,6 +35,9 @@
 			<rotation yaw="270" pitch="0" roll="0" />
 		</offset>
 	</replace>
+	
+	<!-- Sector 105 - # -->
+	<!--                -->
 	
 	<!-- Sector 106 - Mercury -->
 	<replace sel="/macros/macro[@name='Zone003_Cluster_106_Sector001_macro']/connections/connection[@name='connection_ClusterGate106To102']/offset">
@@ -76,7 +84,7 @@
 	</replace>
 	
 	<!-- Sector 110 - Neptun -->
-		<replace sel="/macros/macro[@name='Zone002_Cluster_110_Sector001_macro']/connections/connection[@name='connection_ClusterGate110To111']/offset">
+	<replace sel="/macros/macro[@name='Zone002_Cluster_110_Sector001_macro']/connections/connection[@name='connection_ClusterGate110To111']/offset">
 		<offset>
 			<position x="31096.083984375" y="0" z="-4520.3627929688" />
 			<quaternion qx="0" qy="-0.7071067095" qz="0" qw="0.7071068287" />
@@ -89,15 +97,40 @@
         </offset>
 	</replace>
 	
-	<!-- Sector 111 - Pluto -->
-		<!-- unchanged -->
+	<!-- Sector 111 - # -->
+	<!--                -->
 	
-	<!-- Sector 113 - Segairs - XPAN Zones -->
-	<replace sel="/macros/macro[@name='ZoneXPAN1_Cluster_113_Sector001_macro']/connections/connection[@name='xpan_gate_cXPAN113zXPANs001_cXPAN19s001z001_connection']/offset">
+	<!-- Sector 112 - Savage Spur -->
+	<add sel="/macros/macro[@name='Zone001_Cluster_112_Sector002_macro']/connections">
+		<connection name="connection_ClusterGate112To300" ref="gates">
+			<offset>
+				<position x="49500" y="0" z="49500" />
+				<rotation yaw="180" pitch="0" roll="0" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
+	</add>
+	
+	<!-- Sector 113 - Segaris -->
+	<add sel="/macros/macro[@name='Zone004_Cluster_113_Sector001_macro']/connections">
+		<connection name="connection_ClusterGate113To300" ref="gates">
+			<offset>
+				<position x="-20000" y="0" z="-15000" />
+				<rotation yaw="0" pitch="0" roll="0" />
+			</offset>
+			<macro ref="props_gates_anc_gate_macro" connection="space" />
+		</connection>
+	</add>
+	
+	<!-- Sector 114 - # -->
+	<!--                -->
+	
+	<!-- Sector 115 - Brennan's Triumph -->
+	<replace sel="/macros/macro[@name='Zone005_Cluster_115_Sector001_macro']/connections/connection[@name='connection_ClusterGate115To114']/offset">
 		<offset>
-			<position x="-37500" y="0" z="5500" />
-			<rotation yaw="0" pitch="0" roll="0" />
-		</offset>
+			<position x="35000" y="0" z="8333.12890625" />
+			<rotation yaw="270" pitch="0" roll="0" />
+        </offset>
 	</replace>
 	
 	<!-- Sector 116 - Oort Cloud -->
@@ -108,4 +141,32 @@
 		</offset>
 	</replace>
 	
+	
+	
+	
+	
+	<!-- replace standard Accelerators with the terran version -->
+   <replace sel="//macros/macro[@name='Zone002_Cluster_100_Sector001_macro']/connections/connection/macro/@ref">props_ter_accelerator_01_macro</replace>
+   <replace sel="//macros/macro[@name='Zone005_Cluster_100_Sector001_macro']/connections/connection/macro/@ref">props_ter_accelerator_01_macro</replace>
+   <replace sel="//macros/macro[@name='Zone001_Cluster_101_Sector001_macro']/connections/connection/macro/@ref">props_ter_accelerator_01_macro</replace>
+   <replace sel="//macros/macro[@name='Zone005_Cluster_101_Sector001_macro']/connections/connection/macro/@ref">props_ter_accelerator_01_macro</replace>
+   <replace sel="//macros/macro[@name='Zone005_Cluster_102_Sector001_macro']/connections/connection/macro/@ref">props_ter_accelerator_01_macro</replace>
+   <replace sel="//macros/macro[@name='Zone002_Cluster_102_Sector001_macro']/connections/connection/macro/@ref">props_ter_accelerator_01_macro</replace>
+   <replace sel="//macros/macro[@name='Zone003_Cluster_102_Sector001_macro']/connections/connection/macro/@ref">props_ter_accelerator_01_macro</replace>
+   <replace sel="//macros/macro[@name='Zone005_Cluster_104_Sector002_macro']/connections/connection/macro/@ref">props_ter_accelerator_01_macro</replace>
+   <replace sel="//macros/macro[@name='Zone003_Cluster_106_Sector001_macro']/connections/connection/macro/@ref">props_ter_accelerator_01_macro</replace>
+   <replace sel="//macros/macro[@name='Zone003_Cluster_107_Sector001_macro']/connections/connection/macro/@ref">props_ter_accelerator_01_macro</replace>
+   <replace sel="//macros/macro[@name='Zone005_Cluster_107_Sector001_macro']/connections/connection/macro/@ref">props_ter_accelerator_01_macro</replace>
+   <replace sel="//macros/macro[@name='Zone002_Cluster_108_Sector001_macro']/connections/connection/macro/@ref">props_ter_accelerator_01_macro</replace>
+   <replace sel="//macros/macro[@name='Zone005_Cluster_108_Sector001_macro']/connections/connection/macro/@ref">props_ter_accelerator_01_macro</replace>
+   <replace sel="//macros/macro[@name='Zone001_Cluster_109_Sector001_macro']/connections/connection/macro/@ref">props_ter_accelerator_01_macro</replace>
+   <replace sel="//macros/macro[@name='Zone002_Cluster_109_Sector001_macro']/connections/connection/macro/@ref">props_ter_accelerator_01_macro</replace>
+   <replace sel="//macros/macro[@name='Zone002_Cluster_110_Sector001_macro']/connections/connection/macro/@ref">props_ter_accelerator_01_macro</replace>
+   <replace sel="//macros/macro[@name='Zone001_Cluster_110_Sector001_macro']/connections/connection/macro/@ref">props_ter_accelerator_01_macro</replace>
+   <replace sel="//macros/macro[@name='Zone002_Cluster_111_Sector001_macro']/connections/connection/macro/@ref">props_ter_accelerator_01_macro</replace>
+   <replace sel="//macros/macro[@name='Zone004_Cluster_111_Sector001_macro']/connections/connection/macro/@ref">props_ter_accelerator_01_macro</replace>
+   <replace sel="//macros/macro[@name='Zone002_Cluster_116_Sector001_macro']/connections/connection/macro/@ref">props_ter_accelerator_01_macro</replace>
+   
+   
+   
 </diff>

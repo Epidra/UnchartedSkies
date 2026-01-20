@@ -1,0 +1,13 @@
+<diff>
+	
+	<!-- Sector 730 - Third Redemption -->
+	<replace sel="/macros/macro[@name='Zone003_Cluster_730_Sector001_macro']/connections/connection[@name='connection_ClusterGate730To720']/offset"> <!-- moo-kye -->
+        <offset>
+          <position x="28232.2" y="500" z="24042.9" />
+          <rotation yaw="210" pitch="0" roll="0" />
+        </offset>
+	</replace>
+	
+	
+	
+</diff>

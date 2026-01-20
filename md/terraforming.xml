@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <diff>
 	
 	<!-- Add to Mission Signal -->
 	<add sel="//cue[@name='Signal_Terraforming_Cues']/actions">
-		<find_sector name="$PreacherVoid" macro="macro.cluster_807_sector001_macro" required="1"/>
-		<find_sector name="$ClarityEnd" macro="macro.cluster_814_sector001_macro" required="1"/>
+		<find_sector name="$PreacherVoid" macro="macro.Sector_SKY06s01_macro" required="1"/>
+		<find_sector name="$ClarityEnd" macro="macro.Sector_SKY30s01_macro" required="1"/>
 		<do_if value="$PreacherVoid.isknown">
 			<signal_cue cue="Terraforming_PreacherVoid"/>
 			<cancel_cue cue="Terraforming_PreacherVoid_Entered_Check"/>
@@ -33,7 +32,7 @@
 				<check_value value="Signal_Terraforming_Cues.state == cuestate.complete"/>
 			</conditions>
 			<actions>
-				<find_sector name="$PreacherVoid" macro="macro.cluster_807_sector001_macro" required="1"/>
+				<find_sector name="$PreacherVoid" macro="macro.Sector_SKY06s01_macro" required="1"/>
 				<do_if value="$PreacherVoid.isknown">
 					<signal_cue cue="Terraforming_PreacherVoid"/>
 					<cancel_cue cue="Terraforming_PreacherVoid_Entered_Check"/>
@@ -51,7 +50,7 @@
 				<check_value value="Signal_Terraforming_Cues.state == cuestate.complete"/>
 			</conditions>
 			<actions>
-				<find_sector name="$ClarityEnd" macro="macro.cluster_814_sector001_macro" required="1"/>
+				<find_sector name="$ClarityEnd" macro="macro.Sector_SKY30s01_macro" required="1"/>
 				<do_if value="$ClarityEnd.isknown">
 					<signal_cue cue="Terraforming_ClarityEnd"/>
 					<cancel_cue cue="Terraforming_ClarityEnd_Entered_Check"/>
@@ -66,7 +65,7 @@
 		<!-- Enter Sector with Terraforming already unlocked - Preacher Void -->
 		<cue name="Terraforming_PreacherVoid_Entered" comment="Player entered Preacher's Void and has Terraforming unlocked">
 			<actions>
-				<find_sector name="$PreacherVoid" macro="macro.cluster_807_sector001_macro" required="1"/>
+				<find_sector name="$PreacherVoid" macro="macro.Sector_SKY06s01_macro" required="1"/>
 			</actions>
 			<cues>
 				<cue name="Terraforming_PreacherVoid_Entered_Check">
@@ -89,7 +88,7 @@
 		<!-- Enter Sector with Terraforming already unlocked - Clarity End -->
 		<cue name="Terraforming_ClarityEnd_Entered" comment="Player entered Clarity's End and has Terraforming unlocked">
 			<actions>
-				<find_sector name="$ClarityEnd" macro="macro.cluster_814_sector001_macro" required="1"/>
+				<find_sector name="$ClarityEnd" macro="macro.Sector_SKY30s01_macro" required="1"/>
 			</actions>
 			<cues>
 				<cue name="Terraforming_ClarityEnd_Entered_Check">
@@ -166,10 +165,10 @@
 			</conditions>
 			<actions>
 				<do_if value="not $Cluster_PreacherVoid_Completed?">
-					<find_cluster name="$Cluster_PreacherVoid"  macro="macro.cluster_807_macro"/>
-					<find_cluster name="$Cluster_PreacherVoid2" macro="macro.cluster_806_macro"/>
-					<find_sector  required="true" name="$Sector_PreacherVoid"  macro="macro.cluster_807_sector001_macro" space="player.galaxy" />
-					<find_sector  required="true" name="$Sector_PreacherVoid2" macro="macro.cluster_806_sector001_macro" space="player.galaxy" />
+					<find_cluster name="$Cluster_PreacherVoid"  macro="macro.Cluster_SKY06_macro"/>
+					<find_cluster name="$Cluster_PreacherVoid2" macro="macro.Cluster_SKY05_macro"/>
+					<find_sector  required="true" name="$Sector_PreacherVoid"  macro="macro.Sector_SKY06s01_macro" space="player.galaxy" />
+					<find_sector  required="true" name="$Sector_PreacherVoid2" macro="macro.Sector_SKY05s01_macro" space="player.galaxy" />
 					<add_to_group groupname="$TerraformingClusters" object="$Cluster_PreacherVoid"/>
 					<append_to_list name="$OfferCues" exact="Terraforming_Preacher_CreateOffer"/>
 					<signal_cue cue="Refresh_Offers" check="false"/>
@@ -614,8 +613,8 @@
 			</conditions>
 			<actions>
 				<do_if value="not $Cluster_ClarityEnd_Completed?">
-					<find_cluster name="$Cluster_ClarityEnd" macro="macro.cluster_814_macro"/>
-					<find_sector  required="true" name="$Sector_ClarityEnd"  macro="macro.cluster_814_sector001_macro" space="player.galaxy" />
+					<find_cluster name="$Cluster_ClarityEnd" macro="macro.Cluster_SKY30_macro"/>
+					<find_sector  required="true" name="$Sector_ClarityEnd"  macro="macro.Sector_SKY30s01_macro" space="player.galaxy" />
 					<add_to_group groupname="$TerraformingClusters" object="$Cluster_ClarityEnd"/>
 					<append_to_list name="$OfferCues" exact="Terraforming_ClarityEnd_CreateOffer"/>
 					<signal_cue cue="Refresh_Offers" check="false"/>
@@ -1012,4 +1011,5 @@
 		</cue>			
 	
 	</add>
+	
 </diff>

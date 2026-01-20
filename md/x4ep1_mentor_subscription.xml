@@ -1,4 +1,3 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
 <diff>
 	
 	<!-- Naming of abandoned ship in Hewa -->
@@ -24,7 +23,7 @@
 	
 	<!-- Naming of Buyable Ship during Engine Mod Quest -->
 	<add sel="//cue[@name='RM_EngineMod_CollectPrize']/actions//do_if[@value='$S_Docks.count ge 2']">
-		<set_object_name object="$RacingShip" page="20005" line="1062" comment="Samsara"/>
+		<set_object_name object="$RacingShip" page="20005" line="7028" comment="Theia"/>
 	</add>
 	
 </diff>
